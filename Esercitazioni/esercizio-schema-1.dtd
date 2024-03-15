@@ -1,0 +1,24 @@
+<!-- 
+    file: esercizio-schema
+    Schema DTD
+    nome: DENISE ATZORI
+    data: 15 marzo 2024
+
+    Consegna:
+    Definire i seguenti elementi:
+        - elemento root: TEI
+        - elementi figli:
+            - header (obbligatorio una occorrenza)
+            - facsimile (opzionale una occorrenza)
+            - text (obbligatorio almeno una occorrenza)
+    Gli elementi header, facsimile e text hanno tutti un content model testuale
+    
+-->
+
+<!ELEMENT TEI (header,facsimile?,text+)> <!-- Radice-->
+
+<!ELEMENT header (#PCDATA)>
+
+<!ELEMENT testo (#PCDATA)>
+
+<!ELEMENT facsimile (#PCDATA)>
