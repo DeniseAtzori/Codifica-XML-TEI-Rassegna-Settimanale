@@ -14,16 +14,20 @@
         </elementoAnnidato>
     </elementoFiglio>
     <elementoFiglio>
-        <elementoAnnidato>
+        <elementoAnnidato> <!--nel file originale, questo elemento annidato veniva chiuso prima di chiudere il suo elemento figlio -->
             <elementoAnnidato>
+                <elementoFiglioAggiunto> <!-- elemento figlio aggiuntivo come da richiesta-->
+                </elementoFiglioAggiunto>
                 <elementoFiglio>
-                </elementoFiglio>
+                </elementoFiglio> <!-- è stata spostata qui la chiusura del figlio-->
             </elementoAnnidato>
         </elementoAnnidato>
+        <elementoFratelloAnnidato> <!--elemento fratello aggiuntivo come da richiesta-->
+        </elementoFratelloAnnidato>
         <elementoAnnidato>
             <elementoFiglio>
             </elementoFiglio>
-        </elementoAnnidato>
+        </elementoAnnidato> <!-- mancava inoltre questa chiusura, che è stata aggiunta. è stata risistemata l'indentazione-->
     </elementoFiglio>
 </elementoRadice>
 
