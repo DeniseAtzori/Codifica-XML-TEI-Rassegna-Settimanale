@@ -4,6 +4,7 @@
     file: esercizio-doc-da-validare
     nome: DENISE ATZORI
     data: 15 marzo 2024
+    file corretto seguendo le indicazioni di dom.Counter
 -->
 
 <!-- corpo del documento XML-->
@@ -15,10 +16,14 @@
     <elementoFiglio>
         <elementoAnnidato>
             <elementoAnnidato>
-            <elementoFiglio>
+                <elementoFiglio>
+                </elementoFiglio>
+            </elementoAnnidato>
         </elementoAnnidato>
+        <elementoAnnidato>
+            <elementoFiglio>
             </elementoFiglio>
-        <elementoAnnidato><elementoFiglio></elementoFiglio>
+        </elementoAnnidato>
     </elementoFiglio>
 </elementoRadice>
 
