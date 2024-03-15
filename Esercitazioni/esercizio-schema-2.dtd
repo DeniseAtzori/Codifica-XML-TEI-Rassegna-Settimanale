@@ -1,0 +1,47 @@
+<!-- 
+    file: esercizio-schema-2
+    Schema DTD
+    nome: DENISE ATZORI
+    data: 15 marzo 2024
+
+    Consegna:
+    Definire i seguenti elementi:
+        - elemento root: TEI
+        - elementi figli:
+            - header (obbligatorio una volta sola)
+            - facsimile (opzionale una volta sola)
+            - text (obbligatorio una o più volte)
+    * testo è un mixed content con possibile elemento <seg>
+    Attributi:
+        - header: type: (fixed, CDATA "intestazione"); lang(opzionale, NMTOKEN)
+        - facsimile: source:(obbligatorio); ref(opzionale, IDREFS)
+        - testo: id(obbligatorio, ID); type(opzionale, contenuto testuale)
+    
+NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
+-->
+
+<!-- Elementi-->
+
+<!ELEMENT TEI (header, facsimile?, text+)> <!-- Radice-->
+
+<!ELEMENT header (#PCDATA)>
+
+<!ELEMENT testo (#PCDATA | seg)>
+
+<!ELEMENT facsimile (#PCDATA)>
+
+<!-- Attributi
+    <!ATTLIST Element-name Attr-name Attr-type Attr-state? default-value?>
+-->
+
+<!ATTLIST header type (CDATA | "intestazione") #FIXED> <!-- primo attributo di header. Dubbi su intestazione-->
+
+<!ATTLIST header lang NMTOKEN #IMPLIED> <!-- secondo attributo di header-->
+
+<!ATTLIST facsimile source #REQUIRED> <!-- primo attributo di facsimile-->
+
+<!ATTLIST facsimile ref IDREFS #IMPLIED> <!-- secondo attributo di facsimile-->
+
+<!ATTLIST testo id ID #REQUIRED> <!-- primo attributo di testo-->
+
+<!ATTLIST testo type ID #IMPLIED> <!-- secondo attributo di testo. Contenuto testuale?-->
