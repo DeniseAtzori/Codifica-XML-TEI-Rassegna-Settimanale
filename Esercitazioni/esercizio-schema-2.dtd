@@ -17,7 +17,7 @@
         - facsimile: source:(obbligatorio); ref(opzionale, IDREFS)
         - testo: id(obbligatorio, ID); type(opzionale, contenuto testuale)
     
-NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
+DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE RISOLTI CON IL PROF A LEZIONE
 -->
 
 <!-- Elementi-->
@@ -26,9 +26,11 @@ NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
 
 <!ELEMENT header (#PCDATA)>
 
-<!ELEMENT testo (#PCDATA | seg)>
+<!ELEMENT testo (#PCDATA | <seg>)>
 
 <!ELEMENT facsimile (#PCDATA)>
+
+<!ELEMENT seg (#PCDATA)>
 
 <!-- Attributi
     <!ATTLIST Element-name Attr-name Attr-type Attr-state? default-value?>
