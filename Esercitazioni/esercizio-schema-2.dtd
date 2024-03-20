@@ -44,4 +44,4 @@ NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
 
 <!ATTLIST testo id ID #REQUIRED> <!-- primo attributo di testo-->
 
-<!ATTLIST testo type ID #IMPLIED> <!-- secondo attributo di testo. Contenuto testuale?-->
+<!ATTLIST testo type ID #IMPLIED #PCDATA> <!-- secondo attributo di testo. Contenuto testuale?-->
