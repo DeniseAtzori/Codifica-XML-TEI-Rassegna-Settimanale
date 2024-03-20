@@ -34,7 +34,7 @@ NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
     <!ATTLIST Element-name Attr-name Attr-type Attr-state? default-value?>
 -->
 
-<!ATTLIST header type (CDATA | "intestazione") #FIXED> <!-- primo attributo di header. Dubbi su intestazione-->
+<!ATTLIST header type CDATA #FIXED "intestazione"> <!-- primo attributo di header. Intestazione è il default-value-->
 
 <!ATTLIST header lang NMTOKEN #IMPLIED> <!-- secondo attributo di header-->
 
@@ -44,4 +44,4 @@ NB: DUBBI SULLA RISOLUZIONE DI "INTESTAZIONE" E DI CONTENUTO TESTUALE
 
 <!ATTLIST testo id ID #REQUIRED> <!-- primo attributo di testo-->
 
-<!ATTLIST testo type ID #IMPLIED #PCDATA> <!-- secondo attributo di testo. Contenuto testuale?-->
+<!ATTLIST testo type CDATA #IMPLIED> <!-- secondo attributo di testo.-->
