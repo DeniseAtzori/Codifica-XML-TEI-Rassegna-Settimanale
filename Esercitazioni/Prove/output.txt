@@ -1,0 +1,14 @@
+Comando usato:
+java -jar SaxonHE12-4J/saxon-he-12.4.jar -s:Codifica24/Esercitazioni/Prove/IRT030.xml -xsl:Codifica24/Esercitazioni/Prove/built-in.xsl -o:Codifica24/Esercitazioni/Prove/output.txt
+      
+         
+         
+         Text Imp erator Caes ar M arci Antonini Pii fili diui Pii n ep diui Hadriani pron ep diui Traiani Parthici abn ep diui Neruae adn ep L uci Aeli Aureli Commod Aug ust
+true
+         
+         Translation Emperor Caesar son of Marcus Antonius Pius, grandson of deified Pius, great grandson of deified Hadrian, great great grandson of deified Trajan victor in Parthia, great great great grandson of deified Nerva, Lucuis Aelius Aurelius Commodus Augustus
+true
+         
+         
+      
+   

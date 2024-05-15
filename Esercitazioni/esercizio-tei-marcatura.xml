@@ -37,29 +37,29 @@
                 <div n="Capitolo I" type="chapter">
                     <p>È una verità universalmente riconosciuta, che uno scapolo in possesso di un'ampia fortuna debba avere bisogno di una moglie.</p>
                     <p>Per quanto poco si possa sapere circa i sentimenti o i punti di vista di un uomo del genere al suo primo apparire nel vicinato, questa verità è così saldamente fissata nelle menti delle famiglie del circondario, da considerarlo di legittima proprietà di una o l'altra delle loro figlie.</p>
-                    <p><said>"Mio caro Mr. Bennet",</said> gli disse un giorno la sua signora, <said>"hai saputo che finalmente Netherfield Park è stato affittato?"</said></p>
+                    <p><q>"Mio caro <name type="person">Mr. Bennet</name>",</q> gli disse un giorno la sua signora, <q>"hai saputo che finalmente Netherfield Park è stato affittato?"</q></p>
                     <p>Mr. Bennet rispose di no.</p>
-                    <p><said>"Ma è così",</said>  replicò lei, <said>"poiché Mrs. Long è appena stata qui, e mi ha raccontato tutto sull'argomento."</said></p>
+                    <p><q>"Ma è così",</q>  replicò lei, <q>"poiché Mrs. Long è appena stata qui, e mi ha raccontato tutto sull'argomento."</q></p>
                     <p>Mr. Bennet non rispose.</p>
-                    <p><said>"Non vuoi sapere chi l'ha affittato?",</said> esclamò la moglie con impazienza.</p>
-                    <p><said>"<emph>Tu</emph> vuoi dirmelo, e io non ho nulla in contrario ad ascoltare."</said></p>
+                    <p><said>"Non vuoi sapere chi l'ha affittato?",</q> esclamò la moglie con impazienza.</said>
+                    <p><q>"<emph>Tu</emph> vuoi dirmelo, e io non ho nulla in contrario ad ascoltare."</q></p>
                     <p>Era quanto bastava.</p>
-                    <p><said>"Allora, mio caro, devi sapere che Mrs. Long dice che Netherfield è stato affittato da un giovanotto con un'ampia fortuna del nord dell'Inghilterra; che è arrivato lunedì in un tiro a quattro per vedere il posto, e che ne è rimasto così deliziato che si è immediatamente accordato con Mr. Morris; che ne prenderà possesso prima di San Michele, e che qualcuno della servitù ci andrà verso la fine della settimana."</said></p>
-                    <p><said>"Come si chiama?"</said></p>
-                    <p><said>"Bingley."</said></p>
-                    <p><said>"È sposato o scapolo?"</said></p>
+                    <p><q>"Allora, mio caro, devi sapere che Mrs. Long dice che Netherfield è stato affittato da un giovanotto con un'ampia fortuna del nord dell'Inghilterra; che è arrivato lunedì in un tiro a quattro per vedere il posto, e che ne è rimasto così deliziato che si è immediatamente accordato con Mr. Morris; che ne prenderà possesso prima di San Michele, e che qualcuno della servitù ci andrà verso la fine della settimana."</q></p>
+                    <p><q>"Come si chiama?"</q></p>
+                    <p><q>"Bingley."</q></p>
+                    <p><q>"È sposato o scapolo?"</q></p>
                     <p><said>"Oh! Scapolo, mio caro, puoi starne certo! Uno scapolo con un'ampia fortuna; quattro o cinquemila l'anno. Che bella cosa per le nostre ragazze!"</said></p>
-                    <p><said>"E perché mai? che c'entrano loro?"</said></p>
-                    <p><said>"Mio caro Mr. Bennet",</said> replicò la moglie, <said>"come puoi essere così irritante! Lo sai bene che sto pensando di farlo sposare con una di loro."</said></p>
-                    <p><said>"Era questo il suo progetto quando ha deciso di stabilirsi qui?"</said></p>
+                    <p><q>"E perché mai? che c'entrano loro?"</q></p>
+                    <p><q>"Mio caro Mr. Bennet",</q> replicò la moglie, <q>"come puoi essere così irritante! Lo sai bene che sto pensando di farlo sposare con una di loro."</q></p>
+                    <p><q>"Era questo il suo progetto quando ha deciso di stabilirsi qui?"</q></p>
                     <p><said>"Progetto! sciocchezze, come puoi parlare in questo modo! Ma è molto probabile che possa innamorarsi di una di loro, e quindi devi fargli visita non appena arriva."</said></p>
-                    <p><said>"Non vedo nessun motivo per farlo. Potete andare tu e le ragazze, oppure puoi mandarle da sole, il che forse sarà ancora meglio; visto che tu sei bella quanto loro, Mr. Bingley potrebbe considerarti la migliore del gruppo."</said></p>
-                    <p><said>"Mio caro, tu mi lusinghi. Certo, ho avuto la mia parte di bellezza, ma ora non pretendo di essere nulla di straordinario. Quando una donna ha cinque figlie cresciute, non deve più pensare alla propria bellezza."</said></p>
-                    <p><said>"In casi del genere una donna spesso non ha più molta bellezza a cui pensare."</said></p>
-                    <p><said>"Ma, mio caro, devi davvero andare a trovare Mr. Bingley, una volta arrivato."</said></p>
-                    <p><said>"È più di quanto possa impegnarmi a fare, te l'assicuro."</said></p>
-                    <p><said>"Ma pensa alle tue figlie. Pensa solo a che sistemazione sarebbe per una di loro. Sir William e Lady Lucas sono decisi ad andare solo per questo motivo, perché lo sai che generalmente non fanno visita ai nuovi arrivati. Devi andarci per forza, perché se non lo fai per noi sarebbe impossibile fargli visita."</said></p>
-                    <p><said>"Sicuramente ti fai troppi scrupoli. Credo proprio che Mr. Bingley sarà felicissimo di conoscervi, e io manderò qualche rigo tramite te per assicurargli il mio cordiale consenso al suo matrimonio con qualunque delle ragazze preferisca, anche se dovrò mettere una parola buona per la mia piccola Lizzy."</said></p>
+                    <p><q>"Non vedo nessun motivo per farlo. Potete andare tu e le ragazze, oppure puoi mandarle da sole, il che forse sarà ancora meglio; visto che tu sei bella quanto loro, Mr. Bingley potrebbe considerarti la migliore del gruppo."</q></p>
+                    <p><q>"Mio caro, tu mi lusinghi. Certo, ho avuto la mia parte di bellezza, ma ora non pretendo di essere nulla di straordinario. Quando una donna ha cinque figlie cresciute, non deve più pensare alla propria bellezza."</q></p>
+                    <p><q>"In casi del genere una donna spesso non ha più molta bellezza a cui pensare."</q></p>
+                    <p><q>"Ma, mio caro, devi davvero andare a trovare Mr. Bingley, una volta arrivato."</q></p>
+                    <p><q>"È più di quanto possa impegnarmi a fare, te l'assicuro."</q></p>
+                    <p><q>"Ma pensa alle tue figlie. Pensa solo a che sistemazione sarebbe per una di loro. Sir William e Lady Lucas sono decisi ad andare solo per questo motivo, perché lo sai che generalmente non fanno visita ai nuovi arrivati. Devi andarci per forza, perché se non lo fai per noi sarebbe impossibile fargli visita."</q></p>
+                    <p><q>"Sicuramente ti fai troppi scrupoli. Credo proprio che Mr. Bingley sarà felicissimo di conoscervi, e io manderò qualche rigo tramite te per assicurargli il mio cordiale consenso al suo matrimonio con qualunque delle ragazze preferisca, anche se dovrò mettere una parola buona per la mia piccola Lizzy."</q></p>
                 </div>
             </div>
         </body>
