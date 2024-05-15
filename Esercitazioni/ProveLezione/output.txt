@@ -1,5 +1,5 @@
 Comando usato:
-java -jar SaxonHE12-4J/saxon-he-12.4.jar -s:Codifica24/Esercitazioni/Prove/IRT030.xml -xsl:Codifica24/Esercitazioni/Prove/built-in.xsl -o:Codifica24/Esercitazioni/Prove/output.txt
+java -jar SaxonHE12-4J/saxon-he-12.4.jar -s:Codifica24/Esercitazioni/ProveLezione/IRT030.xml -xsl:Codifica24/Esercitazioni/ProveLezione/built-in.xsl -o:Codifica24/Esercitazioni/ProveLezione/output.txt
       
          
          

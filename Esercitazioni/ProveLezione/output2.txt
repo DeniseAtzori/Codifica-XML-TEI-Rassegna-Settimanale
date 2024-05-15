@@ -1,0 +1,5 @@
+Comando usato:
+java -jar SaxonHE12-4J/saxon-he-12.4.jar -s:Codifica24/Esercitazioni/ProveLezione/IRT030.xml -xsl:Codifica24/Esercitazioni/ProveLezione/live-xslt-2.xsl -o:Codifica24/Esercitazioni/ProveLezio
+ne/output2.txt
+
+bibliography history edition apparatus translation commentary figure
