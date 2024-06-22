@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-lite.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+    <teiHeader>
+        <!-- Inizio del teiHeader -->
+        <fileDesc>
+            <!-- Descrizione del file -->
+            <titleStmt>
+                <title>Codifica di alcuni articoli de La Rassegna Settimanale</title>
+                <respStmt>
+            <!-- Responsabilità per il contenuto intellettuale del testo -->
+                    <resp> Conversione TEI P5 a cura di</resp>
+                    <name xml:id="DA">
+                        <forename>Denise</forename><surname>Atzori</surname>
+                    </name>
+                    <name>
+                        <forename>Martina</forename><surname>Perodi</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <!-- Codifica dei dati di diffusione e distribuzione dell'edizione -->
+                <authority>Università di Pisa</authority>
+                <date>15/07/2024</date>
+                <availability status="free"></availability>
+            </publicationStmt>
+            <sourceDesc>
+            <!-- Descrizione della fonte primaria -->
+                <bibl>
+                    <title>La Rassegna Settimanale di politica, scienza, lettere ed arti. Volume 1, 1878</title>
+                    <publisher>Casa Editrice Barbèra</publisher>
+                    <pubPlace>Firenze</pubPlace>
+                    <editor>
+                        <name>
+                            <forename>Leopoldo</forename><surname>Franchetti</surname>
+                        </name>
+                        <name>
+                            <forename>Sydney</forename> <surname>Sonnino</surname>
+                        </name>
+                    </editor>
+                    <date>1878</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Pensare se aggiungere un encodingDesc per le informazioni sulla codifica (relazione tra
+        testo codificato e testo orginale), profileDesc (descrizione dettagliata degli aspetti non
+        bibliografici del testo come le lingue usate ) e revisionDesc (stroria delle revisioni del file)-->
+    </teiHeader>
+    <text>
+        <!-- Inizio del contenuto testuale -->
+        <front>
+            <!-- Eventuale prefazione comune a tutti i testi -->
+        </front>
+        <group>
+            <!-- Testo organizzato come gruppo di testi che condividono delle info -->
+            <text>
+                <!-- Primo articolo -->
+                <front>
+                    <head>
+                    <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+                        Vol. 1°, N°18.
+                        <date>5 Maggio '78</date>
+                        <listPerson>
+                            <person xml:id="CG">
+                                <name role="author" ref="https://www.storiapatriagenova.it/Docs/Biblioteca_Digitale/SB/e25420184d85de7e976749e9f76eb9f1/Estratti/53f004d08d63d78be02d7a004253b70c.pdf" resp="DA" cert="high">
+                                    <forename>COSTANZA</forename><surname>CASELLA GIGLIOLI</surname>
+                                </name>
+                                <occupation>Scrittrice, giornalista, fondatrice della prima Scuola Commerciale a Firenze nel 1884 e Ispettrice delle Scuole Professionali di Firenze.</occupation>
+                                <note>Si impegnò attivamente per migliore l'istruzione femminile.
+                            </person>
+                        </listPerson>
+                    </head>
+                </front>
+                <body>
+                <!-- Contenuto testuale del primo articolo -->
+                    <div n="a1" type="article">
+                        <pb n="339" />
+                        <!-- La colonna inizia prima dell'inizio dell'articolo. Che si fa in questo caso? -->
+                        <cb n="1" />
+                        <!-- titolo dell'articolo -->
+                        <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLE DONNE.</head>
+                        <opener>
+                        <!-- apertura della lettera -->
+                            <salute>Ai direttori</salute>
+                            <dateline>
+                                <name type="place">Firenze</name>,
+                                <date>2 maggio 1878</date>.
+                            </dateline>
+                        </opener>
+                        <p><date>Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : <q type="written">« sono per l’istruzione della donna, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta.*<note type="footnote">* Vedi Rassegna, n. 16, pag. 298.</note> »</q> Aggiungo ora che il problema sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere quello scopo. Ma siccome per studiare i mezzi di giungere ad una mèta, bisogna che questa sia nettamente definita, così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile determinare insieme quale sia, nell’opera della istruzione, la parte che dipende direttamente dall’ insegnamento in forma generica, e quale quella che ne supera il potere.</p>
+                        <p>Vi dirò subito che per me la missione dell’ insegnamento non può essere quella di trasmettere in blocco il sapere: la ristrettezza del tempo dentro il quale l’insegnamento regolare va concentrato, la non maturità della mente di chi impara, la mancanza dei punti di paragone che l’ esperienza sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic">proprie</emph> le cognizioni materialmente comunicateci da altri — condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">precipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: <q type="written">« quali fossero per ciascuno le cognizioni utili »</q> e siccome queste si trovano sempre essere innumerevoli, il problema — problema davvero insolubile — era lo stringerle, l’ abbreviarle, l’ accalcarle nello spazio e nel tempo prefisso. Di qui il sistema di catechismo divenuto, per scienze e per lettere, una necessità, a scapito di ogni indipendenza mentale ; di qui l’abuso stragrande della memoria a spese del raziocinio; di qui la forzata divisione degli allievi in categorie secondo quello che, fatti uomini o donne, dovevano diventare, con evidente pregiudizio della loro libertà, <distinct>perchè</distinct> costretti a scegliere coi dati insufficienti della età prematura, o a far scegliere da altri.</p>
+                        <p>Oggi, mi pare che l’esperienza dovrebbe averci insegnato che il quesito stesso era in sè mal posto; che non si tratta di scegliere le cognizioni utili, giacché tutte sono tali; ma si tratta di far la mente capace a riceverne il più possibile, sviluppando al più alto grado tutte le facoltà di cui è dotata. E per questo la cosa più importante non è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</p>
+                        <p>Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag-<pb n="340"/><cb n="2"/>giore possibile svolgimento nelle alunne delle facoltà da quella scienza chiamate in azione ; e il legame tra queste facoltà e le altre, creava un lavoro omogeneo di ciascuna per tutte e di tutte per ciascuna. Così ne risultava che il maestro di aritmetica diventava professore di logica, quando per la risoluzione d’ un problema, senza fermarsi subito sulle cifre, faceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar da sè i rapporti tra questi due termini: e a vedere come quei rapporti rendevano piano e semplice il passaggio dall’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pretensione d’empir la testa</distinct> di nomi e di fatti, ma col semplice scopo di disegnare i contorni generali d’ ogni forma di civiltà, divenivano il telaio su cui dovevano ordinarsi più tardi non solo le letture storiche, ma anche quelle dei capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni e le altre più intelligibili dalla conoscenza dell’ ambiente in cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisiche e naturali venivano ogni dì a raccogliere e classificare le mille osservazioni cui conducevano fatti e circostanze della vita giornaliera. Nè finirei così presto, se volessi citarvi tutti gli esempi che mi si affollano alla mente. Mi è accaduto più e più volte pel passato di chiedere a me stessa qual fosse la ragione per la quale le fanciulle di quell’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in domande e risposte si sarebbe ridotta a poca cosa, pur riuscissero nella vita a parer più colte di altre cui pure era <distinct time="1800">impartito più largo corredo di cognizioni</distinct>. Oggi non me lo domando più, perchè parmi avere inteso che esse erano state formate ad intendere (nella misura delle loro forze naturali) tutto l’intelligibile; e che per esse il leggere e l’ udir cose nuove era piacere e profitto, perchè ciò che leggevano e udivano prontamente e naturalmente trovava posto nel loro intelletto aperto e preparato. Ebbene, questo che fu fatto una volta per spontanea particolare attitudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800">intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il nucleo di un sistema cui porterebbero la luce del loro sapere e della loro intelligenza uomini e donne che si occuparono di questo importantissimo tra i problemi, e che certamente potranno dargli una soluzione pratica per la quale io non mi sentirei davvero abbastanza competente.</p>
+                        <p>Fatta la discussione generale, decisa la questione di massima, trovate le vie per cui si deve procedere, non credo che sarà impossibile in una città intelligente come questa, di venire al risultato positivo del creare una buona scuola o modificare le esistenti sul tipo giudicato migliore. E sono certissima che, sebbene apparentemente la scuola così costituita non voglia pretendere di fissare <emph rend="italic">a priori</emph> una carriera da percorrere, le fanciulle di normale capacità che ne usciranno a 18 o 20 anni saranno ugualmente pronte all’ esame d’entrata d’Università o a scegliere altra professione che le renda indipendenti, come potranno portare nella famiglia, se famiglia formeranno, il frutto prezioso d’ una mente aperta e sviluppata alle cose più alte e migliori. E mentre cureranno il benessere e la salute dei loro cari, troveranno la distrazione e il riposo che altre cercano in futili passatempi, in quei libri che le renderanno istitutrici dei figli ed anche in certi casi loro materiale sostegno. Ed ora davvero poso la penna, col timore d’aver detto troppo o troppo poco. Ma qualunque sia il valore delle mie idee, mi sono sentita in debito di dirle, come credo debito di tutti il cercare di far luce con la discussione calma, serena e tollerante, in una questione che tocca noi tutti così da vicino.</p>
+                        <closer>
+                            <!-- chiusura della lettera -->
+                            <signed>
+                                <choice>
+                                    <abbr type="contraction">Dev.ma</abbr>
+                                    <expan>Devotissima</expan>
+                                </choice>
+                                <name style="text-transform: uppercase;" ref="#CB">
+                                    <forename>COSTANZA</forename><surname>GIGLIOLI</surname>.
+                                </name>
+                            </signed>
+                        </closer>
+                    </div>
+                </body>
+                <back></back>
+            </text>
+            <text>
+                <!-- Secondo articolo -->
+                <front></front>
+                <body></body>
+                <back></back>
+            </text>
+        </group>
+        <back>
+            <!-- Eventuale postfazione comune a tutti i testi -->
+        </back>
+    </text>
+</TEI>
