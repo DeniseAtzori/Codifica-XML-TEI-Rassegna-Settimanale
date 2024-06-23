@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-lite.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>Progetto codifica</title>
+        <author>Atzori Perodi</author>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Università di Pisa</authority>
+        <date>15/07/2024</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <imprint>
+            <title>La rassegna settimanale di politica, scienze, lettere ed arti</title>
+            <publisher>Casa Editrice Barbèra</publisher>
+            <pubPlace>Firenze</pubPlace>
+            <editor><forename>Leopoldo</forename> <surname>Franchetti</surname> e <forename>Sydney</forename> <surname>Sonnino</surname></editor>
+            <date>1878</date>.
+          </imprint>
+        </bibl>
+      </sourceDesc>
+
+    </fileDesc>
+  </teiHeader>
+
+
+<text>
+    <body>
+        <div type="article">
+            <pb n="1" />
+            <cb n="1" />
+            <!-- titolo -->
+            <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
+            <p>L’ <roleName><abbr>on.</abbr></roleName> <surname>Coppino</surname>, poco prima di abbandonare il <orgName>Ministero
+            della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district>Regno</district></placeName>, che si 
+            fondava principalmente su questo concetto: dare agli uomini ed alle donne la stessa istruzione secondaria. Quindi 
+            proponeva un doppio ordine di licei e ginnasi, di scuole 
+            ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato 
+            al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto 
+            sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. Chi vuole il greco ed il latino, e chi 
+            non lo vuole; chi vuole la donna istruita ed ha paura della 
+            donna letterata, e chi vuol solo la madre di famiglia. Ma 
+            forse questa discussione si potrebbe sospendere di fronte 
+            ad una osservazione molto più semplice: qualunque cosa 
+            si voglia, le nostre scuole femminili sono insufficenti a 
+            darla, ed in ogni caso è necessario moltiplicar1e e migliorarle.</p>
+            <p>In generale può dirsi che, mentre noi cerchiamo di dare 
+            all’ uomo una istruzione che ne sviluppi e fortifichi l’intelligenza, ne accresca la cultura, alla donna vogliam dare 
+            solo una istruzione che le serva di ornamento. Da ciò ne 
+            viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, 
+            ci serviamo di questi che sono i resultati naturali del 
+            nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, 
+            invece di mutar metodo, diciamo: <said>Vedete come 
+            la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.</said> Non viene mai in mente 
+            di pensare che una istruzione come quella che le diamo, 
+            porterebbe i medesimi resultati anche in un uomo. E non 
+            viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, 
+            nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
+            Ma c’ è di peggio ancora. Uno dei guai d’<placeName><country>Italia</country></placeName> sono i 
+            nostri convitti. I soli che diano qualche utile resultato sono
+            i convitti militari, perchè in essi è entrato quello spirito di 
+            disciplina, d’indipendenza morale e di onore cavalleresco, che 
+            costituiscono la forza e la gloria del nostro esercito. I convitti 
+            diretti dai frati sono.... convitti di frati; i laici lasciano 
+            molto, ma molto a desiderare. Tuttavia la educazione degli 
+            uomini si forma in gran parte nella università e nella società; 
+            la vita di convitto ha per essi una influenza meno definitiva che per le donne. Queste se vanno al convitto, ne escono 
+            assai spesso per andare a marito, ed il loro carattere allora 
+            è già formato per sempre. Ad una istruzione superficiale i 
+            convitti femminili uniscono una educazione, secondo noi, 
+            falsissima, perchè mira a sopprimere ogni sentimento di 
+            responsabilità e d’indipendenza morale. In molti di essi, anche fra i migliori, si crede, per esempio, 
+            massima indiscutibile, che le ragazze debbano andare il meno possibile nella 
+            propria famiglia, per non corrompersi. La madre non può 
+            scrivere alla figlia, nè questa alla madre, senza che la di<cb n="2" />rettrice apra e legga le lettere. Un fratello 
+            non può visitare la sorella nel convitto, per non far nascere scandali. 
+            La conseguenza naturale di tutto ciò è che in molti convitti femminili tra le ragazze non si parìa d’altro che 
+            di amori; si cercano e si trovano tutti i mezzi per fare 
+            uscire ed entrare lettere d’ ogni sorta, senza che la direttrice lo sappia. Abbiamo conosciuta una <rs type="person">signorina inglese</rs>, 
+            chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
+            aperta la sua prima lettera, andò in furia ; quando le 
+            fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito 
+            il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country>Italia</country></placeName> nelle mani delle monache; 
+            dove non ci sono più le monache, c’ è restato il 
+            loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte 
+            da <rolename>Ispettori</rolename> e <rolename>Provveditori</rolename> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura 
+            superficiale ed una educazione che separa dalla famiglia e 
+            dalla società, che tende a sopprimere ogni morale responsabilità, ogni indipendenza di carattere, che spinge senza 
+            saperlo ai sotterfugi ed alla finzione? Fortunatamente i 
+            convitti non sono molti ; ma da un altro lato le scuole sono 
+            poche ed insufficenti.</p>
+            <p>Per queste ragioni è molto naturale quella impazienza 
+            che vediamo crescere ogni giorno, e quelle domande che 
+            sorgono da ogni lato perchè l’educazione e l’istruzione 
+            della donna si migliorino e si sollevino. E una questione 
+            che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa 
+            stiamo alla coda dei popoli civili. Chi non conosce l’azione 
+            che la donna esercita sulla società intera? Chi non sa che 
+            noi tutti, riceviamo la prima educazione dalla madre? 
+            L’ignoranza della donna la esclude da ogni seria conversazione cogli uomini, i quali da ciò non cavano nessunissimo 
+            vantaggio; e sopprime nella nostra società una classe di 
+            persone che presso altri popoli legge assai più degli uomini, occupati sempre negli affari o negli studi speciali. 
+            Questa forse non è l’ultima fra le cagioni per cui i nostri 
+            libri diventano noiosi, aridi, tecnici, e sono scritti troppo 
+            spesso solamente per gli uomini del mestiere.
+            Per ora il nostro sistema scolastico femminile si riduce 
+            alle scuole elementari, ed alle scuole normali che formano 
+            le maestre elementari. Le sei o forse sette scuole femminili, che si chiamano superiori, sono certo una lodevole 
+            eccezione; ma poche di numero e con poche alunne non possono mutare il carattere generale del sistema. Esse non 
+            sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, 
+            e per le donne invece rappresentano lo scalino più alto. 
+            Nondimeno già sentiamo che si parla di sopprimere quella 
+            che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.</p>
+            <p>Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
+            della donna. Bisognerebbe innanzi tutto ordinare meglio, 
+            e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di 
+            lezioni per le donne che hanno già passata l’età per andare 
+            alle scuole superiori, e pur vogliono in qualche modo compiere la loro istruzione. Ma noi non abbiamo qui lo spazio 
+            necessario per esporre tutte le nostre idee, sulle quali 
+            torneremo altra volta. Vogliamo per ora fermarci sopra 
+            una sola quistione, che par molto e forse troppo speciale; 
+            ma che pure crediamo assai importante, specialmente se 
+            si considera che in <placeName><country>Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
+            diploma il quale sia praticamente utile a qualche cosa.</p>
+            <pb n="2" /><cb n="3"/>
+            <p>Nello stato presente delle cose i soli istituti femminili 
+            che cominciano a dare utili resultati e vanno migliorando 
+            davvero sono le scuole normali, anzi, può dirsi che siano, 
+            generalmente parlando, i soli istituti superiori per le donne, 
+            quelli che danno la regola e la norma a tutti gli altri. L’insegnamento di molti convitti si modella infatti su di esse, 
+            nè quello delle poche scuole" femminili, che portano il nome 
+            di superiori differisce gran fatto da esse. E stata la necessità di avere le maestre elementari quella che portò 
+            alla formazione delle scuole normali, le quali costituiscono 
+            un vero progresso nell’ istruzione delle donne, ed hanno cominciato ad aprir loro la via ad un ufficio col quale molte 
+            sostentano la propria vita, altre aiutano le famiglie. E qui 
+            non è forse inopportuno 1’ osservare, che queste scuole 
+            normali femminili riescono, secondo il giudizio concorde di 
+            tutte le autorità scolastiche, meglio assai che le maschili, 
+            superiorità che naturalmente si riscontra anche nelle scuole 
+            elementari. Senza volere da ciò cavare conseguenze troppo 
+            generali, è pur forza affermare', che il primo esperimento 
+            col quale si è veramente dato alla donna ed all’ uomo una 
+            medesima istruzione, ha provato con evidenza che la donna 
+            non riesce punto inferiore all’ uomo.</p>
+            <p>Ma c’ è una ragione al mondo, per la quale ad essa 
+            non si debba dare altra istruzione che quella strettamente 
+            necessaria a farne una buona maestra elementare? È qui 
+            appunto che si presenta fa quistione pratica, di cui vogliamo parlare. Nelle scuole normali e nei convitti insegnano 
+            spesso anche le donne, e queste non sono o almeno non dovrebbero essere semplici maestre elementari, perchè tengono 
+            lo stesso ufficio dei professori di scuole normali maschili, che 
+            per gli uomini è equiparato a quello di professori di liceo 
+            o ginnasio, e richiede un diploma universitario. Ora, se 
+            alla donna si dà un ufficio di pari grado non è giusto darle 
+            anche le cognizioni necessarie per adempierlo bene ? Intanto, vere scuole normali superiori che le diano 
+            l’insegnamento richiesto, ed abbiano facoltà di concedere il diploma 
+            non ne abbiamo. Profittare delle <orgName>Università</orgName>, come fanno gli 
+            uomini, è presto detto, ma le donne non possono, perchè dovrebbero prendere la licenza liceale. Ora nè il governo, nè 
+            le province, nè i municipi hanno fondato licei e ginnasi 
+            femminili, e non crediamo che, almeno per ora, sia davvero 
+            indispensabile la licenza liceale alle maestre di scuole normali.</p>
+            <p>Ma qualche cosa è necessario fare, è anzi urgente. Se 
+            la donna è incapace di essere niente di più che una semplice maestra elementare, perchè si chiama dal governo, 
+            dai municipi, dai privati, ad insegnare nelle scuole normali, nei convitti e in tutte le scuole che hanno un grado 
+            quasi uguale alle normali? Se poi ha la capacità, perchè 
+            non si fondano le scuole indispensabili a darle la istruzione 
+            che, nel caso identico, così largamente e così generosamente 
+            si concede agli uomini? Perchè non le si apre la via per 
+            ottenere legalmente un diploma, e non le si offrono i necessari aiuti?</p>
+            <p>A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la.sua posizione legale e la sua 
+            posizione morale sarebbero innanzi al pubblico, al governo 
+            ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè 
+            di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : <said>Voi ci chiamate ad insegnare 
+            nelle scuole normali ; ebbene, non ci nominate come fate 
+            ora, senza che abbiamo il diploma, solo per favore o per 
+            raccomandazioni. Determinate le cognizioni che dobbiamo 
+            avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, 
+            come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.</said> Il dovere di rispondere a questa domanda è 
+            indiscutibile, e per rispondervi bisognerebbe cominciare a <cb n="4" />
+            trovare il modo di dare alla donna, sotto una forma o sotto 
+            un’ altra, un insegnamento superiore di fatto e non di 
+            nome solamente. Noi crediamo che questo bisogno sia universalmente riconosciuto, anche da coloro che non son molto 
+            favorevoli alla generale cultura della donna. E siamo certi 
+            che una volta aperte e bene ordinate le <orgName>scuole Normali 
+            Superiori</orgName>, vi andrebbero moltissime anche di quelle donne 
+            che non vogliono insegnare, e i convitti e le altre scuole 
+            secondarie femminili sentirebbero la necessità di rendere i 
+            loro corsi di studio più seri e meno superficiali.</p>
+
+        </div>
+    </body>
+</text>
+
+</TEI>
