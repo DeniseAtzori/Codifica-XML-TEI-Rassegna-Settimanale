@@ -74,8 +74,6 @@
                             <note>Si impegnò attivamente per migliore l'istruzione femminile.</note>
                         </person>
                     </listPerson>
-                    <listBibl>
-                    </listBibl>
                 </front>
                 <body>
                 <!-- Contenuto testuale del primo articolo -->
@@ -129,8 +127,8 @@
                             <name role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
                                 <forename>Pier Enea</forename><surname>Guarnerio</surname>
                             </name>
-                            <birth><name type="place">Milano</name>, <date>1° luglio 1854</date></birth>
-                            </death><name type="place">Milano</name>, <date>1° dicembre 1919</date></death>
+                            <birth><name type="place">Milano</name>, <date when="1854-07-1">1° luglio 1854</date></birth>
+                            </death><name type="place">Milano</name>, <date when="1919-12-1">1° dicembre 1919</date></death>
                             <occupation>Linguista, curatore di raccolte di novelle popolari sarde e autore di liriche e sonetti.</occupation>
                         </person>
                         <person xml:id="OG">
@@ -146,11 +144,133 @@
                             <name role="poet" ref="https://www.treccani.it/enciclopedia/giosue-carducci_(Dizionario-Biografico)/" resp="DA" cert="high">
                                 <forename>Giosuè</forename><surname>Carducci</surname>
                             </name>
-                            <birth><name type="place">Valdicastello</name>, <date>27 luglio 1835</date></birth>
-                            </death><name type="place">Bologna</name>, <date>16 febbraio 1907</date></death>
-                            <occupation>Poeta, scrittore e critico letterario, deputato e senatore del Regno d'Italia e primo vincitore italiano del Premio Nobel per la letteratura nel 1906.</occupation>
+                            <birth><name type="place">Valdicastello</name>, <date when="1835-07-27">27 luglio 1835</date></birth>
+                            </death><name type="place">Bologna</name>, <date when="1907-02-16">16 febbraio 1907</date></death>
+                            <occupation>Poeta, scrittore e critico letterario, deputato e senatore del Regno d'Italia e primo vincitore italiano del Premio Nobel per la letteratura nel <date>1906</date>.</occupation>
+                        </person>
+                            <person xml:id="EP">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/enrico-panzacchi_%28Dizionario-Biografico%29/" resp="DA" cert="high">
+                                <forename>Enrico</forename><surname>Panzacchi</surname>
+                            </name>
+                            <birth><name type="place">Ozzano dell'Emilia</name>, <date when="1840-12-16">16 dicembre 1840</date></birth>
+                            </death><name type="place">Bologna</name>, <date when="1904-10-5">5 ottobre 1904</date></death>
+                            <occupation>Poeta, critico d'arte, politico e critico musicale italiano.</occupation>
+                        </person>
+                        </person>
+                            <person xml:id="DLB">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/domenico-luigi-batacchi/" resp="DA" cert="high">
+                                <forename>Domenico Luigi</forename><surname>Batacchi</surname>
+                            </name>
+                            <birth><name type="place">Pisa</name>, <date>1748</date></birth>
+                            </death><name type="place">Orbetello</name>, <date>1802</date></death>
+                            <occupation>Poeta e scrittore italiano.</occupation>
+                        </person>
+                         <person xml:id="GG">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/giuseppe-giusti/" resp="DA" cert="high">
+                                <forename>Giuseppe</forename><surname>Giusti</surname>
+                            </name>
+                            <birth><name type="place">Monsummano</name>, <date>1809</date></birth>
+                            </death><name type="place">Firenze</name>, <date>1805</date></death>
+                            <occupation>Poeta e deputato italiano.</occupation>
                         </person>
                     </listPerson>
+                    <listBibl>
+                        <biblStruct type="book" xlm:id="aux">
+                            <monogr>
+                                <author ref="#PEG">P.E. Guarnerio</author>
+                                <title type="main">Auxilium</title>
+                                <title type="sub">Sonetti con coda in prosa</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Bologna</pubPlace>
+                                    <date>1878</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <bibl type="book" xlm:id="ili">
+                            <monogr>
+                                <author ref="#OM">Omero</author>
+                                <title>Iliade</title>
+                                <date>750 a.C</date>
+                            </monogr>
+                        </bibl>
+                        <biblStruct type="book" xlm:id="OdiB">
+                            <monogr>
+                                <author ref="#GC">Giosuè Carducci</author>
+                                <title type="main">Odi barbare</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Modena</pubPlace>
+                                    <date>1877</date>
+                                     <note>La raccolta contiene anche la poesia "Fonti del Clitumno", citata dall'autore della bibliografia su Guarnerio.</note>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xlm:id="RM">
+                            <monogr>
+                                <author ref="#GC">Giosuè Carducci</author>
+                                <title type="main">Rime nuove</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Bologna</pubPlace>
+                                    <date>1887</date>
+                                </imprint>
+                                <note>La raccolta contiene anche le poesie "Idillio maremmano" e "Intermezzo", citate dall'autore della bibliografia su Guarnerio.</note>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xlm:id="Lyr">
+                            <monogr>
+                                <author ref="#EP">Enrico Panzacchi</author>
+                                <title type="main">Lyrica</title>
+                                <title type="sub">Romanze e canzoni</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Modena</pubPlace>
+                                    <date>1877</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                            <biblStruct type="book" xlm:id="Pos">
+                            <monogr>
+                                <author ref="#OG">Olindo Guerrini</author>
+                                <title type="main">Postuma</title>
+                                <title type="sub">Canzoniere di Lorenzo Stecchetti</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Bologna</pubPlace>
+                                    <date>1877</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xlm:id="NPol">
+                            <monogr>
+                                <author ref="#OG">Olindo Guerrini</author>
+                                <title type="main">Nova polemica</title>
+                                <imprint>
+                                    <publisher>Zanichelli</publisher>
+                                    <pubPlace>Bologna</pubPlace>
+                                    <date>1878</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xlm:id="PGG">
+                            <monogr>
+                                <author ref="#GG">Giuseppe Giusti</author>
+                                <title type="main">Poesie</title>
+                                <imprint>
+                                    <pubPlace>Firenze</pubPlace>
+                                    <date>1866</date>
+                                </imprint>
+                                <note>La raccolta contiene anche la poesia "Il deputato", citata dall'autore della bibliografia su Guarnerio.</note>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl>
+                    <listOrg>
+                        <org xml:id="ZN" type="publisher">
+                            <orgName>Zanichelli editore S.p.A</orgName>
+                            <desc>Casa editrice fondata a <placeName>Modena</placeName>nel <date>1859</date> da <persName>Nicola Zanichelli</persName>.</desc>
+                        </org>
+                    </listOrg>
                 </front>
                 <body>
                     <div type="section" n="s1" style="text-transform: uppercase;">
@@ -159,14 +279,19 @@
                         <head type="subtitle">LETTERATURA E STORIA.</head>
                         <div n="a2" type="article">
                             <pb n="441" />
-                            <head><name ref="#PEG">P. E. Guarnerio.</name> <foreign xml:lang="la" rend="italic">Auxilium</foreign>. Sonetti con Coda in prosa a <name ref="#OG">Lorenzo Stecchetti</name>. — <name type="place">Bologna</name>, <orgName type="publisher">Zanichelli</orgName>, <date>1878</date>.</head>
-                            <p>'È un libretto di poche pagine e non ce ne occuperemmo, se non si trattasse che, vestito delle solite eleganze tipografiche zanichelliane, vuol essere anch’ esso una macchinetta di guerra della scuola realista.</p>
-                            <p>Il signor <name ref="#PEG">Guarnerio</name> s’è proposto di dar mano a <name ref="#OG">Lorenzo Stecchetti</name> nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il Venerdì Santo del 1878 di tirar fuori dal cassetto i suoi sonetti (non molto belli ma realisti, se si vuole) e di farli seguitare da una Coda in prosa, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della Domenica di Risurrezione. Il signor <name ref="#PEG">Guarnerio</name> ci dirà forse che questa è un’ osservazione da idealisti e, quel che è peggio, da idealisti manzoniani. Passi dunque la Coda in prosa del Venerdì Santo. Quanto all’ aiuto dei Sonetti, temiamo forte che lo <name ref="#OG">Stecchetti</name> gli abbia a dire, come Ecuba al re Priamo : Non tali auxilio.... tempus eget. Preferiamo di molto la Coda in prosa, grido di guerra della nuova scuola, e che da un realista di buona fede merita le più oneste e liete accoglienze. C’è in quella Coda una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di apostolo un miglio di lontano, ed un apostolo senza ideale è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la Coda in prosa del signor <name ref="#PEG">Guarnerio</name> ci abbia chiariti meglio di prima in che consista veramente questo gran divario delle due scuole realista e idealista. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci coll’una o coll’ altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le Odi Barbare del Carducci, le Lyrica del Panzacchi, ammiriamo un po’ meno i sonetti del signor <name ref="#PEG">Guarnerio</name>, ma non per questo ci accorgiamo di aver fatto un passo di più per. addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il reale o l’ideale.</p>
-                            <p>Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E occorreva di scavar fuori anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il signor <name ref="#PEG">Guarnerio</name>? libertà? e chi gliela nega? A sentirlo, gli idealisti hanno in pronto carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una idealità, a cui non rinunciano neppure i poeti realisti. Al signor <name ref="#PEG">Guarnerio</name> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il realismo ?</p>
+                            <head>
+                                <bibl>
+                                    <author><persName ref="#PEG">P. E. Guarnerio.</persName></author>
+                                    <title ref="#aux"><foreign xml:lang="la" rend="italic">Auxilium</foreign>. Sonetti con Coda in prosa</title>
+                                </bibl> a <persName ref="#OG">Lorenzo Stecchetti</persName>. — <placeName>Bologna</placeName>, <orgName type="publisher" ref="#ZN">Zanichelli</orgName>, <date>1878</date>.
+                            </head>
+                            <p>'È un libretto di poche pagine e non ce ne occuperemmo, se non si trattasse che, vestito delle solite eleganze tipografiche <rs ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchinetta di guerra della scuola realista.</p>
+                            <p>Il signor <persName ref="#PEG">Guarnerio</persName> s’è proposto di dar mano a <persName ref="#OG">Lorenzo Stecchetti</persName> nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma realisti, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. Il signor <persName ref="#PEG">Guarnerio</persName> ci dirà forse che questa è un’ osservazione da idealisti e, quel che è peggio, da idealisti manzoniani. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <date>Venerdì Santo</date>. Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG">Stecchetti</persName> gli abbia a dire, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : <q><foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign></q> Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da un realista di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di apostolo un miglio di lontano, ed un apostolo senza ideale è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del signor <persName ref="#PEG">Guarnerio</persName> ci abbia chiariti meglio di prima in che consista veramente questo gran divario delle due scuole realista e idealista. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci coll’una o coll’ altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le <bibl><title ref="#OdiB" rend="italic">Odi Barbare</title></bibl> del <persName ref="#GC">Carducci</persName>, le <bibl><title ref="#Lyr" rend="italic">Lyrica</title></bibl> del <persName ref="#EP">Panzacchi</persName>, ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del signor <persName ref="#PEG">Guarnerio</persName>, ma non per questo ci accorgiamo di aver fatto un passo di più per. addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il reale o l’ideale.</p>
+                            <p>Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E occorreva di scavar fuori anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il signor <persName ref="#PEG">Guarnerio</persName>? libertà? e chi gliela nega? A sentirlo, gli idealisti hanno in pronto carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una idealità, a cui non rinunciano neppure i poeti realisti. Al signor <persName ref="#PEG">Guarnerio</persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il realismo ?</p>
                             <cb n="2"/>
-                            <p>Allora è vecchio come la Bibbia, ed in tal caso, realismo per realismo, preferiamo le peccatrici sane e gioconde dei nostri Novellieri o le matte risate in compagnia del Batacchi. Se non che il signor <name ref="#PEG">Guarnerio</name> è a questo proposito in un grande errore. Lo <name ref="#OG">Stecchetti</name>, suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso <name ref="#OG">Stecchetti</name> volesse rigirarsi eternamente nel circolo erotico delle Postume e della Polemica, non crediamo che troverebbe sempre eguale fortuna.</p>
-                            <p>Un altro errore, secondo noi, del signor <name ref="#PEG">Guarnerio</name> e di parecchi altri suoi correligionari, è quello d’ andar citando il Carducci come il loro caposcuola. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo tirato sulla chiosa dei bianchi e dei neri a piacer loro. Il Carducci è quello che è, idealista e realista come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ Idillio Maremmano e delle Fonti del Clitumno, il poeta, che quand’ anche assale nell’ Intermezzo non sappiamo bene quale dinastia storica di idealisti o di sentimentali, vi pianta in mezzo strofe idealissime e sentimentalissime con uno di que’ trapassi bruschi ed improvvisi, di cui soltanto i grandi ingegni posseggono il segreto.</p>
-                            <p>In conclusione, codesto tramestìo del reale e dell’ ideale a noi sembra una di quelle logomachie, che non approdano a nulla, e se ci fosse lecito dare un consiglio al signor <name ref="#PEG">Guarnerio</name> (il quale anche fra le sue fisime di realista ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche realità meno ideale del suo realismo, e di profferirsi soldato a qualche altra causa, che ne valga meglio la pena.</p>
+                            <p>Allora è vecchio come la Bibbia, ed in tal caso, realismo per realismo, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB">Batacchi</persName>. Se non che il signor <persName ref="#PEG">Guarnerio</persName> è a questo proposito in un grande errore. Lo <persName ref="#OG">Stecchetti</persName>, suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso <persName ref="#OG">Stecchetti</persName> volesse rigirarsi eternamente nel circolo erotico delle <bibl><title ref="#Pos" rend="italic">Postume</title></bibl> e della <bibl><title ref="#NPol" rend="italic">Polemica</title></bibl>, non crediamo che troverebbe sempre eguale fortuna.</p>
+                            <p>Un altro errore, secondo noi, del signor <persName ref="#PEG">Guarnerio</persName> e di parecchi altri suoi correligionari, è quello d’ andar citando il <persName ref="#GC">Carducci</persName> come il loro caposcuola. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo <quote source="#PGG" rend="italic">tirato sulla chiosa dei bianchi e dei neri</quote> a piacer loro. Il <persName ref="#GC">Carducci</persName> è quello che è, idealista e realista come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ <bibl><title ref="#RN" rend="italic">Idillio Maremmano</title></bibl> e delle <bibl><title ref="#OB" rend="italic">Fonti del Clitumno</title></bibl>, il poeta, che quand’ anche assale nell’ <bibl><title ref="#RN" rend="italic">Intermezzo</title></bibl> non sappiamo bene quale dinastia storica di idealisti o di sentimentali, vi pianta in mezzo strofe idealissime e sentimentalissime con uno di que’ trapassi bruschi ed improvvisi, di cui soltanto i grandi ingegni posseggono il segreto.</p>
+                            <p>In conclusione, codesto tramestìo del reale e dell’ ideale a noi sembra una di quelle logomachie, che non approdano a nulla, e se ci fosse lecito dare un consiglio al signor <persName ref="#PEG">Guarnerio</persName> (il quale anche fra le sue fisime di realista ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche realità meno ideale del suo realismo, e di profferirsi soldato a qualche altra causa, che ne valga meglio la pena.</p>
                         </div>
                     </div>
                 </body>
