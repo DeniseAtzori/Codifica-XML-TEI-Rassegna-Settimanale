@@ -39,7 +39,7 @@
             <!-- titolo -->
             <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
             <p>L’ <roleName><abbr>on.</abbr></roleName> <surname>Coppino</surname>, poco prima di abbandonare il <orgName>Ministero
-            della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district>Regno</district></placeName>, che si 
+            della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName type="district">Regno</placeName>, che si 
             fondava principalmente su questo concetto: dare agli uomini ed alle donne la stessa istruzione secondaria. Quindi 
             proponeva un doppio ordine di licei e ginnasi, di scuole 
             ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato 
@@ -57,13 +57,13 @@
             viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, 
             ci serviamo di questi che sono i resultati naturali del 
             nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, 
-            invece di mutar metodo, diciamo: <said>Vedete come 
-            la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.</said> Non viene mai in mente 
+            invece di mutar metodo, diciamo: <q type="spoken">Vedete come 
+            la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.</q> Non viene mai in mente 
             di pensare che una istruzione come quella che le diamo, 
             porterebbe i medesimi resultati anche in un uomo. E non 
             viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, 
             nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
-            Ma c’ è di peggio ancora. Uno dei guai d’<placeName><country>Italia</country></placeName> sono i 
+            Ma c’ è di peggio ancora. Uno dei guai d’<placeName type="country">Italia</placeName> sono i 
             nostri convitti. I soli che diano qualche utile resultato sono
             i convitti militari, perchè in essi è entrato quello spirito di 
             disciplina, d’indipendenza morale e di onore cavalleresco, che 
@@ -87,7 +87,7 @@
             chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
             aperta la sua prima lettera, andò in furia ; quando le 
             fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito 
-            il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country>Italia</country></placeName> nelle mani delle monache; 
+            il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName type="country">Italia</placeName> nelle mani delle monache; 
             dove non ci sono più le monache, c’ è restato il 
             loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte 
             da <rolename>Ispettori</rolename> e <rolename>Provveditori</rolename> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura 
@@ -100,7 +100,7 @@
             che vediamo crescere ogni giorno, e quelle domande che 
             sorgono da ogni lato perchè l’educazione e l’istruzione 
             della donna si migliorino e si sollevino. E una questione 
-            che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa 
+            che s’agita ora in tutta l’<placeName type="continent">Europa</placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa 
             stiamo alla coda dei popoli civili. Chi non conosce l’azione 
             che la donna esercita sulla società intera? Chi non sa che 
             noi tutti, riceviamo la prima educazione dalla madre? 
@@ -117,7 +117,7 @@
             sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, 
             e per le donne invece rappresentano lo scalino più alto. 
             Nondimeno già sentiamo che si parla di sopprimere quella 
-            che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.</p>
+            che fu istituita in <placeName type="city">Firenze</placeName>.</p>
             <p>Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
             della donna. Bisognerebbe innanzi tutto ordinare meglio, 
             e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di 
@@ -127,7 +127,7 @@
             torneremo altra volta. Vogliamo per ora fermarci sopra 
             una sola quistione, che par molto e forse troppo speciale; 
             ma che pure crediamo assai importante, specialmente se 
-            si considera che in <placeName><country>Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
+            si considera che in <placeName type="country">Italia</placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
             diploma il quale sia praticamente utile a qualche cosa.</p>
             <pb n="2" /><cb n="3"/>
             <p>Nello stato presente delle cose i soli istituti femminili 
@@ -176,12 +176,12 @@
             <p>A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la.sua posizione legale e la sua 
             posizione morale sarebbero innanzi al pubblico, al governo 
             ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè 
-            di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : <said>Voi ci chiamate ad insegnare 
+            di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : <q type="spoken">Voi ci chiamate ad insegnare 
             nelle scuole normali ; ebbene, non ci nominate come fate 
             ora, senza che abbiamo il diploma, solo per favore o per 
             raccomandazioni. Determinate le cognizioni che dobbiamo 
             avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, 
-            come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.</said> Il dovere di rispondere a questa domanda è 
+            come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.</q> Il dovere di rispondere a questa domanda è 
             indiscutibile, e per rispondervi bisognerebbe cominciare a <cb n="4" />
             trovare il modo di dare alla donna, sotto una forma o sotto 
             un’ altra, un insegnamento superiore di fatto e non di 
