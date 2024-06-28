@@ -76,8 +76,8 @@
             <name role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
             <forename>Giorgio</forename><surname>Vasari</surname>
             </name>
-            <birth><persName type="place">Arezzo</persName>, <date>30 luglio 1511</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>27 giugno 1574</date></death>
+            <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
+            <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
             <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
           </person>
 
@@ -85,8 +85,8 @@
             <name role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
             <forename>Gaetano</forename><surname>Milanesi</surname>
             </name>
-            <birth><persName type="place">Puglia</persName><date>9 settembre 1813</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>11 marzo 1895</date></death>
+            <birth><name type="place">Puglia</name><date>9 settembre 1813</date></birth>
+            <death><name type="place">Firenze</name>, <date>11 marzo 1895</date></death>
             <occupation>Storico dell'arte e paleografo italiano.</occupation>
           </person>
 
@@ -101,8 +101,8 @@
             <name role="artist" ref="https://www.treccani.it/enciclopedia/giotto-di-bondone_(Dizionario-Biografico)/" resp="MP" cert="high">
             <forename>Giotto</forename><surname>di Bondone</surname>
             </name>
-            <birth><persName type="place">Colle di Vespignano Vicchio</persName><date>1267</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>8 gennaio 1337</date></death>
+            <birth><name type="place">Colle di Vespignano Vicchio</name><date>1267</date></birth>
+            <death><name type="place">Firenze</name>, <date>8 gennaio 1337</date></death>
             <occupation>Pittore e architetto.</occupation>
           </person>
 
@@ -110,8 +110,8 @@
             <name role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
             <forename>Dante</forename><surname>Alighieri</surname>
             </name>
-            <birth><persName type="place">Firenze</persName><date>tra il 14 maggio e il 13 giugno 1265</date></birth>
-            <death><persName type="place">Ravenna</persName>, <date>14 settembre 1321</date></death>
+            <birth><name type="place">Firenze</name><date>tra il 14 maggio e il 13 giugno 1265</date></birth>
+            <death><name type="place">Ravenna</name>, <date>14 settembre 1321</date></death>
             <occupation>Poeta, scrittore e politico italiano.</occupation>
           </person>
           
@@ -119,17 +119,17 @@
             <name role="artist" ref="https://www.treccani.it/enciclopedia/lorenzo-ghiberti/" resp="MP" cert="high">
             <forename>Lorenzo</forename><surname>Ghiberti</surname>
             </name>
-            <birth><persName type="place">Pelago</persName><date>1378</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>1 dicembre 1455</date></death>
+            <birth><name type="place">Pelago</name><date>1378</date></birth>
+            <death><name type="place">Firenze</mame>, <date>1 dicembre 1455</date></death>
             <occupation>Scultore, orafo, architetto e scrittore d'arte italiano.</occupation>
           </person>
 
           <person xml:id="Cia">
-            <name role="" ref="" resp="MP" cert="high">
+            <name role="" ref="" resp="MP" cert="low">
             <forename></forename><surname>Ciampi</surname>
             </name>
-            <birth><persName type="place"> </persName><date> </date></birth>
-            <death><persName type="place"> </persName>, <date> </date></death>
+            <birth><name type="place"> </name><date> </date></birth>
+            <death><name type="place"> </name>, <date> </date></death>
             <occupation> </occupation>
           </person>
 
@@ -137,8 +137,8 @@
             <name role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
             <forename>Joseph Archer</forename><surname>Crowe</surname>
             </name>
-            <birth><persName type="place">Londra</persName><date>25 ottobre 1824</date></birth>
-            <death><persName type="place">Gamburg an der Tauber</persName>, <date>6 settembre 1896</date></death>
+            <birth><name type="place">Londra</name><date>25 ottobre 1824</date></birth>
+            <death><name type="place">Gamburg an der Tauber</name>, <date>6 settembre 1896</date></death>
             <occupation>Diplomatico e critico d'arte britannico.</occupation>
           </person>
 
@@ -146,8 +146,8 @@
             <name role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
             <forename>Giovanni Battista</forename><surname>Cavalcaselle</surname>
             </name>
-            <birth><persName type="place">Legnago</persName><date>22 gennaio 1819</date></birth>
-            <death><persName type="place">Roma</persName>, <date>31 ottobre 1897</date></death>
+            <birth><name type="place">Legnago</name><date>22 gennaio 1819</date></birth>
+            <death><name type="place">Roma</name>, <date>31 ottobre 1897</date></death>
             <occupation>Scrittore, storico dell'arte e critico d'arte italiano.</occupation>
           </person>
 
@@ -155,8 +155,8 @@
             <name role="poet" ref="https://www.treccani.it/enciclopedia/antonio-pucci_(Dizionario-Biografico)/" resp="MP" cert="high">
             <forename>Antonio</forename><surname>Pucci</surname>
             </name>
-            <birth><persName type="place">Firenze</persName><date>1310</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>1388</date></death>
+            <birth><name type="place">Firenze</name><date>1310</date></birth>
+            <death><name type="place">Firenze</name>, <date>1388</date></death>
             <occupation>Poeta italiano.</occupation>
           </person>
         </listPerson>

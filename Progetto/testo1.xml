@@ -38,7 +38,7 @@
             <cb n="1" />
             <!-- titolo -->
             <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
-            <p>L’ <roleName><abbr>on.</abbr></roleName> <surname>Coppino</surname>, poco prima di abbandonare il <orgName>Ministero
+            <p>L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero
             della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName type="district">Regno</placeName>, che si 
             fondava principalmente su questo concetto: dare agli uomini ed alle donne la stessa istruzione secondaria. Quindi 
             proponeva un doppio ordine di licei e ginnasi, di scuole 
@@ -194,6 +194,17 @@
             loro corsi di studio più seri e meno superficiali.</p>
 
         </div>
+
+        <listPerson>
+          <person xml:id="onCopp">
+            <name role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
+            <forename>Michele</forename><surname>Coppino</surname>
+            </name>
+            <birth><persName type="place">Arezzo</persName>, <date>30 luglio 1511</date></birth>
+            <death><persName type="place">Firenze</persName>, <date>27 giugno 1574</date></death>
+            <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
+          </person>
+        </listPerson>
     </body>
 </text>
 
