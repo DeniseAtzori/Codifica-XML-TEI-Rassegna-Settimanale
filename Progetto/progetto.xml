@@ -10,12 +10,12 @@
                 <respStmt>
             <!-- Responsabilità per il contenuto intellettuale del testo -->
                     <resp> Conversione TEI P5 a cura di</resp>
-                    <name xml:id="DA">
+                    <persName xml:id="DA">
                         <forename>Denise</forename><surname>Atzori</surname>
-                    </name>
-                    <name>
+                    </persName>
+                    <persName>
                         <forename>Martina</forename><surname>Perodi</surname>
-                    </name>
+                    </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
@@ -31,15 +31,16 @@
                     <publisher>Casa Editrice Barbèra</publisher>
                     <pubPlace>Firenze</pubPlace>
                     <editor>
-                        <name>
+                        <persName xml:id="LF">
                             <forename>Leopoldo</forename><surname>Franchetti</surname>
-                        </name>
-                        <name>
+                        </persName>
+                        <persName xml:id="SS">
                             <forename>Sydney</forename> <surname>Sonnino</surname>
-                        </name>
+                        </persName>
                     </editor>
                     <date>1878</date>
                 </bibl>
+                <p>Facsimile originale estratto dal progetto <title ref="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</title> realizzato nell’ambito delle iniziative previste per il Centenario della morte di <persName ref="#LF">Leopoldo Franchetti</persName> da <orgName>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</orgName>, <orgName>Università degli Studi Suor Orsola Benincasa</orgName> e <orgName>Comitato Nazionale per il Centenario della Morte di Leopoldo Franchetti</orgName>.</p>
             </sourceDesc>
         </fileDesc>
         <!-- Pensare se aggiungere un encodingDesc per le informazioni sulla codifica (relazione tra
