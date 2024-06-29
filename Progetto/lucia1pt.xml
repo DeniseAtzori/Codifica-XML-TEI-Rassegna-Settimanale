@@ -33,24 +33,32 @@
     <text>
         <body>
             <div type="tale">
+            <pb n="1" />
+            <cb n="1" />
                 <head style="text-transform: uppercase;">LUCIA.</head>
                 <p>Con la sua voce d’argento chiamò : <q>« <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia »</q> e rimase attenta ad ascoltare.... Un merlo spaurito, fuggì chioccolando da un cespuglio prossimo alla rupe 
-                in vetta alla quale stava <persName>Lucia</persName> chiamando la sua capretta, 
-                ma la capretta non rispose. <q>« O Dio ! chi mi rende la mia 
+                in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, 
+                ma la capretta non rispose. <q>« O <persName ref="#bib">Dio</persName> ! chi mi rende la mia 
                 <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »</q> e ponendosi
+            <pb n="2" />
+            <cb n="2" />
                 afflitta a sedere, con la fronte appoggiata ad una mano, 
                 tende l’occhio addolorato alle pendici del colle e tristamente s’ abbandona ai suoi pensieri.</p>
                 <p>Il sole bacia le sue spalle nude e la brezza della sera la 
                 investe fasciandole i panni alla persona elegante e le assalta briosa la chioma come se volesse rubarle quel fiore 
                 dei campi che agitato rosseggia fra le sue lucide trecce.</p>
-                <p>Come sei bella in mezzo alla primavera, o fresca <persName>Lucia</persName> ! 
-                e sei sola su la tèrra, povera <persName>Lucia</persName> !</p>
-                <p>Il padre suo morì di febbre in Maremma ; la madre è 
+                <p>Come sei bella in mezzo alla primavera, o fresca <persName type="fictional">Lucia</persName> ! 
+                e sei sola su la tèrra, povera <persName type="fictional">Lucia</persName> !</p>
+                <p>Il padre suo morì di febbre in <placeName type="region">Maremma</placeName> ; la madre è 
                 lontana, ha la sua casetta su quelle montagne azzurre 
                 laggiù in fondo in fondo, ed è vecchia ed inferma.... se a 
                 quest’ ora non è già a riposarsi nel cimitero di fianco alla 
                 chiesa. E il fratello? Chi sa? Andò soldato; lo mandarono 
-                di là dal mare; non ha scritto più nulla da due anni.... dove 
+                di là dal mare; non ha scritto più nulla da 
+
+                <date dur="P2Y">due anni</date>.... 
+                
+                dove 
                 sarà?</p>
                 <p>Cacciata dal bisogno, dopo aver abbracciato i suoi cari, 
                 scese dalle montagne natie ed ora, garzona d’ un contadino 
@@ -58,26 +66,33 @@
                 alla pastura.</p>
                 <p>La madre ed il fratello erano così da lei chiamati, ma 
                 non erano tali. L’avevano allevata e tenuta cara finché 
-                l’ Ospizio dei Trovatelli passò loro quindici lire al mese ; 
+
+                l’ <orgName>Ospizio dei Trovatelli</orgName> 
+                
+                passò loro quindici lire al mese ; 
                 dopo, con un tozzo di pane ed un paro di scarpe nuove, 
-                le insegnarono la strada e serrandole dietro la porta : <q>« Dio 
-                t’accompagni, bambina mia!»</q> e <persName>Lucia</persName> scese al piano ed 
+                le insegnarono la strada e serrandole dietro la porta : <q>« <persName ref="#bib">Dio</persName> 
+                t’accompagni, bambina mia!»</q> e <persName type="fictional">Lucia</persName> scese al piano ed 
                 ora fila, guida le capre alla pastura e guarda quei monti 
                 lontani.</p>
                 <p><q>« Se ritorni senza la capra, pover’ a te ! »</q> le ha detto 
-                dianzi Rosalba cacciandola a spintoni fuori della stalla. E 
-                <persName>Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smarrita per sempre; lo sa, e con la fronte appoggiata sopra 
+                dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
+                <persName type="fictional">Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smarrita per sempre; lo sa, e con la fronte appoggiata sopra 
                 una mano, tende l’ occhio addolorato alle pendici del colle 
                 e pensa e singhiozza.</p>
-                <p><q>« Se non ritrovo la mia capretta, stasera non mi daranno da cena e Rosalba mi picchierà come l’altra volta.... 
-                mi fece tanto male al petto ! 0 Dio, Dio ! »</q></p>
+                <p><q>« Se non ritrovo la mia capretta, stasera non mi daranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... 
+                mi fece tanto male al petto ! 0 <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »</q></p>
                 <p>Un ramarro, verde come le foglie del fico salvatico sul 
                 quale si era arrampicato per cercare gli ultimi raggi del 
-                sole cadente, vibrando la lingua veloce, la fissava, non visto, coi suoi occhi d’ebano, e <persName>Lucia</persName> singhiozzando pensava:</p>
+                sole cadente, vibrando la lingua veloce, la fissava, non visto, coi suoi occhi d’ebano, e <persName type="fictional">Lucia</persName> singhiozzando pensava:</p>
                 <p><q>« Mi manderanno via.... domani ! forse stasera ! e non ci 
-                ho colpa. Le ho munte stamani alle sei, le ho contate e 
-                c’ erano tutte.... Dodici lire ! e dove le trovo per dire a Rosalba :<said> — tenete ; la capra è smarrita e queste sono le dodici lire che costava? —</said> Ma non le ho ! Non mi daranno 
-                da cena ; Rosalba mi picchierà e mi chiameranno.... o Dio, Dio ! »</q></p>
+                ho colpa. Le ho munte stamani alle 
+
+                <time when="06:00:00">sei</time>, 
+
+                le ho contate e 
+                c’ erano tutte.... Dodici lire ! e dove le trovo per dire a <persName type="fictional">Rosalba</persName> :<said> — tenete ; la capra è smarrita e queste sono le dodici lire che costava? —</said> Ma non le ho ! Non mi daranno 
+                da cena ; <persName type="fictional">Rosalba</persName> mi picchierà e mi chiameranno.... o <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »</q></p>
 
             </div>
         </body>
