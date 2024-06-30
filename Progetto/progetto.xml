@@ -13,7 +13,7 @@
                     <persName xml:id="DA">
                         <forename>Denise</forename><surname>Atzori</surname>
                     </persName>
-                    <persName>
+                    <persName xml:id="MP">
                         <forename>Martina</forename><surname>Perodi</surname>
                     </persName>
                 </respStmt>
@@ -28,7 +28,7 @@
             <!-- Descrizione della fonte primaria -->
                 <bibl>
                     <title>La Rassegna Settimanale di politica, scienza, lettere ed arti. Volume 1, 1878</title>
-                    <publisher>Casa Editrice Barbèra</publisher>
+                    <publisher xml:id="CEB">Casa Editrice Barbèra</publisher>
                     <pubPlace>Firenze</pubPlace>
                     <editor>
                         <persName xml:id="LF">
@@ -58,9 +58,7 @@
                     </category>
                 </taxonomy>
             </classDecl>
-        </encordingDesc>
-        <!-- Pensare se aggiungere un profileDesc (descrizione dettagliata degli aspetti non
-        bibliografici del testo come le lingue usate ) e revisionDesc (stroria delle revisioni del file)-->
+        </encodingDesc>
     </teiHeader>
     <text>
         <!-- Inizio del contenuto testuale -->
@@ -78,7 +76,7 @@
                         <p>Vol. 1°, N°18.</p>
                         <date>5 Maggio '78</date>
                     </div>
-                    <!-- Capire se la listPerson va qui -->
+                    <!-- Lista delle persone citate nell'articolo -->
                     <listPerson>
                         <person xml:id="CG">
                             <name role="author" ref="https://www.storiapatriagenova.it/Docs/Biblioteca_Digitale/SB/e25420184d85de7e976749e9f76eb9f1/Estratti/53f004d08d63d78be02d7a004253b70c.pdf" resp="DA" cert="high">
@@ -95,7 +93,6 @@
                 <!-- Contenuto testuale del primo articolo -->
                     <div n="a1" type="article">
                         <pb n="339" />
-                        <!-- La colonna inizia prima dell'inizio dell'articolo. Che si fa in questo caso? -->
                         <cb n="1" />
                         <!-- titolo dell'articolo -->
                         <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLE DONNE.</head>
@@ -128,8 +125,155 @@
                 </body>
                 <back></back>
             </text>
-            <text>
+             <text>
                 <!-- Secondo articolo -->
+                <front>
+                    <div type="intestazione">
+                        <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
+                         <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+                        <p>Vol. 1°, N°21.</p>
+                        <date>26 Maggio '78</date>
+                    </div>
+                     <!-- Lista delle persone citate nell'articolo -->
+                    <listPerson>
+                        <person xml:id="JS">
+                            <name role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
+                                <forename>Jules</forename><surname>Soury</surname>
+                            </name>
+                            <birth><name type="place">Parigi</name>, <date when="1842-05-28">28 maggio 1842</date></birth>
+                            </death><name type="place">Paris</name>,<date when="1915-08-11">11 agosto 1915</date></death>
+                            <occupation>Scrittore, filosofo, tratuttore e storico.</occupation>
+                            <note>Giulio è la versione italianizzata del suo nome.</note>
+                        </person>
+                        <person xml:id="ER">
+                            <name role="philosopher" ref="https://it.wikipedia.org/wiki/Ernest_Renan" resp="DA" cert="high">
+                                <forename>Ernest</forename><surname>Renan</surname>
+                            </name>
+                            <birth><name type="place">Tréguier</name>, <date when="1823-02-28">28 febbraio 1823</date></birth>
+                            </death><name type="place">Paris</name>,<date when="1892-10-02">2 ottobre 1892</date></death>
+                            <occupation>Filosofo, filologo, storico delle religioni e scrittore francese.</occupation>
+                        </person>
+                        <person xml:id="GM">
+                            <name role="historian" ref="https://www.treccani.it/enciclopedia/gabriel-monod/" resp="DA" cert="high">
+                                <forename>Gabriel</forename><surname>Monod</surname>
+                            </name>
+                            <birth><name type="place">Le Hauvre</name>, <date>1844</date></birth>
+                            </death><name type="place">Versailles</name>,<date>1912</date></death>
+                            <occupation>Storico francese.</occupation>
+                        </person>
+                        <person xml:id="EIV">
+                            <name role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
+                                Enrico IV di Borbone detto Enrico il Grande
+                            </name>
+                            <birth><name type="place">Pau</name>, <date when="1553-12-13">13 dicembre 1553</date></birth>
+                            </death><name type="place">Parigi</name>,<date when="1610-05-14">14 maggio 1610</date></death>
+                            <occupation>Primo re di Francia della Casa di Borbone.</occupation>
+                        </person>
+                        <person xml:id="MS">
+                            <name role="king" ref="https://it.wikipedia.org/wiki/Maria_Stuarda" resp="DA" cert="high">
+                                <forename>Mary</forename> <surname>Stuart</surname>
+                            </name>
+                            <birth><name type="place">Linlithgow</name>, <date when="1542-12-88">8 dicembre 1542</date></birth>
+                            </death><name type="place">Fotheringhay</name>,<date when="1587-02-08">8 febbraio 1587</date></death>
+                            <occupation>Regina di Scozia dal 1542 al 1567, regina consorte di Francia dal 1559 al 1560.</occupation>
+                            <note>Nome italianizzato come Maria Stuarda</note>
+                        </person>
+                    </listPerson>
+                    <!-- Lista delle opere citate nell'articolo -->
+                     <listBibl>
+                        <biblStruct type="book" xml:id="JetE">
+                            <monogr>
+                                <author ref="#JS">Jules Soury</author>
+                                <title type="main">Jésus et les Évangiles</title>
+                                <imprint>
+                                    <publisher>Charpentier</publisher>
+                                    <pubPlace>Parigi</pubPlace>
+                                    <date>1878</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="journal" xml:id="JetE">
+                            <monogr>
+                                <title type="main">Le Temps</title>
+                                <imprint>
+                                    <respStmt>
+                                        <resp>Fondato da</resp>
+                                        <persName>Auguste Nefftzer</persName>
+                                    </respStmt>
+                                    <pubPlace>Parigi</pubPlace>
+                                    <date from="1861" to="1942">Pubblicato dal 1861 al 1942</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="journal" xml:id="MLA">
+                            <monogr>
+                                <respStmt>
+                                    <resp>Redattori principali</resp>
+                                    <persName>Joseph Lehmann</persName>
+                                    <persName>Wilhelm Theodor Ferdinand Einhorn</persName>
+                                    <persName>Fritz Mauthner</persName>
+                                </respStmt>
+                                <title type="main">Magazin für die Literatur des Auslandes</title>
+                                <imprint>
+                                    <publisher>	A. W. Hayn</publisher>
+                                    <pubPlace>Berlino</pubPlace>
+                                    <date from="1832" to="1915">Pubblicato dal 1832 al 1915</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="RPFE">
+                            <monogr>
+                                <respStmt>
+                                    <resp>Curato da</resp>
+                                    <persName>Alexandre Teulet</persName>
+                                </respStmt>
+                                <title type="main">Relations politiques de la France et de l'Espagne avec l'Écosse au XVIe Siècle</title>
+                                <imprint>
+                                    <publisher>Veuve Jules Renouard, Éditeur</publisher>
+                                    <pubPlace>Paris</pubPlace>
+                                    <date>1862</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl>
+                </front>
+                <body>
+                    <div>
+                    <!-- Aggiungere prima parte Notizie -->
+                        <p> — Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> «<bibl><title ref="#JetE"><foreign xml:lang="fr"> Jésus et les Evangiles </foreign></title></bibl> » ha levato a <placeName><settlement type="city">Parigi</settlement><placeName> gran rumore. Come è noto, <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore del <bibl><title level="j" ref="#LeT">Temps</title></bibl>; una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in <q>« detrito »</q><note>(sic)</note>. Il libro del <persName ref="#JS">Soury</persName> è dunque «<foreign xml:lang="fr"> un livre étrange</foreign> ; » ma ad onta di ciò, anzi, appunto a causa di ciò verrà letto.</p>
+                        <note>(Dal <bibl><title ref="#MLA" level="j"><foreign xml:lang="de">Magazin für die Literatur des Auslandes</foreign></title></bibl>.)<note>
+                        <p>— <persName ref="#GM">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName> 1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS">Maria Stuarda</persName> pubblicata già nelle <bibl><title ref="#RPFE"><foreign xml:lang="fr">Relations politiques de la <placeName><country type="nation">France</country></placeName> et de l'<placeName><country type="nation">Espagne</country></placeName> avec l'<placeName><country type="nation">Ecosse</country></placeName> au <date from="1501" to="1600">XVI siècle</date></foreign></title></bibl>. Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">Enrico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement><placeName>.</p>
+                    </div>
+                </body>
+                <back>
+                    <div type="credits">
+                        <persName ref="#LF">
+                            <forename>Leopoldo</forename> <surname>Franchetti</surname>
+                        </persName> 
+                        <persName ref="#SS">
+                            <forename>Sidney</forename> <surname>Sonnino</surname>
+                        </persName>
+                        <roleName type="editorial">Proprietari</roleName> 
+                        <roleName type="editorial">Direttori</roleName>. 
+                        <persName>
+                            <forename>Angiolo</forename> <surname>Gherardini</surename>
+                        </persName>, 
+                        <roleName type="editorial">Gerente Responsabile</roleName>. <placeName style="text-transform: uppercase;">
+                            <settlement type="city">FIRENZE</settlement>
+                        </placeName>, 
+                        <date>1878</date>.- 
+                        <orgName type="publisher" ref="#CEB">Tipografia Barbèra</orgName>.
+                    </div>
+                </back>
+            </text>
+            <text>
+                <!-- Terzo articolo -->
+                <front></front>
+                <body></body>
+                <back></back>
+            </text>
+            <text>
+                <!-- Quarto articolo -->
                 <front>
                     <div type="intestazione">
                         <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
@@ -137,6 +281,7 @@
                         <p>Vol. 1°, N°23.</p>
                         <date>9 Giugno '78</date>
                     </div>
+                    <!-- Lista delle persone citate nell'articolo -->
                     <listPerson>
                         <person xml:id="RF">
                             <name role="poet" ref="https://www.treccani.it/enciclopedia/renato-fucini_(Dizionario-Biografico)/" resp="DA" cert="high">
@@ -162,7 +307,12 @@
                         <p>Appena scesa la notte, la capra tornò belando alla casa in cerca delle sue compagne. Tutti le mossero lieti incontro; <persName type="fictional">Lucia</persName> sola non si mosse nè si rallegrò. Aveva il viso acceso, un livido in una gota e i capelli e le vesti in disordine.... <said>« Se ti senti male, va’ a letto »</said> le disse <persName type="fictional">Rosalba</persName> fattasi cortese dopo il ritorno della capra. E <persName type="fictional">Lucia</persName> s’avviò stanca alla sua cameretta.... Cercò il fiore per offrirlo alla <persName ref="#bib">Regina degli Angioli</persName>, ma l’aveva perduto ! Sentì una stretta al core, dette in uno scoppio di pianto e cadde sul suo letticciuolo dove aspettò il giorno spasimando.</p>
                         <p><persName type="fictional">Togno</persName> quella sera non aveva sonno. Aguzzò tutti i pali per gli olivi della chiudenda ; rifece la traversa all’ erpice vecchio e fino al tocco dopo la mezzanotte rimase a frescheggiare su l’aia, cantando a gola spiegata.</p>
                         <p>Era uno stellato di paradiso.</p>
-                        <closer><signed style="text-transform: uppercase;"><persName ref="#RF"><forename>RENATO</forename> <surname>FUCINI</surname></persName>.</signed></closer>
+                        <signed style="text-transform: uppercase;">
+                            <persName ref="#RF">
+                            <forename>RENATO</forename> 
+                            <surname>FUCINI</surname>
+                            </persName>.
+                        </signed>
                     </div>
                 </body>
                 <back></back>
@@ -176,7 +326,7 @@
                         <p>Vol. 1°, N°23.</p>
                         <date>9 Giugno '78</date>
                     </div>
-                    <!-- lista delle persone (da capire se va qui) -->
+                    <!-- Lista delle persone citate nell'articolo -->
                     <listPerson>
                         <person xml:id="PEG">
                             <name role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
@@ -237,7 +387,7 @@
                             <occupation>Scrittore, poeta e drammaturgo italiano.</occupation>
                         </person>
                     </listPerson>
-                    <!-- lista dei riferimenti bibliografici -->
+                    <!-- Lista delle opere citate nell'articolo -->
                     <listBibl>
                         <biblStruct type="book" xml:id="aux">
                             <monogr>
@@ -365,18 +515,6 @@
                         </div>
                     </div>
                 </body>
-                <back></back>
-            </text>
-            <text>
-                <!-- Quarto articolo -->
-                <front></front>
-                <body></body>
-                <back></back>
-            </text>
-            <text>
-                <!-- Quinto articolo -->
-                <front></front>
-                <body></body>
                 <back></back>
             </text>
             <text>
