@@ -51,9 +51,7 @@
         <div type="article">
             <pb n="1" />
             <cb n="1" />
-            <!-- cose da finire
-            distinct (vedere in tutti gli articoli)
-            temi (alcuni taggati: andranno bene?)-->
+
             <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
             <p>L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero
             della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName type="district">Regno</placeName>, che si 
