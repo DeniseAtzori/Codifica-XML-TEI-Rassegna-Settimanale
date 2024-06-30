@@ -38,7 +38,7 @@
                 <head style="text-transform: uppercase;">LUCIA.</head>
                 <p>Con la sua voce d’argento chiamò : <q>« <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia »</q> e rimase attenta ad ascoltare.... Un merlo spaurito, fuggì chioccolando da un cespuglio prossimo alla rupe 
                 in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, 
-                ma la capretta non rispose. <q>« O <persName ref="#bib">Dio</persName> ! chi mi rende la mia 
+                ma la capretta non rispose. <q type="spoken">« O <persName ref="#bib">Dio</persName> ! chi mi rende la mia 
                 <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »</q> e ponendosi
             <pb n="2" />
             <cb n="2" />
@@ -71,21 +71,21 @@
                 
                 passò loro quindici lire al mese ; 
                 dopo, con un tozzo di pane ed un paro di scarpe nuove, 
-                le insegnarono la strada e serrandole dietro la porta : <q>« <persName ref="#bib">Dio</persName> 
+                le insegnarono la strada e serrandole dietro la porta : <q type="spoken">« <persName ref="#bib">Dio</persName> 
                 t’accompagni, bambina mia!»</q> e <persName type="fictional">Lucia</persName> scese al piano ed 
                 ora fila, guida le capre alla pastura e guarda quei monti 
                 lontani.</p>
-                <p><q>« Se ritorni senza la capra, pover’ a te ! »</q> le ha detto 
+                <p><q type="spoken">« Se ritorni senza la capra, pover’ a te ! »</q> le ha detto 
                 dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
                 <persName type="fictional">Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smarrita per sempre; lo sa, e con la fronte appoggiata sopra 
                 una mano, tende l’ occhio addolorato alle pendici del colle 
                 e pensa e singhiozza.</p>
-                <p><q>« Se non ritrovo la mia capretta, stasera non mi daranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... 
+                <p><q type="thought">« Se non ritrovo la mia capretta, stasera non mi daranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... 
                 mi fece tanto male al petto ! 0 <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »</q></p>
                 <p>Un ramarro, verde come le foglie del fico salvatico sul 
                 quale si era arrampicato per cercare gli ultimi raggi del 
                 sole cadente, vibrando la lingua veloce, la fissava, non visto, coi suoi occhi d’ebano, e <persName type="fictional">Lucia</persName> singhiozzando pensava:</p>
-                <p><q>« Mi manderanno via.... domani ! forse stasera ! e non ci 
+                <p><q type="thought">« Mi manderanno via.... domani ! forse stasera ! e non ci 
                 ho colpa. Le ho munte stamani alle 
 
                 <time when="06:00:00">sei</time>, 

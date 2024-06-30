@@ -28,6 +28,21 @@
       </sourceDesc>
 
     </fileDesc>
+
+        <encodingDesc>
+            <!-- Definizione delle tassonomie degli articoli codificati -->
+            <classDecl>
+                <taxonomy xml:id="temi">
+                    <category xml:id="istrDonne">
+                        <catDesc>Riferimenti al tema dell'istruzione delle donne</catDesc>
+                    </category>
+                    <category xml:id="istr">
+                        <catDesc>Riferimenti al tema dell'istruzione in generale</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
   </teiHeader>
 
 
@@ -36,24 +51,27 @@
         <div type="article">
             <pb n="1" />
             <cb n="1" />
-            <!-- titolo -->
+            <!-- cose da finire
+            distinct (vedere in tutti gli articoli)
+            temi (alcuni taggati: andranno bene?)-->
             <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
             <p>L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero
             della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName type="district">Regno</placeName>, che si 
-            fondava principalmente su questo concetto: dare agli uomini ed alle donne la stessa istruzione secondaria. Quindi 
+            fondava principalmente su questo concetto: 
+            <ptr type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ptr>. Quindi 
             proponeva un doppio ordine di licei e ginnasi, di scuole 
             ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato 
             al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto 
-            sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. Chi vuole il greco ed il latino, e chi 
+            sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ptr type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi 
             non lo vuole; chi vuole la donna istruita ed ha paura della 
-            donna letterata, e chi vuol solo la madre di famiglia. Ma 
+            donna letterata, e chi vuol solo la madre di famiglia</ptr>. Ma 
             forse questa discussione si potrebbe sospendere di fronte 
             ad una osservazione molto più semplice: qualunque cosa 
-            si voglia, le nostre scuole femminili sono insufficenti a 
-            darla, ed in ogni caso è necessario moltiplicar1e e migliorarle.</p>
+            si voglia, <ptr type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a 
+            darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ptr>.</p>
             <p>In generale può dirsi che, mentre noi cerchiamo di dare 
             all’ uomo una istruzione che ne sviluppi e fortifichi l’intelligenza, ne accresca la cultura, alla donna vogliam dare 
-            solo una istruzione che le serva di ornamento. Da ciò ne 
+            solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne 
             viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, 
             ci serviamo di questi che sono i resultati naturali del 
             nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, 
@@ -63,8 +81,8 @@
             porterebbe i medesimi resultati anche in un uomo. E non 
             viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, 
             nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
-            Ma c’ è di peggio ancora. Uno dei guai d’<placeName type="country">Italia</placeName> sono i 
-            nostri convitti. I soli che diano qualche utile resultato sono
+            Ma c’ è di peggio ancora. <ptr type="tema" target="#istr">Uno dei guai d’<placeName type="country">Italia</placeName> sono i 
+            nostri convitti</ptr>. I soli che diano qualche utile resultato sono
             i convitti militari, perchè in essi è entrato quello spirito di 
             disciplina, d’indipendenza morale e di onore cavalleresco, che 
             costituiscono la forza e la gloria del nostro esercito. I convitti 
@@ -78,7 +96,7 @@
             falsissima, perchè mira a sopprimere ogni sentimento di 
             responsabilità e d’indipendenza morale. In molti di essi, anche fra i migliori, si crede, per esempio, 
             massima indiscutibile, che le ragazze debbano andare il meno possibile nella 
-            propria famiglia, per non corrompersi. La madre non può 
+            propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può 
             scrivere alla figlia, nè questa alla madre, senza che la di<cb n="2" />rettrice apra e legga le lettere. Un fratello 
             non può visitare la sorella nel convitto, per non far nascere scandali. 
             La conseguenza naturale di tutto ciò è che in molti convitti femminili tra le ragazze non si parìa d’altro che 
@@ -110,9 +128,9 @@
             Questa forse non è l’ultima fra le cagioni per cui i nostri 
             libri diventano noiosi, aridi, tecnici, e sono scritti troppo 
             spesso solamente per gli uomini del mestiere.
-            Per ora il nostro sistema scolastico femminile si riduce 
+            <ptr type="tema" target="#istrDonne">Per ora il nostro sistema scolastico femminile si riduce 
             alle scuole elementari, ed alle scuole normali che formano 
-            le maestre elementari. Le sei o forse sette scuole femminili, che si chiamano superiori, sono certo una lodevole 
+            le maestre elementari</ptr>. Le sei o forse sette scuole femminili, che si chiamano superiori, sono certo una lodevole 
             eccezione; ma poche di numero e con poche alunne non possono mutare il carattere generale del sistema. Esse non 
             sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, 
             e per le donne invece rappresentano lo scalino più alto. 
@@ -135,20 +153,20 @@
             davvero sono le scuole normali, anzi, può dirsi che siano, 
             generalmente parlando, i soli istituti superiori per le donne, 
             quelli che danno la regola e la norma a tutti gli altri. L’insegnamento di molti convitti si modella infatti su di esse, 
-            nè quello delle poche scuole" femminili, che portano il nome 
+            nè quello delle poche scuole femminili, che portano il nome 
             di superiori differisce gran fatto da esse. E stata la necessità di avere le maestre elementari quella che portò 
             alla formazione delle scuole normali, le quali costituiscono 
             un vero progresso nell’ istruzione delle donne, ed hanno cominciato ad aprir loro la via ad un ufficio col quale molte 
             sostentano la propria vita, altre aiutano le famiglie. E qui 
-            non è forse inopportuno 1’ osservare, che queste scuole 
+            non è forse inopportuno <ptr type="tema" target="#istrDonne">l’ osservare, che queste scuole 
             normali femminili riescono, secondo il giudizio concorde di 
-            tutte le autorità scolastiche, meglio assai che le maschili, 
+            tutte le autorità scolastiche, meglio assai che le maschili</ptr>, 
             superiorità che naturalmente si riscontra anche nelle scuole 
             elementari. Senza volere da ciò cavare conseguenze troppo 
             generali, è pur forza affermare', che il primo esperimento 
             col quale si è veramente dato alla donna ed all’ uomo una 
-            medesima istruzione, ha provato con evidenza che la donna 
-            non riesce punto inferiore all’ uomo.</p>
+            medesima istruzione, ha provato con evidenza che <ptr type="tema" target="#istrDonne">la donna 
+            non riesce punto inferiore all’ uomo</ptr>.</p>
             <p>Ma c’ è una ragione al mondo, per la quale ad essa 
             non si debba dare altra istruzione che quella strettamente 
             necessaria a farne una buona maestra elementare? È qui 
@@ -173,7 +191,7 @@
             che, nel caso identico, così largamente e così generosamente 
             si concede agli uomini? Perchè non le si apre la via per 
             ottenere legalmente un diploma, e non le si offrono i necessari aiuti?</p>
-            <p>A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la.sua posizione legale e la sua 
+            <p>A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la sua posizione legale e la sua 
             posizione morale sarebbero innanzi al pubblico, al governo 
             ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè 
             di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : <q type="spoken">Voi ci chiamate ad insegnare 
@@ -183,8 +201,8 @@
             avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, 
             come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.</q> Il dovere di rispondere a questa domanda è 
             indiscutibile, e per rispondervi bisognerebbe cominciare a <cb n="4" />
-            trovare il modo di dare alla donna, sotto una forma o sotto 
-            un’ altra, un insegnamento superiore di fatto e non di 
+            <ptr type="tema" target="#istrDonne">trovare il modo di dare alla donna, sotto una forma o sotto 
+            un’ altra, un insegnamento superiore di fatto</ptr> e non di 
             nome solamente. Noi crediamo che questo bisogno sia universalmente riconosciuto, anche da coloro che non son molto 
             favorevoli alla generale cultura della donna. E siamo certi 
             che una volta aperte e bene ordinate le <orgName>scuole Normali 
