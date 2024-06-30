@@ -27,7 +27,7 @@
             <sourceDesc>
             <!-- Descrizione della fonte primaria -->
                 <bibl>
-                    <title>La Rassegna Settimanale di politica, scienza, lettere ed arti. Volume 1, 1878</title>
+                    <title xml:id="RasSet">La Rassegna Settimanale di politica, scienza, lettere ed arti. Volume 1, 1878</title>
                     <publisher xml:id="CEB">Casa Editrice Barbèra</publisher>
                     <pubPlace>Firenze</pubPlace>
                     <editor>
@@ -96,12 +96,24 @@
                             <date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
                             <q type="written">
                                 « sono per l’<ptr type="tema" target="#istrDon">istruzione della donna</ptr>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta*
-                                <note type="footnote">* Vedi Rassegna, n. 16, pag. 298.</note> »
                             </q>
+                            <note type="footnote">
+                                    * Vedi 
+                                    <bibl>
+                                        <title ref="#RasSet">Rassegna</title>, 
+                                        n. 16, pag. 298.
+                                    </bibl>
+                            </note> »
                             Aggiungo ora che il problema sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere quello scopo. Ma siccome per studiare i mezzi di giungere ad una mèta, bisogna che questa sia nettamente definita, così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile determinare insieme quale sia, nell’<ptr type="tema" target="#istr">opera della istruzione</ptr>, la parte che dipende direttamente dall’ <ptr type="tema" target="#istr">insegnamento in forma generica</ptr>, e quale quella che ne supera il potere.
                         </p>
                         <p>
-                            Vi dirò subito che per me la <ptr type="tema" target="#istr">missione dell’ insegnamento</ptr> non può essere quella di <ptr type="tema" target="#istr">trasmettere in blocco il sapere</ptr>: la ristrettezza del tempo dentro il quale l’<ptr type="tema" target="#istr">insegnamento regolare</ptr> va concentrato, la non maturità della mente di chi impara, la mancanza dei punti di paragone che l’ esperienza sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic">proprie</emph> le cognizioni materialmente comunicateci da altri — condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">precipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: <ptr type="tema" target="#istr"><q type="written">« quali fossero per ciascuno le cognizioni utili »</q></rs> e siccome queste si trovano sempre essere innumerevoli, il problema — problema davvero insolubile — era lo stringerle, l’ abbreviarle, l’ accalcarle nello spazio e nel tempo prefisso. Di qui il sistema di catechismo divenuto, per scienze e per lettere, una necessità, a scapito di ogni indipendenza mentale ; di qui l’abuso stragrande della memoria a spese del raziocinio; di qui la forzata divisione degli allievi in categorie secondo quello che, fatti uomini o donne, dovevano diventare, con evidente pregiudizio della loro libertà, <sic>perchè</sic> costretti a scegliere coi dati insufficienti della età prematura, o a far scegliere da altri.
+                            Vi dirò subito che per me la <ptr type="tema" target="#istr">missione dell’ insegnamento</ptr> non può essere quella di <ptr type="tema" target="#istr">trasmettere in blocco il sapere</ptr>: la ristrettezza del tempo dentro il quale l’<ptr type="tema" target="#istr">insegnamento regolare</ptr> va concentrato, la non maturità della mente di chi impara, la mancanza dei punti di paragone che l’ esperienza sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic">proprie</emph> le cognizioni materialmente comunicateci da altri — condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">precipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: 
+                            <ptr type="tema" target="#istr">
+                                <q type="written">
+                                    « quali fossero per ciascuno le cognizioni utili »
+                                </q>
+                            </ptr> 
+                            e siccome queste si trovano sempre essere innumerevoli, il problema — problema davvero insolubile — era lo stringerle, l’ abbreviarle, l’ accalcarle nello spazio e nel tempo prefisso. Di qui il sistema di catechismo divenuto, per scienze e per lettere, una necessità, a scapito di ogni indipendenza mentale ; di qui l’abuso stragrande della memoria a spese del raziocinio; di qui la forzata divisione degli allievi in categorie secondo quello che, fatti uomini o donne, dovevano diventare, con evidente pregiudizio della loro libertà, <sic>perchè</sic> costretti a scegliere coi dati insufficienti della età prematura, o a far scegliere da altri.
                         </p>
                         <p>
                             Oggi, mi pare che l’esperienza dovrebbe averci insegnato che il quesito stesso era in sè mal posto; che non si tratta di scegliere le cognizioni utili, giacché tutte sono tali; ma si tratta di far la mente capace a riceverne il più possibile, sviluppando al più alto grado tutte le facoltà di cui è dotata. E per questo <ptr type="tema" target="#istr">la cosa più importante non è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ptr>
@@ -157,24 +169,46 @@
                     <div>
                     <!-- Aggiungere prima parte Notizie -->
                         <p> 
-                            — Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
-                            «<bibl>
+                            — Il libro di 
+                            <persName ref="#JS">
+                                <forename>Giulio</forename> 
+                                <surname>Soury</surname>
+                            </persName> 
+                            <bibl>«
                                 <title ref="#JetE">
                                     <foreign xml:lang="fr"> 
                                         Jésus et les Evangiles 
                                     </foreign>
-                                </title>
-                            </bibl> » 
-                            ha levato a <placeName><settlement type="city">Parigi</settlement><placeName> gran rumore. Come è noto, <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore del
+                                </title>»
+                            </bibl>  
+                            ha levato a 
+                            <placeName>
+                                <settlement type="city">Parigi</settlement>
+                            <placeName> 
+                            gran rumore. Come è noto, 
+                            <persName ref="#JS">
+                                <forename>Giulio</forename> 
+                                <surname>Soury</surname>
+                            </persName> 
+                            è un attivo collaboratore del
                             <bibl>
                                 <title level="j" ref="#LeT">Temps</title>
                             </bibl>; 
-                            una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in 
+                            una volta era anche segretario del 
+                            <roleName>signor</roleName> 
+                            <persName ref="#ER" resp="DA" cert="medium">
+                                Renan
+                            </persName>. 
+                            Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in 
                             <q>
                                 « detrito »
                             </q>
                             <note>(sic)</note>. 
-                            Il libro del <persName ref="#JS">Soury</persName> è dunque 
+                            Il libro del 
+                            <persName ref="#JS">
+                                <surname>Soury</surname>
+                            </persName> 
+                            è dunque 
                                 <q>
                                     «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
                                 </q> 
@@ -190,7 +224,18 @@
                             .)
                         <note>
                         <p>
-                            — <persName ref="#GM">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName> 1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS">Maria Stuarda</persName> pubblicata già nelle 
+                            — <persName ref="#GM">
+                                G. Monod
+                            </persName>
+                            ha trovato a 
+                            <placeName>
+                                <settlement type="city">Berna</settlement>
+                            </placeName> 
+                            1’ originale della lettera che contiene la relazione dell’esecuzione di 
+                            <persName type="historical" ref="#MS">
+                                Maria Stuarda
+                            </persName> 
+                            pubblicata già nelle 
                             <bibl>
                                 <title ref="#RPFE">
                                     <foreign xml:lang="fr">
@@ -219,7 +264,19 @@
                                     </foreign>
                                 </title>
                             </bibl>. 
-                            Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">Enrico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement><placeName>.
+                            Questa lettera è indirizzata a 
+                            <roleName>Monsieur</roleName> 
+                            <persName>D’Averley</persName> 
+                            ambasciatore di 
+                            <persName type="historical" ref="#EIV">
+                                Enrico IV
+                            </persName> di 
+                            <placeName>
+                                <settlement type="city">Navarra</settlement>
+                            </placeName> a 
+                            <placeName>
+                                <settlement type="city">Strasburgo</settlement>
+                            <placeName>.
                         </p>
                     </div>
                 </body>
@@ -369,10 +426,10 @@
                         <head>
                         </head>
                         <p>
-                            Una folata di vento più forte le portò via il fiore dai capelli; si alzò lesta per riprenderlo e il core le fece un balzo d’allegrezza al rapido fruscio che sentì tra le foglie a pochi passi da lei e credè ritrovata la sua capretta. Il ramarro spaventato dal movimento di <persName type="fictional"><persName type="fictional">Lucia</persName></persName>, s’era lasciato cadere dal ramo del fico salvatico e strisciando come una saetta, era corso a refugiarsi nel cavo d’ una ceppa di castagno.   
+                            Una folata di vento più forte le portò via il fiore dai capelli; si alzò lesta per riprenderlo e il core le fece un balzo d’allegrezza al rapido fruscio che sentì tra le foglie a pochi passi da lei e credè ritrovata la sua capretta. Il ramarro spaventato dal movimento di <persName type="fictional">Lucia</persName>, s’era lasciato cadere dal ramo del fico salvatico e strisciando come una saetta, era corso a refugiarsi nel cavo d’ una ceppa di castagno.   
                         </p>
                         <p>
-                            Raccolse il fiore e se lo accomodò più forte tra i capelli. A <persName type="fictional"><persName type="fictional">Lucia</persName></persName> era caro quel fiore come tutti gli altri che ogni mattina coglieva per adornarsene il capo e per offrirli la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo letticciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Vergine</persName> l’omaggio di quel povero fiore.
+                            Raccolse il fiore e se lo accomodò più forte tra i capelli. A <persName type="fictional">Lucia</persName> era caro quel fiore come tutti gli altri che ogni mattina coglieva per adornarsene il capo e per offrirli la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo letticciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Vergine</persName> l’omaggio di quel povero fiore.
                         </p>
                         <p>
                             <persName type="fictional">Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuffato sotto l’orizzonte lontano, sentì il suo sgomento farsi maggiore e disperata chiamò per 1’ ultima volta : <said>« <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia, teeeh ! »</said>
@@ -453,28 +510,76 @@
                                 'È un libretto di poche pagine e non ce ne occuperemmo, se non si trattasse che, vestito delle solite eleganze tipografiche <rs type="publisher" ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchinetta di guerra della <rs type="literary movement">scuola <ptr type="tema" target="#verbum" rend="italic">realista</ptr></rs>.
                             </p>
                             <p>
-                                Il signor <persName ref="#PEG">Guarnerio</persName> s’è proposto di dar mano a <persName ref="#OG">Lorenzo Stecchetti</persName> nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma <ptr type="tema" target="#verbum" rend="italic">realisti</ptr>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
-                                Il signor <persName ref="#PEG">Guarnerio</persName> ci dirà forse che questa è un’ osservazione da <ptr type="tema" target="#verbum">idealisti</ptr> e, quel che è peggio, da <ptr type="tema" target="#verbum">idealisti <rs ref="#AM">manzoniani</rs></ptr>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</ptr> del <date>Venerdì Santo</date>. 
-                                Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG">Stecchetti</persName> <distinct time="1800">gli abbia a dire</distinct>, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
+                                Il signor 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName>
+                                s’è proposto di dar mano a 
+                                <persName ref="#OG">
+                                    <forename>Lorenzo</forename> 
+                                    <surname>Stecchetti</surname>
+                                </persName> 
+                                nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma <ptr type="tema" target="#verbum" rend="italic">realisti</ptr>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
+                                Il signor 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                ci dirà forse che questa è un’ osservazione da <ptr type="tema" target="#verbum">idealisti</ptr> e, quel che è peggio, da <ptr type="tema" target="#verbum">idealisti <rs ref="#AM">manzoniani</rs></ptr>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</ptr> del <date>Venerdì Santo</date>. 
+                                Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo 
+                                <persName ref="#OG">
+                                    <surname>Stecchetti</surname>
+                                </persName> 
+                                <distinct time="1800">gli abbia a dire</distinct>, come 
+                                <persName type="fictional" ref="#ili">Ecuba</persName> 
+                                al re 
+                                <persName type="fictional" ref="#ili">Priamo</persName> : 
                                 <q>
                                     <foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign>
                                 </q> 
-                                Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ptr type="tema" target="#verbum">realista</ptr></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ptr type="tema" target="#verbum" rend="italic">ideale</ptr> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del signor <persName ref="#PEG">Guarnerio</persName> <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ptr type="tema" target="#verbum">scuole realista e idealista</ptr>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
+                                Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ptr type="tema" target="#verbum">realista</ptr></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ptr type="tema" target="#verbum" rend="italic">ideale</ptr> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ptr type="tema" target="#verbum">scuole realista e idealista</ptr>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
                                 <bibl>
                                     <title ref="#OdiB" rend="italic">
                                         Odi Barbare
                                     </title>
                                 </bibl> 
-                                del <persName ref="#GC">Carducci</persName>, <sic>le</sic> 
+                                del 
+                                <persName ref="#GC">
+                                    <surname>Carducci</surname>
+                                </persName>, 
+                                <sic>le</sic> 
                                 <bibl>
                                     <title ref="#Lyr" rend="italic">
                                         Lyrica
                                     </title>
                                 </bibl> 
-                                del <persName ref="#EP">Panzacchi</persName>, ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del signor <persName ref="#PEG">Guarnerio</persName>, ma non per questo ci accorgiamo di aver fatto un passo di più per addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il <ptr type="tema" target="#verbum">reale</ptr> o l’<ptr type="tema" target="#verbum">ideale</ptr>.
+                                del 
+                                <persName ref="#EP">
+                                    <surname>Panzacchi</surname>
+                                </persName>, 
+                                ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName>, 
+                                ma non per questo ci accorgiamo di aver fatto un passo di più per addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il <ptr type="tema" target="#verbum">reale</ptr> o l’<ptr type="tema" target="#verbum">ideale</ptr>.
                             </p>
                             <p>
-                                Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il signor <persName ref="#PEG">Guarnerio</persName>? libertà? e chi gliela nega? A sentirlo, gli <ptr type="tema" target="#verbum">idealisti</ptr> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ptr type="tema" target="#verbum" rend="italic">idealità</ptr>, a cui non rinunciano neppure i <rs type="person">poeti <ptr type="tema" target="#verbum" rend="italic">realisti</ptr></rs>. Al signor <persName ref="#PEG">Guarnerio</persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ptr type="tema" target="#verbum" rend="italic">realismo</ptr> ?
+                                Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName>? 
+                                libertà? e chi gliela nega? A sentirlo, gli <ptr type="tema" target="#verbum">idealisti</ptr> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ptr type="tema" target="#verbum" rend="italic">idealità</ptr>, a cui non rinunciano neppure i <rs type="person">poeti <ptr type="tema" target="#verbum" rend="italic">realisti</ptr></rs>. Al 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ptr type="tema" target="#verbum" rend="italic">realismo</ptr> ?
                             </p>
                             <cb n="2"/>
                             <p>
@@ -484,7 +589,24 @@
                                         Bibbia
                                     </title>
                                 </bibl>,
-                                 ed in tal caso, <ptr type="tema" target="#verbum">realismo</ptr> per <ptr type="tema" target="#verbum">realismo</ptr>, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB">Batacchi</persName>. Se non che il signor <persName ref="#PEG">Guarnerio</persName> è a questo proposito in un grande errore. Lo <persName ref="#OG">Stecchetti</persName>, suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso <persName ref="#OG">Stecchetti</persName> volesse rigirarsi eternamente nel circolo erotico delle 
+                                 ed in tal caso, <ptr type="tema" target="#verbum">realismo</ptr> per <ptr type="tema" target="#verbum">realismo</ptr>, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del 
+                                 <persName ref="#DLB">
+                                    <surname>Batacchi</surname>
+                                </persName>. 
+                                Se non che il 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                è a questo proposito in un grande errore. Lo 
+                                <persName ref="#OG">
+                                    <surname>Stecchetti</surname>
+                                </persName>, 
+                                suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso 
+                                <persName ref="#OG">
+                                    <surname>Stecchetti</surname>
+                                </persName> 
+                                volesse rigirarsi eternamente nel circolo erotico delle 
                                  <bibl>
                                     <title ref="#Pos" rend="italic">
                                         Postume
@@ -499,11 +621,24 @@
                                 non crediamo che troverebbe sempre eguale fortuna.
                             </p>
                             <p>
-                                Un altro errore, secondo noi, del signor <persName ref="#PEG">Guarnerio</persName> e di parecchi altri suoi correligionari, è quello d’ andar citando il <persName ref="#GC">Carducci</persName> come il loro <rs type="person">caposcuola</rs>. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo 
+                                Un altro errore, secondo noi, del 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                e di parecchi altri suoi correligionari, è quello d’ andar citando il 
+                                <persName ref="#GC">
+                                    <surname>Carducci</surname>
+                                </persName> 
+                                come il loro <rs type="person">caposcuola</rs>. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo 
                                 <quote source="#PGG" rend="italic">
                                     tirato sulla chiosa dei bianchi e dei neri
                                 </quote> 
-                                a piacer loro. Il <persName ref="#GC">Carducci</persName> è quello che è, <ptr type="tema" target="#verbum">idealista</ptr> e <ptr type="tema" target="#verbum">realista</ptr> come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ 
+                                a piacer loro. Il 
+                                <persName ref="#GC">
+                                    <surname>Carducci</surname>
+                                </persName> 
+                                è quello che è, <ptr type="tema" target="#verbum">idealista</ptr> e <ptr type="tema" target="#verbum">realista</ptr> come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ 
                                 <bibl>
                                     <title ref="#RN" rend="italic">
                                         Idillio Maremmano
@@ -531,7 +666,12 @@
                                 <gloss xml:id="log">
                                     Disputa protratta con una sofistica verbosità.
                                 </gloss>, 
-                                che non approdano a nulla, e se ci fosse lecito dare un consiglio al signor <persName ref="#PEG">Guarnerio</persName> (il quale anche fra le sue fisime di <ptr type="tema" target="#verbum">realista</ptr> ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche <ptr type="tema" target="#verbum">realità</ptr> meno <ptr type="tema" target="#verbum">ideale</ptr> del suo <ptr type="tema" target="#verbum">realismo</ptr>, e di profferirsi soldato a qualche altra causa, che ne valga meglio la pena.
+                                che non approdano a nulla, e se ci fosse lecito dare un consiglio al 
+                                <roleName>signor</roleName> 
+                                <persName ref="#PEG">
+                                    <surname>Guarnerio</surname>
+                                </persName> 
+                                (il quale anche fra le sue fisime di <ptr type="tema" target="#verbum">realista</ptr> ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche <ptr type="tema" target="#verbum">realità</ptr> meno <ptr type="tema" target="#verbum">ideale</ptr> del suo <ptr type="tema" target="#verbum">realismo</ptr>, e di profferirsi <roleName type="militar">soldato</roleName> a qualche altra causa, che ne valga meglio la pena.
                             </p>
                         </div>
                     </div>
