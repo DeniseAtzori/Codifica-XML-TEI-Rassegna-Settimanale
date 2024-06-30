@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="tei-lite.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+
+  <teiHeader>
+    <fileDesc>
+
+      <titleStmt>
+        <title>Progetto codifica</title>
+        <author>Atzori Perodi</author>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Università di Pisa</authority>
+        <date>15/07/2024</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <imprint>
+            <title>La rassegna settimanale di politica, scienze, lettere ed arti</title>
+            <publisher>Casa Editrice Barbèra</publisher>
+            <pubPlace>Firenze</pubPlace>
+            <editor><forename>Leopoldo</forename> <surname>Franchetti</surname> e <forename>Sydney</forename> <surname>Sonnino</surname></editor>
+            <date>1878</date>.
+          </imprint>
+        </bibl>
+      </sourceDesc>
+
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+        <div type="news">
+            <pb n="1" />
+            <cb n="1" />
+            <head style="text-transform: uppercase;">NOTIZIE.</head>
+            <p>— Nel corso dell’ estate prossima si pubblicherà dal Barbèra a <placeName type="city">Firenze</placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: <bibl><title ref="#appendice" rend="italic">Appendice
+            all'Epistolario ed agli scritti giovanili di <persName ref="#GLeop">Giacomo Leopardi</persName></title></bibl>. L’<persName ref="#PV"><abbr>A.</abbr> Prospero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i 
+            membri dell’ ultima generazione della famiglia <surname type="Leofamily">Leopardi</surname> affidatagli per 
+            questo scopo dalla <roleName>contessa</roleName> <surname type="Leofamily">Leopardi</surname> vedova del <roleName>conte</roleName> <name type="Leofamily">Carlo</name>.</p>
+            <p>— Fra poco usciranno presso lo stesso editore : <bibl><title ref="#avvocatura" rend="italic">L' Avvocatura</title></bibl>, Due 
+            discorsi di <persName ref="#GZ">Giuseppe Zanardelli</persName>. — <bibl><title ref="#sonettiDialetto" rend="italic">Sonetti in dialetto romanesco</title></bibl> di <persName ref="#LF">Luigi 
+            Ferretti</persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. — <bibl><title ref="#iViaggi" rend="italic">I viaggi</title></bibl> di <persName ref="#FC">Francesco 
+            Carletti</persName>, le <bibl><title ref="#rimeVG" rend="italic">Rime</title></bibl> di <persName ref="#VG">Veronica Gàmbara</persName>, le <bibl><title ref="#poesieGM" rend="italic">Poesie</title></bibl> del <persName ref="#GM"><roleName>conte</roleName> Giovanni 
+            Marchetti</persName>. </p>
+            <p>— <bibl><title ref="#athenoeum" rend="italic">L'Athenœum</title></bibl> promette la prossima pubblicazione del libro già annunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro 
+            tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre 
+            si occupa di molti soggetti che hanno un interesso pratico pel tempo
+            presente, per esempio della reciprocità, dei trattati di commercio, della 
+            depressione del commercio e dell’ effetto prodotto sul commercio inglese 
+            da varie formo di protezione mantenute in altri paesi.</p>
+        </div>
+    </body>
+  </text>
+</TEI>
