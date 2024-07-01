@@ -54,7 +54,7 @@
 
             <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
             <p>L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero
-            della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName type="district">Regno</placeName>, che si 
+            della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si 
             fondava principalmente su questo concetto: 
             <ptr type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ptr>. Quindi 
             proponeva un doppio ordine di licei e ginnasi, di scuole 
@@ -79,7 +79,8 @@
             porterebbe i medesimi resultati anche in un uomo. E non 
             viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, 
             nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia.
-            Ma c’ è di peggio ancora. <ptr type="tema" target="#istr">Uno dei guai d’<placeName type="country">Italia</placeName> sono i 
+            Ma c’ è di peggio ancora. <ptr type="tema" target="#istr">Uno dei guai d’
+            <placeName><country type="nation">Italia</country></placeName> sono i 
             nostri convitti</ptr>. I soli che diano qualche utile resultato sono
             i convitti militari, perchè in essi è entrato quello spirito di 
             disciplina, d’indipendenza morale e di onore cavalleresco, che 
@@ -103,7 +104,7 @@
             chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
             aperta la sua prima lettera, andò in furia ; quando le 
             fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito 
-            il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName type="country">Italia</placeName> nelle mani delle monache; 
+            il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle monache; 
             dove non ci sono più le monache, c’ è restato il 
             loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte 
             da <rolename>Ispettori</rolename> e <rolename>Provveditori</rolename> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura 
@@ -116,7 +117,7 @@
             che vediamo crescere ogni giorno, e quelle domande che 
             sorgono da ogni lato perchè l’educazione e l’istruzione 
             della donna si migliorino e si sollevino. E una questione 
-            che s’agita ora in tutta l’<placeName type="continent">Europa</placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa 
+            che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa 
             stiamo alla coda dei popoli civili. Chi non conosce l’azione 
             che la donna esercita sulla società intera? Chi non sa che 
             noi tutti, riceviamo la prima educazione dalla madre? 
@@ -133,7 +134,7 @@
             sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, 
             e per le donne invece rappresentano lo scalino più alto. 
             Nondimeno già sentiamo che si parla di sopprimere quella 
-            che fu istituita in <placeName type="city">Firenze</placeName>.</p>
+            che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.</p>
             <p>Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
             della donna. Bisognerebbe innanzi tutto ordinare meglio, 
             e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di 
@@ -143,7 +144,7 @@
             torneremo altra volta. Vogliamo per ora fermarci sopra 
             una sola quistione, che par molto e forse troppo speciale; 
             ma che pure crediamo assai importante, specialmente se 
-            si considera che in <placeName type="country">Italia</placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
+            si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
             diploma il quale sia praticamente utile a qualche cosa.</p>
             <pb n="2" /><cb n="3"/>
             <p>Nello stato presente delle cose i soli istituti femminili 
@@ -216,8 +217,8 @@
             <name role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
             <forename>Michele</forename><surname>Coppino</surname>
             </name>
-            <birth><persName type="place">Arezzo</persName>, <date>30 luglio 1511</date></birth>
-            <death><persName type="place">Firenze</persName>, <date>27 giugno 1574</date></death>
+            <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
+            <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
             <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
           </person>
         </listPerson>

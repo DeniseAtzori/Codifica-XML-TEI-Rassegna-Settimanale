@@ -36,14 +36,19 @@
             <pb n="1" />
             <cb n="1" />
             <head style="text-transform: uppercase;">NOTIZIE.</head>
-            <p>— Nel corso dell’ estate prossima si pubblicherà dal Barbèra a <placeName type="city">Firenze</placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: <bibl><title ref="#appendice" rend="italic">Appendice
+            <p>— Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Firenze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: <bibl><title ref="#appendice" rend="italic">Appendice
             all'Epistolario ed agli scritti giovanili di <persName ref="#GLeop">Giacomo Leopardi</persName></title></bibl>. L’<persName ref="#PV"><abbr>A.</abbr> Prospero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i 
-            membri dell’ ultima generazione della famiglia <surname type="Leofamily">Leopardi</surname> affidatagli per 
-            questo scopo dalla <roleName>contessa</roleName> <surname type="Leofamily">Leopardi</surname> vedova del <roleName>conte</roleName> <name type="Leofamily">Carlo</name>.</p>
-            <p>— Fra poco usciranno presso lo stesso editore : <bibl><title ref="#avvocatura" rend="italic">L' Avvocatura</title></bibl>, Due 
-            discorsi di <persName ref="#GZ">Giuseppe Zanardelli</persName>. — <bibl><title ref="#sonettiDialetto" rend="italic">Sonetti in dialetto romanesco</title></bibl> di <persName ref="#LF">Luigi 
-            Ferretti</persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. — <bibl><title ref="#iViaggi" rend="italic">I viaggi</title></bibl> di <persName ref="#FC">Francesco 
-            Carletti</persName>, le <bibl><title ref="#rimeVG" rend="italic">Rime</title></bibl> di <persName ref="#VG">Veronica Gàmbara</persName>, le <bibl><title ref="#poesieGM" rend="italic">Poesie</title></bibl> del <persName ref="#GM"><roleName>conte</roleName> Giovanni 
+            membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per 
+            questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.</p>
+            <p>— Fra poco usciranno presso lo stesso editore : 
+            <bibl><title ref="#avvocatura" rend="italic">L' Avvocatura</title></bibl>, Due 
+            discorsi di <persName ref="#GZ">Giuseppe Zanardelli</persName>. — 
+            <bibl><title ref="#sonettiDialetto" rend="italic">Sonetti in dialetto romanesco</title></bibl> di <persName ref="#LF">Luigi 
+            Ferretti</persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. — 
+            <bibl><title ref="#iViaggi" rend="italic">I viaggi</title></bibl> di <persName ref="#FC">Francesco 
+            Carletti</persName>, le 
+            <bibl><title ref="#rimeVG" rend="italic">Rime</title></bibl> di <persName ref="#VG">Veronica Gàmbara</persName>, le 
+            <bibl><title ref="#poesieGM" rend="italic">Poesie</title></bibl> del <persName ref="#GM"><roleName>conte</roleName> Giovanni 
             Marchetti</persName>. </p>
             <p>— <bibl><title ref="#athenoeum" rend="italic">L'Athenœum</title></bibl> promette la prossima pubblicazione del libro già annunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro 
             tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre 
@@ -52,6 +57,178 @@
             depressione del commercio e dell’ effetto prodotto sul commercio inglese 
             da varie formo di protezione mantenute in altri paesi.</p>
         </div>
+
+        <listBibl>
+
+          <biblStruct type="magazine" xml:id="athenoeum">
+            <monogr>
+              <title type="main">Athenaeum</title>
+              <imprint>
+                <pubPlace>Berlino</pubPlace>
+                <date>1798</date>
+                <note>Rivista programmatica del Romanticismo tedesco.</note>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="appendice">
+            <monogr>
+              <author ref="#GLeop">Giacomo Leopardi</author>
+              <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
+              <imprint>
+                <respStmt><persName ref="#PV">Prospero Viani</persName></respStmt>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+                <date>1878</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="avvocatura">
+            <monogr>
+              <author ref="#GZ">Giuseppe Zanardelli</author>
+              <title type="main">L'Avvocatura</title>
+              <imprint>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+                <date>1878</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="sonettiDialetto">
+            <monogr>
+              <author ref="#LF">Luigi Ferretti</author>
+              <title type="main">Sonetti in dialetto romanesco</title>
+              <imprint>
+                <respStmt><persName ref="#LM">Luigi Morandi</persName></respStmt>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+                <date>1879</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="iViaggi">
+            <monogr>
+              <author ref="#FC">Francesco Carletti</author>
+              <title type="main">I viaggi</title>
+              <imprint>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="rimeVG">
+            <monogr>
+              <author ref="#VG">Veronica Gàmbara</author>
+              <title type="main">Rime</title>
+              <imprint>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct type="book" xml:id="poesieGM">
+            <monogr>
+              <author ref="#GM">Giovanni Marchetti</author>
+              <title type="main">Poesie</title>
+              <imprint>
+                <publisher>Barbèra</publisher>
+                <pubPlace>Firenze</pubPlace>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+        </listBibl>
+
+        <listPerson>
+
+          <person xml:id="GLeop">
+            <name role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
+            <forename>Giacomo</forename><surname>Leopardi</surname>
+            </name>
+            <birth><name type="place">Recanati</name>, <date>29 giugno 1798</date></birth>
+            <death><name type="place">Napoli</name>, <date>14 giugno 1837</date></death>
+            <occupation>Poeta e filosofo.</occupation>
+          </person>
+
+          <person xml:id="CLeop">
+            <name role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
+            <forename>Carlo Orazio</forename><surname>Leopardi</surname>
+            </name>
+            <birth><name type="place">Recanati</name>, <date>12 luglio 1799</date></birth>
+            <death><name type="place">Recanati</name>, <date>11 febbraio 1878</date></death>
+            <occupation>Nobiluomo italiano.</occupation>
+          </person>
+
+          <person xml:id="PV">
+            <name role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
+            <forename>Prospero</forename><surname>Viani</surname>
+            </name>
+            <birth><name type="place">Reggio nell'Emilia</name>, <date>1812</date></birth>
+            <death><name type="place">Firenze</name>, <date>1892</date></death>
+            <occupation>Filologo, biografo e bibliotecario italiano</occupation>
+          </person>
+
+          <person xml:id="GZ">
+            <name role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
+            <forename>Giuseppe</forename><surname>Zanardelli</surname>
+            </name>
+            <birth><name type="place">Brescia</name>, <date>26 ottobre 1826</date></birth>
+            <death><name type="place">Toscolano Moderno</name>, <date>26 dicembre 1903</date></death>
+            <occupation>Patriota e politico italiano.</occupation>
+          </person>
+
+          <person xml:id="LF">
+            <name role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
+            <forename>Luigi</forename><surname>Ferretti</surname>
+            </name>
+            <birth><name type="place">Roma</name>, <date>21 febbraio 1836</date></birth>
+            <death><name type="place">Roma</name>, <date>7 luglio 1881</date></death>
+            <occupation>Poeta italiano.</occupation>
+          </person>
+
+          <person xml:id="LM">
+            <name role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
+            <forename>Luigi</forename><surname>Morandi</surname>
+            </name>
+            <birth><name type="place">Todi</name>, <date>18 dicembre 1844</date></birth>
+            <death><name type="place">Roma</name>, <date>6 gennaio 1922</date></death>
+            <occupation>Educatore, scrittore, grammatico, e poeta italiano.</occupation>
+          </person>
+
+          <person xml:id="FC">
+            <name role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+            <forename>Francesco</forename><surname>Carletti</surname>
+            </name>
+            <birth><name type="place">Firenze</name>, <date>1573</date></birth>
+            <death><name type="place">Firenze</name>, <date>12 gennaio 1636</date></death>
+            <occupation>Scrittore, viaggiatore e mercante italiano.</occupation>
+          </person>
+
+          <person xml:id="VG">
+            <name role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
+            <forename>Veronica</forename><surname>Gambara</surname>
+            </name>
+            <birth><name type="place">Pralboino</name>, <date>30 novembre 1485</date></birth>
+            <death><name type="place">Correggio</name>, <date>13 giugno 1550</date></death>
+            <occupation>Poetessa italiana.</occupation>
+          </person>
+
+          <person xml:id="GM">
+            <name role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+            <forename>Giovanni</forename><surname>Marchetti</surname>
+            </name>
+            <birth><name type="place">Senigallia</name>, <date>26 agosto 1790</date></birth>
+            <death><name type="place">Bologna</name>, <date>28 marzo 1852</date></death>
+            <occupation>Poeta, politico e dantista italiano.</occupation>
+          </person>
+
+        </listPerson>
+
     </body>
   </text>
 </TEI>
