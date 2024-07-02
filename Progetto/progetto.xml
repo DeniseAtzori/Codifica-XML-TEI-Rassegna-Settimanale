@@ -68,7 +68,7 @@
         <group>
             <!-- Testo organizzato come gruppo di testi che condividono delle info -->
             <text>
-                <!-- Primo articolo -->
+                <!-- Primo articolo - L'istruzione delle donne -->
                 <front>
                     <div type="intestazione">
                         <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
@@ -155,8 +155,84 @@
                     </listPerson>
                 </back>
             </text>
+            <text>
+                <!-- Secondo articolo - L'istruzione della donna -->
+                <front>
+                    <div type="intestazione">
+                            <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
+                            <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+                            <p>Vol. 1°, N°21.</p>
+                            <date>26 Maggio '78</date>
+                        </div>
+                </front>
+                <body>
+                    <div type="article">
+                        <pb n="1" />
+                        <cb n="1" />
+
+                        <head style="text-transform: uppercase;">L’ ISTRUZIONE DELLA DONNA.</head>
+                        <p>
+                            L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si fondava principalmente su questo concetto: <ptr type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ptr>. Quindi proponeva un doppio ordine di licei e ginnasi, di scuole ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ptr type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi non lo vuole; chi vuole la donna istruita ed ha paura della donna letterata, e chi vuol solo la madre di famiglia</ptr>. Ma forse questa discussione si potrebbe sospendere di fronte ad una osservazione molto più semplice: qualunque cosa si voglia, <ptr type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ptr>.
+                        </p>
+                        <p>
+                            In generale può dirsi che, mentre noi cerchiamo di dare all’ uomo una istruzione che ne sviluppi e fortifichi l’intelligenza, ne accresca la cultura, alla donna vogliam dare solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, ci serviamo di questi che sono i resultati naturali del nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, invece di mutar metodo, diciamo: 
+                            <q type="spoken">
+                                Vedete come la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.
+                            </q> 
+                            Non viene mai in mente di pensare che una istruzione come quella che le diamo, porterebbe i medesimi resultati anche in un uomo. E non viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia. Ma c’ è di peggio ancora. <ptr type="tema" target="#istr">Uno dei guai d’<placeName><country type="nation">Italia</country></placeName> sono i nostri convitti</ptr>. I soli che diano qualche utile resultato sono i convitti militari, perchè in essi è entrato quello spirito di disciplina, d’indipendenza morale e di onore cavalleresco, che costituiscono la forza e la gloria del nostro esercito. I convitti diretti dai frati sono.... convitti di frati; i laici lasciano molto, ma molto a desiderare. Tuttavia la educazione degli uomini si forma in gran parte nella università e nella società; la vita di convitto ha per essi una influenza meno definitiva che per le donne. Queste se vanno al convitto, ne escono assai spesso per andare a marito, ed il loro carattere allora è già formato per sempre. Ad una istruzione superficiale i convitti femminili uniscono una educazione, secondo noi, falsissima, perchè mira a sopprimere ogni sentimento di responsabilità e d’indipendenza morale. In molti di essi, anche fra i migliori, si crede, per esempio, massima indiscutibile, che le ragazze debbano andare il meno possibile nella propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può scrivere alla figlia, nè questa alla madre, senza che la di
+                            <cb n="2" />
+                            rettrice apra e legga le lettere. Un fratello non può visitare la sorella nel convitto, per non far nascere scandali. La conseguenza naturale di tutto ciò è che in molti convitti femminili tra le ragazze non si parla d’altro che di amori; si cercano e si trovano tutti i mezzi per fare uscire ed entrare lettere d’ ogni sorta, senza che la direttrice lo sappia. Abbiamo conosciuta una <rs type="person">signorina inglese</rs>, chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
+                            aperta la sua prima lettera, andò in furia ; quando le fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle monache; dove non ci sono più le monache, c’ è restato il loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte da <rolename>Ispettori</rolename> e <rolename>Provveditori</rolename> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura superficiale ed una educazione che separa dalla famiglia e dalla società, che tende a sopprimere ogni morale responsabilità, ogni indipendenza di carattere, che spinge senza saperlo ai sotterfugi ed alla finzione? Fortunatamente i convitti non sono molti ; ma da un altro lato le scuole sono poche ed insufficenti.
+                        </p>
+                        <p>
+                            Per queste ragioni è molto naturale quella impazienza che vediamo crescere ogni giorno, e quelle domande che sorgono da ogni lato perchè l’educazione e l’istruzione della donna si migliorino e si sollevino. E una questione che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa stiamo alla coda dei popoli civili. Chi non conosce l’azione che la donna esercita sulla società intera? Chi non sa che noi tutti, riceviamo la prima educazione dalla madre? L’ignoranza della donna la esclude da ogni seria conversazione cogli uomini, i quali da ciò non cavano nessunissimo vantaggio; e sopprime nella nostra società una classe di persone che presso altri popoli legge assai più degli uomini, occupati sempre negli affari o negli studi speciali. Questa forse non è l’ultima fra le cagioni per cui i nostri libri diventano noiosi, aridi, tecnici, e sono scritti troppo 
+                            spesso solamente per gli uomini del mestiere. <ptr type="tema" target="#istrDonne">Per ora il nostro sistema scolastico femminile si riduce alle scuole elementari, ed alle scuole normali che formano le maestre elementari</ptr>. Le sei o forse sette scuole femminili, che si chiamano superiori, sono certo una lodevole eccezione; ma poche di numero e con poche alunne non possono mutare il carattere generale del sistema. Esse non sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, e per le donne invece rappresentano lo scalino più alto. Nondimeno già sentiamo che si parla di sopprimere quella che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
+                        </p>
+                        <p>
+                            Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
+                            della donna. Bisognerebbe innanzi tutto ordinare meglio, e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di lezioni per le donne che hanno già passata l’età per andare alle scuole superiori, e pur vogliono in qualche modo compiere la loro istruzione. Ma noi non abbiamo qui lo spazio necessario per esporre tutte le nostre idee, sulle quali torneremo altra volta. Vogliamo per ora fermarci sopra una sola quistione, che par molto e forse troppo speciale; ma che pure crediamo assai importante, specialmente se si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
+                            diploma il quale sia praticamente utile a qualche cosa.
+                        </p>
+                        <pb n="2" /><cb n="3"/>
+                        <p>
+                            Nello stato presente delle cose i soli istituti femminili che cominciano a dare utili resultati e vanno migliorando davvero sono le scuole normali, anzi, può dirsi che siano, generalmente parlando, i soli istituti superiori per le donne, quelli che danno la regola e la norma a tutti gli altri. L’insegnamento di molti convitti si modella infatti su di esse, nè quello delle poche scuole femminili, che portano il nome di superiori differisce gran fatto da esse. E stata la necessità di avere le maestre elementari quella che portò 
+                            alla formazione delle scuole normali, le quali costituiscono un vero progresso nell’ istruzione delle donne, ed hanno cominciato ad aprir loro la via ad un ufficio col quale molte sostentano la propria vita, altre aiutano le famiglie. E qui non è forse inopportuno <ptr type="tema" target="#istrDonne">l’ osservare, che queste scuole normali femminili riescono, secondo il giudizio concorde di tutte le autorità scolastiche, meglio assai che le maschili</ptr>, superiorità che naturalmente si riscontra anche nelle scuole elementari. Senza volere da ciò cavare conseguenze troppo generali, è pur forza affermare', che il primo esperimento col quale si è veramente dato alla donna ed all’ uomo una medesima istruzione, ha provato con evidenza che <ptr type="tema" target="#istrDonne">la donna non riesce punto inferiore all’ uomo</ptr>.
+                        </p>
+                        <p>
+                            Ma c’ è una ragione al mondo, per la quale ad essa non si debba dare altra istruzione che quella strettamente 
+                            necessaria a farne una buona maestra elementare? È qui appunto che si presenta fa quistione pratica, di cui vogliamo parlare. Nelle scuole normali e nei convitti insegnano spesso anche le donne, e queste non sono o almeno non dovrebbero essere semplici maestre elementari, perchè tengono lo stesso ufficio dei professori di scuole normali maschili, che per gli uomini è equiparato a quello di professori di liceo o ginnasio, e richiede un diploma universitario. Ora, se alla donna si dà un ufficio di pari grado non è giusto darle anche le cognizioni necessarie per adempierlo bene ? Intanto, vere scuole normali superiori che le diano l’insegnamento richiesto, ed abbiano facoltà di concedere il diploma non ne abbiamo. Profittare delle <orgName>Università</orgName>, come fanno gli uomini, è presto detto, ma le donne non possono, perchè dovrebbero prendere la licenza liceale. Ora nè il governo, nè le province, nè i municipi hanno fondato licei e ginnasi femminili, e non crediamo che, almeno per ora, sia davvero indispensabile la licenza liceale alle maestre di scuole normali.
+                        </p>
+                        <p>
+                            Ma qualche cosa è necessario fare, è anzi urgente. Se la donna è incapace di essere niente di più che una semplice maestra elementare, perchè si chiama dal governo, dai municipi, dai privati, ad insegnare nelle scuole normali, nei convitti e in tutte le scuole che hanno un grado quasi uguale alle normali? Se poi ha la capacità, perchè non si fondano le scuole indispensabili a darle la istruzione che, nel caso identico, così largamente e così generosamente si concede agli uomini? Perchè non le si apre la via per ottenere legalmente un diploma, e non le si offrono i necessari aiuti?
+                        </p>
+                        <p>
+                            A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la sua posizione legale e la sua posizione morale sarebbero innanzi al pubblico, al <orgName>governo</orgName> ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : 
+                            <q type="spoken">
+                                Voi ci chiamate ad insegnare nelle scuole normali ; ebbene, non ci nominate come fate ora, senza che abbiamo il diploma, solo per favore o per raccomandazioni. Determinate le cognizioni che dobbiamo avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.
+                            </q> 
+                            Il dovere di rispondere a questa domanda è indiscutibile, e per rispondervi bisognerebbe cominciare a 
+                            <cb n="4" />
+                            <ptr type="tema" target="#istrDonne">trovare il modo di dare alla donna, sotto una forma o sotto un’ altra, un insegnamento superiore di fatto</ptr> e non di nome solamente. Noi crediamo che questo bisogno sia universalmente riconosciuto, anche da coloro che non son molto favorevoli alla generale cultura della donna. E siamo certi che una volta aperte e bene ordinate le <orgName>scuole Normali Superiori</orgName>, vi andrebbero moltissime anche di quelle donne che non vogliono insegnare, e i convitti e le altre scuole 
+                            secondarie femminili sentirebbero la necessità di rendere i loro corsi di studio più seri e meno superficiali.
+                        </p>
+
+                    </div>
+                </body>
+                <back>
+                    <listPerson>
+                        <person xml:id="onCopp">
+                            <name role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
+                            <forename>Michele</forename><surname>Coppino</surname>
+                            </name>
+                            <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
+                            <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
+                            <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
+                        </person>
+                    </listPerson>
+                </back>
+            </text>
              <text>
-                <!-- Secondo articolo -->
+                <!-- Terzo articolo - Notizie-->
                 <front>
                     <div type="intestazione">
                         <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
@@ -166,14 +242,63 @@
                     </div>
                 </front>
                 <body>
-                    <div>
-                    <!-- Aggiungere prima parte Notizie -->
+                    <div type="news">
+                        <pb n="1" />
+                        <cb n="1" />
+                        <head style="text-transform: uppercase;">NOTIZIE.</head>
+                        <p>
+                            — Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Firenze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
+                            <bibl>
+                                <title ref="#appendice" rend="italic">
+                                    Appendice all'Epistolario ed agli scritti giovanili di 
+                                    <persName ref="#GLeop">Giacomo Leopardi</persName>
+                                </title>
+                            </bibl>. 
+                            L’<persName ref="#PV"><abbr>A.</abbr> Prospero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.
+                        </p>
+                        <p>
+                            — Fra poco usciranno presso lo stesso editore : 
+                            <bibl>
+                                <title ref="#avvocatura" rend="italic">
+                                    L' Avvocatura
+                                </title>
+                            </bibl>, 
+                            Due discorsi di <persName ref="#GZ"><forename>Giuseppe</forename> <surname>Zanardelli</surname></persName>. 
+                            — <bibl>
+                                <title ref="#sonettiDialetto" rend="italic">
+                                    Sonetti in dialetto romanesco
+                                </title>
+                            </bibl> 
+                            di <persName ref="#LF"><forename>Luigi</forename> <surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
+                            — <bibl>
+                                <title ref="#iViaggi" rend="italic">
+                                    I viaggi
+                                </title>
+                            </bibl> 
+                            di <persName ref="#FC"><forename>Francesco</forename> <surname>Carletti</surname></persName>, le 
+                            <bibl>
+                                <title ref="#rimeVG" rend="italic">
+                                    Rime
+                                </title>
+                            </bibl> 
+                            di <persName ref="#VG"><forename>Veronica</forename> <surname>Gàmbara</surname></persName>, le 
+                            <bibl>
+                                <title ref="#poesieGM" rend="italic">
+                                    Poesie
+                                </title>
+                            </bibl> 
+                            del <persName ref="#GM"><roleName>conte</roleName> <forename>Giovanni</forename> <surname>Marchetti</surname></persName>. 
+                        </p>
+                        <p>
+                            — <bibl>
+                                <title ref="#athenoeum" rend="italic">
+                                    L'Athenœum
+                                </title>
+                            </bibl> 
+                            promette la prossima pubblicazione del libro già annunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre si occupa di molti soggetti che hanno un interesso pratico pel tempo presente, per esempio della reciprocità, dei trattati di commercio, della depressione del commercio e dell’ effetto prodotto sul commercio inglese da varie forme di protezione mantenute in altri paesi.
+                        </p>
                         <p> 
-                            — Il libro di 
-                            <persName ref="#JS">
-                                <forename>Giulio</forename> 
-                                <surname>Soury</surname>
-                            </persName> 
+                            — Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
                             <bibl>«
                                 <title ref="#JetE">
                                     <foreign xml:lang="fr"> 
@@ -181,34 +306,16 @@
                                     </foreign>
                                 </title>»
                             </bibl>  
-                            ha levato a 
-                            <placeName>
-                                <settlement type="city">Parigi</settlement>
-                            <placeName> 
-                            gran rumore. Come è noto, 
-                            <persName ref="#JS">
-                                <forename>Giulio</forename> 
-                                <surname>Soury</surname>
-                            </persName> 
-                            è un attivo collaboratore del
+                            ha levato a <placeName><settlement type="city">Parigi</settlement><placeName> gran rumore. Come è noto <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore del
                             <bibl>
                                 <title level="j" ref="#LeT">Temps</title>
                             </bibl>; 
-                            una volta era anche segretario del 
-                            <roleName>signor</roleName> 
-                            <persName ref="#ER" resp="DA" cert="medium">
-                                Renan
-                            </persName>. 
-                            Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in 
+                            una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in 
                             <q>
                                 « detrito »
                             </q>
                             <note>(sic)</note>. 
-                            Il libro del 
-                            <persName ref="#JS">
-                                <surname>Soury</surname>
-                            </persName> 
-                            è dunque 
+                            Il libro del <persName ref="#JS"><surname>Soury</surname></persName> è dunque 
                                 <q>
                                     «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
                                 </q> 
@@ -224,18 +331,7 @@
                             .)
                         <note>
                         <p>
-                            — <persName ref="#GM">
-                                G. Monod
-                            </persName>
-                            ha trovato a 
-                            <placeName>
-                                <settlement type="city">Berna</settlement>
-                            </placeName> 
-                            1’ originale della lettera che contiene la relazione dell’esecuzione di 
-                            <persName type="historical" ref="#MS">
-                                Maria Stuarda
-                            </persName> 
-                            pubblicata già nelle 
+                            — <persName ref="#GM">G. Monod</persName>ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
                             <bibl>
                                 <title ref="#RPFE">
                                     <foreign xml:lang="fr">
@@ -264,19 +360,7 @@
                                     </foreign>
                                 </title>
                             </bibl>. 
-                            Questa lettera è indirizzata a 
-                            <roleName>Monsieur</roleName> 
-                            <persName>D’Averley</persName> 
-                            ambasciatore di 
-                            <persName type="historical" ref="#EIV">
-                                Enrico IV
-                            </persName> di 
-                            <placeName>
-                                <settlement type="city">Navarra</settlement>
-                            </placeName> a 
-                            <placeName>
-                                <settlement type="city">Strasburgo</settlement>
-                            <placeName>.
+                            Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">Enrico IV</persName> di <placeName><settlement type="city">Navarra<settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement><placeName>.
                         </p>
                     </div>
                 </body>
@@ -302,6 +386,78 @@
                     </div>
                     <!-- Lista delle persone citate nell'articolo -->
                     <listPerson>
+                        <person xml:id="GLeop">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
+                            <forename>Giacomo</forename><surname>Leopardi</surname>
+                            </name>
+                            <birth><name type="place">Recanati</name>, <date>29 giugno 1798</date></birth>
+                            <death><name type="place">Napoli</name>, <date>14 giugno 1837</date></death>
+                            <occupation>Poeta e filosofo.</occupation>
+                        </person>
+                        <person xml:id="CLeop">
+                            <name role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
+                            <forename>Carlo Orazio</forename><surname>Leopardi</surname>
+                            </name>
+                            <birth><name type="place">Recanati</name>, <date>12 luglio 1799</date></birth>
+                            <death><name type="place">Recanati</name>, <date>11 febbraio 1878</date></death>
+                            <occupation>Nobiluomo italiano.</occupation>
+                        </person>
+                        <person xml:id="PV">
+                            <name role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
+                            <forename>Prospero</forename><surname>Viani</surname>
+                            </name>
+                            <birth><name type="place">Reggio nell'Emilia</name>, <date>1812</date></birth>
+                            <death><name type="place">Firenze</name>, <date>1892</date></death>
+                            <occupation>Filologo, biografo e bibliotecario italiano</occupation>
+                        </person>
+                        <person xml:id="GZ">
+                            <name role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
+                            <forename>Giuseppe</forename><surname>Zanardelli</surname>
+                            </name>
+                            <birth><name type="place">Brescia</name>, <date>26 ottobre 1826</date></birth>
+                            <death><name type="place">Toscolano Moderno</name>, <date>26 dicembre 1903</date></death>
+                            <occupation>Patriota e politico italiano.</occupation>
+                        </person>
+                        <person xml:id="LF">
+                            <name role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
+                            <forename>Luigi</forename><surname>Ferretti</surname>
+                            </name>
+                            <birth><name type="place">Roma</name>, <date>21 febbraio 1836</date></birth>
+                            <death><name type="place">Roma</name>, <date>7 luglio 1881</date></death>
+                            <occupation>Poeta italiano.</occupation>
+                        </person>
+                        <person xml:id="LM">
+                            <name role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
+                            <forename>Luigi</forename><surname>Morandi</surname>
+                            </name>
+                            <birth><name type="place">Todi</name>, <date>18 dicembre 1844</date></birth>
+                            <death><name type="place">Roma</name>, <date>6 gennaio 1922</date></death>
+                            <occupation>Educatore, scrittore, grammatico, e poeta italiano.</occupation>
+                        </person>
+                        <person xml:id="FC">
+                            <name role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                            <forename>Francesco</forename><surname>Carletti</surname>
+                            </name>
+                            <birth><name type="place">Firenze</name>, <date>1573</date></birth>
+                            <death><name type="place">Firenze</name>, <date>12 gennaio 1636</date></death>
+                            <occupation>Scrittore, viaggiatore e mercante italiano.</occupation>
+                        </person>
+                        <person xml:id="VG">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
+                            <forename>Veronica</forename><surname>Gambara</surname>
+                            </name>
+                            <birth><name type="place">Pralboino</name>, <date>30 novembre 1485</date></birth>
+                            <death><name type="place">Correggio</name>, <date>13 giugno 1550</date></death>
+                            <occupation>Poetessa italiana.</occupation>
+                        </person>
+                        <person xml:id="GM">
+                            <name role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                            <forename>Giovanni</forename><surname>Marchetti</surname>
+                            </name>
+                            <birth><name type="place">Senigallia</name>, <date>26 agosto 1790</date></birth>
+                            <death><name type="place">Bologna</name>, <date>28 marzo 1852</date></death>
+                            <occupation>Poeta, politico e dantista italiano.</occupation>
+                        </person>
                         <person xml:id="JS">
                             <name role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
                                 <forename>Jules</forename><surname>Soury</surname>
@@ -346,7 +502,82 @@
                         </person>
                     </listPerson>
                     <!-- Lista delle opere citate nell'articolo -->
-                     <listBibl>
+                    <listBibl>
+                        <biblStruct type="magazine" xml:id="athenoeum">
+                            <monogr>
+                            <title type="main">Athenaeum</title>
+                            <imprint>
+                                <pubPlace>Berlino</pubPlace>
+                                <date>1798</date>
+                                <note>Rivista programmatica del Romanticismo tedesco.</note>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="appendice">
+                            <monogr>
+                            <author ref="#GLeop">Giacomo Leopardi</author>
+                            <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
+                            <imprint>
+                                <respStmt><persName ref="#PV">Prospero Viani</persName></respStmt>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                                <date>1878</date>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="avvocatura">
+                            <monogr>
+                            <author ref="#GZ">Giuseppe Zanardelli</author>
+                            <title type="main">L'Avvocatura</title>
+                            <imprint>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                                <date>1878</date>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="sonettiDialetto">
+                            <monogr>
+                            <author ref="#LF">Luigi Ferretti</author>
+                            <title type="main">Sonetti in dialetto romanesco</title>
+                            <imprint>
+                                <respStmt><persName ref="#LM">Luigi Morandi</persName></respStmt>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                                <date>1879</date>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="iViaggi">
+                            <monogr>
+                            <author ref="#FC">Francesco Carletti</author>
+                            <title type="main">I viaggi</title>
+                            <imprint>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="rimeVG">
+                            <monogr>
+                            <author ref="#VG">Veronica Gàmbara</author>
+                            <title type="main">Rime</title>
+                            <imprint>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct type="book" xml:id="poesieGM">
+                            <monogr>
+                            <author ref="#GM">Giovanni Marchetti</author>
+                            <title type="main">Poesie</title>
+                            <imprint>
+                                <publisher>Barbèra</publisher>
+                                <pubPlace>Firenze</pubPlace>
+                            </imprint>
+                            </monogr>
+                        </biblStruct>
                         <biblStruct type="book" xml:id="JetE">
                             <monogr>
                                 <author ref="#JS">Jules Soury</author>
@@ -405,13 +636,7 @@
                 </back>
             </text>
             <text>
-                <!-- Terzo articolo -->
-                <front></front>
-                <body></body>
-                <back></back>
-            </text>
-            <text>
-                <!-- Quarto articolo -->
+                <!-- Quarto articolo - Lucia -->
                 <front>
                     <div type="intestazione">
                         <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
@@ -421,10 +646,68 @@
                     </div>
                 </front>
                 <body>
-                    <div n="t1" type="tale">
-                        <pb n="434" />
-                        <head>
-                        </head>
+                    <div type="tale">
+                        <pb n="1" />
+                        <cb n="1" />
+                        <head style="text-transform: uppercase;">LUCIA.</head>
+                        <p>
+                            Con la sua voce d’argento chiamò : 
+                            <said>
+                                « <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia »
+                            </said>
+                            e rimase attenta ad ascoltare.... Un merlo spaurito, fuggì chioccolando da un cespuglio prossimo alla rupe 
+                            in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, ma la capretta non rispose. 
+                            <q type="spoken">
+                                « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
+                            </q> e ponendosi
+                        <pb n="2" />
+                        <cb n="2" />
+                            afflitta a sedere, con la fronte appoggiata ad una mano, tende l’occhio addolorato alle pendici del colle e tristamente s’ abbandona ai suoi pensieri.
+                        </p>
+                        <p>
+                            Il sole bacia le sue spalle nude e la brezza della sera la investe fasciandole i panni alla persona elegante e le assalta briosa la chioma come se volesse rubarle quel fiore dei campi che agitato rosseggia fra le sue lucide trecce.
+                        </p>
+                        <p>
+                            Come sei bella in mezzo alla primavera, o fresca <persName type="fictional">Lucia</persName> ! e sei sola su la tèrra, povera <persName type="fictional">Lucia</persName> !
+                        </p>
+                        <p>
+                            Il <rs type="person">padre</rs> suo morì di febbre in <placeName><region>Maremma</region></placeName> ; la <rs type="person">madre</rs> è lontana, ha la sua casetta su quelle montagne azzurre laggiù in fondo in fondo, ed è vecchia ed inferma.... se a quest’ ora non è già a riposarsi nel cimitero di fianco alla chiesa. E il <rs type="person">fratello</rs>? Chi sa? Andò <roleName type="militar">soldato</roleName>; lo mandarono di là dal mare; non ha scritto più nulla da <date dur="P2Y">due anni</date>.... dove sarà?
+                        </p>
+                        <p>
+                            Cacciata dal bisogno, dopo aver abbracciato i suoi cari, scese dalle montagne natie ed ora, garzona d’ un contadino delle valli, fila, guarda quei monti lontani e guida le capre alla pastura.
+                        </p>
+                        <p>
+                            La <rs type="person">madre</rs> ed il <rs type="person">fratello</rs> erano così da lei chiamati, ma non erano tali. L’avevano allevata e tenuta cara finché l’ <orgName>Ospizio dei Trovatelli</orgName> passò loro quindici lire al mese ; dopo, con un tozzo di pane ed un paro di scarpe nuove, le insegnarono la strada e serrandole dietro la porta : 
+                            <q type="spoken">
+                                « <persName ref="#bib">Dio</persName> t’accompagni, bambina mia!»
+                            </q> 
+                            e <persName type="fictional">Lucia</persName> scese al piano ed ora fila, guida le capre alla pastura e guarda quei monti lontani.
+                        </p>
+                        <p>
+                            <q type="spoken">
+                                « Se ritorni senza la capra, pover’ a te ! »
+                            </q> 
+                            le ha detto dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
+                            <persName type="fictional">Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smarrita per sempre; lo sa, e con la fronte appoggiata sopra una mano, tende l’ occhio addolorato alle pendici del colle 
+                            e pensa e singhiozza.
+                        </p>
+                        <p>
+                            <q type="thought">
+                                « Se non ritrovo la mia capretta, stasera non mi daranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... mi fece tanto male al petto ! 0 <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »
+                            </q>
+                        </p>
+                        <p>
+                            Un ramarro, verde come le foglie del fico salvatico sul quale si era arrampicato per cercare gli ultimi raggi del sole cadente, vibrando la lingua veloce, la fissava, non visto, coi suoi occhi d’ebano, e <persName type="fictional">Lucia</persName> singhiozzando pensava:
+                        </p>
+                        <p>
+                            <q type="thought">
+                                « Mi manderanno via.... domani ! forse stasera ! e non ci ho colpa. Le ho munte stamani alle <time when="06:00:00">sei</time>, le ho contate e c’ erano tutte.... Dodici lire ! e dove le trovo per dire a <persName type="fictional">Rosalba</persName> :
+                                <q> 
+                                    — tenete ; la capra è smarrita e queste sono le dodici lire che costava? —
+                                </q> 
+                                Ma non le ho ! Non mi daranno da cena ; <persName type="fictional">Rosalba</persName> mi picchierà e mi chiameranno.... o <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »
+                            </q>
+                        </p>
                         <p>
                             Una folata di vento più forte le portò via il fiore dai capelli; si alzò lesta per riprenderlo e il core le fece un balzo d’allegrezza al rapido fruscio che sentì tra le foglie a pochi passi da lei e credè ritrovata la sua capretta. Il ramarro spaventato dal movimento di <persName type="fictional">Lucia</persName>, s’era lasciato cadere dal ramo del fico salvatico e strisciando come una saetta, era corso a refugiarsi nel cavo d’ una ceppa di castagno.   
                         </p>
@@ -432,10 +715,19 @@
                             Raccolse il fiore e se lo accomodò più forte tra i capelli. A <persName type="fictional">Lucia</persName> era caro quel fiore come tutti gli altri che ogni mattina coglieva per adornarsene il capo e per offrirli la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo letticciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Vergine</persName> l’omaggio di quel povero fiore.
                         </p>
                         <p>
-                            <persName type="fictional">Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuffato sotto l’orizzonte lontano, sentì il suo sgomento farsi maggiore e disperata chiamò per 1’ ultima volta : <said>« <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia, teeeh ! »</said>
+                            <persName type="fictional">Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuffato sotto l’orizzonte lontano, sentì il suo sgomento farsi maggiore e disperata chiamò per 1’ ultima volta : 
+                            <said>
+                                « <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia, teeeh ! »
+                            </said>
                         </p>
                         <p>
-                            Un leggiero belato si udì ad un trar di mano da lei ; <cb n="2" /> un lampo di gioia le balenò nei limpidi occhi celesti e, tra le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi scalzi e gridando allegramente : <said>« <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> bella, <name type="animal">Bianchina</name> mia »</said> corse, corse affannata verso il cespuglio dal quale era partito il belato e ficcandosi smaniosa tra i suoi rami fronzuti, sparì fra quelli tutta lieta e sorridente.
+                            Un leggiero belato si udì ad un trar di mano da lei ; 
+                        <cb n="2" /> 
+                            un lampo di gioia le balenò nei limpidi occhi celesti e, tra le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi scalzi e gridando allegramente :
+                            <said>
+                                « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> bella, <name type="animal">Bianchina</name> mia »
+                            </said> 
+                            corse, corse affannata verso il cespuglio dal quale era partito il belato e ficcandosi smaniosa tra i suoi rami fronzuti, sparì fra quelli tutta lieta e sorridente.
                         </p>
                         <p>
                             <persName type="fictional">Lucia</persName> dall’ alto della sua rupe, non aveva scorto due occhi umani che da un’ ora lacrimavano di stanchezza, avventando faville assetate agli occhi suoi, alle sue spalle, al suo colmo seno, e credè messo dalla sua capretta il belato che il ruvido <persName type="fictional">Togno</persName> scaltramente aveva imitato, ed era corsa.... ed era corsa, povera <persName type="fictional">Lucia</persName>, lieta e sicura come 1’ usignolo innocente corre gorgheggiando nella bocca del rospo che digiuno lo guarda.
@@ -444,7 +736,11 @@
                             Il vento è cessato ; di quel ciuffo di frassini nessuna foglia si muove e il sole già tramontato, si tira dietro gli ultimi lembi del suo manto di luce. 
                         </p>
                         <p>
-                            Appena scesa la notte, la capra tornò belando alla casa in cerca delle sue compagne. Tutti le mossero lieti incontro; <persName type="fictional">Lucia</persName> sola non si mosse nè si rallegrò. Aveva il viso acceso, un livido in una gota e i capelli e le vesti in disordine.... <said>« Se ti senti male, va’ a letto »</said> le disse <persName type="fictional">Rosalba</persName> fattasi cortese dopo il ritorno della capra. E <persName type="fictional">Lucia</persName> s’avviò stanca alla sua cameretta.... Cercò il fiore per offrirlo alla <persName ref="#bib">Regina degli Angioli</persName>, ma l’aveva perduto ! Sentì una stretta al core, dette in uno scoppio di pianto e cadde sul suo letticciuolo dove aspettò il giorno spasimando.
+                            Appena scesa la notte, la capra tornò belando alla casa in cerca delle sue compagne. Tutti le mossero lieti incontro; <persName type="fictional">Lucia</persName> sola non si mosse nè si rallegrò. Aveva il viso acceso, un livido in una gota e i capelli e le vesti in disordine.... 
+                            <q>
+                                « Se ti senti male, va’ a letto »
+                            </q> 
+                            le disse <persName type="fictional">Rosalba</persName> fattasi cortese dopo il ritorno della capra. E <persName type="fictional">Lucia</persName> s’avviò stanca alla sua cameretta.... Cercò il fiore per offrirlo alla <persName ref="#bib">Regina degli Angioli</persName>, ma l’aveva perduto ! Sentì una stretta al core, dette in uno scoppio di pianto e cadde sul suo letticciuolo dove aspettò il giorno spasimando.
                         </p>
                         <p>
                             <persName type="fictional">Togno</persName> quella sera non aveva sonno. Aguzzò tutti i pali per gli olivi della chiudenda ; rifece la traversa all’ erpice vecchio e fino al tocco dopo la mezzanotte rimase a frescheggiare su l’aia, cantando a gola spiegata.
@@ -475,7 +771,7 @@
                 </back>
             </text>
             <text>
-                <!-- Terzo articolo -->
+                <!-- Terzo articolo - Bibliografia-->
                 <front>
                     <div type="intestazione">
                         <head style="text-transform: uppercase;">LA RASSEGNA SETTIMANALE.</head>
@@ -489,7 +785,7 @@
                     <!-- Si può rappresentare così? -->
                         <head type="title">BIBLIOGRAFIA.</head>
                         <head type="subtitle">LETTERATURA E STORIA.</head>
-                        <div n="a2" type="article">
+                        <div n="a2" type="bibliography">
                             <pb n="441" />
                             <head>
                                 <bibl>
@@ -510,76 +806,29 @@
                                 'È un libretto di poche pagine e non ce ne occuperemmo, se non si trattasse che, vestito delle solite eleganze tipografiche <rs type="publisher" ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchinetta di guerra della <rs type="literary movement">scuola <ptr type="tema" target="#verbum" rend="italic">realista</ptr></rs>.
                             </p>
                             <p>
-                                Il signor 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName>
-                                s’è proposto di dar mano a 
-                                <persName ref="#OG">
-                                    <forename>Lorenzo</forename> 
-                                    <surname>Stecchetti</surname>
-                                </persName> 
-                                nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma <ptr type="tema" target="#verbum" rend="italic">realisti</ptr>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
-                                Il signor 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
-                                ci dirà forse che questa è un’ osservazione da <ptr type="tema" target="#verbum">idealisti</ptr> e, quel che è peggio, da <ptr type="tema" target="#verbum">idealisti <rs ref="#AM">manzoniani</rs></ptr>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</ptr> del <date>Venerdì Santo</date>. 
-                                Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo 
-                                <persName ref="#OG">
-                                    <surname>Stecchetti</surname>
-                                </persName> 
-                                <distinct time="1800">gli abbia a dire</distinct>, come 
-                                <persName type="fictional" ref="#ili">Ecuba</persName> 
-                                al re 
-                                <persName type="fictional" ref="#ili">Priamo</persName> : 
+                                Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><forename>Lorenzo</forename> <surname>Stecchetti</surname></persName> nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma <ptr type="tema" target="#verbum" rend="italic">realisti</ptr>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
+                                Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> ci dirà forse che questa è un’osservazione da <ptr type="tema" target="#verbum">idealisti</ptr> e, quel che è peggio, da <ptr type="tema" target="#verbum">idealisti <rs ref="#AM">manzoniani</rs></ptr>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</ptr> del <date>Venerdì Santo</date>. 
+                                Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <distinct time="1800">gli abbia a dire<distinct>, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
                                 <q>
                                     <foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign>
                                 </q> 
-                                Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ptr type="tema" target="#verbum">realista</ptr></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ptr type="tema" target="#verbum" rend="italic">ideale</ptr> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
+                                Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ptr type="tema" target="#verbum">realista</ptr></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ptr type="tema" target="#verbum" rend="italic">ideale</ptr> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName><persName ref="#PEG"><surname>Guarnerio</surname></persName> 
                                 <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ptr type="tema" target="#verbum">scuole realista e idealista</ptr>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
                                 <bibl>
                                     <title ref="#OdiB" rend="italic">
                                         Odi Barbare
                                     </title>
                                 </bibl> 
-                                del 
-                                <persName ref="#GC">
-                                    <surname>Carducci</surname>
-                                </persName>, 
-                                <sic>le</sic> 
+                                del <persName ref="#GC"><surname>Carducci</surname></persName>, <sic>le</sic> 
                                 <bibl>
                                     <title ref="#Lyr" rend="italic">
                                         Lyrica
                                     </title>
                                 </bibl> 
-                                del 
-                                <persName ref="#EP">
-                                    <surname>Panzacchi</surname>
-                                </persName>, 
-                                ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName>, 
-                                ma non per questo ci accorgiamo di aver fatto un passo di più per addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il <ptr type="tema" target="#verbum">reale</ptr> o l’<ptr type="tema" target="#verbum">ideale</ptr>.
+                                del <persName ref="#EP"><surname>Panzacchi</surname></persName>, ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>, ma non per questo ci accorgiamo di aver fatto un passo di più per addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il <ptr type="tema" target="#verbum">reale</ptr> o l’<ptr type="tema" target="#verbum">ideale</ptr>.
                             </p>
                             <p>
-                                Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName>? 
-                                libertà? e chi gliela nega? A sentirlo, gli <ptr type="tema" target="#verbum">idealisti</ptr> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ptr type="tema" target="#verbum" rend="italic">idealità</ptr>, a cui non rinunciano neppure i <rs type="person">poeti <ptr type="tema" target="#verbum" rend="italic">realisti</ptr></rs>. Al 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
-                                preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ptr type="tema" target="#verbum" rend="italic">realismo</ptr> ?
+                                Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? A sentirlo, gli <ptr type="tema" target="#verbum">idealisti</ptr> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ptr type="tema" target="#verbum" rend="italic">idealità</ptr>, a cui non rinunciano neppure i <rs type="person">poeti <ptr type="tema" target="#verbum" rend="italic">realisti</ptr></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ptr type="tema" target="#verbum" rend="italic">realismo</ptr> ?
                             </p>
                             <cb n="2"/>
                             <p>
@@ -589,24 +838,7 @@
                                         Bibbia
                                     </title>
                                 </bibl>,
-                                 ed in tal caso, <ptr type="tema" target="#verbum">realismo</ptr> per <ptr type="tema" target="#verbum">realismo</ptr>, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del 
-                                 <persName ref="#DLB">
-                                    <surname>Batacchi</surname>
-                                </persName>. 
-                                Se non che il 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
-                                è a questo proposito in un grande errore. Lo 
-                                <persName ref="#OG">
-                                    <surname>Stecchetti</surname>
-                                </persName>, 
-                                suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso 
-                                <persName ref="#OG">
-                                    <surname>Stecchetti</surname>
-                                </persName> 
-                                volesse rigirarsi eternamente nel circolo erotico delle 
+                                 ed in tal caso, <ptr type="tema" target="#verbum">realismo</ptr> per <ptr type="tema" target="#verbum">realismo</ptr>, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB"><surname>Batacchi<surname></persName>. Se non che il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> è a questo proposito in un grande errore. Lo <persName ref="#OG"><surname>Stecchetti</surname></persName>, suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso <persName ref="#OG"><surname>Stecchetti</surname></persName> volesse rigirarsi eternamente nel circolo erotico delle 
                                  <bibl>
                                     <title ref="#Pos" rend="italic">
                                         Postume
@@ -621,24 +853,11 @@
                                 non crediamo che troverebbe sempre eguale fortuna.
                             </p>
                             <p>
-                                Un altro errore, secondo noi, del 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
-                                e di parecchi altri suoi correligionari, è quello d’ andar citando il 
-                                <persName ref="#GC">
-                                    <surname>Carducci</surname>
-                                </persName> 
-                                come il loro <rs type="person">caposcuola</rs>. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo 
+                                Un altro errore, secondo noi, del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> e di parecchi altri suoi correligionari, è quello d’ andar citando il <persName ref="#GC"><surname>Carducci</surname></persName> come il loro <rs type="person">caposcuola</rs>. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo 
                                 <quote source="#PGG" rend="italic">
                                     tirato sulla chiosa dei bianchi e dei neri
                                 </quote> 
-                                a piacer loro. Il 
-                                <persName ref="#GC">
-                                    <surname>Carducci</surname>
-                                </persName> 
-                                è quello che è, <ptr type="tema" target="#verbum">idealista</ptr> e <ptr type="tema" target="#verbum">realista</ptr> come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ 
+                                a piacer loro. Il <persName ref="#GC"><surname>Carducci</surname></persName> è quello che è, <ptr type="tema" target="#verbum">idealista</ptr> e <ptr type="tema" target="#verbum">realista</ptr> come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ 
                                 <bibl>
                                     <title ref="#RN" rend="italic">
                                         Idillio Maremmano
@@ -666,14 +885,160 @@
                                 <gloss xml:id="log">
                                     Disputa protratta con una sofistica verbosità.
                                 </gloss>, 
-                                che non approdano a nulla, e se ci fosse lecito dare un consiglio al 
-                                <roleName>signor</roleName> 
-                                <persName ref="#PEG">
-                                    <surname>Guarnerio</surname>
-                                </persName> 
-                                (il quale anche fra le sue fisime di <ptr type="tema" target="#verbum">realista</ptr> ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche <ptr type="tema" target="#verbum">realità</ptr> meno <ptr type="tema" target="#verbum">ideale</ptr> del suo <ptr type="tema" target="#verbum">realismo</ptr>, e di profferirsi <roleName type="militar">soldato</roleName> a qualche altra causa, che ne valga meglio la pena.
+                                che non approdano a nulla, e se ci fosse lecito dare un consiglio al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> (il quale anche fra le sue fisime di <ptr type="tema" target="#verbum">realista</ptr> ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche <ptr type="tema" target="#verbum">realità</ptr> meno <ptr type="tema" target="#verbum">ideale</ptr> del suo <ptr type="tema" target="#verbum">realismo</ptr>, e di profferirsi <roleName type="militar">soldato</roleName> a qualche altra causa, che ne valga meglio la pena.
                             </p>
                         </div>
+                        <div type="bibliography">
+                            <cb n="1" />
+                            <pb n="1" />
+                            <head>
+                                <persName style="text-transform: uppercase;" ref="#GV">GIORGIO VASARI</persName>, 
+                                <bibl>
+                                    <title type="main "ref="#leOpere" rend="italic">
+                                        Le opere
+                                    </title>
+                                    <title type="sub">
+                                        con nuove annotazioni e commenti di <persName ref="#GM">Gaetano Milanesi</persName>. Vol. 1°.
+                                    </title>
+                                </bibl>,  
+                                — <placeName>
+                                    <settlement type="city">
+                                        Firenze
+                                    </settlement>
+                                </placeName>, 
+                                <orgName type="publisher">
+                                    Sansoni
+                                </orgName>, 
+                                <date>1878</date>.
+                            </head>
+                            <p>
+                                Diamo il benvenuto a questa nuova edizione del <persName ref="#GV"><surname>Vasari</surname></persName>, che segue dopo ventidue anni dal suo pieno compimento la stampa procuratane dal <orgName type="publisher">Le Monnier</orgName> per cura di una società di amatori delle belle arti. Ma dal <date>1845</date>, quando cotesta edizione fu cominciata, al dì d’ oggi, non pochi sono i lavori comprensivi o spicciolati che son venuti ad ampliare o a rettificare le memorie del <rs type="person" ref="#GV">biografo <rs type="provenienza">aretino</rs></rs> : e niuno era più atto del <persName ref="#GM"><surname>Milanesi</surname></persName> a raccogliere e aggiungere al <persName ref="#GV"><surname>Vasari</surname></persName> il frutto di tante novelle ricerche. Oltreché poi, la stampa del <orgName type="publisher">Le Monnier</orgName> in quattordici volumi, alcuni dei quali assai smilzi, riusciva assai incomoda a consultarsi ; e questa invece, che si annunzia dover comprendere in soli otto, non soltanto le
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Vite
+                                    </title>
+                                </bibl>, 
+                                ma anche i 
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Ragionamenti
+                                    </title>
+                                </bibl> e l’
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Epistolario
+                                    </title>
+                                </bibl>,
+                                giungerà anche per questo aspetto assai opportuna ed utile.
+                            </p>
+                            <p>
+                                Non è del nostro proposito discorrere di tutte le aggiunte e modificazioni che le note apposte dal <persName ref="#GM"><surname>Milanesi</surname></persName> arrecano al testo <rs type="person" ref="#GV">vasariano</rs>. Vogliamo soltanto avvertire come queste sieno in numero amplissimo, e come alcuni nuovi 
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Commentari
+                                    </title>
+                                </bibl> 
+                                in seguito alle 
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Vite
+                                    </title>
+                                </bibl>, 
+                                svolgano largamente parecchi punti controversi e degni di discussione. Fra questi, due specialmente ci sono parsi di tale importanza, da meritare che di essi si faccia da noi speciale menzione: e sono il
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">
+                                        Commentario
+                                    </title>
+                                </bibl> 
+                                alla Vita di <persName ref="#NP">Niccola Pisano</persName>, e quello alla Vita di <persName ref="#Gi">Giotto</persName>.
+                            </p>
+                            <p>
+                                Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare i resultati a cui crede esser giunta una piccola schiera di 
+                            <cb n="2" />
+                            <pb n="2" />
+                                critici e storici dell'arte, che 
+                                <quote>
+                                    « con enfatiche parole vanno predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Italia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indigena, nazionale, originale, e scevra in tutto dell’ elemento bizantino. »
+                                </quote> 
+                                Tutto ciò non ci sembra bene provato : e tanto meno poi, che ad essa debba ricongiungersi la scuola toscana del <date from="1201" to="1300">secolo decimoterzo</date>, e specialmente <persName ref="#NP"><forename>Niccola</forename> <surname>Pisano</surname></persName>. Del quale il <persName ref="#GM"><surname>Milanesi</surname></persName> fu primo a pubblicare una memoria sincrona dell’<orgName>Archivio senese</orgName>, nella quale ei viene chiamato 
+                                <foreign xml:lang="la">
+                                    <persName ref="#NP" rend="italic">
+                                        <forename>Nichólam</forename> <surname>Petri</surname>
+                                    </persName> 
+                                    de <placeName>
+                                            <region type="region">Apulia</region>
+                                        </placeName>
+                                </foreign>. 
+                                Se non si trattasse di un paleografo così esperto ed oculato come il <persName ref="#GM"><surname>Milanesi</surname></persName>, noi potremmo anche dubitare che invece di 
+                                <foreign xml:lang="la" rend="italic">
+                                    <placeName>
+                                        <region type="region">Apulia</region>
+                                    </placeName>
+                                </foreign> 
+                                vi si dovesse leggere 
+                                <foreign xml:lang="la" rend="italic">
+                                    Faulia
+                                </foreign> ; e chi ha pratica nei caratteri gotici del tempo, non troverebbe ardita questa congettura : oltreché il caso del <persName ref="#Cia"><surname>Ciampi</surname></persName> che avendo letto male un documento su <persName ref="#NP"><forename>Niccola</forename></persName> lo fece <rs type="provenienza">senese</rs> e nipote di un <roleName>ser</roleName> <persName>Biasio</persName>, ci potrebbe scusare se richiedessimo un più attento esame del documento. Ma sia pure, come crediamo che sia, 
+                                <foreign xml:lang="la" rend="italic">
+                                    <placeName>
+                                        <region type="region">Apulia</region>
+                                    </placeName>
+                                </foreign> ; 
+                                chè in tal caso <persName ref="#NP"><forename>Niccola</forename></persName> resta tuttavia quel ch’era. Imperciocché il <persName ref="#GM"><surname>Milanesi</surname></persName> fa notare come due luoghi sienvi in<placeName><region type="region">Apulia</region></placeName> che portano la denominazione di 
+                                <foreign xml:lang="la" rend="italic">
+                                    <placeName>
+                                        <region type="region">Apulia</region>
+                                    </placeName>
+                                </foreign> o 
+                                <foreign xml:lang="la" rend="italic">
+                                    <placeName>
+                                       <region>Pulia</region>
+                                    </placeName>
+                                </foreign>: uno nell’<rs type="provenienza">Aretino</rs>, l’altro nel <rs type="provenienza">Lucchese</rs> : e da quest' ultimo probabilmente venne il restauratore dell’arte scultoria: al padre del quale soltanto forse spetta l’aggiunto 
+                                <foreign xml:lang="la" rend="italic">
+                                    de 
+                                    <placeName>
+                                        <region type="region">Apulia</region>
+                                    </placeName>
+                                </foreign>. 
+                                Che se, come osserva il <persName ref="#GM"><surname>Milanesi</surname></persName> giustissimamente, ei fosse stato un <rs type="provenienza">pugliese</rs>, l’atto direbbe, secondo la forinola consueta notarile : 
+                                <quote type="written">
+                                    <foreign xml:lang="la" rend="italic">
+                                    departibus Apuliae
+                                    </foreign>,
+                                </quote> 
+                                e non semplicemente 
+                               <quote type="written">
+                                    <foreign xml:lang="la" rend="italic">
+                                        de <placeName>
+                                                <region type="region">Apulia</region>
+                                            </placeName>
+                                    </foreign>
+                                </quote>. 
+                                Resta perciò che <persName ref="#NP"><forename>Niccola</forename></persName> sia <rs type="provenienza">toscano</rs>, e <rs type="provenienza">pisano</rs>, come la tradizione e l’aggiunto costante al suo nome, concordemente suonarono sinora, che come dicono altri documenti sincroni : e cadono le troppo sottili congetture sulla origine meridionale della persona o dell’ arte di <persName ref="#NP"><forename>Niccola</forename></persName>, accettate anche dai signori <persName ref="#Cro"><surname>Crowe</surname></persName> e <persName ref="#Cav"><surname>Cavalcasene</surname></persName>.
+                            </p>
+                            <p>
+                                Dove invece diremmo che a questi diligenti storici dell’arte resti la palma si è nella controversia, sulle pitture di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ritratto ivi esistente di <persName ref="DA"><forename>Dante</forename></persName>. Di questa controversia tratta il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
+                                <bibl>
+                                    <title ref="#leOpere" rend="italic">Commentario</title>
+                                </bibl> 
+                                sopra ricordato, in appendice alla biografia giottesca : ma e’ non finisce di persuaderci. Lasciò scritto il <persName ref="Gh">Ghiberti</persName> che <persName ref="Gi">Giotto</persName> dipinse la 
+                                <quote type="written">
+                                    « <placeName type="monument">cappella di 
+                                    <persName ref="#SMM">
+                                        <choice>
+                                            <abbr>S.</abbr>
+                                            <expan>Santa</expan>
+                                        </choice> 
+                                        Maria Maddelena</persName>
+                                    </placeName> ; »
+                                </quote> 
+                                e la <placeName type="monument">cappella del <roleName>Potestà</roleName></placeName> infatti contiene per grandissima parte le storie di quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, e ne porta gli esempi, una tavola d’altare coi suoi tabernacoletti, civori, compassi ec. Sapevamcelo, potrebbesi rispondere : e la vostra proposta sarebbe ingegnosa ed accettabile, quando non avessimo una vera cappella colle storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe stato per lo meno molto mal cauto nell’ adoperar quella voce, per una tavola che stava davvero dentro una cappella. Tutti gli altri argomenti addotti dai difensori della tradizionale opinione sulla autenticità di quelle pitture e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e confutati sottilmente, non però in modo tale, a noi sembra, da riportarne vittoria. E ci ha fatto poi non poca meraviglia il veder passato sotto assoluto silenzio 
+                                quel <ptr target="#centiloquio">sonetto del <persName ref="#AP">Pucci</persName></ptr>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sanguigno, con un libro sotto il braccio, e di seguito ai santi del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Milanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument">cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor risoluta. Ad ogni modo piace il vederla trattata con tanta dignità nel respingere le altrui opinioni, con tanto acume
+                                <cb n="3" />
+                                nell’ esporre la propria come ce ne dà qui esempio il valente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale auguriamo quel favore dei lettori studiosi, che veramente si merita.
+                            </p>
+                        </div>          
                     </div>
                 </body>
                 <back>
