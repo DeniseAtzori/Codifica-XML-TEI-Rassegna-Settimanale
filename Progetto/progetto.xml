@@ -69,6 +69,16 @@
         </front>
         <group>
             <!-- Testo organizzato come gruppo di testi che condividono delle info -->
+            <facsimile>
+                <surface xml:id="istrDonne">
+                    <graphic url='img/istrDonne.jpg' width='1169.666666px' height='1669.666666px' />
+                    <zone ulx="600" uly="324" lrx="1112" lry="1556" />
+                </surface>
+                <surface xml:id="istrDonne2">
+                    <graphic url='img/istrDonne2.jpg' width='1161.5px' height='1662.5px' />
+                    <zone ulx="81" uly="111" lrx="590" lry="1561" />
+                </surface>
+            </facsimile>
             <text>
                 <!-- Primo articolo - L'istruzione delle donne -->
                 <front>
@@ -83,7 +93,7 @@
                 <!-- Contenuto testuale del primo articolo -->
                     <div n="a1" type="article">
                         <pb n="339" />
-                        <cb n="1" />
+                        <cb n="1" facs=""/>
                         <!-- titolo dell'articolo -->
                         <head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
                         <opener>
@@ -233,6 +243,12 @@
                     </listPerson>
                 </back>
             </text>
+            <facsimile>
+                <surface xml:id="notizie">
+                    <graphic url='img/notizie.jpg' width='1144px' height='1683px' />
+                    <zone ulx="597" uly="736" lrx="1103" lry="1561" />
+                    </surface>
+            </facsimile>
              <text>
                 <!-- Terzo articolo - Notizie-->
                 <front>
@@ -245,7 +261,7 @@
                 </front>
                 <body>
                     <div type="news">
-                        <pb n="1" />
+                        <pb n="1" facs="img/notizie.jpg"/>
                         <cb n="1" />
                         <head rend="uppercase">NOTIZIE.</head>
                         <p>
