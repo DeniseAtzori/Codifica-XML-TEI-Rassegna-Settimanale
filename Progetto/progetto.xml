@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
     <teiHeader>
         <!-- Inizio del teiHeader -->
         <fileDesc>
@@ -26,8 +26,8 @@
                     <p>Licenza Open Source non commerciale.</p>
                 </availability>
             </publicationStmt>
-            <sourceDesc>
             <!-- Descrizione della fonte primaria -->
+            <sourceDesc>
                 <bibl>
                     <title xml:id="RasSet">La Rassegna Settimanale di politica, scienza, lettere ed arti. Volume 1, 1878</title>
                     <publisher xml:id="CEB">Casa Editrice Barbèra</publisher>
