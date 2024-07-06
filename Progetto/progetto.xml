@@ -135,8 +135,8 @@
                     <p>Vol. 1°, N°18.
                     <date>5 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
-                    <pb n="1" />
+                <div type="textarticle" xml:id="textGiglioli">
+                    <pb n="339" />
                     <cb n="1" facs="#istrDonne1"/>
                     <!-- titolo dell'articolo -->
                     <head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
@@ -151,15 +151,15 @@
                     <p>
                         <date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
                         <q type="written">
-                            « sono per l’<ref type="tema" target="#istrDon">istruzione della donna</ref>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta*
+                            « sono per l’<ref type="tema" target="#istrDon">istruzione della donna</ref>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta * » 
                         </q>
-                        <note type="footnote">
+                        <note type="footnote" >
                                 * Vedi 
                                 <bibl>
                                     <title ref="#RasSet">Rassegna</title>, 
                                     n. 16, pag. 298.
                                 </bibl>
-                        </note> »
+                        </note>
                         Aggiungo ora che il problema sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere quello scopo. Ma siccome per studiare i mezzi di giungere ad una mèta, bisogna che questa sia nettamente definita, così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile determinare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma generica</ref>, e quale quella che ne supera il potere.
                     </p>
                     <p>
@@ -175,7 +175,7 @@
                         Oggi, mi pare che l’esperienza dovrebbe averci insegnato che il quesito stesso era in sè mal posto; che non si tratta di scegliere le cognizioni utili, giacché tutte sono tali; ma si tratta di far la mente capace a riceverne il più possibile, sviluppando al più alto grado tutte le facoltà di cui è dotata. E per questo <ref type="tema" target="#istr">la cosa più importante non è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ref>
                     </p>
                     <p>
-                        Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag<pb n="2"/>
+                        Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag<pb n="340"/>
                         <cb n="2" facs="#istrDonne2"/>
                         giore possibile svolgimento nelle alunne delle facoltà da quella scienza chiamate in azione ; e il legame tra queste facoltà e le altre, creava un lavoro omogeneo di ciascuna per tutte e di tutte per ciascuna. Così ne risultava che il maestro di aritmetica diventava professore di logica, quando per la risoluzione d’ un problema, senza fermarsi subito sulle cifre, faceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar da sè i rapporti tra questi due termini: e a vedere come quei rapporti rendevano piano e semplice il passaggio dall’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pretensione d’empir la testa</distinct> di nomi e di fatti, ma col semplice scopo di disegnare i contorni generali d’ ogni forma di civiltà, divenivano il telaio su cui dovevano ordinarsi più tardi non solo le letture storiche, ma anche quelle dei capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni e le altre più intelligibili dalla conoscenza dell’ ambiente in cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisiche e naturali venivano ogni dì a raccogliere e classificare le mille osservazioni cui conducevano fatti e circostanze della vita giornaliera. Nè finirei così presto, se volessi citarvi tutti gli esempi che mi si affollano alla mente. Mi è accaduto più e più volte pel passato di chiedere a me stessa qual fosse la ragione per la quale le fanciulle di quell’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in domande e risposte si sarebbe ridotta a poca cosa, pur riuscissero nella vita a parer più colte di altre cui pure era <distinct time="1800">impartito più largo corredo di cognizioni</distinct>. Oggi non me lo domando più, perchè parmi avere inteso che esse erano state formate ad intendere (nella misura delle loro forze naturali) tutto l’intelligibile; e che per esse il leggere e l’ udir cose nuove era piacere e profitto, perchè ciò che leggevano e udivano prontamente e naturalmente trovava posto nel loro intelletto aperto e preparato. Ebbene, questo che fu fatto una volta per spontanea particolare attitudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800">intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il nucleo di un sistema cui porterebbero la luce del loro sapere e della loro intelligenza uomini e donne che si occuparono di questo importantissimo tra i problemi, e che certamente potranno dargli una soluzione pratica per la quale io non mi sentirei davvero abbastanza competente.
                     </p>
@@ -187,10 +187,10 @@
                         <signed>
                             <choice>
                                 <abbr type="contraction">Dev.ma</abbr>
-                                <expan>Devotissima</expan>
+                                <expan> (Devotissima)</expan> 
                             </choice>
                             <persName rend="text-transform: uppercase;" ref="#CB">
-                                <forename>COSTANZA</forename><surname>GIGLIOLI</surname>.
+                                <forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
                             </persName>
                         </signed>
                     </closer>
@@ -202,7 +202,7 @@
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
                     <cb n="1" facs="#istrDonnacb1"/>
                     <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
@@ -260,7 +260,7 @@
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
                     <cb n="1" facs="#notizie" />
                     <head rend="uppercase">NOTIZIE.</head>
@@ -407,7 +407,7 @@
                     <p>Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
                     <cb n="1" facs="#lucia"/>
                     <head rend="uppercase">LUCIA.</head>
@@ -518,17 +518,17 @@
                 </div>
             </div>
         <!-- Quinto articolo - Bibliografia-->
-            <div type="article" n="s1" rend="uppercase" xml:id="secBiblio">
+            <div type="bibarticle" n="s1" rend="uppercase" xml:id="secBiblio">
                 <div type="intestazione">
                 <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
                     <p>Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textBiblio">
                     <head type="title">BIBLIOGRAFIA.</head>
                     <head type="subtitle">LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
-                        <pb n="1" />
+                        <pb n="441" />
                         <cb n="1" facs="#biblioGV"/>
                         <head>
                             <bibl>
