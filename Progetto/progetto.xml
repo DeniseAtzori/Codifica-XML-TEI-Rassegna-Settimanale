@@ -135,7 +135,7 @@
                     <p>Vol. 1°, N°18.
                     <date>5 Maggio '78</date></p>
                 </div>
-                <div type="articletext">
+                <div type="textarticle">
                     <pb n="339" />
                     <cb n="1" facs="#istrDonne1"/>
                     <!-- titolo dell'articolo -->
@@ -202,7 +202,7 @@
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
-                <div type="articletext">
+                <div type="textarticle">
                     <pb n="1" />
                     <cb n="1" facs="#istrDonnacb1"/>
                     <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
