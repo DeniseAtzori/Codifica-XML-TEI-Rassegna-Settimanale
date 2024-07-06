@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+    padding: 2% 4% 2% 4%;
+    background-color: #5A878C;
+}
+
+main {
+
+    padding: 2% 4% 2% 4%;
+    background-color: #F2DCC9;
+}
+#menuArticoli {
+    text-align: center;
+}
+#h3Articoli {
+    margin-bottom:4%;
+}
+.art {
+    margin-bottom: 4%;
+}
+footer {
+    background-color: #F2BFB3;
+    padding: 2%;
+}

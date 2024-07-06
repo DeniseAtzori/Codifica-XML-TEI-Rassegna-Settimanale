@@ -6,22 +6,22 @@
         <fileDesc>
             <!-- Descrizione del file -->
             <titleStmt>
-                <title>Codifica di alcuni articoli de La Rassegna Settimanale</title>
+                <title>La Rassegna Settimanale</title>
                 <respStmt>
             <!-- Responsabilità per il contenuto intellettuale del testo -->
                     <resp> Conversione TEI P5 a cura di</resp>
                     <persName xml:id="DA">
-                        <forename>Denise</forename><surname>Atzori</surname>
+                        <forename>Denise </forename><surname>Atzori,</surname>
                     </persName>
                     <persName xml:id="MP">
-                        <forename>Martina</forename><surname>Perodi</surname>
+                        <forename>Martina </forename><surname>Perodi</surname>
                     </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
                 <!-- Codifica dei dati di diffusione e distribuzione dell'edizione -->
                 <authority>Università di Pisa</authority>
-                <date>15/07/2024</date>
+                <date id="dataEsame">15/07/2024</date>
                 <availability status="free">
                     <p>Licenza Open Source non commerciale.</p>
                 </availability>
@@ -41,7 +41,7 @@
                         </persName>
                     </editor>
                     <date>1878</date>
-                    <note>Facsimile originale estratto dal progetto <title ref="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</title> realizzato nell’ambito delle iniziative previste per il Centenario della morte di <persName ref="#LF">Leopoldo Franchetti</persName> da <orgName>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</orgName>, <orgName>Università degli Studi Suor Orsola Benincasa</orgName> e <orgName>Comitato Nazionale per il Centenario della Morte di Leopoldo Franchetti</orgName>.</note>
+                    <note>Codifica degli articoli eseguita a partire dal Facsimile originale estratto dal progetto <title ref="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</title>, realizzato nell’ambito delle iniziative previste per il Centenario della morte di <persName ref="#LF">Leopoldo Franchetti</persName> da <orgName>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</orgName>, <orgName>Università degli Studi Suor Orsola Benincasa</orgName> e <orgName>Comitato Nazionale per il Centenario della Morte di Leopoldo Franchetti</orgName>.</note>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -129,14 +129,12 @@
             <!-- Testo organizzato come gruppo di testi che condividono delle info -->
         <body>
         <!-- Primo articolo - L'istruzione delle donne -->
-            <div type="intestazione" xml:id="intArtGiglioli">
-                <head rend="uppercase">LA RASSEGNA SETTIMANALE.</head>
-            <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                <p>Vol. 1°, N°18.
-                <date>5 Maggio '78</date></p>
-            </div>
         <!-- Contenuto testuale del primo articolo -->
             <div n="1" type="article" xml:id="ArtGiglioli">
+                <div type="intestazione" xml:id="intArtGiglioli">
+                    <p>Vol. 1°, N°18.
+                    <date>5 Maggio '78</date></p>
+                </div>
                 <pb n="339" />
                 <cb n="1" facs="#istrDonne1"/>
                 <!-- titolo dell'articolo -->
@@ -197,13 +195,11 @@
                 </closer>
             </div>
         <!-- Secondo articolo - L'istruzione della donna -->
-            <div type="intestazione" xml:id="intArtDonna">
-                    <head rend="uppercase">LA RASSEGNA SETTIMANALE.</head>
-                    <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+            <div n="2" type="article" xml:id="ArtDonna">
+                <div type="intestazione" xml:id="intArtDonna">
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
-            </div>
-            <div n="2" type="article" xml:id="ArtDonna">
+                </div>
                 <pb n="1" />
                 <cb n="1" facs="#istrDonnacb1"/>
                 <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
@@ -255,13 +251,12 @@
 
             </div>
         <!-- Terzo articolo - Notizie-->
-            <div type="intestazione" xml:id="intNotizie">
-                <head rend="uppercase">LA RASSEGNA SETTIMANALE.</head>
-                    <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                <p>Vol. 1°, N°21.
-                <date>26 Maggio '78</date></p>
-            </div>
-            <div n="3" type="news" xml:id="ArtNotizie">
+            <div n="3" type="article" xml:id="ArtNotizie">
+                <div type="intestazione" xml:id="intNotizie">
+                        <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+                    <p>Vol. 1°, N°21.
+                    <date>26 Maggio '78</date></p>
+                </div>
                 <pb n="1"/>
                 <cb n="1" facs="#notizie" />
                 <head rend="uppercase">NOTIZIE.</head>
@@ -402,13 +397,11 @@
                 <orgName type="publisher" ref="#CEB">Tipografia Barbèra</orgName>.</p>
             </div>
         <!-- Quarto articolo - Lucia -->
-            <div type="intestazione" xml:id="intLucia">
-                <head rend="uppercase">LA RASSEGNA SETTIMANALE.</head>
-            <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                <p>Vol. 1°, N°23.
-                <date>9 Giugno '78</date></p>
-            </div>
-            <div n="5" type="tale" xml:id="ArtLucia">
+            <div n="5" type="article" xml:id="ArtLucia">
+                <div type="intestazione" xml:id="intLucia">
+                    <p>Vol. 1°, N°23.
+                    <date>9 Giugno '78</date></p>
+                </div>
                 <pb n="1" />
                 <cb n="1" facs="#lucia"/>
                 <head rend="uppercase">LUCIA.</head>
@@ -517,14 +510,13 @@
                     </persName>.
                 </signed>
             </div>
-        <!-- Terzo articolo - Bibliografia-->
-            <div type="intestazione" xml:id="intBibliografia">
-                <head rend="uppercase">LA RASSEGNA SETTIMANALE.</head>
-            <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                <p>Vol. 1°, N°23.
-                <date>9 Giugno '78</date></p>
-            </div>
-            <div type="section" n="s1" rend="uppercase" xml:id="secBiblio">
+        <!-- Quinto articolo - Bibliografia-->
+            <div type="article" n="s1" rend="uppercase" xml:id="secBiblio">
+                <div type="intestazione">
+                <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
+                    <p>Vol. 1°, N°23.
+                    <date>9 Giugno '78</date></p>
+                </div>
                 <head type="title">BIBLIOGRAFIA.</head>
                 <head type="subtitle">LETTERATURA E STORIA.</head>
                 <div n="6" type="bibliography" xml:id="bibGuarnerio">
