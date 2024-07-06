@@ -135,7 +135,7 @@
                     <p>Vol. 1°, N°18.
                     <date>5 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textGiglioli">
                     <pb n="339" />
                     <cb n="1" facs="#istrDonne1"/>
                     <!-- titolo dell'articolo -->
@@ -151,15 +151,15 @@
                     <p>
                         <date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
                         <q type="written">
-                            « sono per l’<ref type="tema" target="#istrDon">istruzione della donna</ref>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta*
+                            « sono per l’<ref type="tema" target="#istrDon">istruzione della donna</ref>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta * » 
                         </q>
-                        <note type="footnote">
+                        <note type="footnote" >
                                 * Vedi 
                                 <bibl>
                                     <title ref="#RasSet">Rassegna</title>, 
                                     n. 16, pag. 298.
                                 </bibl>
-                        </note> »
+                        </note>
                         Aggiungo ora che il problema sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere quello scopo. Ma siccome per studiare i mezzi di giungere ad una mèta, bisogna che questa sia nettamente definita, così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile determinare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma generica</ref>, e quale quella che ne supera il potere.
                     </p>
                     <p>
@@ -187,10 +187,10 @@
                         <signed>
                             <choice>
                                 <abbr type="contraction">Dev.ma</abbr>
-                                <expan>Devotissima</expan>
+                                <expan> (Devotissima)</expan> 
                             </choice>
                             <persName rend="text-transform: uppercase;" ref="#CB">
-                                <forename>COSTANZA</forename><surname>GIGLIOLI</surname>.
+                                <forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
                             </persName>
                         </signed>
                     </closer>
@@ -202,7 +202,7 @@
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
                     <cb n="1" facs="#istrDonnacb1"/>
                     <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
@@ -260,7 +260,7 @@
                     <p>Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
                     <cb n="1" facs="#notizie" />
                     <head rend="uppercase">NOTIZIE.</head>
@@ -407,7 +407,7 @@
                     <p>Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
                     <cb n="1" facs="#lucia"/>
                     <head rend="uppercase">LUCIA.</head>
@@ -518,13 +518,13 @@
                 </div>
             </div>
         <!-- Quinto articolo - Bibliografia-->
-            <div type="article" n="s1" rend="uppercase" xml:id="secBiblio">
+            <div type="bibarticle" n="s1" rend="uppercase" xml:id="secBiblio">
                 <div type="intestazione">
                 <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
                     <p>Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
-                <div type="textarticle">
+                <div type="textarticle" xml:id="textBiblio">
                     <head type="title">BIBLIOGRAFIA.</head>
                     <head type="subtitle">LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">

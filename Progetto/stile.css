@@ -1,13 +1,13 @@
 header {
     text-align: center;
     padding: 2% 4% 2% 4%;
-    background-color: #5A878C;
+    background-color: #F2DCC9;
 }
 
 main {
 
     padding: 2% 4% 2% 4%;
-    background-color: #F2DCC9;
+    /* background-color: #F2DCC9; */
 }
 #menuArticoli {
     text-align: center;
@@ -17,6 +17,22 @@ main {
 }
 .art {
     margin-bottom: 4%;
+}
+.art:hover{
+    cursor: pointer;
+}
+.ArtImg {
+    display: none;
+    background-color: #F2DCC9;
+    padding:3% 6% 3% 6%;
+    text-align: left;
+}
+.q {
+    font-style: italic;
+    quotes: none;
+}
+.note {
+    display: none;
 }
 footer {
     background-color: #F2BFB3;
