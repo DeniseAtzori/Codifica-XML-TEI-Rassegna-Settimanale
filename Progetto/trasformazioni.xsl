@@ -96,7 +96,32 @@
                             <xsl:attribute name="src">
                                 <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
                             </xsl:attribute>
+                            <xsl:attribute name="usemap">
+                                <xsl:value-of select="concat('#map_', $col)"/>
+                            </xsl:attribute>
                         </xsl:element>
+
+                        <xsl:element name="map">
+                            <xsl:attribute name="name">
+                                <xsl:value-of select="concat('map_', $col)"/>
+                            </xsl:attribute>
+
+                            <!-- Per ogni zona mappo la sua area sull'immagine -->
+                            <xsl:for-each select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:zone">
+                                <xsl:element name="area">
+                                    <xsl:attribute name="id">
+                                        <xsl:value-of select="concat('map_', $col)"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="coords">
+                                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="href">
+                                        <xsl:text>http://www.regione.sicilia.it/</xsl:text>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:for-each>
+                        </xsl:element>
+
                         <xsl:apply-templates/>
                     </xsl:for-each>
                 </div>
@@ -146,7 +171,32 @@
                             <xsl:attribute name="src">
                                 <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
                             </xsl:attribute>
+                            <xsl:attribute name="usemap">
+                                <xsl:value-of select="concat('#map_', $col)"/>
+                            </xsl:attribute>
                         </xsl:element>
+
+                        <xsl:element name="map">
+                            <xsl:attribute name="name">
+                                <xsl:value-of select="concat('map_', $col)"/>
+                            </xsl:attribute>
+
+                            <!-- Per ogni zona mappo la sua area sull'immagine -->
+                            <xsl:for-each select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:zone">
+                                <xsl:element name="area">
+                                    <xsl:attribute name="id">
+                                        <xsl:value-of select="concat('map_', $col)"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="coords">
+                                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="href">
+                                        <xsl:text>http://www.regione.sicilia.it/</xsl:text>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:for-each>
+                        </xsl:element>
+
                         <xsl:apply-templates/>
                     </xsl:for-each>
                 </div>
