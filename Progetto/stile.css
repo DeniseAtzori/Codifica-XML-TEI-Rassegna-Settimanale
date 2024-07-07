@@ -32,7 +32,54 @@ main {
     quotes: none;
 }
 .note {
+    display: block;
+}
+.person {
+    font-weight: bold;
+}
+.author {
+    font-weight: bold;
+}
+.person:hover {
+    cursor: pointer;
+}
+.title {
+    font-style: italic;
+}
+.tema{
+    text-decoration: underline;
+}
+#bibliografie {
+    text-align: center;
+}
+.appenBiblio {
+    margin-bottom: 4%;
+    margin-top:2%;
+}
+.appenBiblio:hover {
+    cursor: pointer;
+}
+#appendice {
+    background-color: #F2DCC9;
+    padding:3% 6% 3% 6%;
+    text-align: left;
     display: none;
+}
+.titoliAppendici {
+    text-align: center;
+}
+.singolaBiblio {
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+#bibliografiaCompleta {
+    background-color: #F2DCC9;
+    padding:3% 6% 3% 6%;
+    text-align: left;
+    display: none;
+}
+#h3Bibl {
+    margin-bottom:4%;
 }
 footer {
     background-color: #F2BFB3;

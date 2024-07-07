@@ -11,10 +11,10 @@
             <!-- Responsabilità per il contenuto intellettuale del testo -->
                     <resp> Conversione TEI P5 a cura di</resp>
                     <persName xml:id="DA">
-                        <forename>Denise </forename><surname>Atzori,</surname>
+                        <forename>Denise </forename> <surname>Atzori,</surname>
                     </persName>
                     <persName xml:id="MP">
-                        <forename>Martina </forename><surname>Perodi</surname>
+                        <forename>Martina </forename> <surname>Perodi</surname>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -34,7 +34,7 @@
                     <pubPlace>Firenze</pubPlace>
                     <editor>
                         <persName xml:id="LF">
-                            <forename>Leopoldo</forename><surname>Franchetti</surname>
+                            <forename>Leopoldo</forename> <surname>Franchetti</surname>
                         </persName>
                         <persName xml:id="SS">
                             <forename>Sydney</forename> <surname>Sonnino</surname>
@@ -189,7 +189,7 @@
                                 <abbr type="contraction">Dev.ma</abbr>
                                 <expan> (Devotissima)</expan> 
                             </choice>
-                            <persName rend="text-transform: uppercase;" ref="#CB">
+                            <persName rend="text-transform: uppercase;" ref="#CG">
                                 <forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
                             </persName>
                         </signed>
@@ -207,7 +207,7 @@
                     <cb n="1" facs="#istrDonnacb1"/>
                     <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
                     <p>
-                        L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ref>. Quindi proponeva un doppio ordine di licei e ginnasi, di scuole ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi non lo vuole; chi vuole la donna istruita ed ha paura della donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma forse questa discussione si potrebbe sospendere di fronte ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ref>.
+                        L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan> (onorevole)</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ref>. Quindi proponeva un doppio ordine di licei e ginnasi, di scuole ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi non lo vuole; chi vuole la donna istruita ed ha paura della donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma forse questa discussione si potrebbe sospendere di fronte ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ref>.
                     </p>
                     <p>
                         In generale può dirsi che, mentre noi cerchiamo di dare all’ uomo una istruzione che ne sviluppi e fortifichi l’intelligenza, ne accresca la cultura, alla donna vogliam dare solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, ci serviamo di questi che sono i resultati naturali del nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, invece di mutar metodo, diciamo: 
@@ -287,7 +287,7 @@
                                 Sonetti in dialetto romanesco
                             </title>
                         </bibl> 
-                        di <persName ref="#LF"><forename>Luigi</forename> <surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
+                        di <persName ref="#LuFer"><forename>Luigi</forename> <surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
                         — <bibl>
                             <title ref="#iViaggi" rend="italic">
                                 I viaggi
@@ -349,7 +349,7 @@
                         .)
                     </note>
                     <p>
-                        — <persName ref="#GM">G. Monod</persName>ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
+                        — <persName ref="#GM">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
                         <bibl>
                             <title ref="#RPFE">
                                 <foreign xml:lang="fr">
@@ -747,22 +747,24 @@
         <back>
             <!-- Lista delle persone citate nell'articolo "L'istruzione delle donne" -->
             <listPerson xml:id="listPersDonne">
+                <head>Appendice 'L'istruzione delle donne'</head>
                 <person xml:id="CG">
                     <persName role="author" ref="https://www.storiapatriagenova.it/Docs/Biblioteca_Digitale/SB/e25420184d85de7e976749e9f76eb9f1/Estratti/53f004d08d63d78be02d7a004253b70c.pdf" resp="DA" cert="high">
-                        <forename>Costanza</forename><surname>Casella Giglioli</surname>
+                        <forename>Costanza</forename> <surname>Casella Giglioli</surname>
                     </persName>
                     <birth><name type="place">Casteggio</name>, <date>1841</date></birth>
-                    <death><name type="place">Firenze</name>,<date>1932</date></death>
+                    <death><name type="place">Firenze</name>, <date>1932</date></death>
                     <occupation>Scrittrice, giornalista, fondatrice della prima Scuola Commerciale a Firenze nel 1884 e Ispettrice delle Scuole Professionali di Firenze.</occupation>
                     <note>Si impegnò attivamente per migliore l'istruzione femminile.</note> 
                 </person>
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "L'istruzione della donna" -->
             <listPerson xml:id="listPersDonna">
+                <head>Appendice 'L'istruzione della donna'</head>
                 <person xml:id="onCopp">
-                    <name role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Michele</forename><surname>Coppino</surname>
-                    </name>
+                    <persName role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Michele</forename> <surname>Coppino</surname>
+                    </persName>
                     <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
                     <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
@@ -770,154 +772,154 @@
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Lucia"-->
             <listPerson xml:id="listPerLucia">
+                <head>Appendice 'Lucia'</head>
                 <person xml:id="RF">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/renato-fucini_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Renato</forename><surname>Fucini</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/renato-fucini_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Renato</forename> <surname>Fucini</surname>
+                    </persName>
                     <birth><name type="place">Monterotondo</name>, <date when="1843-04-08">8 aprile 1843</date></birth>
-                    <death><name type="place">Empoli</name>,<date when="1921-02-25">25 febbraio 1921</date></death>
+                    <death><name type="place">Empoli</name>, <date when="1921-02-25">25 febbraio 1921</date></death>
                     <occupation>Poeta, scrittore e insegnante italiano.</occupation>
                 </person>
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Bibliografia" -->
             <listPerson xml:id="listPersBibl">
+                <head>Appendice 'Bibliografia'</head>
                 <person xml:id="PEG">
-                    <name role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Pier Enea</forename><surname>Guarnerio</surname>
-                    </name>
+                    <persName role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Pier Enea</forename> <surname>Guarnerio</surname>
+                    </persName>
                     <birth><name type="place">Milano</name>, <date when="1854-07-1">1° luglio 1854</date></birth>
                     <death><name type="place">Milano</name>, <date when="1919-12-1">1° dicembre 1919</date></death>
                     <occupation>Linguista, curatore di raccolte di novelle popolari sarde e autore di liriche e sonetti.</occupation>
                 </person>
                 <person xml:id="OG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/olindo-guerrini/" resp="DA" cert="high">
-                        <forename>Olindo</forename><surname>Guerrini</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/olindo-guerrini/" resp="DA" cert="high">
+                        <forename>Olindo</forename> <surname>Guerrini</surname>
+                    </persName>
                     <birth><name type="place">Forlì</name>, <date>1845</date></birth>
                     <death><name type="place">Bologna</name>, <date>1916</date></death>
                     <occupation>Poeta, direttore della Biblioteca universitaria di Bologna, autore di opere in versi appartenenti alla corrente del Verismo.</occupation>
                     <note>Lorenzo Stecchetti era lo pseudonimo usato da Olindo Guerrini per pubblicare le sue opere.</note>
                 </person>
                 <person xml:id="GC">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giosue-carducci_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Giosuè</forename><surname>Carducci</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giosue-carducci_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Giosuè</forename> <surname>Carducci</surname>
+                    </persName>
                     <birth><name type="place">Valdicastello</name>, <date when="1835-07-27">27 luglio 1835</date></birth>
                     <death><name type="place">Bologna</name>, <date when="1907-02-16">16 febbraio 1907</date></death>
                     <occupation>Poeta, scrittore e critico letterario, deputato e senatore del Regno d'Italia e primo vincitore italiano del Premio Nobel per la letteratura nel <date>1906</date>.</occupation>
                 </person>
                 <person xml:id="EP">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/enrico-panzacchi_%28Dizionario-Biografico%29/" resp="DA" cert="high">
-                        <forename>Enrico</forename><surname>Panzacchi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/enrico-panzacchi_%28Dizionario-Biografico%29/" resp="DA" cert="high">
+                        <forename>Enrico</forename> <surname>Panzacchi</surname>
+                    </persName>
                     <birth><name type="place">Ozzano dell'Emilia</name>, <date when="1840-12-16">16 dicembre 1840</date></birth>
                     <death><name type="place">Bologna</name>, <date when="1904-10-5">5 ottobre 1904</date></death>
                     <occupation>Poeta, critico d'arte, politico e critico musicale italiano.</occupation>
                 </person>
                 <person xml:id="DLB">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/domenico-luigi-batacchi/" resp="DA" cert="high">
-                        <forename>Domenico Luigi</forename><surname>Batacchi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/domenico-luigi-batacchi/" resp="DA" cert="high">
+                        <forename>Domenico Luigi</forename> <surname>Batacchi</surname>
+                    </persName>
                     <birth><name type="place">Pisa</name>, <date>1748</date></birth>
                     <death><name type="place">Orbetello</name>, <date>1802</date></death>
                     <occupation>Poeta e scrittore italiano.</occupation>
                 </person>
                     <person xml:id="GG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giuseppe-giusti/" resp="DA" cert="high">
-                        <forename>Giuseppe</forename><surname>Giusti</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giuseppe-giusti/" resp="DA" cert="high">
+                        <forename>Giuseppe</forename> <surname>Giusti</surname>
+                    </persName>
                     <birth><name type="place">Monsummano</name>, <date>1809</date></birth>
                     <death><name type="place">Firenze</name>, <date>1805</date></death>
                     <occupation>Poeta e deputato italiano.</occupation>
                 </person>
                 <person xml:id="AM">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/alessandro-manzoni/" resp="DA" cert="high">
-                        <forename>Alessandro</forename><surname>Manzoni</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/alessandro-manzoni/" resp="DA" cert="high">
+                        <forename>Alessandro</forename> <surname>Manzoni</surname>
+                    </persName>
                     <birth><name type="place">Monsummano</name>, <date when="1785-03-07">7 marzo 1785</date></birth>
                     <death><name type="place">Firenze</name>, <date when="1873-05-22">22 maggio 1873</date></death>
                     <occupation>Scrittore, poeta e drammaturgo italiano.</occupation>
                 </person>
                 <person xml:id="SMM">
-                    <name role="saint" ref="https://it.wikipedia.org/wiki/Maria_Maddalena" resp="MP" cert="high">
-                        <forename>Maria</forename><surname>Maddalena</surname>
-                    </name>
+                    <persName role="saint" ref="https://it.wikipedia.org/wiki/Maria_Maddalena" resp="MP" cert="high">
+                        <forename>Maria</forename> <surname>Maddalena</surname>
+                    </persName>
                     <occupation>Secondo il Nuovo Testamento è stata un'importante seguace di Gesù.</occupation>
                     </person>
                 <person xml:id="GV">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
-                        <forename>Giorgio</forename><surname>Vasari</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
+                        <forename>Giorgio</forename> <surname>Vasari</surname>
+                    </persName>
                     <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
                     <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
                 </person>
                 <person xml:id="GaetMil">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Gaetano</forename><surname>Milanesi</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Gaetano</forename> <surname>Milanesi</surname>
+                    </persName>
                     <birth><name type="place">Puglia</name><date>9 settembre 1813</date></birth>
                     <death><name type="place">Firenze</name>, <date>11 marzo 1895</date></death>
                     <occupation>Storico dell'arte e paleografo italiano.</occupation>
                 </person>
                 <person xml:id="NP">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/nicola-pisano/" resp="MP" cert="high">
-                        <forename>Niccola</forename><surname>Pisano</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/nicola-pisano/" resp="MP" cert="high">
+                        <forename>Niccola</forename> <surname>Pisano</surname>
+                    </persName>
                     <occupation>Scultore e architetto.</occupation>
                 </person>
                 <person xml:id="Gi">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/giotto-di-bondone_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Giotto</forename><surname>di Bondone</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/giotto-di-bondone_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Giotto</forename> <surname>di Bondone</surname>
+                    </persName>
                     <birth><name type="place">Colle di Vespignano Vicchio</name><date>1267</date></birth>
                     <death><name type="place">Firenze</name>, <date>8 gennaio 1337</date></death>
                     <occupation>Pittore e architetto.</occupation>
                 </person>
                 <person xml:id="DaAlig">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
-                        <forename>Dante</forename><surname>Alighieri</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
+                        <forename>Dante</forename> <surname>Alighieri</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name><date>tra il 14 maggio e il 13 giugno 1265</date></birth>
                     <death><name type="place">Ravenna</name>, <date>14 settembre 1321</date></death>
                     <occupation>Poeta, scrittore e politico italiano.</occupation>
                 </person>
                 <person xml:id="Gh">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/lorenzo-ghiberti/" resp="MP" cert="high">
-                        <forename>Lorenzo</forename><surname>Ghiberti</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/lorenzo-ghiberti/" resp="MP" cert="high">
+                        <forename>Lorenzo</forename> <surname>Ghiberti</surname>
+                    </persName>
                     <birth><name type="place">Pelago</name><date>1378</date></birth>
                     <death><name type="place">Firenze</name>, <date>1 dicembre 1455</date></death>
                     <occupation>Scultore, orafo, architetto e scrittore d'arte italiano.</occupation>
                 </person>
                 <person xml:id="Cia">
-                    <name role="unknown" ref="unknown" resp="MP" cert="low">
-                        <forename></forename><surname>Ciampi</surname>
-                    </name>
-                    <birth><name type="place"> </name><date> </date></birth>
-                    <death><name type="place"> </name>, <date> </date></death>
-                    <occupation> </occupation>
+                    <persName role="unknown" ref="unknown" resp="MP" cert="low">
+                        <forename></forename> <surname>Ciampi</surname>
+                    </persName>
+                    <note>Informazioni non reperite</note>
                 </person>
                 <person xml:id="Cro">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
-                        <forename>Joseph Archer</forename><surname>Crowe</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
+                        <forename>Joseph Archer</forename> <surname>Crowe</surname>
+                    </persName>
                     <birth><name type="place">Londra</name><date>25 ottobre 1824</date></birth>
                     <death><name type="place">Gamburg an der Tauber</name>, <date>6 settembre 1896</date></death>
                     <occupation>Diplomatico e critico d'arte britannico.</occupation>
                 </person>
                 <person xml:id="Cav">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Giovanni Battista</forename><surname>Cavalcaselle</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Giovanni Battista</forename> <surname>Cavalcaselle</surname>
+                    </persName>
                     <birth><name type="place">Legnago</name><date>22 gennaio 1819</date></birth>
                     <death><name type="place">Roma</name>, <date>31 ottobre 1897</date></death>
                     <occupation>Scrittore, storico dell'arte e critico d'arte italiano.</occupation>
                 </person>
                 <person xml:id="AP">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/antonio-pucci_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Antonio</forename><surname>Pucci</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/antonio-pucci_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Antonio</forename> <surname>Pucci</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name><date>1310</date></birth>
                     <death><name type="place">Firenze</name>, <date>1388</date></death>
                     <occupation>Poeta italiano.</occupation>
@@ -925,115 +927,116 @@
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Notize" -->
             <listPerson xml:id="listPersNotizie">
+                <head>Appendice 'Notizie'</head>
                 <person xml:id="GLeop">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
-                    <forename>Giacomo</forename><surname>Leopardi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
+                    <forename>Giacomo</forename> <surname>Leopardi</surname>
+                    </persName>
                     <birth><name type="place">Recanati</name>, <date>29 giugno 1798</date></birth>
                     <death><name type="place">Napoli</name>, <date>14 giugno 1837</date></death>
                     <occupation>Poeta e filosofo.</occupation>
                 </person>
                 <person xml:id="CLeop">
-                    <name role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
-                    <forename>Carlo Orazio</forename><surname>Leopardi</surname>
-                    </name>
+                    <persName role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
+                    <forename>Carlo Orazio</forename> <surname>Leopardi</surname>
+                    </persName>
                     <birth><name type="place">Recanati</name>, <date>12 luglio 1799</date></birth>
                     <death><name type="place">Recanati</name>, <date>11 febbraio 1878</date></death>
                     <occupation>Nobiluomo italiano.</occupation>
                 </person>
                 <person xml:id="PV">
-                    <name role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
-                    <forename>Prospero</forename><surname>Viani</surname>
-                    </name>
+                    <persName role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
+                    <forename>Prospero</forename> <surname>Viani</surname>
+                    </persName>
                     <birth><name type="place">Reggio nell'Emilia</name>, <date>1812</date></birth>
                     <death><name type="place">Firenze</name>, <date>1892</date></death>
                     <occupation>Filologo, biografo e bibliotecario italiano</occupation>
                 </person>
                 <person xml:id="GZ">
-                    <name role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
-                    <forename>Giuseppe</forename><surname>Zanardelli</surname>
-                    </name>
+                    <persName role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
+                    <forename>Giuseppe</forename> <surname>Zanardelli</surname>
+                    </persName>
                     <birth><name type="place">Brescia</name>, <date>26 ottobre 1826</date></birth>
                     <death><name type="place">Toscolano Moderno</name>, <date>26 dicembre 1903</date></death>
                     <occupation>Patriota e politico italiano.</occupation>
                 </person>
                 <person xml:id="LuFer">
-                    <name role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
-                    <forename>Luigi</forename><surname>Ferretti</surname>
-                    </name>
+                    <persName role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
+                    <forename>Luigi</forename> <surname>Ferretti</surname>
+                    </persName>
                     <birth><name type="place">Roma</name>, <date>21 febbraio 1836</date></birth>
                     <death><name type="place">Roma</name>, <date>7 luglio 1881</date></death>
                     <occupation>Poeta italiano.</occupation>
                 </person>
                 <person xml:id="LM">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Luigi</forename><surname>Morandi</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Luigi</forename> <surname>Morandi</surname>
+                    </persName>
                     <birth><name type="place">Todi</name>, <date>18 dicembre 1844</date></birth>
                     <death><name type="place">Roma</name>, <date>6 gennaio 1922</date></death>
                     <occupation>Educatore, scrittore, grammatico, e poeta italiano.</occupation>
                 </person>
                 <person xml:id="FC">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
-                    <forename>Francesco</forename><surname>Carletti</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                    <forename>Francesco</forename> <surname>Carletti</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name>, <date>1573</date></birth>
                     <death><name type="place">Firenze</name>, <date>12 gennaio 1636</date></death>
                     <occupation>Scrittore, viaggiatore e mercante italiano.</occupation>
                 </person>
                 <person xml:id="VG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Veronica</forename><surname>Gambara</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Veronica</forename> <surname>Gambara</surname>
+                    </persName>
                     <birth><name type="place">Pralboino</name>, <date>30 novembre 1485</date></birth>
                     <death><name type="place">Correggio</name>, <date>13 giugno 1550</date></death>
                     <occupation>Poetessa italiana.</occupation>
                 </person>
                 <person xml:id="GM">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
-                    <forename>Giovanni</forename><surname>Marchetti</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                    <forename>Giovanni</forename> <surname>Marchetti</surname>
+                    </persName>
                     <birth><name type="place">Senigallia</name>, <date>26 agosto 1790</date></birth>
                     <death><name type="place">Bologna</name>, <date>28 marzo 1852</date></death>
                     <occupation>Poeta, politico e dantista italiano.</occupation>
                 </person>
                 <person xml:id="JS">
-                    <name role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
-                        <forename>Jules</forename><surname>Soury</surname>
-                    </name>
+                    <persName role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
+                        <forename>Jules</forename> <surname>Soury</surname>
+                    </persName>
                     <birth><name type="place">Parigi</name>, <date when="1842-05-28">28 maggio 1842</date></birth>
                     <death><name type="place">Paris</name>,<date when="1915-08-11">11 agosto 1915</date></death>
                     <occupation>Scrittore, filosofo, tratuttore e storico.</occupation>
                     <note>Giulio è la versione italianizzata del suo nome.</note>
                 </person>
                 <person xml:id="ER">
-                    <name role="philosopher" ref="https://it.wikipedia.org/wiki/Ernest_Renan" resp="DA" cert="high">
-                        <forename>Ernest</forename><surname>Renan</surname>
-                    </name>
+                    <persName role="philosopher" ref="https://it.wikipedia.org/wiki/Ernest_Renan" resp="DA" cert="high">
+                        <forename>Ernest</forename> <surname>Renan</surname>
+                    </persName>
                     <birth><name type="place">Tréguier</name>, <date when="1823-02-28">28 febbraio 1823</date></birth>
                     <death><name type="place">Paris</name>,<date when="1892-10-02">2 ottobre 1892</date></death>
                     <occupation>Filosofo, filologo, storico delle religioni e scrittore francese.</occupation>
                 </person>
                 <person xml:id="GabMon">
-                    <name role="historian" ref="https://www.treccani.it/enciclopedia/gabriel-monod/" resp="DA" cert="high">
-                        <forename>Gabriel</forename><surname>Monod</surname>
-                    </name>
+                    <persName role="historian" ref="https://www.treccani.it/enciclopedia/gabriel-monod/" resp="DA" cert="high">
+                        <forename>Gabriel</forename> <surname>Monod</surname>
+                    </persName>
                     <birth><name type="place">Le Hauvre</name>, <date>1844</date></birth>
                     <death><name type="place">Versailles</name>,<date>1912</date></death>
                     <occupation>Storico francese.</occupation>
                 </person>
                 <person xml:id="EIV">
-                    <name role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
+                    <persName role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
                         Enrico IV di Borbone detto Enrico il Grande
-                    </name>
+                    </persName>
                     <birth><name type="place">Pau</name>, <date when="1553-12-13">13 dicembre 1553</date></birth>
                     <death><name type="place">Parigi</name>,<date when="1610-05-14">14 maggio 1610</date></death>
                     <occupation>Primo re di Francia della Casa di Borbone.</occupation>
                 </person>
                 <person xml:id="MS">
-                    <name role="king" ref="https://it.wikipedia.org/wiki/Maria_Stuarda" resp="DA" cert="high">
+                    <persName role="king" ref="https://it.wikipedia.org/wiki/Maria_Stuarda" resp="DA" cert="high">
                         <forename>Mary</forename> <surname>Stuart</surname>
-                    </name>
+                    </persName>
                     <birth><name type="place">Linlithgow</name>, <date when="1542-12-88">8 dicembre 1542</date></birth>
                     <death><name type="place">Fotheringhay</name>,<date when="1587-02-08">8 febbraio 1587</date></death>
                     <occupation>Regina di Scozia dal 1542 al 1567, regina consorte di Francia dal 1559 al 1560.</occupation>
@@ -1042,10 +1045,11 @@
             </listPerson>
                 <!-- Lista delle opere citate nell'articolo "Bibliografia" -->
             <listBibl xml:id="listBiblBibl">
+                <head>Articolo Bibliografia</head>
                 <biblStruct type="book" xml:id="aux">
                     <monogr>
                         <author ref="#PEG">P.E. Guarnerio</author>
-                        <title type="main">Auxilium</title>
+                        <title type="main">Auxilium. </title>
                         <title type="sub">Sonetti con coda in prosa</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1059,6 +1063,8 @@
                         <author ref="#OM">Omero</author>
                         <title>Iliade</title>
                         <imprint>
+                            <publisher>Sconosciuto</publisher>
+                            <pubPlace>Luogo sconosciuto</pubPlace>
                             <date>750 a.C</date>
                         </imprint>
                     </monogr>
@@ -1090,7 +1096,7 @@
                 <biblStruct type="book" xml:id="Lyr">
                     <monogr>
                         <author ref="#EP">Enrico Panzacchi</author>
-                        <title type="main">Lyrica</title>
+                        <title type="main">Lyrica. </title>
                         <title type="sub">Romanze e canzoni</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1102,7 +1108,7 @@
                     <biblStruct type="book" xml:id="Pos">
                     <monogr>
                         <author ref="#OG">Olindo Guerrini</author>
-                        <title type="main">Postuma</title>
+                        <title type="main">Postuma. </title>
                         <title type="sub">Canzoniere di Lorenzo Stecchetti</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1127,6 +1133,7 @@
                         <author ref="#GG">Giuseppe Giusti</author>
                         <title type="main">Poesie</title>
                         <imprint>
+                            <publisher>Editore sconosciuto</publisher>
                             <pubPlace>Firenze</pubPlace>
                             <date>1866</date>
                         </imprint>
@@ -1138,7 +1145,9 @@
                         <author>Sconosciuto</author>
                         <title>Bibbia</title>
                         <imprint>
-                            <date>Sconosciuta</date>
+                            <publisher>Editore sconosciuto</publisher>
+                            <pubPlace>Luogo sconosciuto</pubPlace>
+                            <date>Data di pubblicazione sconosciuta</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
@@ -1164,8 +1173,9 @@
                         <author ref="#AP">Antonio Pucci</author>
                         <title type="main">Centiloquio</title>
                         <imprint>
-                        <pubPlace>Firenze</pubPlace>
-                        <date>1373</date>
+                            <publisher>Editore sconosciuto</publisher>
+                            <pubPlace>Firenze</pubPlace>
+                            <date>1373</date>
                         </imprint>
                     </monogr>
                     <note>Il sonetto a cui si fa riferimento è compreso nel Centiloquio.</note>
@@ -1173,10 +1183,12 @@
             </listBibl>
             <!-- Lista delle opere citate nell'articolo "Notizie"-->
             <listBibl xml:id="listBiblNotizie">
+                <head>Articolo Notizie</head>
                 <biblStruct type="magazine" xml:id="athenoeum">
                     <monogr>
                     <title type="main">Athenaeum</title>
                     <imprint>
+                        <publisher>Schlegel</publisher>
                         <pubPlace>Berlino</pubPlace>
                         <date>1798</date>
                         <note>Rivista programmatica del Romanticismo tedesco.</note>
@@ -1210,7 +1222,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="sonettiDialetto">
                     <monogr>
-                    <author ref="#LF">Luigi Ferretti</author>
+                    <author ref="#LuFer">Luigi Ferretti</author>
                     <title type="main">Sonetti in dialetto romanesco</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1267,6 +1279,7 @@
                     <monogr>
                         <title type="main">Le Temps</title>
                         <imprint>
+                            <publisher>Editore sconosciuto</publisher>
                             <pubPlace>Parigi</pubPlace>
                             <date from="1861" to="1942">Pubblicato dal 1861 al 1942</date>
                             <respStmt>
@@ -1278,13 +1291,11 @@
                 </biblStruct>
                 <biblStruct type="journal" xml:id="MLA">
                     <monogr>
-                        <respStmt>
-                            <resp>Redattori principali</resp>
-                            <persName>Joseph Lehmann</persName>
-                            <persName>Wilhelm Theodor Ferdinand Einhorn</persName>
-                            <persName>Fritz Mauthner</persName>
-                        </respStmt>
                         <title type="main">Magazin für die Literatur des Auslandes</title>
+                        <respStmt>
+                            <resp>Fondato da</resp>
+                            <persName>Joseph Lehmann</persName>
+                        </respStmt>
                         <imprint>
                             <publisher>	A. W. Hayn</publisher>
                             <pubPlace>Berlino</pubPlace>
@@ -1294,11 +1305,11 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="RPFE">
                     <monogr>
+                        <title type="main">Relations politiques de la France et de l'Espagne avec l'Écosse au XVIe Siècle</title>
                         <respStmt>
                             <resp>Curato da</resp>
                             <persName>Alexandre Teulet</persName>
                         </respStmt>
-                        <title type="main">Relations politiques de la France et de l'Espagne avec l'Écosse au XVIe Siècle</title>
                         <imprint>
                             <publisher>Veuve Jules Renouard, Éditeur</publisher>
                             <pubPlace>Paris</pubPlace>

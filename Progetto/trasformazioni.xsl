@@ -40,12 +40,24 @@
                     <!-- Contenitore menù articoli (cliccabili) -->
                     <div id="menuArticoli">
                         <h3 id="h3Articoli">Seleziona l'articolo che vuoi visualizzare</h3>
-                        <!-- Chiamo il template che visualizza titoli e date degli articoli codificati -->
+                        <!-- Chiamo il template che visualizza titoli e informazioni degli articoli codificati -->
                             <xsl:apply-templates select="/tei:TEI//tei:body/tei:div[@type='article']"/>
                             <xsl:apply-templates select="/tei:TEI//tei:body/tei:div[@type='bibarticle']"/>
                         
                     </div>
-                    <!-- Contenitore testo articoli + immagini -->
+                    <!-- Contenitore bibliografie-->
+                    <!-- Contenitore persone, organizzazioni etc-->
+                    <div id="bibliografie">
+                        <h3 id="h3Bibl">Consulta l'Appendice dei nomi e la Bibliografia</h3>
+                        <div class="appenBiblio" onclick="appAppBibl(appendice)">APPENDICE DEI NOMI</div>
+                        <div id="appendice">
+                            <xsl:apply-templates select="/tei:TEI//tei:back/tei:listPerson"/>
+                        </div>
+                        <div class="appenBiblio" onclick="appAppBibl(bibliografiaCompleta)">BIBLIOGRAFIA</div>
+                        <div id="bibliografiaCompleta">
+                            <xsl:apply-templates select="/tei:TEI//tei:back/tei:listBibl"/>
+                        </div>
+                    </div>
                 </main>
                 <footer>
                     <p>
@@ -124,6 +136,36 @@
             </div>
     </xsl:template>
 
+    <!-- Template per la visualizzazione dell'Appendice dei nomi -->
+    <xsl:template match="/tei:TEI//tei:back/tei:listPerson">
+        <!-- Suddivsione dell'appendice in articoli-->
+        <h3 class="titoliAppendici"><xsl:value-of select="tei:head"/></h3>
+            <xsl:for-each select="tei:person">
+                <div class="singolaBiblio">
+                 <!-- Assegno a ogni div l'id della listPerson riferita -->
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:attribute>
+                    <p><xsl:apply-templates/></p>
+                </div>
+            </xsl:for-each>
+    </xsl:template>
+
+        <!-- Template per la visualizzazione della bibliografia finale -->
+        <xsl:template match="/tei:TEI//tei:back/tei:listBibl">
+            <!-- Suddivsione dell'appendice in articoli-->
+            <h3 class="titoliAppendici"><xsl:value-of select="tei:head"/></h3>
+                <xsl:for-each select="tei:biblStruct">
+                    <div class="singolaBiblio">
+                     <!-- Assegno a ogni div l'id della biblStruct riferita -->
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <p><xsl:apply-templates/></p>
+                    </div>
+                </xsl:for-each>
+        </xsl:template>
+
     <!-- Regole per opener -->
     <xsl:template match="tei:salute">
         <p><xsl:value-of select="."/></p>
@@ -136,7 +178,59 @@
 
     <!-- Regole per note. Capire come gestire il farla apparire passando il mouse sopra il testo corrispondente! -->
     <xsl:template match="tei:note">
-        <div class="note"><xsl:value-of select="."/></div>
+        <p class="note"><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <!-- Regole per i persName -->
+    <xsl:template match="tei:persName">
+                    <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
+        <span class="person">
+            <xsl:attribute name="onclick">
+                apriAppendice(<xsl:value-of select="substring-after(@ref,'#')"/>)
+            </xsl:attribute>
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
+
+    <!-- Regole per i birth -->
+    <xsl:template match="tei:birth">
+        <p><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <!-- Regole per le occupation -->
+    <xsl:template match="tei:occupation">
+        <p><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <!-- Regole per i death -->
+    <xsl:template match="tei:death">
+        <p><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <!-- Regole per gli author -->
+    <xsl:template match="tei:author">
+        <p class="author"><xsl:value-of select="."/></p>
+    </xsl:template>
+
+    <!-- Regole per gli imprint-->
+    <xsl:template match="tei:imprint">
+        <p><xsl:value-of select="concat(tei:publisher,',','&#032;',tei:pubPlace,',','&#032;',tei:date)"/></p>
+    </xsl:template>
+
+    <!-- Regole per gli respStmt-->
+    <xsl:template match="tei:respStmt">
+        <p><xsl:value-of select="concat(tei:resp,':','&#032;',tei:persName)"/></p>
+    </xsl:template>
+    
+    <!-- Regole per le i bibl title -->
+    <xsl:template match="tei:title">
+        <span class="title"><xsl:value-of select="."/></span>
+    </xsl:template>
+
+
+    <!-- Regole per le i ref tema -->
+    <xsl:template match="tei:ref">
+        <span class="tema"><xsl:value-of select="."/></span>
     </xsl:template>
 
 </xsl:stylesheet>
