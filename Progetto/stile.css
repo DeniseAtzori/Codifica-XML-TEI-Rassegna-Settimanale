@@ -34,6 +34,11 @@ main {
     display: block;
 }
 .person {
+    color: #402637;
+    font-weight: bold;
+}
+.personLeg {
+    color: #402637;
     font-weight: bold;
 }
 .ficPerson {
@@ -49,6 +54,9 @@ main {
 .title {
     font-style: italic;
 }
+.titleLeg {
+    font-style: italic;
+}
 .title:hover {
     font-style: italic;
     color: #3F5F73;
@@ -56,6 +64,7 @@ main {
 }
 .tema{
     text-decoration: underline;
+    color: #60548C;
 }
 #bibliografie {
     text-align: center;
@@ -66,6 +75,9 @@ main {
 }
 .appenBiblio:hover {
     cursor: pointer;
+}
+.foreign {
+    color: #A6868C;
 }
 #appendice {
     background-color: #F2DCC9;
@@ -89,8 +101,11 @@ main {
 #h3Bibl {
     margin-bottom:4%;
 }
-#orgName {
-    color: #BF7636;
+.orgName {
+    color: #6E734C;
+}
+.placeName {
+    color: #123E59;
 }
 footer {
     background-color: #F2BFB3;

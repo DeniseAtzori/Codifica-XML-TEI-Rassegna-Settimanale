@@ -58,6 +58,15 @@
                             <xsl:apply-templates select="/tei:TEI//tei:back/tei:listBibl"/>
                         </div>
                     </div>
+                    <div id="legenda">
+                        <h3>Leggenda</h3>
+                        <p class="personLeg">Nomi di persone reali - al clic rimandano all'Appendice</p>
+                        <p class="ficPerson">Nomi di persone finzionali</p>
+                        <p class="titleLeg">Titoli di opere e riviste - al clic rimanndano alla Bibliografia</p>
+                        <p class="placeName">Nomi di luoghi</p>
+                        <p class="orgName">Nomi di organizzazioni</p>
+                        <p class="tema">Temi fondamentali del Verismo (istruzione, questione femminile, realismo-idealismo etc)</p>
+                    </div>
                 </main>
                 <footer>
                     <p>
@@ -224,7 +233,17 @@
 
     <!-- Regole per gli orgName -->
     <xsl:template match="tei:orgName">
-        <p class="orgName"><xsl:value-of select="."/></p>
+        <span class="orgName"><xsl:value-of select="."/></span>
+    </xsl:template>
+
+    <!-- Regole per i persName -->
+    <xsl:template match="tei:placeName">
+        <span class="placeName"><xsl:value-of select="."/></span>
+    </xsl:template>
+
+    <!-- Regole per i foreign -->
+    <xsl:template match="tei:foreign">
+        <span class="foreign"><xsl:value-of select="."/></span>
     </xsl:template>
 
     <!-- Regole per gli imprint-->
