@@ -38,3 +38,11 @@ function apriAppendice(id_autore){
         scrollTop: $(id_autore).offset().top
     }, 2000);
 }
+
+//Funzione che, cliccando sul titolo, rimanda alla sezione Bibliografia corrispondente
+function apriBibliografia(id_titolo){
+    $("#bibliografiaCompleta").css("display", "block");
+    $('html, body').animate({
+        scrollTop: $(id_titolo).offset().top
+    }, 2000);
+}

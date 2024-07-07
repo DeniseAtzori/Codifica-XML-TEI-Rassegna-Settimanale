@@ -141,6 +141,7 @@
         <!-- Suddivsione dell'appendice in articoli-->
         <h3 class="titoliAppendici"><xsl:value-of select="tei:head"/></h3>
             <xsl:for-each select="tei:person">
+                <xsl:sort select="tei:persName/tei:surname"/>
                 <div class="singolaBiblio">
                  <!-- Assegno a ogni div l'id della listPerson riferita -->
                     <xsl:attribute name="id">
@@ -156,6 +157,7 @@
             <!-- Suddivsione dell'appendice in articoli-->
             <h3 class="titoliAppendici"><xsl:value-of select="tei:head"/></h3>
                 <xsl:for-each select="tei:biblStruct">
+                    <xsl:sort select="tei:monogr/tei:author"/>                    
                     <div class="singolaBiblio">
                      <!-- Assegno a ogni div l'id della biblStruct riferita -->
                         <xsl:attribute name="id">
@@ -178,7 +180,7 @@
 
     <!-- Regole per note. Capire come gestire il farla apparire passando il mouse sopra il testo corrispondente! -->
     <xsl:template match="tei:note">
-        <p class="note"><xsl:value-of select="."/></p>
+        <span class="note"><xsl:value-of select="."/></span>
     </xsl:template>
 
     <!-- Regole per i persName -->
@@ -188,6 +190,14 @@
             <xsl:attribute name="onclick">
                 apriAppendice(<xsl:value-of select="substring-after(@ref,'#')"/>)
             </xsl:attribute>
+            <xsl:value-of select="."/>
+        </span>
+    </xsl:template>
+
+    <!-- Regole per i persName fictional -->
+    <xsl:template match="tei:persName[@type='fictional']">
+                    <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
+        <span class="ficPerson">
             <xsl:value-of select="."/>
         </span>
     </xsl:template>
@@ -212,6 +222,11 @@
         <p class="author"><xsl:value-of select="."/></p>
     </xsl:template>
 
+    <!-- Regole per gli orgName -->
+    <xsl:template match="tei:orgName">
+        <p class="orgName"><xsl:value-of select="."/></p>
+    </xsl:template>
+
     <!-- Regole per gli imprint-->
     <xsl:template match="tei:imprint">
         <p><xsl:value-of select="concat(tei:publisher,',','&#032;',tei:pubPlace,',','&#032;',tei:date)"/></p>
@@ -224,7 +239,11 @@
     
     <!-- Regole per le i bibl title -->
     <xsl:template match="tei:title">
-        <span class="title"><xsl:value-of select="."/></span>
+        <span class="title">
+            <xsl:attribute name="onclick">
+                apriBibliografia(<xsl:value-of select="substring-after(@ref,'#')"/>)
+            </xsl:attribute>
+            <xsl:value-of select="."/></span>
     </xsl:template>
 
 

@@ -28,7 +28,6 @@ main {
     text-align: left;
 }
 .q {
-    font-style: italic;
     quotes: none;
 }
 .note {
@@ -37,14 +36,23 @@ main {
 .person {
     font-weight: bold;
 }
+.ficPerson {
+    color: #A65638;
+}
 .author {
     font-weight: bold;
 }
 .person:hover {
     cursor: pointer;
+    color: #592525;
 }
 .title {
     font-style: italic;
+}
+.title:hover {
+    font-style: italic;
+    color: #3F5F73;
+    cursor: pointer;
 }
 .tema{
     text-decoration: underline;
@@ -80,6 +88,9 @@ main {
 }
 #h3Bibl {
     margin-bottom:4%;
+}
+#orgName {
+    color: #BF7636;
 }
 footer {
     background-color: #F2BFB3;

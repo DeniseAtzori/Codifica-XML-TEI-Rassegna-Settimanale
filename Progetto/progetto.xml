@@ -267,7 +267,7 @@
                     <p>
                         — Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Firenze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
                         <bibl>
-                            <title ref="#appendice" rend="italic">
+                            <title ref="#appLeop" rend="italic">
                                 Appendice all'Epistolario ed agli scritti giovanili di 
                                 <persName ref="#GLeop">Giacomo Leopardi</persName>
                             </title>
@@ -332,8 +332,7 @@
                         <q>
                             « detrito »
                         </q>
-                        <note>(sic)</note>. 
-                        Il libro del <persName ref="#JS"><surname>Soury</surname></persName> è dunque 
+                        <note>(sic).</note> Il libro del <persName ref="#JS"><surname>Soury</surname></persName> è dunque 
                             <q>
                                 «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
                             </q> 
@@ -555,7 +554,7 @@
                             <q>
                                 <foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign>
                             </q> 
-                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic">ideale</ref> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName><persName ref="#PEG"><surname>Guarnerio</surname></persName> 
+                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic">ideale</ref> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
                             <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole realista e idealista</ref>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
                             <bibl>
                                 <title ref="#OdiB" rend="italic">
@@ -1048,7 +1047,7 @@
                 <head>Articolo Bibliografia</head>
                 <biblStruct type="book" xml:id="aux">
                     <monogr>
-                        <author ref="#PEG">P.E. Guarnerio</author>
+                        <author ref="#PEG">Guarnerio P.E.</author>
                         <title type="main">Auxilium. </title>
                         <title type="sub">Sonetti con coda in prosa</title>
                         <imprint>
@@ -1071,7 +1070,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="OdiB">
                     <monogr>
-                        <author ref="#GC">Giosuè Carducci</author>
+                        <author ref="#GC">Carducci Giosuè</author>
                         <title type="main">Odi barbare</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1083,7 +1082,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="RM">
                     <monogr>
-                        <author ref="#GC">Giosuè Carducci</author>
+                        <author ref="#GC">Carducci Giosuè</author>
                         <title type="main">Rime nuove</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1095,7 +1094,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="Lyr">
                     <monogr>
-                        <author ref="#EP">Enrico Panzacchi</author>
+                        <author ref="#EP">Panzacchi Enrico</author>
                         <title type="main">Lyrica. </title>
                         <title type="sub">Romanze e canzoni</title>
                         <imprint>
@@ -1107,7 +1106,7 @@
                 </biblStruct>
                     <biblStruct type="book" xml:id="Pos">
                     <monogr>
-                        <author ref="#OG">Olindo Guerrini</author>
+                        <author ref="#OG">Guerrini Olindo</author>
                         <title type="main">Postuma. </title>
                         <title type="sub">Canzoniere di Lorenzo Stecchetti</title>
                         <imprint>
@@ -1119,7 +1118,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="NPol">
                     <monogr>
-                        <author ref="#OG">Olindo Guerrini</author>
+                        <author ref="#OG">Guerrini Olindo</author>
                         <title type="main">Nova polemica</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1130,7 +1129,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="PGG">
                     <monogr>
-                        <author ref="#GG">Giuseppe Giusti</author>
+                        <author ref="#GG">Giusti Giuseppe</author>
                         <title type="main">Poesie</title>
                         <imprint>
                             <publisher>Editore sconosciuto</publisher>
@@ -1153,7 +1152,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="leOpere">
                     <monogr>
-                        <author ref="#GV">Giorgio Vasari</author>
+                        <author ref="#GV">Vasari Giorgio</author>
                         <title type="main">Le opere</title>
                         <title type="sub"> con nuove annotazioni e commenti di <persName ref="#GM">Gaetano Milanesi</persName></title>
                         <imprint>
@@ -1162,7 +1161,7 @@
                         <date>1878</date>
                         <respStmt>
                             <resp>Curato da</resp>
-                            <persName ref="#GM">Gaetano Milanesi</persName>
+                            <persName ref="#GM">Milanesi Gaetano</persName>
                         </respStmt>
                         <note>"Le opere" comprende le Vite, i Ragionamenti, l'Epistolario, citate nella bibliografia di Vasari.</note>
                         </imprint>
@@ -1170,7 +1169,7 @@
                     </biblStruct>
                     <biblStruct type="book" xml:id="centiloquio">
                     <monogr>
-                        <author ref="#AP">Antonio Pucci</author>
+                        <author ref="#AP">Pucci Antonio</author>
                         <title type="main">Centiloquio</title>
                         <imprint>
                             <publisher>Editore sconosciuto</publisher>
@@ -1195,23 +1194,24 @@
                     </imprint>
                     </monogr>
                 </biblStruct>
-                <biblStruct type="book" xml:id="appendice">
+                <biblStruct type="book" xml:id="appLeop">
                     <monogr>
-                    <author ref="#GLeop">Giacomo Leopardi</author>
-                    <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
-                    <imprint>
-                        <publisher>Barbèra</publisher>
-                        <pubPlace>Firenze</pubPlace>
-                        <date>1878</date>
-                        <respStmt>
-                            <resp>Curatore dell'opera</resp>
-                            <name ref="#PV">Prospero Viani</name></respStmt>
-                    </imprint>
+                        <author ref="#GLeop">Leopardi Giacomo</author>
+                        <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
+                        <imprint>
+                            <publisher>Barbèra</publisher>
+                            <pubPlace>Firenze</pubPlace>
+                            <date>1878</date>
+                            <respStmt>
+                                <resp>Curatore dell'opera</resp>
+                                <name ref="#PV">Prospero Viani</name>
+                            </respStmt>
+                        </imprint>
                     </monogr>
                 </biblStruct>
                 <biblStruct type="book" xml:id="avvocatura">
                     <monogr>
-                    <author ref="#GZ">Giuseppe Zanardelli</author>
+                    <author ref="#GZ">Zanardelli Giuseppe</author>
                     <title type="main">L'Avvocatura</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1222,7 +1222,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="sonettiDialetto">
                     <monogr>
-                    <author ref="#LuFer">Luigi Ferretti</author>
+                    <author ref="#LuFer">Ferretti Luigi</author>
                     <title type="main">Sonetti in dialetto romanesco</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1236,7 +1236,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="iViaggi">
                     <monogr>
-                    <author ref="#FC">Francesco Carletti</author>
+                    <author ref="#FC">Carletti Francesco</author>
                     <title type="main">I viaggi</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1246,7 +1246,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="rimeVG">
                     <monogr>
-                    <author ref="#VG">Veronica Gàmbara</author>
+                    <author ref="#VG">Gàmbara Veronica</author>
                     <title type="main">Rime</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1256,7 +1256,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="poesieGM">
                     <monogr>
-                    <author ref="#GM">Giovanni Marchetti</author>
+                    <author ref="#GM">Marchetti Giovanni</author>
                     <title type="main">Poesie</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1266,7 +1266,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="JetE">
                     <monogr>
-                        <author ref="#JS">Jules Soury</author>
+                        <author ref="#JS">Soury Jules</author>
                         <title type="main">Jésus et les Évangiles</title>
                         <imprint>
                             <publisher>Charpentier</publisher>
