@@ -529,7 +529,7 @@
                     <head type="subtitle">LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
                         <pb n="441" />
-                        <cb n="1" facs="#biblioGV"/>
+                        <cb n="1" facs="#biblioG1"/>
                         <head>
                             <bibl>
                                 <author>
@@ -737,7 +737,7 @@
                             </quote> 
                             e la <placeName type="monument">cappella del <roleName>Potestà</roleName></placeName> infatti contiene per grandissima parte le storie di quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, e ne porta gli esempi, una tavola d’altare coi suoi tabernacoletti, civori, compassi ec. Sapevamcelo, potrebbesi rispondere : e la vostra proposta sarebbe ingegnosa ed accettabile, quando non avessimo una vera cappella colle storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe stato per lo meno molto mal cauto nell’ adoperar quella voce, per una tavola che stava davvero dentro una cappella. Tutti gli altri argomenti addotti dai difensori della tradizionale opinione sulla autenticità di quelle pitture e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e confutati sottilmente, non però in modo tale, a noi sembra, da riportarne vittoria. E ci ha fatto poi non poca meraviglia il veder passato sotto assoluto silenzio 
                             quel <ref target="#centiloquio">sonetto del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sanguigno, con un libro sotto il braccio, e di seguito ai santi del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Milanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument">cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor risoluta. Ad ogni modo piace il vederla trattata con tanta dignità nel respingere le altrui opinioni, con tanto acume
-                            <cb n="4" facs="biblioV3"/>
+                            <cb n="4" facs="#biblioV3"/>
                             nell’ esporre la propria come ce ne dà qui esempio il valente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>
                     </div>

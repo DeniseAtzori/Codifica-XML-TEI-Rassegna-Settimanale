@@ -137,6 +137,20 @@
                     </xsl:for-each>
                     <!-- <p><xsl:value-of select="tei:div[@type='textarticle']/tei:head/following-sibling::*"/></p> -->
                 </div>
+
+                <div class="immagine">
+                    <!-- estraggo i # dei cb -->
+                    <xsl:for-each select="tei:div[@type='textarticle']//tei:cb">   
+                        <xsl:variable name="col" select="substring-after(@facs, '#')" />
+                        <xsl:element name="img">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
+                            </xsl:attribute>
+                        </xsl:element>
+                        <xsl:apply-templates/>
+                    </xsl:for-each>
+                </div>
+
             </div>
     </xsl:template>
 
@@ -154,5 +168,7 @@
     <xsl:template match="tei:note">
         <div class="note"><xsl:value-of select="."/></div>
     </xsl:template>
+
+
 
 </xsl:stylesheet>
