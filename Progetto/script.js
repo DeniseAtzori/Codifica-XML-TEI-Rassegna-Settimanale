@@ -48,6 +48,6 @@ function apriBibliografia(id_titolo){
 }
 
 // Funzione per evidenziare le maparea
-    $(zonaImg).mouseover(function(){
-        $(zonaImg).css("background-color","yellow");
-    });
+    // $(zonaImg).mouseover(function(){
+    //     $(zonaImg).css("background-color","yellow");
+    // });

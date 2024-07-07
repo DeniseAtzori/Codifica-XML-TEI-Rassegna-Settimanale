@@ -40,6 +40,7 @@
                     <!-- Contenitore menù articoli (cliccabili) -->
                     <div id="menuArticoli">
                         <h3 id="h3Articoli">Seleziona l'articolo che vuoi visualizzare</h3>
+                        <h4 id="h4Articoli">(e tieni premuto il mouse sulle immagini per ingrandirle)</h4>
                         <!-- Chiamo il template che visualizza titoli e informazioni degli articoli codificati -->
                             <xsl:apply-templates select="/tei:TEI//tei:body/tei:div[@type='article']"/>
                             <xsl:apply-templates select="/tei:TEI//tei:body/tei:div[@type='bibarticle']"/>
@@ -67,19 +68,15 @@
                         <p class="orgName">Nomi di organizzazioni</p>
                         <p class="tema">Temi fondamentali del Verismo (istruzione, questione femminile, realismo-idealismo etc)</p>
                     </div>
-                    <div id="infoCodifica">
+                </main>
+                <footer>
+                        <div id="infoCodifica">
                         <h3>Informazioni sul documento originale e sulla codifica</h3>
                         <!--  -->
                         <p><xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc"/></p>
                         <!-- info Codifica -->
                         <!-- <p><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note"/></p> -->
                     </div>
-                </main>
-                <footer>
-                    <p>
-                        <!-- info Codifica -->
-                        
-                    </p>
                 </footer>
             </body>
         </html>
@@ -107,20 +104,21 @@
                     <xsl:value-of select="tei:div[@type='textarticle']/@xml:id"/>
                 </xsl:attribute>
                 <!-- Estrae la prima immagine (prima colonna - prima pagina) -->
-                <div class="immagine">
+                <!-- <div class="immagine"> -->
                     <!-- Chiama il template per l'estrazione dell'immagine -->
-                    <xsl:apply-templates select="tei:div[@type='textarticle']/tei:cb[@n='1']"/>
-                </div>
+                    <!-- <xsl:apply-templates select="tei:div[@type='textarticle']/tei:cb[@n='1']"/>
+                </div> -->
                 <!-- Estrae il testo dell'articolo -->
                 <div class="testo">
+                        <!-- Chiama il template per l'estrazione dell'immagine -->
+                        <xsl:apply-templates select="tei:div[@type='textarticle']/tei:cb[@n='1']"/>
                     <xsl:for-each select="tei:div[@type='textarticle']/tei:head/following-sibling::*">   
                     <!-- Per ogni sibling, chiama l'apply-templates -->
                         <p><xsl:apply-templates/></p>
                     </xsl:for-each>
                     <!-- <p><xsl:value-of select="tei:div[@type='textarticle']/tei:head/following-sibling::*"/></p> -->
+                    <div style="clear:both;"></div>
                 </div>
-
-
             </div>
     </xsl:template>
 
@@ -146,12 +144,13 @@
                     <xsl:value-of select="tei:div[@type='textarticle']/@xml:id"/>
                 </xsl:attribute>
                 <!-- Estrae l'immagine -->
-                <div class="immagine">
+                <!-- <div class="immagine"> -->
                     <!-- Chiama il template per l'estrazione dell'immagine -->
-                    <xsl:apply-templates select="tei:div[@type='textarticle']/tei:div/tei:cb[@n='1']"/>
-                </div>
+                    <!-- <xsl:apply-templates select="tei:div[@type='textarticle']/tei:div/tei:cb[@n='1']"/>
+                </div> -->
                 <!-- Estrae il testo dell'articolo -->
                 <div class="testo">
+                    <xsl:apply-templates select="tei:div[@type='textarticle']/tei:div/tei:cb[@n='1']"/>
                     <xsl:for-each select="tei:div[@type='textarticle']/tei:head[@type='subtitle']/following-sibling::*">   
                         <!-- Per ogni div fratello di head, stampa il titolo e il contenuto -->
                             <h4><xsl:value-of select="tei:head"/></h4>
@@ -159,6 +158,7 @@
                                 <p><xsl:apply-templates/></p>
                             </xsl:for-each>
                     </xsl:for-each>
+                    <div style="clear:both;"></div>
                     <!-- <p><xsl:value-of select="tei:div[@type='textarticle']/tei:head/following-sibling::*"/></p> -->
                 </div>
             </div>
@@ -266,12 +266,19 @@
                 </xsl:for-each>
         </xsl:template>
 
-        <!-- Template per la visualizzazione delle info del file originale-->
-        <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
-            <xsl:for-each select="tei:sourceDesc/descendant">
-                <p><xsl:value-of select="."/></p>
-            </xsl:for-each>
-        </xsl:template>
+        <!-- Template per la visualizzazione delle info del file originale (footer)-->
+        
+        <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc">
+             <!-- Seleziono titolo, casa editrice, luogo -->
+             <p><xsl:value-of select="concat(tei:bibl/tei:title,', ',tei:bibl/tei:publisher,', ',tei:bibl/tei:pubPlace)"/></p>
+            <!-- Seleziono nomi dei fondatori -->
+            <p>Fondatori: <xsl:value-of select="concat(tei:bibl//tei:persName[@xml:id='LF']/tei:forename,' ',tei:bibl/tei:editor/tei:persName[@xml:id='LF']/tei:surname,' e ',tei:bibl/tei:editor/tei:persName[@xml:id='SS']/tei:forename,' ',tei:bibl/tei:editor/tei:persName[@xml:id='LF']/tei:surname)"/></p>
+            <!-- Seleziono la nota -->
+            <p><xsl:value-of select="tei:bibl/tei:note"/></p>
+            <!-- <xsl:for-each select="tei:sourceDesc/descendant::*">
+                <p><xsl:apply-templates/></p>
+            </xsl:for-each> -->
+         </xsl:template>
 
         <!-- Regole per opener -->
         <xsl:template match="tei:salute">
@@ -290,7 +297,7 @@
 
         <!-- Regole per I CB -->
         <xsl:template match="tei:cb">
-            <div class="imgCb">
+            <div style="clear:both;"></div>
                 <!-- Per ogni cb estrae l'immagine corrisondente e la mette nel suo div -->
                 <xsl:variable name="col" select="substring-after(@facs, '#')" />
                 <xsl:element name="img">
@@ -323,7 +330,6 @@
                         </xsl:element>
                     </xsl:for-each>
                 </xsl:element>
-            </div>
         </xsl:template>
 
         <!-- Regole per i persName -->

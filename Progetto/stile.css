@@ -12,7 +12,7 @@ main {
 #menuArticoli {
     text-align: center;
 }
-#h3Articoli {
+#h4Articoli {
     margin-bottom:4%;
 }
 .art {
@@ -85,8 +85,17 @@ main {
 .testo {
     width:40%;
 } */
-.imgCb1 {
-    width: 80%;
+img {
+    width: 20%;
+    float: left;
+    padding: 0 2% 2% 0;
+    transition: transform .6s;
+}
+img:hover {
+    cursor: pointer;
+}
+img:active {
+    transform: scale(2);
 }
 .zonaImg {
     background-color: #A65638;
