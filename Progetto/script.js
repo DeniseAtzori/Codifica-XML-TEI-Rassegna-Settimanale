@@ -46,3 +46,8 @@ function apriBibliografia(id_titolo){
         scrollTop: $(id_titolo).offset().top
     }, 2000);
 }
+
+// Funzione per evidenziare le maparea
+    $(zonaImg).mouseover(function(){
+        $(zonaImg).css("background-color","yellow");
+    });

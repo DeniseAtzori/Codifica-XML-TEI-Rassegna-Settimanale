@@ -59,7 +59,7 @@
                         </div>
                     </div>
                     <div id="legenda">
-                        <h3>Leggenda</h3>
+                        <h3>Legenda</h3>
                         <p class="personLeg">Nomi di persone reali - al clic rimandano all'Appendice</p>
                         <p class="ficPerson">Nomi di persone finzionali</p>
                         <p class="titleLeg">Titoli di opere e riviste - al clic rimanndano alla Bibliografia</p>
@@ -67,11 +67,18 @@
                         <p class="orgName">Nomi di organizzazioni</p>
                         <p class="tema">Temi fondamentali del Verismo (istruzione, questione femminile, realismo-idealismo etc)</p>
                     </div>
+                    <div id="infoCodifica">
+                        <h3>Informazioni sul documento originale e sulla codifica</h3>
+                        <!--  -->
+                        <p><xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc"/></p>
+                        <!-- info Codifica -->
+                        <!-- <p><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note"/></p> -->
+                    </div>
                 </main>
                 <footer>
                     <p>
                         <!-- info Codifica -->
-                        <xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:note"/>
+                        
                     </p>
                 </footer>
             </body>
@@ -99,6 +106,11 @@
                 <xsl:attribute name="id">
                     <xsl:value-of select="tei:div[@type='textarticle']/@xml:id"/>
                 </xsl:attribute>
+                <!-- Estrae la prima immagine (prima colonna - prima pagina) -->
+                <div class="immagine">
+                    <!-- Chiama il template per l'estrazione dell'immagine -->
+                    <xsl:apply-templates select="tei:div[@type='textarticle']/tei:cb[@n='1']"/>
+                </div>
                 <!-- Estrae il testo dell'articolo -->
                 <div class="testo">
                     <xsl:for-each select="tei:div[@type='textarticle']/tei:head/following-sibling::*">   
@@ -107,6 +119,8 @@
                     </xsl:for-each>
                     <!-- <p><xsl:value-of select="tei:div[@type='textarticle']/tei:head/following-sibling::*"/></p> -->
                 </div>
+
+
             </div>
     </xsl:template>
 
@@ -131,6 +145,11 @@
                 <xsl:attribute name="id">
                     <xsl:value-of select="tei:div[@type='textarticle']/@xml:id"/>
                 </xsl:attribute>
+                <!-- Estrae l'immagine -->
+                <div class="immagine">
+                    <!-- Chiama il template per l'estrazione dell'immagine -->
+                    <xsl:apply-templates select="tei:div[@type='textarticle']/tei:div/tei:cb[@n='1']"/>
+                </div>
                 <!-- Estrae il testo dell'articolo -->
                 <div class="testo">
                     <xsl:for-each select="tei:div[@type='textarticle']/tei:head[@type='subtitle']/following-sibling::*">   
@@ -144,6 +163,76 @@
                 </div>
             </div>
     </xsl:template>
+
+    <!-- Template per l'estrazione della prima immagine (tutti tranne bibl) -->
+    <xsl:template match="tei:div[@type='textarticle']/tei:cb[@n='1']">
+        <xsl:variable name="col" select="substring-after(@facs, '#')" />
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
+            </xsl:attribute>
+            <xsl:attribute name="usemap">
+                <xsl:value-of select="concat('#map_', $col)"/>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="[@xml:id]"/>
+            </xsl:attribute>
+            <xsl:attribute name="class">imgCb1</xsl:attribute>
+        </xsl:element>
+        <xsl:element name="map">
+            <xsl:attribute name="name">
+                <xsl:value-of select="concat('map_', $col)"/>
+            </xsl:attribute>
+
+            <!-- Per ogni zona mappo la sua area sull'immagine -->
+            <xsl:for-each select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:zone">
+                <xsl:element name="area">
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="concat('map_', $col)"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="coords">
+                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="class">zonaImg</xsl:attribute>
+                </xsl:element>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
+
+<!-- Template per l'estrazione della prima immagine (bibl)-->
+<xsl:template match="tei:div[@type='textarticle']/tei:div/tei:cb[@n='1']">
+    <xsl:variable name="col" select="substring-after(@facs, '#')" />
+    <xsl:element name="img">
+        <xsl:attribute name="src">
+            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
+        </xsl:attribute>
+        <xsl:attribute name="usemap">
+            <xsl:value-of select="concat('#map_', $col)"/>
+        </xsl:attribute>
+        <xsl:attribute name="id">
+            <xsl:value-of select="[@xml:id]"/>
+        </xsl:attribute>
+        <xsl:attribute name="class">imgCb1</xsl:attribute>
+    </xsl:element>
+    <xsl:element name="map">
+        <xsl:attribute name="name">
+            <xsl:value-of select="concat('map_', $col)"/>
+        </xsl:attribute>
+
+        <!-- Per ogni zona mappo la sua area sull'immagine -->
+        <xsl:for-each select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:zone">
+            <xsl:element name="area">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat('map_', $col)"/>
+                </xsl:attribute>
+                <xsl:attribute name="coords">
+                    <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)"/>
+                </xsl:attribute>
+                <xsl:attribute name="class">zonaImg</xsl:attribute>
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:element>
+</xsl:template>
 
     <!-- Template per la visualizzazione dell'Appendice dei nomi -->
     <xsl:template match="/tei:TEI//tei:back/tei:listPerson">
@@ -177,98 +266,143 @@
                 </xsl:for-each>
         </xsl:template>
 
-    <!-- Regole per opener -->
-    <xsl:template match="tei:salute">
-        <p><xsl:value-of select="."/></p>
-    </xsl:template>
+        <!-- Template per la visualizzazione delle info del file originale-->
+        <xsl:template match="/tei:TEI/tei:teiHeader/tei:fileDesc">
+            <xsl:for-each select="tei:sourceDesc/descendant">
+                <p><xsl:value-of select="."/></p>
+            </xsl:for-each>
+        </xsl:template>
 
-    <!-- Regole per le citazioni q -->
-    <xsl:template match="tei:q">
-        <q class="q"><xsl:value-of select="."/></q>
-    </xsl:template>
+        <!-- Regole per opener -->
+        <xsl:template match="tei:salute">
+            <p><xsl:value-of select="."/></p>
+        </xsl:template>
 
-    <!-- Regole per note. Capire come gestire il farla apparire passando il mouse sopra il testo corrispondente! -->
-    <xsl:template match="tei:note">
-        <span class="note"><xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per le citazioni q -->
+        <xsl:template match="tei:q">
+            <q class="q"><xsl:value-of select="."/></q>
+        </xsl:template>
 
-    <!-- Regole per i persName -->
-    <xsl:template match="tei:persName">
-                    <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
-        <span class="person">
-            <xsl:attribute name="onclick">
-                apriAppendice(<xsl:value-of select="substring-after(@ref,'#')"/>)
-            </xsl:attribute>
-            <xsl:value-of select="."/>
-        </span>
-    </xsl:template>
+        <!-- Regole per note. Capire come gestire il farla apparire passando il mouse sopra il testo corrispondente! -->
+        <xsl:template match="tei:note">
+            <span class="note"><xsl:value-of select="."/></span>
+        </xsl:template>
 
-    <!-- Regole per i persName fictional -->
-    <xsl:template match="tei:persName[@type='fictional']">
-                    <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
-        <span class="ficPerson">
-            <xsl:value-of select="."/>
-        </span>
-    </xsl:template>
+        <!-- Regole per I CB -->
+        <xsl:template match="tei:cb">
+            <div class="imgCb">
+                <!-- Per ogni cb estrae l'immagine corrisondente e la mette nel suo div -->
+                <xsl:variable name="col" select="substring-after(@facs, '#')" />
+                <xsl:element name="img">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:graphic/@url" />
+                    </xsl:attribute>
+                    <xsl:attribute name="usemap">
+                        <xsl:value-of select="concat('#map_', $col)"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="[@xml:id]"/>
+                    </xsl:attribute>
+                    <xsl:attribute name="class">imgCb1</xsl:attribute>
+                </xsl:element>
+                <xsl:element name="map">
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="concat('map_', $col)"/>
+                    </xsl:attribute>
+        
+                    <!-- Per ogni zona mappo la sua area sull'immagine -->
+                    <xsl:for-each select="//tei:facsimile/tei:surface[@xml:id = $col]/tei:zone">
+                        <xsl:element name="area">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="concat('map_', $col)"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="coords">
+                                <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="class">zonaImg</xsl:attribute>
+                        </xsl:element>
+                    </xsl:for-each>
+                </xsl:element>
+            </div>
+        </xsl:template>
 
-    <!-- Regole per i birth -->
-    <xsl:template match="tei:birth">
-        <p><xsl:value-of select="."/></p>
-    </xsl:template>
+        <!-- Regole per i persName -->
+        <xsl:template match="tei:persName">
+                        <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
+            <span class="person">
+                <xsl:attribute name="onclick">
+                    apriAppendice(<xsl:value-of select="substring-after(@ref,'#')"/>)
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+            </span>
+        </xsl:template>
 
-    <!-- Regole per le occupation -->
-    <xsl:template match="tei:occupation">
-        <p><xsl:value-of select="."/></p>
-    </xsl:template>
+        <!-- Regole per i persName fictional -->
+        <xsl:template match="tei:persName[@type='fictional']">
+                        <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
+            <span class="ficPerson">
+                <xsl:value-of select="."/>
+            </span>
+        </xsl:template>
 
-    <!-- Regole per i death -->
-    <xsl:template match="tei:death">
-        <p><xsl:value-of select="."/></p>
-    </xsl:template>
+        <!-- Regole per i birth -->
+        <xsl:template match="tei:birth">
+            <p><xsl:value-of select="."/></p>
+        </xsl:template>
 
-    <!-- Regole per gli author -->
-    <xsl:template match="tei:author">
-        <p class="author"><xsl:value-of select="."/></p>
-    </xsl:template>
+        <!-- Regole per le occupation -->
+        <xsl:template match="tei:occupation">
+            <p><xsl:value-of select="."/></p>
+        </xsl:template>
 
-    <!-- Regole per gli orgName -->
-    <xsl:template match="tei:orgName">
-        <span class="orgName"><xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per i death -->
+        <xsl:template match="tei:death">
+            <p><xsl:value-of select="."/></p>
+        </xsl:template>
 
-    <!-- Regole per i persName -->
-    <xsl:template match="tei:placeName">
-        <span class="placeName"><xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per gli author -->
+        <xsl:template match="tei:author">
+            <p class="author"><xsl:value-of select="."/></p>
+        </xsl:template>
 
-    <!-- Regole per i foreign -->
-    <xsl:template match="tei:foreign">
-        <span class="foreign"><xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per gli orgName -->
+        <xsl:template match="tei:orgName">
+            <span class="orgName"><xsl:value-of select="."/></span>
+        </xsl:template>
 
-    <!-- Regole per gli imprint-->
-    <xsl:template match="tei:imprint">
-        <p><xsl:value-of select="concat(tei:publisher,',','&#032;',tei:pubPlace,',','&#032;',tei:date)"/></p>
-    </xsl:template>
+        <!-- Regole per i persName -->
+        <xsl:template match="tei:placeName">
+            <span class="placeName"><xsl:value-of select="."/></span>
+        </xsl:template>
 
-    <!-- Regole per gli respStmt-->
-    <xsl:template match="tei:respStmt">
-        <p><xsl:value-of select="concat(tei:resp,':','&#032;',tei:persName)"/></p>
-    </xsl:template>
-    
-    <!-- Regole per le i bibl title -->
-    <xsl:template match="tei:title">
-        <span class="title">
-            <xsl:attribute name="onclick">
-                apriBibliografia(<xsl:value-of select="substring-after(@ref,'#')"/>)
-            </xsl:attribute>
-            <xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per i foreign -->
+        <xsl:template match="tei:foreign">
+            <span class="foreign"><xsl:value-of select="."/></span>
+        </xsl:template>
+
+        <!-- Regole per gli imprint-->
+        <xsl:template match="tei:imprint">
+            <p><xsl:value-of select="concat(tei:publisher,',','&#032;',tei:pubPlace,',','&#032;',tei:date)"/></p>
+        </xsl:template>
+
+        <!-- Regole per gli respStmt-->
+        <xsl:template match="tei:respStmt">
+            <p><xsl:value-of select="concat(tei:resp,':','&#032;',tei:persName)"/></p>
+        </xsl:template>
+
+        <!-- Regole per le i bibl title -->
+        <xsl:template match="tei:title">
+            <span class="title">
+                <xsl:attribute name="onclick">
+                    apriBibliografia(<xsl:value-of select="substring-after(@ref,'#')"/>)
+                </xsl:attribute>
+                <xsl:value-of select="."/></span>
+        </xsl:template>
 
 
-    <!-- Regole per le i ref tema -->
-    <xsl:template match="tei:ref">
-        <span class="tema"><xsl:value-of select="."/></span>
-    </xsl:template>
+        <!-- Regole per le i ref tema -->
+        <xsl:template match="tei:ref">
+            <span class="tema"><xsl:value-of select="."/></span>
+        </xsl:template>
 
-</xsl:stylesheet>
+        </xsl:stylesheet>

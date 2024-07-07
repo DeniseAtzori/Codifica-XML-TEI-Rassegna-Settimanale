@@ -136,8 +136,8 @@
                     <date>5 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
-                    <pb n="339" />
-                    <cb n="1" facs="#istrDonne1"/>
+                    <pb n="1" />
+                    <cb n="1" facs="#istrDonne1" xml:id="cbDonne1"/>
                     <!-- titolo dell'articolo -->
                     <head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
                     <opener>
@@ -175,8 +175,9 @@
                         Oggi, mi pare che l’esperienza dovrebbe averci insegnato che il quesito stesso era in sè mal posto; che non si tratta di scegliere le cognizioni utili, giacché tutte sono tali; ma si tratta di far la mente capace a riceverne il più possibile, sviluppando al più alto grado tutte le facoltà di cui è dotata. E per questo <ref type="tema" target="#istr">la cosa più importante non è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ref>
                     </p>
                     <p>
-                        Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag<pb n="340"/>
-                        <cb n="2" facs="#istrDonne2"/>
+                        Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag-
+                        <pb n="340"/>
+                        <cb n="2" facs="#istrDonne2" xml:id="cbDonne2"/>
                         giore possibile svolgimento nelle alunne delle facoltà da quella scienza chiamate in azione ; e il legame tra queste facoltà e le altre, creava un lavoro omogeneo di ciascuna per tutte e di tutte per ciascuna. Così ne risultava che il maestro di aritmetica diventava professore di logica, quando per la risoluzione d’ un problema, senza fermarsi subito sulle cifre, faceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar da sè i rapporti tra questi due termini: e a vedere come quei rapporti rendevano piano e semplice il passaggio dall’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pretensione d’empir la testa</distinct> di nomi e di fatti, ma col semplice scopo di disegnare i contorni generali d’ ogni forma di civiltà, divenivano il telaio su cui dovevano ordinarsi più tardi non solo le letture storiche, ma anche quelle dei capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni e le altre più intelligibili dalla conoscenza dell’ ambiente in cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisiche e naturali venivano ogni dì a raccogliere e classificare le mille osservazioni cui conducevano fatti e circostanze della vita giornaliera. Nè finirei così presto, se volessi citarvi tutti gli esempi che mi si affollano alla mente. Mi è accaduto più e più volte pel passato di chiedere a me stessa qual fosse la ragione per la quale le fanciulle di quell’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in domande e risposte si sarebbe ridotta a poca cosa, pur riuscissero nella vita a parer più colte di altre cui pure era <distinct time="1800">impartito più largo corredo di cognizioni</distinct>. Oggi non me lo domando più, perchè parmi avere inteso che esse erano state formate ad intendere (nella misura delle loro forze naturali) tutto l’intelligibile; e che per esse il leggere e l’ udir cose nuove era piacere e profitto, perchè ciò che leggevano e udivano prontamente e naturalmente trovava posto nel loro intelletto aperto e preparato. Ebbene, questo che fu fatto una volta per spontanea particolare attitudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800">intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il nucleo di un sistema cui porterebbero la luce del loro sapere e della loro intelligenza uomini e donne che si occuparono di questo importantissimo tra i problemi, e che certamente potranno dargli una soluzione pratica per la quale io non mi sentirei davvero abbastanza competente.
                     </p>
                     <p>
@@ -204,7 +205,7 @@
                 </div>
                 <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
-                    <cb n="1" facs="#istrDonnacb1"/>
+                    <cb n="1" facs="#istrDonnacb1" xml:id="cbDonna1"/>
                     <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
                     <p>
                         L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan> (onorevole)</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ref>. Quindi proponeva un doppio ordine di licei e ginnasi, di scuole ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi non lo vuole; chi vuole la donna istruita ed ha paura della donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma forse questa discussione si potrebbe sospendere di fronte ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ref>.
@@ -215,7 +216,7 @@
                             Vedete come la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.
                         </q> 
                         Non viene mai in mente di pensare che una istruzione come quella che le diamo, porterebbe i medesimi resultati anche in un uomo. E non viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia. Ma c’ è di peggio ancora. <ref type="tema" target="#istr">Uno dei guai d’<placeName><country type="nation">Italia</country></placeName> sono i nostri convitti</ref>. I soli che diano qualche utile resultato sono i convitti militari, perchè in essi è entrato quello spirito di disciplina, d’indipendenza morale e di onore cavalleresco, che costituiscono la forza e la gloria del nostro esercito. I convitti diretti dai frati sono.... convitti di frati; i laici lasciano molto, ma molto a desiderare. Tuttavia la educazione degli uomini si forma in gran parte nella università e nella società; la vita di convitto ha per essi una influenza meno definitiva che per le donne. Queste se vanno al convitto, ne escono assai spesso per andare a marito, ed il loro carattere allora è già formato per sempre. Ad una istruzione superficiale i convitti femminili uniscono una educazione, secondo noi, falsissima, perchè mira a sopprimere ogni sentimento di responsabilità e d’indipendenza morale. In molti di essi, anche fra i migliori, si crede, per esempio, massima indiscutibile, che le ragazze debbano andare il meno possibile nella propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può scrivere alla figlia, nè questa alla madre, senza che la di
-                        <cb n="2" facs="#istrDonnacb2"/>
+                        <cb n="2" facs="#istrDonnacb2" xml:id="cbDonna2"/>
                         rettrice apra e legga le lettere. Un fratello non può visitare la sorella nel convitto, per non far nascere scandali. La conseguenza naturale di tutto ciò è che in molti convitti femminili tra le ragazze non si parla d’altro che di amori; si cercano e si trovano tutti i mezzi per fare uscire ed entrare lettere d’ ogni sorta, senza che la direttrice lo sappia. Abbiamo conosciuta una <rs type="person">signorina inglese</rs>, chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
                         aperta la sua prima lettera, andò in furia ; quando le fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle monache; dove non ci sono più le monache, c’ è restato il loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte da <roleName>Ispettori</roleName> e <roleName>Provveditori</roleName> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura superficiale ed una educazione che separa dalla famiglia e dalla società, che tende a sopprimere ogni morale responsabilità, ogni indipendenza di carattere, che spinge senza saperlo ai sotterfugi ed alla finzione? Fortunatamente i convitti non sono molti ; ma da un altro lato le scuole sono poche ed insufficenti.
                     </p>
@@ -227,9 +228,9 @@
                         Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
                         della donna. Bisognerebbe innanzi tutto ordinare meglio, e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di lezioni per le donne che hanno già passata l’età per andare alle scuole superiori, e pur vogliono in qualche modo compiere la loro istruzione. Ma noi non abbiamo qui lo spazio necessario per esporre tutte le nostre idee, sulle quali torneremo altra volta. Vogliamo per ora fermarci sopra una sola quistione, che par molto e forse troppo speciale; ma che pure crediamo assai importante, specialmente se si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
                         diploma il quale sia praticamente utile a qualche cosa.
-                    </p>
                     <pb n="2" />
-                    <cb n="3" facs="#istrDonna2cb1"/>
+                    <cb n="3" facs="#istrDonna2cb1" xml:id="cbDonna3"/>
+                    </p>
                     <p>
                         Nello stato presente delle cose i soli istituti femminili che cominciano a dare utili resultati e vanno migliorando davvero sono le scuole normali, anzi, può dirsi che siano, generalmente parlando, i soli istituti superiori per le donne, quelli che danno la regola e la norma a tutti gli altri. L’insegnamento di molti convitti si modella infatti su di esse, nè quello delle poche scuole femminili, che portano il nome di superiori differisce gran fatto da esse. E stata la necessità di avere le maestre elementari quella che portò 
                         alla formazione delle scuole normali, le quali costituiscono un vero progresso nell’ istruzione delle donne, ed hanno cominciato ad aprir loro la via ad un ufficio col quale molte sostentano la propria vita, altre aiutano le famiglie. E qui non è forse inopportuno <ref type="tema" target="#istrDonne">l’ osservare, che queste scuole normali femminili riescono, secondo il giudizio concorde di tutte le autorità scolastiche, meglio assai che le maschili</ref>, superiorità che naturalmente si riscontra anche nelle scuole elementari. Senza volere da ciò cavare conseguenze troppo generali, è pur forza affermare', che il primo esperimento col quale si è veramente dato alla donna ed all’ uomo una medesima istruzione, ha provato con evidenza che <ref type="tema" target="#istrDonne">la donna non riesce punto inferiore all’ uomo</ref>.
@@ -247,7 +248,7 @@
                             Voi ci chiamate ad insegnare nelle scuole normali ; ebbene, non ci nominate come fate ora, senza che abbiamo il diploma, solo per favore o per raccomandazioni. Determinate le cognizioni che dobbiamo avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.
                         </q> 
                         Il dovere di rispondere a questa domanda è indiscutibile, e per rispondervi bisognerebbe cominciare a 
-                        <cb n="4" facs="#istrDonna2cb2"/>
+                        <cb n="4" facs="#istrDonna2cb2" xml:id="cbDonna4"/>
                         <ref type="tema" target="#istrDonne">trovare il modo di dare alla donna, sotto una forma o sotto un’ altra, un insegnamento superiore di fatto</ref> e non di nome solamente. Noi crediamo che questo bisogno sia universalmente riconosciuto, anche da coloro che non son molto favorevoli alla generale cultura della donna. E siamo certi che una volta aperte e bene ordinate le <orgName>scuole Normali Superiori</orgName>, vi andrebbero moltissime anche di quelle donne che non vogliono insegnare, e i convitti e le altre scuole 
                         secondarie femminili sentirebbero la necessità di rendere i loro corsi di studio più seri e meno superficiali.
                     </p>
@@ -262,7 +263,7 @@
                 </div>
                 <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
-                    <cb n="1" facs="#notizie" />
+                    <cb n="1" facs="#notizie" xml:id="cbNotizie"/>
                     <head rend="uppercase">NOTIZIE.</head>
                     <p>
                         — Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Firenze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
@@ -408,7 +409,7 @@
                 </div>
                 <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
-                    <cb n="1" facs="#lucia"/>
+                    <cb n="1" facs="#lucia" xml:id="cbLucia1"/>
                     <head rend="uppercase">LUCIA.</head>
                     <p>
                         Con la sua voce d’argento chiamò : 
@@ -421,7 +422,7 @@
                             « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
                         </q> e ponendosi
                     <pb n="2" />
-                    <cb n="2" facs="#lucia2cb1"/>
+                    <cb n="2" facs="#lucia2cb1" xml:id="cbLucia2"/>
                         afflitta a sedere, con la fronte appoggiata ad una mano, tende l’occhio addolorato alle pendici del colle e tristamente s’ abbandona ai suoi pensieri.
                     </p>
                     <p>
@@ -482,7 +483,7 @@
                     </p>
                     <p>
                         Un leggiero belato si udì ad un trar di mano da lei ; 
-                    <cb n="2" facs="#lucia2cb2"/> 
+                    <cb n="3" facs="#lucia2cb2" xml:id="cbLucia3"/> 
                         un lampo di gioia le balenò nei limpidi occhi celesti e, tra le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi scalzi e gridando allegramente :
                         <said>
                             « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> bella, <name type="animal">Bianchina</name> mia »
@@ -528,7 +529,7 @@
                     <head type="subtitle">LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
                         <pb n="441" />
-                        <cb n="1" facs="#biblioGV"/>
+                        <cb n="1" facs="#biblioG1" xml:id="cbBiblio1"/>
                         <head>
                             <bibl>
                                 <author>
@@ -571,8 +572,8 @@
                         </p>
                         <p>
                             Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non rinunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
+                        <cb n="2" facs="#biblioGV" xml:id="cbBiblio2"/>
                         </p>
-                        <cb n="2" facs="#biblioGV"/>
                         <p>
                             Allora è vecchio come la 
                             <bibl>
@@ -695,7 +696,7 @@
                         <p>
                             Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare i resultati a cui crede esser giunta una piccola schiera di 
                         <pb n="2" />
-                        <cb n="3" facs="#biblioV2"/>
+                        <cb n="3" facs="#biblioV2" xml:id="cbBiblio3"/>
                             critici e storici dell'arte, che 
                             <quote>
                                 « con enfatiche parole vanno predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Italia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indigena, nazionale, originale, e scevra in tutto dell’ elemento bizantino. »
@@ -736,7 +737,7 @@
                             </quote> 
                             e la <placeName type="monument">cappella del <roleName>Potestà</roleName></placeName> infatti contiene per grandissima parte le storie di quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, e ne porta gli esempi, una tavola d’altare coi suoi tabernacoletti, civori, compassi ec. Sapevamcelo, potrebbesi rispondere : e la vostra proposta sarebbe ingegnosa ed accettabile, quando non avessimo una vera cappella colle storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe stato per lo meno molto mal cauto nell’ adoperar quella voce, per una tavola che stava davvero dentro una cappella. Tutti gli altri argomenti addotti dai difensori della tradizionale opinione sulla autenticità di quelle pitture e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e confutati sottilmente, non però in modo tale, a noi sembra, da riportarne vittoria. E ci ha fatto poi non poca meraviglia il veder passato sotto assoluto silenzio 
                             quel <ref target="#centiloquio">sonetto del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sanguigno, con un libro sotto il braccio, e di seguito ai santi del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Milanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument">cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor risoluta. Ad ogni modo piace il vederla trattata con tanta dignità nel respingere le altrui opinioni, con tanto acume
-                            <cb n="4" facs="biblioV3"/>
+                            <cb n="4" facs="#biblioV3" xml:id="cbBiblio4"/>
                             nell’ esporre la propria come ce ne dà qui esempio il valente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>
                     </div>

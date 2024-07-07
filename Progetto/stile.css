@@ -79,6 +79,22 @@ main {
 .foreign {
     color: #A6868C;
 }
+/* .immagine {
+    width:40%;
+}
+.testo {
+    width:40%;
+} */
+.imgCb1 {
+    width: 80%;
+}
+.zonaImg {
+    background-color: #A65638;
+    display: block;
+}
+.zonaImg:hover {
+    background-color: #A65638;
+}
 #appendice {
     background-color: #F2DCC9;
     padding:3% 6% 3% 6%;
