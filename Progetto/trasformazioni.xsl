@@ -87,11 +87,10 @@
                     <!-- <p><xsl:value-of select="tei:div[@type='textarticle']/tei:head/following-sibling::*"/></p> -->
                 </div>
 
-                <!-- trova l'immagine giusta ma mette solo la prima 
-                 capire perché-->
+
                 <div class="immagine">
                     <!-- estraggo i # dei cb -->
-                    <xsl:for-each select="tei:div[@type='textarticle']/tei:cb">   
+                    <xsl:for-each select="tei:div[@type='textarticle']//tei:cb">   
                         <xsl:variable name="col" select="substring-after(@facs, '#')" />
                         <xsl:element name="img">
                             <xsl:attribute name="src">
