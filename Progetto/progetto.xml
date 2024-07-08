@@ -11,10 +11,10 @@
             <!-- Responsabilità per il contenuto intellettuale del testo -->
                     <resp> Conversione TEI P5 a cura di</resp>
                     <persName xml:id="DA">
-                        <forename>Denise </forename><surname>Atzori,</surname>
+                        <forename>Denise </forename> <surname>Atzori,</surname>
                     </persName>
                     <persName xml:id="MP">
-                        <forename>Martina </forename><surname>Perodi</surname>
+                        <forename>Martina </forename> <surname>Perodi</surname>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -34,7 +34,7 @@
                     <pubPlace>Firenze</pubPlace>
                     <editor>
                         <persName xml:id="LF">
-                            <forename>Leopoldo</forename><surname>Franchetti</surname>
+                            <forename>Leopoldo</forename> <surname>Franchetti</surname>
                         </persName>
                         <persName xml:id="SS">
                             <forename>Sydney</forename> <surname>Sonnino</surname>
@@ -132,15 +132,15 @@
         <!-- Contenuto testuale del primo articolo -->
             <div n="1" type="article" xml:id="ArtGiglioli">
                 <div type="intestazione" xml:id="intArtGiglioli">
-                    <p>Vol. 1°, N°18.
+                 <p>Vol. 1°, N°18.
                     <date>5 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
-                    <pb n="339" />
-                    <cb n="1" facs="#istrDonne1"/>
+                    <pb n="1" />
+                    <cb n="1" facs="#istrDonne1" xml:id="cbDonne1"/>
                     <!-- titolo dell'articolo -->
-                    <head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
-                    <opener>
+                    <lb /><head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
+                    <lb /><opener>
                     <!-- apertura della lettera -->
                         <salute>Ai direttori</salute>
                         <dateline>
@@ -149,38 +149,39 @@
                         </dateline>
                     </opener>
                     <p>
-                        <date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
+                        <lb /><date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
                         <q type="written">
-                            « sono per l’<ref type="tema" target="#istrDon">istruzione della donna</ref>, larga, completa, profonda, per quanto lo consentono a ciascuna le sue facoltà intellettive e le circostanze speciali in cui può esser posta * » 
+                            « sono per l’<ref type="tema" target="#istrDon">istruzione della <lb />donna</ref>, larga, completa, profonda, per quanto lo consentono <lb />a ciascuna le sue facoltà intellettive e le circostanze spe<lb />ciali in cui può esser posta * » 
                         </q>
                         <note type="footnote" >
-                                * Vedi 
+                            <lb />  * Vedi 
                                 <bibl>
                                     <title ref="#RasSet">Rassegna</title>, 
                                     n. 16, pag. 298.
                                 </bibl>
                         </note>
-                        Aggiungo ora che il problema sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere quello scopo. Ma siccome per studiare i mezzi di giungere ad una mèta, bisogna che questa sia nettamente definita, così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile determinare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma generica</ref>, e quale quella che ne supera il potere.
+                        Aggiungo ora che il proble<lb />ma sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere <lb />quello scopo. Ma siccome per studiare i mezzi di giungere <lb />ad una mèta, bisogna che questa sia nettamente definita,<lb /> così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile deter<lb />minare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte <lb />che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma ge<lb />nerica</ref>, e quale quella che ne supera il potere.
                     </p>
                     <p>
-                        Vi dirò subito che per me la <ref type="tema" target="#istr">missione dell’ insegnamento</ref> non può essere quella di <ref type="tema" target="#istr">trasmettere in blocco il sapere</ref>: la ristrettezza del tempo dentro il quale l’<ref type="tema" target="#istr">insegnamento regolare</ref> va concentrato, la non maturità della mente di chi impara, la mancanza dei punti di paragone che l’ esperienza sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic">proprie</emph> le cognizioni materialmente comunicateci da altri — condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">precipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: 
+                        <lb />Vi dirò subito che per me la <ref type="tema" target="#istr">missione dell’ insegnamento</ref> <lb />non può essere quella di <ref type="tema" target="#istr">trasmettere in blocco il sapere</ref>: <lb />la ristrettezza del tempo dentro il quale l’<ref type="tema" target="#istr">insegnamento <lb />regolare</ref> va concentrato, la non maturità della mente di chi<lb /> impara, la mancanza dei punti di paragone che l’ esperienza <lb />sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic"><lb />proprie</emph> le cognizioni materialmente comunicateci da altri — <lb />condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale <lb />compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">pre<lb />cipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, <lb />che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: <lb />
                         <ref type="tema" target="#istr">
                             <q type="written">
                                 « quali fossero per ciascuno le cognizioni utili »
                             </q>
                         </ref> 
-                        e siccome queste si trovano sempre essere innumerevoli, il problema — problema davvero insolubile — era lo stringerle, l’ abbreviarle, l’ accalcarle nello spazio e nel tempo prefisso. Di qui il sistema di catechismo divenuto, per scienze e per lettere, una necessità, a scapito di ogni indipendenza mentale ; di qui l’abuso stragrande della memoria a spese del raziocinio; di qui la forzata divisione degli allievi in categorie secondo quello che, fatti uomini o donne, dovevano diventare, con evidente pregiudizio della loro libertà, <sic>perchè</sic> costretti a scegliere coi dati insufficienti della età prematura, o a far scegliere da altri.
+                        e siccome <lb />queste si trovano sempre essere innumerevoli, il problema<lb /> — problema davvero insolubile — era lo stringerle, l’ abbre<lb />viarle, l’ accalcarle nello spazio e nel tempo prefisso. Di qui <lb />il sistema di catechismo divenuto, per scienze e per let<lb />tere, una necessità, a scapito di ogni indipendenza men<lb />tale ; di qui l’abuso stragrande della memoria a spese del <lb />raziocinio; di qui la forzata divisione degli allievi in cate<lb />gorie secondo quello che, fatti uomini o donne, dovevano <lb />diventare, con evidente pregiudizio della loro libertà, <sic>per<lb />chè</sic> costretti a scegliere coi dati insufficienti della età pre<lb />matura, o a far scegliere da altri.
                     </p>
                     <p>
-                        Oggi, mi pare che l’esperienza dovrebbe averci insegnato che il quesito stesso era in sè mal posto; che non si tratta di scegliere le cognizioni utili, giacché tutte sono tali; ma si tratta di far la mente capace a riceverne il più possibile, sviluppando al più alto grado tutte le facoltà di cui è dotata. E per questo <ref type="tema" target="#istr">la cosa più importante non è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ref>
+                        <lb />Oggi, mi pare che l’esperienza dovrebbe averci inse<lb />gnato che il quesito stesso era in sè mal posto; che non<lb /> si tratta di scegliere le cognizioni utili, giacché tutte sono <lb />tali; ma si tratta di far la mente capace a riceverne il<lb /> più possibile, sviluppando al più alto grado tutte le facoltà <lb />di cui è dotata. E per questo <ref type="tema" target="#istr">la cosa più importante non<lb /> è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ref>
                     </p>
                     <p>
-                        Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una giovane donna</rs> la cui esperienza di scuole era limitatissima, la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campagna e di famiglia non pareva preparazione <distinct>sufficente</distinct> all’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’educazione e l’ istruzione richiedono che, se la morte non l’ avesse colta nel mezzo del suo lavoro, questo avrebbe indubbiamente lasciato tracce visibili e durature tra noi. Il metodo era semplicissimo. Essa si era associati pochi, ma ottimi professori; non aveva chiesto a ciascuno lo sfoggio d’una dose prefissa della sua scienza, ma soltanto il mag<pb n="340"/>
-                        <cb n="2" facs="#istrDonne2"/>
-                        giore possibile svolgimento nelle alunne delle facoltà da quella scienza chiamate in azione ; e il legame tra queste facoltà e le altre, creava un lavoro omogeneo di ciascuna per tutte e di tutte per ciascuna. Così ne risultava che il maestro di aritmetica diventava professore di logica, quando per la risoluzione d’ un problema, senza fermarsi subito sulle cifre, faceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar da sè i rapporti tra questi due termini: e a vedere come quei rapporti rendevano piano e semplice il passaggio dall’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pretensione d’empir la testa</distinct> di nomi e di fatti, ma col semplice scopo di disegnare i contorni generali d’ ogni forma di civiltà, divenivano il telaio su cui dovevano ordinarsi più tardi non solo le letture storiche, ma anche quelle dei capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni e le altre più intelligibili dalla conoscenza dell’ ambiente in cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisiche e naturali venivano ogni dì a raccogliere e classificare le mille osservazioni cui conducevano fatti e circostanze della vita giornaliera. Nè finirei così presto, se volessi citarvi tutti gli esempi che mi si affollano alla mente. Mi è accaduto più e più volte pel passato di chiedere a me stessa qual fosse la ragione per la quale le fanciulle di quell’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in domande e risposte si sarebbe ridotta a poca cosa, pur riuscissero nella vita a parer più colte di altre cui pure era <distinct time="1800">impartito più largo corredo di cognizioni</distinct>. Oggi non me lo domando più, perchè parmi avere inteso che esse erano state formate ad intendere (nella misura delle loro forze naturali) tutto l’intelligibile; e che per esse il leggere e l’ udir cose nuove era piacere e profitto, perchè ciò che leggevano e udivano prontamente e naturalmente trovava posto nel loro intelletto aperto e preparato. Ebbene, questo che fu fatto una volta per spontanea particolare attitudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800">intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il nucleo di un sistema cui porterebbero la luce del loro sapere e della loro intelligenza uomini e donne che si occuparono di questo importantissimo tra i problemi, e che certamente potranno dargli una soluzione pratica per la quale io non mi sentirei davvero abbastanza competente.
+                        <lb />Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb />vane donna</rs> la cui esperienza di scuole era limitatissima, <lb />la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campa<lb />gna e di famiglia non pareva preparazione <distinct>sufficente</distinct> al<lb />l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb />cazione e l’ istruzione richiedono che, se la morte non <lb />l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb />dubbiamente lasciato tracce visibili e durature tra noi. <lb />Il metodo era semplicissimo. Essa si era associati pochi,<lb /> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb />gio d’una dose prefissa della sua scienza, ma soltanto il mag-
+                        <pb n="340"/>
+                        <cb n="2" facs="#istrDonne2" xml:id="cbDonne2"/>
+                        <lb />giore possibile svolgimento nelle alunne delle facoltà da quella <lb />scienza chiamate in azione ; e il legame tra queste facoltà e le <lb />altre, creava un lavoro omogeneo di ciascuna per tutte e di <lb />tutte per ciascuna. Così ne risultava che il maestro di aritme<lb />tica diventava professore di logica, quando per la risolu<lb />zione d’ un problema, senza fermarsi subito sulle cifre, fa<lb />ceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro <lb />ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar <lb />da sè i rapporti tra questi due termini: e a vedere come <lb />quei rapporti rendevano piano e semplice il passaggio dal<lb />l’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pre<lb />tensione d’empir la testa</distinct> di nomi e di fatti, ma col sem<lb />plice scopo di disegnare i contorni generali d’ ogni forma <lb />di civiltà, divenivano il telaio su cui dovevano ordinarsi <lb />più tardi non solo le letture storiche, ma anche quelle dei <lb />capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni<lb /> e le altre più intelligibili dalla conoscenza dell’ ambiente in <lb />cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisi<lb />che e naturali venivano ogni dì a raccogliere e classificare<lb /> le mille osservazioni cui conducevano fatti e circostanze<lb /> della vita giornaliera. Nè finirei così presto, se volessi ci<lb />tarvi tutti gli esempi che mi si affollano alla mente. Mi è <lb />accaduto più e più volte pel passato di chiedere a me<lb /> stessa qual fosse la ragione per la quale le fanciulle di quel<lb />l’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in do<lb />mande e risposte si sarebbe ridotta a poca cosa, pur riu<lb />scissero nella vita a parer più colte di altre cui pure era <distinct time="1800"><lb />impartito più largo corredo di cognizioni</distinct>. Oggi non me lo <lb />domando più, perchè parmi avere inteso che esse erano <lb />state formate ad intendere (nella misura delle loro forze <lb />naturali) tutto l’intelligibile; e che per esse il leggere e<lb /> l’ udir cose nuove era piacere e profitto, perchè ciò che leg<lb />gevano e udivano prontamente e naturalmente trovava <lb />posto nel loro intelletto aperto e preparato. Ebbene, que<lb />sto che fu fatto una volta per spontanea particolare atti<lb />tudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800"><lb />intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il <lb />nucleo di un sistema cui porterebbero la luce del loro sa<lb />pere e della loro intelligenza uomini e donne che si occu<lb />parono di questo importantissimo tra i problemi, e che cer<lb />tamente potranno dargli una soluzione pratica per la quale <lb />io non mi sentirei davvero abbastanza competente.
                     </p>
                     <p>
-                        Fatta la discussione generale, decisa la questione di massima, trovate le vie per cui si deve procedere, non credo che sarà impossibile in una città intelligente come questa, di venire al risultato positivo del <ref type="tema" target="#istrDon">creare una buona scuola o modificare le esistenti sul tipo giudicato migliore</ref>. E sono certissima che, sebbene apparentemente la scuola così costituita non voglia pretendere di fissare <emph rend="italic">a priori</emph> una carriera da percorrere, le fanciulle di normale capacità che ne usciranno a 18 o 20 anni saranno ugualmente pronte all’ esame d’entrata d’<orgName>Università</orgName> o a scegliere altra professione che le renda indipendenti, come potranno portare nella famiglia, se famiglia formeranno, il frutto prezioso d’ una mente aperta e sviluppata alle cose più alte e migliori. E mentre cureranno il benessere e la salute dei loro cari, troveranno la distrazione e il riposo che altre cercano in futili passatempi, in quei <ref type="tema" target="#istr">libri che le renderanno istitutrici dei figli</ref> ed anche in certi casi loro materiale sostegno. Ed ora davvero poso la penna, col timore d’aver detto troppo o troppo poco. Ma qualunque sia il valore delle mie idee, mi sono sentita in debito di dirle, come credo debito di tutti il cercare di far luce con la discussione calma, serena e tollerante, in una questione che tocca noi tutti così da vicino.
+                        <lb />Fatta la discussione generale, decisa la questione di <lb />massima, trovate le vie per cui si deve procedere, non credo <lb />che sarà impossibile in una città intelligente come questa, <lb />di venire al risultato positivo del <ref type="tema" target="#istrDon">creare una buona scuola <lb />o modificare le esistenti sul tipo giudicato migliore</ref>. E sono <lb />certissima che, sebbene apparentemente la scuola così co<lb />stituita non voglia pretendere di fissare <emph rend="italic">a priori</emph> una car<lb />riera da percorrere, le fanciulle di normale capacità che ne <lb />usciranno a 18 o 20 anni saranno ugualmente pronte al<lb />l’ esame d’entrata d’<orgName>Università</orgName> o a scegliere altra profes<lb />sione che le renda indipendenti, come potranno portare <lb />nella famiglia, se famiglia formeranno, il frutto prezioso <lb />d’ una mente aperta e sviluppata alle cose più alte e mi<lb />gliori. E mentre cureranno il benessere e la salute dei loro <lb />cari, troveranno la distrazione e il riposo che altre cercano <lb />in futili passatempi, in quei <ref type="tema" target="#istr">libri che le renderanno istitu<lb />trici dei figli</ref> ed anche in certi casi loro materiale sostegno. <lb />Ed ora davvero poso la penna, col timore d’aver detto <lb />troppo o troppo poco. Ma qualunque sia il valore delle mie <lb />idee, mi sono sentita in debito <lb />di dirle, come credo debito di tutti il cercare di far luce con la discussione calma, se<lb />rena e tollerante, in una questione che tocca noi tutti così <lb />da vicino.
                     </p>
                     <closer>
                         <!-- chiusura della lettera -->
@@ -189,8 +190,8 @@
                                 <abbr type="contraction">Dev.ma</abbr>
                                 <expan> (Devotissima)</expan> 
                             </choice>
-                            <persName rend="text-transform: uppercase;" ref="#CB">
-                                <forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
+                            <persName rend="text-transform: uppercase;" ref="#CG">
+                                <lb /><forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
                             </persName>
                         </signed>
                     </closer>
@@ -204,52 +205,55 @@
                 </div>
                 <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
-                    <cb n="1" facs="#istrDonnacb1"/>
-                    <head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
+                    <cb n="1" facs="#istrDonnacb1" xml:id="cbDonna1"/>
+                    <lb /><head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
                     <p>
-                        L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan>onorevole</expan></choice></roleName>Coppino</persName>, poco prima di abbandonare il <orgName>Ministero della Pubblica Istruzione</orgName>, aveva formulato un nuovo disegno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uomini ed alle donne la stessa istruzione secondaria</ref>. Quindi proponeva un doppio ordine di licei e ginnasi, di scuole ed istituti tecnici. Questo disegno di legge discusso ed approvato da una <orgName>Commissione</orgName>, non fu neppure presentato al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto sono usciti opuscoli, libri, articoli di giornali sull’ istruzione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi non lo vuole; chi vuole la donna istruita ed ha paura della donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma forse questa discussione si potrebbe sospendere di fronte ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a darla, ed in ogni caso è necessario moltiplicar1e e migliorarle</ref>.
+                        <lb />L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan> (onorevole)</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di<lb />segno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si <lb />fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uo<lb />mini ed alle donne la stessa istruzione secondaria</ref>. Quindi <lb />proponeva un doppio ordine di licei e ginnasi, di scuole <lb />ed istituti tecnici. Questo disegno di legge discusso ed <lb />approvato da una <orgName>Commissione</orgName>, non fu neppure presentato <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto <lb />sono usciti opuscoli, libri, articoli di giornali sull’ istru<lb />zione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi <lb />non lo vuole; chi vuole la donna istruita ed ha paura della <lb />donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma <lb />forse questa discussione si potrebbe sospendere di fronte <lb />ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio<lb />rarle</ref>.
                     </p>
                     <p>
-                        In generale può dirsi che, mentre noi cerchiamo di dare all’ uomo una istruzione che ne sviluppi e fortifichi l’intelligenza, ne accresca la cultura, alla donna vogliam dare solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne viene, come è naturale, una grande superficialità e leggerezza in tutto. Ma noi allora, con una logica molto singolare, ci serviamo di questi che sono i resultati naturali del nostro metodo, per giustificarlo. Se da una istruzione superficiale e leggera risulta una intelligenza leggera e superficiale, invece di mutar metodo, diciamo: 
+                        <lb />In generale può dirsi che, mentre noi cerchiamo di dare <lb />all’ uomo una istruzione che ne sviluppi e fortifichi l’intel<lb />ligenza, ne accresca la cultura, alla donna vogliam dare <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne <lb />viene, come è naturale, una grande superficialità e legge<lb />rezza in tutto. Ma noi allora, con una logica molto singo<lb />lare, ci serviamo di questi che sono i resultati naturali del <lb />nostro metodo, per giustificarlo. Se da una istruzione su<lb />perficiale e leggera risulta una intelligenza leggera e su<lb />perficiale, invece di mutar metodo, diciamo: 
                         <q type="spoken">
-                            Vedete come la donna è incapace di studi severi; essa non si piegherebbe mai ad un metodo rigoroso.
+                            Vedete come <lb />la donna è incapace di studi severi; essa non si pieghe<lb />rebbe mai ad un metodo rigoroso.
                         </q> 
-                        Non viene mai in mente di pensare che una istruzione come quella che le diamo, porterebbe i medesimi resultati anche in un uomo. E non viene neppure in mente, che la superficialità e la leggerezza non giovano nè alla letterata, nè alla non letterata, nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia. Ma c’ è di peggio ancora. <ref type="tema" target="#istr">Uno dei guai d’<placeName><country type="nation">Italia</country></placeName> sono i nostri convitti</ref>. I soli che diano qualche utile resultato sono i convitti militari, perchè in essi è entrato quello spirito di disciplina, d’indipendenza morale e di onore cavalleresco, che costituiscono la forza e la gloria del nostro esercito. I convitti diretti dai frati sono.... convitti di frati; i laici lasciano molto, ma molto a desiderare. Tuttavia la educazione degli uomini si forma in gran parte nella università e nella società; la vita di convitto ha per essi una influenza meno definitiva che per le donne. Queste se vanno al convitto, ne escono assai spesso per andare a marito, ed il loro carattere allora è già formato per sempre. Ad una istruzione superficiale i convitti femminili uniscono una educazione, secondo noi, falsissima, perchè mira a sopprimere ogni sentimento di responsabilità e d’indipendenza morale. In molti di essi, anche fra i migliori, si crede, per esempio, massima indiscutibile, che le ragazze debbano andare il meno possibile nella propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può scrivere alla figlia, nè questa alla madre, senza che la di
-                        <cb n="2" facs="#istrDonnacb2"/>
-                        rettrice apra e legga le lettere. Un fratello non può visitare la sorella nel convitto, per non far nascere scandali. La conseguenza naturale di tutto ciò è che in molti convitti femminili tra le ragazze non si parla d’altro che di amori; si cercano e si trovano tutti i mezzi per fare uscire ed entrare lettere d’ ogni sorta, senza che la direttrice lo sappia. Abbiamo conosciuta una <rs type="person">signorina inglese</rs>, chiamata ad insegnare la sua lingua in un convitto, nel quale doveva dimorare. Quando essa ricevette 
-                        aperta la sua prima lettera, andò in furia ; quando le fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito il modo di far come facevano le alunne. In sostanza i collegi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle monache; dove non ci sono più le monache, c’ è restato il loro metodo di educare. Queste non sono asserzioni gratuite. Potremmo rimandare il lettore a molte relazioni fatte da <roleName>Ispettori</roleName> e <roleName>Provveditori</roleName> del <orgName>Ministero</orgName>. Ora, che utili resultati possono dare, a chi possono giovare una cultura superficiale ed una educazione che separa dalla famiglia e dalla società, che tende a sopprimere ogni morale responsabilità, ogni indipendenza di carattere, che spinge senza saperlo ai sotterfugi ed alla finzione? Fortunatamente i convitti non sono molti ; ma da un altro lato le scuole sono poche ed insufficenti.
+                        Non viene mai in mente <lb />di pensare che una istruzione come quella che le diamo, <lb />porterebbe i medesimi resultati anche in un uomo. E non <lb />viene neppure in mente, che la superficialità e la legge<lb />rezza non giovano nè alla letterata, nè alla non letterata, <lb />nè alla madre, nè alla moglie, nè alla vedova, nè alla figlia. <lb />Ma c’ è di peggio ancora. <ref type="tema" target="#istr">Uno dei guai d’<placeName><country type="nation">Italia</country></placeName> sono i <lb />nostri convitti</ref>. I soli che diano qualche utile resultato sono <lb />i convitti militari, perchè in essi è entrato quello spirito di <lb />disciplina, d’indipendenza morale e di onore cavalleresco, che <lb />costituiscono la forza e la gloria del nostro esercito. I convitti <lb />diretti dai frati sono.... convitti di frati; i laici lasciano <lb />molto, ma molto a desiderare. Tuttavia la educazione degli <lb />uomini si forma in gran parte nella università e nella società; <lb />la vita di convitto ha per essi una influenza meno defini<lb />tiva che per le donne. Queste se vanno al convitto, ne escono <lb />assai spesso per andare a marito, ed il loro carattere allora <lb />è già formato per sempre. Ad una istruzione superficiale i <lb />convitti femminili uniscono una educazione, secondo noi, <lb />falsissima, perchè mira a sopprimere ogni sentimento di <lb />responsabilità e d’indipendenza morale. In molti di essi, an<lb />che fra i migliori, si crede, per esempio, massima indiscuti<lb />bile, che le ragazze debbano andare il meno possibile nella <lb />propria famiglia, per non <emph rend="italic">corrompersi</emph>. La madre non può <lb />scrivere alla figlia, nè questa alla madre, senza che la di
+                        <cb n="2" facs="#istrDonnacb2" xml:id="cbDonna2"/>
+                        <lb />rettrice apra e legga le lettere. Un fratello non può visi<lb />tare la sorella nel convitto, per non far nascere scandali. <lb />La conseguenza naturale di tutto ciò è che in molti con<lb />vitti femminili tra le ragazze non si parla d’altro che <lb />di amori; si cercano e si trovano tutti i mezzi per fare <lb />uscire ed entrare lettere d’ ogni sorta, senza che la diret<lb />trice lo sappia. Abbiamo conosciuta una <rs type="person">signorina in<lb />glese</rs>, chiamata ad insegnare la sua lingua in un con<lb />vitto, nel quale doveva dimorare. Quando essa ricevette<lb /> 
+                        aperta la sua prima lettera, andò in furia ; quando le <lb />fu detto che il <rs type="law">Regolamento</rs> lo imponeva, trovò subito <lb />il modo di far come facevano le alunne. In sostanza i col<lb />legi femminili furono e sono in <placeName><country type="nation">Italia</country></placeName> nelle mani delle mo<lb />nache; dove non ci sono più le monache, c’ è restato il <lb />loro metodo di educare. Queste non sono asserzioni gra<lb />tuite. Potremmo rimandare il lettore a molte relazioni fatte <lb />da <roleName>Ispettori</roleName> e <roleName>Provveditori</roleName> del <orgName>Ministero</orgName>. Ora, che utili re<lb />sultati possono dare, a chi possono giovare una cultura su<lb />perficiale ed una educazione che separa dalla famiglia e <lb />dalla società, che tende a sopprimere ogni morale respon<lb />sabilità, ogni indipendenza di carattere, che spinge senza <lb />saperlo ai sotterfugi ed alla finzione? Fortunatamente i <lb />convitti non sono molti ; ma da un altro lato le scuole sono <lb />poche ed insufficenti.
                     </p>
                     <p>
-                        Per queste ragioni è molto naturale quella impazienza che vediamo crescere ogni giorno, e quelle domande che sorgono da ogni lato perchè l’educazione e l’istruzione della donna si migliorino e si sollevino. E una questione che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agitarsi fra di noi, che in questa più che in ogni altra cosa stiamo alla coda dei popoli civili. Chi non conosce l’azione che la donna esercita sulla società intera? Chi non sa che noi tutti, riceviamo la prima educazione dalla madre? L’ignoranza della donna la esclude da ogni seria conversazione cogli uomini, i quali da ciò non cavano nessunissimo vantaggio; e sopprime nella nostra società una classe di persone che presso altri popoli legge assai più degli uomini, occupati sempre negli affari o negli studi speciali. Questa forse non è l’ultima fra le cagioni per cui i nostri libri diventano noiosi, aridi, tecnici, e sono scritti troppo 
-                        spesso solamente per gli uomini del mestiere. <ref type="tema" target="#istrDonne">Per ora il nostro sistema scolastico femminile si riduce alle scuole elementari, ed alle scuole normali che formano le maestre elementari</ref>. Le sei o forse sette scuole femminili, che si chiamano superiori, sono certo una lodevole eccezione; ma poche di numero e con poche alunne non possono mutare il carattere generale del sistema. Esse non sono altro che scuole tecniche, quelle cioè che rappresentano l’infimo scalino della istruzione secondaria dell’ uomo, e per le donne invece rappresentano lo scalino più alto. Nondimeno già sentiamo che si parla di sopprimere quella che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
+                        <lb />Per queste ragioni è molto naturale quella impazienza <lb />che vediamo crescere ogni giorno, e quelle domande che <lb />sorgono da ogni lato perchè l’educazione e l’istruzione <lb />della donna si migliorino e si sollevino. E una questione <lb />che s’agita ora in tutta l’<placeName><bloc type="continent">Europa</bloc></placeName>, e molto più deve agi<lb />tarsi fra di noi, che in questa più che in ogni altra <lb />cosa stiamo alla coda dei popoli civili. Chi non conosce l’azione <lb />che la donna esercita sulla società intera? Chi non sa che <lb />noi tutti, riceviamo la prima educazione dalla madre? <lb />L’ignoranza della donna la esclude da ogni seria conversa<lb />zione cogli uomini, i quali da ciò non cavano nessunissimo <lb />vantaggio; e sopprime nella nostra società una classe di <lb />persone che presso altri popoli legge assai più degli uo<lb />mini, occupati sempre negli affari o negli studi speciali. <lb />Questa forse non è l’ultima fra le cagioni per cui i nostri <lb />libri diventano noiosi, aridi, tecnici, e sono scritti troppo 
+                        <lb />spesso solamente per gli uomini del mestiere.
+                    </p> 
+                    <p>
+                            <lb /><ref type="tema" target="#istrDonne">Per ora il nostro sistema scolastico femminile si riduce <lb />alle scuole elementari, ed alle scuole normali che formano <lb />le maestre elementari</ref>. Le sei o forse sette scuole femmi<lb />nili, che si chiamano superiori, sono certo una lodevole ec<lb />cezione; ma poche di numero e con poche alunne non pos<lb />sono mutare il carattere generale del sistema. Esse non <lb />sono altro che scuole tecniche, quelle cioè che rappresen<lb />tano l’infimo scalino della istruzione secondaria dell’ uomo, <lb />e per le donne invece rappresentano lo scalino più alto. <lb />Nondimeno già sentiamo che si parla di sopprimere quella che fu istituita in <placeName><settlement type="city">Firenze</settlement></placeName>.
                     </p>
                     <p>
-                        Molto dunque ci sarebbe da fare, se si volesse cominciare veramente a dare un impulso serio alla istruzione 
-                        della donna. Bisognerebbe innanzi tutto ordinare meglio, e promuovere in ognuna delle nostre grandi città la fondazione delle scuole superiori; aprire corsi pubblici di lezioni per le donne che hanno già passata l’età per andare alle scuole superiori, e pur vogliono in qualche modo compiere la loro istruzione. Ma noi non abbiamo qui lo spazio necessario per esporre tutte le nostre idee, sulle quali torneremo altra volta. Vogliamo per ora fermarci sopra una sola quistione, che par molto e forse troppo speciale; ma che pure crediamo assai importante, specialmente se si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, frequentano quelle scuole solamente, che danno loro un 
-                        diploma il quale sia praticamente utile a qualche cosa.
-                    </p>
+                        <lb />Molto dunque ci sarebbe da fare, se si volesse comin<lb />ciare veramente a dare un impulso serio alla istruzione 
+                        <lb />della donna. Bisognerebbe innanzi tutto ordinare meglio, <lb />e promuovere in ognuna delle nostre grandi città la fon<lb />dazione delle scuole superiori; aprire corsi pubblici di le<lb />zioni per le donne che hanno già passata l’età per andare <lb />alle scuole superiori, e pur vogliono in qualche modo com<lb />piere la loro istruzione. Ma noi non abbiamo qui lo spazio <lb />necessario per esporre tutte le nostre idee, sulle quali <lb />torneremo altra volta. Vogliamo per ora fermarci sopra una sola quistione, che par molto e forse troppo speciale; <lb />ma che pure crediamo assai importante, specialmente se <lb />si considera che in <placeName><country type="nation">Italia</country></placeName> ormai tutti, uomini e donne, fre<lb />quentano quelle scuole solamente, che danno loro un 
+                        di<lb />ploma il quale sia praticamente utile a qualche cosa.
                     <pb n="2" />
-                    <cb n="3" facs="#istrDonna2cb1"/>
-                    <p>
-                        Nello stato presente delle cose i soli istituti femminili che cominciano a dare utili resultati e vanno migliorando davvero sono le scuole normali, anzi, può dirsi che siano, generalmente parlando, i soli istituti superiori per le donne, quelli che danno la regola e la norma a tutti gli altri. L’insegnamento di molti convitti si modella infatti su di esse, nè quello delle poche scuole femminili, che portano il nome di superiori differisce gran fatto da esse. E stata la necessità di avere le maestre elementari quella che portò 
-                        alla formazione delle scuole normali, le quali costituiscono un vero progresso nell’ istruzione delle donne, ed hanno cominciato ad aprir loro la via ad un ufficio col quale molte sostentano la propria vita, altre aiutano le famiglie. E qui non è forse inopportuno <ref type="tema" target="#istrDonne">l’ osservare, che queste scuole normali femminili riescono, secondo il giudizio concorde di tutte le autorità scolastiche, meglio assai che le maschili</ref>, superiorità che naturalmente si riscontra anche nelle scuole elementari. Senza volere da ciò cavare conseguenze troppo generali, è pur forza affermare', che il primo esperimento col quale si è veramente dato alla donna ed all’ uomo una medesima istruzione, ha provato con evidenza che <ref type="tema" target="#istrDonne">la donna non riesce punto inferiore all’ uomo</ref>.
+                    <cb n="3" facs="#istrDonna2cb1" xml:id="cbDonna3"/>
                     </p>
                     <p>
-                        Ma c’ è una ragione al mondo, per la quale ad essa non si debba dare altra istruzione che quella strettamente 
-                        necessaria a farne una buona maestra elementare? È qui appunto che si presenta fa quistione pratica, di cui vogliamo parlare. Nelle scuole normali e nei convitti insegnano spesso anche le donne, e queste non sono o almeno non dovrebbero essere semplici maestre elementari, perchè tengono lo stesso ufficio dei professori di scuole normali maschili, che per gli uomini è equiparato a quello di professori di liceo o ginnasio, e richiede un diploma universitario. Ora, se alla donna si dà un ufficio di pari grado non è giusto darle anche le cognizioni necessarie per adempierlo bene ? Intanto, vere scuole normali superiori che le diano l’insegnamento richiesto, ed abbiano facoltà di concedere il diploma non ne abbiamo. Profittare delle <orgName>Università</orgName>, come fanno gli uomini, è presto detto, ma le donne non possono, perchè dovrebbero prendere la licenza liceale. Ora nè il governo, nè le province, nè i municipi hanno fondato licei e ginnasi femminili, e non crediamo che, almeno per ora, sia davvero indispensabile la licenza liceale alle maestre di scuole normali.
+                        <lb />Nello stato presente delle cose i soli istituti femminili <lb />che cominciano a dare utili resultati e vanno migliorando <lb />davvero sono le scuole normali, anzi, può dirsi che siano, <lb />generalmente parlando, i soli istituti superiori per le donne, <lb />quelli che danno la regola e la norma a tutti gli altri. L’in<lb />segnamento di molti convitti si modella infatti su di esse, <lb />nè quello delle poche scuole femminili, che portano il nome <lb />di superiori differisce gran fatto da esse. E stata la ne<lb />cessità di avere le maestre elementari quella che portò 
+                        <lb />alla formazione delle scuole normali, le quali costituiscono <lb />un vero progresso nell’ istruzione delle donne, ed hanno co<lb />minciato ad aprir loro la via ad un ufficio col quale molte <lb />sostentano la propria vita, altre aiutano le famiglie. E qui <lb />non è forse inopportuno <ref type="tema" target="#istrDonne">l’ osservare, che queste scuole <lb />normali femminili riescono, secondo il giudizio concorde di <lb />tutte le autorità scolastiche, meglio assai che le maschili</ref>, <lb />superiorità che naturalmente si riscontra anche nelle scuole <lb />elementari. Senza volere da ciò cavare conseguenze troppo <lb />generali, è pur forza affermare', che il primo esperimento <lb />col quale si è veramente dato alla donna ed all’ uomo una <lb />medesima istruzione, ha provato con evidenza che <ref type="tema" target="#istrDonne">la donna <lb />non riesce punto inferiore all’ uomo</ref>.
                     </p>
                     <p>
-                        Ma qualche cosa è necessario fare, è anzi urgente. Se la donna è incapace di essere niente di più che una semplice maestra elementare, perchè si chiama dal governo, dai municipi, dai privati, ad insegnare nelle scuole normali, nei convitti e in tutte le scuole che hanno un grado quasi uguale alle normali? Se poi ha la capacità, perchè non si fondano le scuole indispensabili a darle la istruzione che, nel caso identico, così largamente e così generosamente si concede agli uomini? Perchè non le si apre la via per ottenere legalmente un diploma, e non le si offrono i necessari aiuti?
+                        <lb />Ma c’ è una ragione al mondo, per la quale ad essa <lb />non si debba dare altra istruzione che quella strettamente 
+                        <lb />necessaria a farne una buona maestra elementare? È qui <lb />appunto che si presenta fa quistione pratica, di cui vo<lb />gliamo parlare. Nelle scuole normali e nei convitti insegnano <lb />spesso anche le donne, e queste non sono o almeno non do<lb />vrebbero essere semplici maestre elementari, perchè tengono <lb />lo stesso ufficio dei professori di scuole normali maschili, che <lb />per gli uomini è equiparato a quello di professori di liceo <lb />o ginnasio, e richiede un diploma universitario. Ora, se <lb />alla donna si dà un ufficio di pari grado non è giusto darle <lb />anche le cognizioni necessarie per adempierlo bene ? In<lb />tanto, vere scuole normali superiori che le diano l’insegna<lb />mento richiesto, ed abbiano facoltà di concedere il diploma <lb />non ne abbiamo. Profittare delle <orgName>Università</orgName>, come fanno gli <lb />uomini, è presto detto, ma le donne non possono, perchè do<lb />vrebbero prendere la licenza liceale. Ora nè il governo, nè <lb />le province, nè i municipi hanno fondato licei e ginnasi <lb />femminili, e non crediamo che, almeno per ora, sia davvero <lb />indispensabile la licenza liceale alle maestre di scuole nor<lb />mali.
                     </p>
                     <p>
-                        A noi pare davvero che se la donna cominciasse un’ agitazione su questo terreno, la sua posizione legale e la sua posizione morale sarebbero innanzi al pubblico, al <orgName>governo</orgName> ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè di metodi, nè di materie d’insegnamento, nè di alcuna teoria. Dovrebbe dir solamente : 
+                        <lb />Ma qualche cosa è necessario fare, è anzi urgente. Se <lb />la donna è incapace di essere niente di più che una sem<lb />plice maestra elementare, perchè si chiama dal governo, <lb />dai municipi, dai privati, ad insegnare nelle scuole nor<lb />mali, nei convitti e in tutte le scuole che hanno un grado <lb />quasi uguale alle normali? Se poi ha la capacità, perchè <lb />non si fondano le scuole indispensabili a darle la istruzione <lb />che, nel caso identico, così largamente e così generosamente <lb />si concede agli uomini? Perchè non le si apre la via per <lb />ottenere legalmente un diploma, e non le si offrono i ne<lb />cessari aiuti?
+                    </p>
+                    <p>
+                        <lb />A noi pare davvero che se la donna cominciasse un’ agi<lb />tazione su questo terreno, la sua <lb />posizione legale e la sua posizione morale sarebbero innanzi al pubblico, al <orgName>governo</orgName> <lb />ed al <orgName>Parlamento</orgName> inespugnabili. Non dovrebbe discutere nè <lb />di metodi, nè di materie d’insegnamento, nè di alcuna teo<lb />ria. Dovrebbe dir solamente : 
                         <q type="spoken">
-                            Voi ci chiamate ad insegnare nelle scuole normali ; ebbene, non ci nominate come fate ora, senza che abbiamo il diploma, solo per favore o per raccomandazioni. Determinate le cognizioni che dobbiamo avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, come fate per gli uomini, le scuole necessarie ; dateci i medesimi aiuti.
+                            Voi ci chiamate ad insegnare <lb />nelle scuole normali ; ebbene, non ci nominate come fate <lb />ora, senza che abbiamo il diploma, solo per favore o per <lb />raccomandazioni. Determinate le cognizioni che dobbiamo <lb />avere, gli esami a cui dobbiamo sottoporci, e aprite per noi, <lb />come fate per gli uomini, le scuole necessarie ; dateci i me<lb />desimi aiuti.
                         </q> 
-                        Il dovere di rispondere a questa domanda è indiscutibile, e per rispondervi bisognerebbe cominciare a 
-                        <cb n="4" facs="#istrDonna2cb2"/>
-                        <ref type="tema" target="#istrDonne">trovare il modo di dare alla donna, sotto una forma o sotto un’ altra, un insegnamento superiore di fatto</ref> e non di nome solamente. Noi crediamo che questo bisogno sia universalmente riconosciuto, anche da coloro che non son molto favorevoli alla generale cultura della donna. E siamo certi che una volta aperte e bene ordinate le <orgName>scuole Normali Superiori</orgName>, vi andrebbero moltissime anche di quelle donne che non vogliono insegnare, e i convitti e le altre scuole 
-                        secondarie femminili sentirebbero la necessità di rendere i loro corsi di studio più seri e meno superficiali.
+                        Il dovere di rispondere a questa domanda è <lb />indiscutibile, e per rispondervi bisognerebbe cominciare a 
+                        <cb n="4" facs="#istrDonna2cb2" xml:id="cbDonna4"/>
+                        <ref type="tema" target="#istrDonne"><lb />trovare il modo di dare alla donna, sotto una forma o sotto <lb />un’ altra, un insegnamento superiore di fatto</ref> e non di <lb />nome solamente. Noi crediamo che questo bisogno sia uni<lb />versalmente riconosciuto, anche da coloro che non son molto <lb />favorevoli alla generale cultura della donna. E siamo certi <lb />che una volta aperte e bene ordinate le <orgName>scuole Normali <lb />Superiori</orgName>, vi andrebbero moltissime anche di quelle donne <lb />che non vogliono insegnare, e i convitti e le altre scuole 
+                        <lb />secondarie femminili sentirebbero la necessità di rendere <lb />i loro corsi di studio più seri e meno superficiali.
                     </p>
                 </div>
             </div>
@@ -262,38 +266,38 @@
                 </div>
                 <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
-                    <cb n="1" facs="#notizie" />
-                    <head rend="uppercase">NOTIZIE.</head>
+                    <cb n="1" facs="#notizie" xml:id="cbNotizie"/>
+                    <lb /><head rend="uppercase">NOTIZIE.</head>
                     <p>
-                        — Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Firenze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
+                        <lb />— Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Fi<lb />renze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
                         <bibl>
-                            <title ref="#appendice" rend="italic">
-                                Appendice all'Epistolario ed agli scritti giovanili di 
+                            <title ref="#appLeop" rend="italic">
+                                Appendice <lb />all'Epistolario ed agli scritti giovanili di 
                                 <persName ref="#GLeop">Giacomo Leopardi</persName>
                             </title>
                         </bibl>. 
-                        L’<persName ref="#PV"><abbr>A.</abbr> Prospero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.
+                        L’<persName ref="#PV"><abbr>A.</abbr> Pro<lb />spero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i <lb />membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per <lb />questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.
                     </p>
                     <p>
-                        — Fra poco usciranno presso lo stesso editore : 
+                        <lb />— Fra poco usciranno presso lo stesso editore : 
                         <bibl>
                             <title ref="#avvocatura" rend="italic">
                                 L' Avvocatura
                             </title>
                         </bibl>, 
-                        Due discorsi di <persName ref="#GZ"><forename>Giuseppe</forename> <surname>Zanardelli</surname></persName>. 
+                        Due <lb />discorsi di <persName ref="#GZ"><forename>Giuseppe</forename> <surname>Zanardelli</surname></persName>. 
                         — <bibl>
                             <title ref="#sonettiDialetto" rend="italic">
                                 Sonetti in dialetto romanesco
                             </title>
                         </bibl> 
-                        di <persName ref="#LF"><forename>Luigi</forename> <surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
+                        di <persName ref="#LuFer"><forename>Luigi</forename> <lb /><surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
                         — <bibl>
                             <title ref="#iViaggi" rend="italic">
                                 I viaggi
                             </title>
                         </bibl> 
-                        di <persName ref="#FC"><forename>Francesco</forename> <surname>Carletti</surname></persName>, le 
+                        di <persName ref="#FC"><forename>Francesco</forename> <lb /><surname>Carletti</surname></persName>, le 
                         <bibl>
                             <title ref="#rimeVG" rend="italic">
                                 Rime
@@ -305,18 +309,18 @@
                                 Poesie
                             </title>
                         </bibl> 
-                        del <persName ref="#GM"><roleName>conte</roleName> <forename>Giovanni</forename> <surname>Marchetti</surname></persName>. 
+                        del <persName ref="#GM"><roleName>conte</roleName> <forename>Giovanni</forename> <lb /><surname>Marchetti</surname></persName>. 
                     </p>
                     <p>
-                        — <bibl>
+                        <lb />— <bibl>
                             <title ref="#athenoeum" rend="italic">
                                 L'Athenœum
                             </title>
                         </bibl> 
-                        promette la prossima pubblicazione del libro già annunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre si occupa di molti soggetti che hanno un interesso pratico pel tempo presente, per esempio della reciprocità, dei trattati di commercio, della depressione del commercio e dell’ effetto prodotto sul commercio inglese da varie forme di protezione mantenute in altri paesi.
+                        promette la prossima pubblicazione del libro già an<lb />nunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro <lb />tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre <lb />si occupa di molti soggetti che hanno un interesso pratico pel tempo <lb />presente, per esempio della reciprocità, dei trattati di commercio, della <lb />depressione del commercio e dell’ effetto prodotto sul commercio inglese <lb />da varie forme di protezione mantenute in altri paesi.
                     </p>
                     <p> 
-                        — Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
+                        <lb />— Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
                         <bibl>«
                             <title ref="#JetE">
                                 <foreign xml:lang="fr"> 
@@ -324,23 +328,22 @@
                                 </foreign>
                             </title>»
                         </bibl>  
-                        ha levato a <placeName><settlement type="city">Parigi</settlement></placeName> gran rumore. Come è noto <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore del
+                        ha levato a <placeName><settlement type="city">Pa<lb />rigi</settlement></placeName> gran rumore. Come è noto <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore <lb />del
                         <bibl>
                             <title level="j" ref="#LeT">Temps</title>
                         </bibl>; 
-                        una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua nazione,» e si era lasciato inebriare dalla parte che rappresentava e dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il cranio gli si sarebbe presto ridotto in 
+                        una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non <lb />considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma <lb />come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato <lb />furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua <lb />nazione,» e si era lasciato inebriare dalla parte che rappresentava e <lb />dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il <lb />cranio gli si sarebbe presto ridotto in 
                         <q>
                             « detrito »
                         </q>
-                        <note>(sic)</note>. 
-                        Il libro del <persName ref="#JS"><surname>Soury</surname></persName> è dunque 
+                        <note>(sic).</note> Il libro del <persName ref="#JS"><surname>Soury</surname></persName> <lb />è dunque 
                             <q>
                                 «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
                             </q> 
-                        ma ad onta di ciò, anzi, appunto a causa di ciò verrà letto.
+                        ma ad onta di ciò, anzi, appunto a <lb />causa di ciò verrà letto.
                     </p>
                     <note>
-                        (Dal 
+                        <lb />(Dal 
                         <bibl>
                             <title ref="#MLA" level="j">
                                 <foreign xml:lang="de">Magazin für die Literatur des Auslandes</foreign>
@@ -349,11 +352,11 @@
                         .)
                     </note>
                     <p>
-                        — <persName ref="#GM">G. Monod</persName>ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che contiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
+                        <lb />— <persName ref="#GM">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che con<lb />tiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
                         <bibl>
                             <title ref="#RPFE">
                                 <foreign xml:lang="fr">
-                                    Relations politiques de la 
+                                    <lb />Relations politiques de la 
                                     <placeName>
                                         <country type="nation">
                                             France
@@ -378,24 +381,24 @@
                                 </foreign>
                             </title>
                         </bibl>. 
-                        Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">Enrico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement></placeName>.
+                        <lb />Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">En<lb />rico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement></placeName>.
                     </p>
                 </div>
                 <!-- Crediti alla fine della sezione Notizia -->
                 <div n="4" type="credits" xml:id="ArtCreditiNotizie">
                     <p><persName ref="#LF">
-                        <forename>Leopoldo</forename> <surname>Franchetti</surname>
+                        <lb /> <forename>Leopoldo</forename> <surname>Franchetti</surname>
                     </persName> 
                     <persName ref="#SS">
-                        <forename>Sidney</forename> <surname>Sonnino</surname>
+                        <lb /> <forename>Sidney</forename> <surname>Sonnino</surname>
                     </persName>
                     <roleName type="editorial">Proprietari</roleName> 
                     <roleName type="editorial">Direttori</roleName>. 
                     <persName>
-                        <forename>Angiolo</forename> <surname>Gherardini</surname>
+                        <lb /><forename>Angiolo</forename> <surname>Gherardini</surname>
                     </persName>, 
                     <roleName type="editorial">Gerente Responsabile</roleName>. <placeName rend="uppercase">
-                        <settlement type="city">FIRENZE</settlement>
+                        <lb />  <settlement type="city">FIRENZE</settlement>
                     </placeName>, 
                     <date>1878</date>.- 
                     <orgName type="publisher" ref="#CEB">Tipografia Barbèra</orgName>.</p>
@@ -409,7 +412,7 @@
                 </div>
                 <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
-                    <cb n="1" facs="#lucia"/>
+                    <cb n="1" facs="#lucia" xml:id="cbLucia1"/>
                     <head rend="uppercase">LUCIA.</head>
                     <p>
                         Con la sua voce d’argento chiamò : 
@@ -422,7 +425,7 @@
                             « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
                         </q> e ponendosi
                     <pb n="2" />
-                    <cb n="2" facs="#lucia2cb1"/>
+                    <cb n="2" facs="#lucia2cb1" xml:id="cbLucia2"/>
                         afflitta a sedere, con la fronte appoggiata ad una mano, tende l’occhio addolorato alle pendici del colle e tristamente s’ abbandona ai suoi pensieri.
                     </p>
                     <p>
@@ -483,7 +486,7 @@
                     </p>
                     <p>
                         Un leggiero belato si udì ad un trar di mano da lei ; 
-                    <cb n="2" facs="#lucia2cb2"/> 
+                    <cb n="3" facs="#lucia2cb2" xml:id="cbLucia3"/> 
                         un lampo di gioia le balenò nei limpidi occhi celesti e, tra le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi scalzi e gridando allegramente :
                         <said>
                             « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> bella, <name type="animal">Bianchina</name> mia »
@@ -529,7 +532,7 @@
                     <head type="subtitle">LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
                         <pb n="441" />
-                        <cb n="1" facs="#biblioG1"/>
+                        <cb n="1" facs="#biblioG1" xml:id="cbBiblio1"/>
                         <head>
                             <bibl>
                                 <author>
@@ -555,7 +558,7 @@
                             <q>
                                 <foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign>
                             </q> 
-                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic">ideale</ref> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName><persName ref="#PEG"><surname>Guarnerio</surname></persName> 
+                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic">ideale</ref> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
                             <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole realista e idealista</ref>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
                             <bibl>
                                 <title ref="#OdiB" rend="italic">
@@ -572,8 +575,8 @@
                         </p>
                         <p>
                             Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non rinunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
+                        <cb n="2" facs="#biblioGV" xml:id="cbBiblio2"/>
                         </p>
-                        <cb n="2" facs="#biblioGV"/>
                         <p>
                             Allora è vecchio come la 
                             <bibl>
@@ -696,7 +699,7 @@
                         <p>
                             Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare i resultati a cui crede esser giunta una piccola schiera di 
                         <pb n="2" />
-                        <cb n="3" facs="#biblioV2"/>
+                        <cb n="3" facs="#biblioV2" xml:id="cbBiblio3"/>
                             critici e storici dell'arte, che 
                             <quote>
                                 « con enfatiche parole vanno predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Italia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indigena, nazionale, originale, e scevra in tutto dell’ elemento bizantino. »
@@ -737,7 +740,7 @@
                             </quote> 
                             e la <placeName type="monument">cappella del <roleName>Potestà</roleName></placeName> infatti contiene per grandissima parte le storie di quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, e ne porta gli esempi, una tavola d’altare coi suoi tabernacoletti, civori, compassi ec. Sapevamcelo, potrebbesi rispondere : e la vostra proposta sarebbe ingegnosa ed accettabile, quando non avessimo una vera cappella colle storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe stato per lo meno molto mal cauto nell’ adoperar quella voce, per una tavola che stava davvero dentro una cappella. Tutti gli altri argomenti addotti dai difensori della tradizionale opinione sulla autenticità di quelle pitture e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e confutati sottilmente, non però in modo tale, a noi sembra, da riportarne vittoria. E ci ha fatto poi non poca meraviglia il veder passato sotto assoluto silenzio 
                             quel <ref target="#centiloquio">sonetto del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sanguigno, con un libro sotto il braccio, e di seguito ai santi del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Milanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument">cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor risoluta. Ad ogni modo piace il vederla trattata con tanta dignità nel respingere le altrui opinioni, con tanto acume
-                            <cb n="4" facs="#biblioV3"/>
+                            <cb n="4" facs="#biblioV3" xml:id="cbBiblio4"/>
                             nell’ esporre la propria come ce ne dà qui esempio il valente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>
                     </div>
@@ -747,22 +750,24 @@
         <back>
             <!-- Lista delle persone citate nell'articolo "L'istruzione delle donne" -->
             <listPerson xml:id="listPersDonne">
+                <head>Appendice 'L'istruzione delle donne'</head>
                 <person xml:id="CG">
                     <persName role="author" ref="https://www.storiapatriagenova.it/Docs/Biblioteca_Digitale/SB/e25420184d85de7e976749e9f76eb9f1/Estratti/53f004d08d63d78be02d7a004253b70c.pdf" resp="DA" cert="high">
-                        <forename>Costanza</forename><surname>Casella Giglioli</surname>
+                        <forename>Costanza</forename> <surname>Casella Giglioli</surname>
                     </persName>
                     <birth><name type="place">Casteggio</name>, <date>1841</date></birth>
-                    <death><name type="place">Firenze</name>,<date>1932</date></death>
+                    <death><name type="place">Firenze</name>, <date>1932</date></death>
                     <occupation>Scrittrice, giornalista, fondatrice della prima Scuola Commerciale a Firenze nel 1884 e Ispettrice delle Scuole Professionali di Firenze.</occupation>
                     <note>Si impegnò attivamente per migliore l'istruzione femminile.</note> 
                 </person>
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "L'istruzione della donna" -->
             <listPerson xml:id="listPersDonna">
+                <head>Appendice 'L'istruzione della donna'</head>
                 <person xml:id="onCopp">
-                    <name role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Michele</forename><surname>Coppino</surname>
-                    </name>
+                    <persName role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Michele</forename> <surname>Coppino</surname>
+                    </persName>
                     <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
                     <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
@@ -770,154 +775,154 @@
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Lucia"-->
             <listPerson xml:id="listPerLucia">
+                <head>Appendice 'Lucia'</head>
                 <person xml:id="RF">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/renato-fucini_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Renato</forename><surname>Fucini</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/renato-fucini_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Renato</forename> <surname>Fucini</surname>
+                    </persName>
                     <birth><name type="place">Monterotondo</name>, <date when="1843-04-08">8 aprile 1843</date></birth>
-                    <death><name type="place">Empoli</name>,<date when="1921-02-25">25 febbraio 1921</date></death>
+                    <death><name type="place">Empoli</name>, <date when="1921-02-25">25 febbraio 1921</date></death>
                     <occupation>Poeta, scrittore e insegnante italiano.</occupation>
                 </person>
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Bibliografia" -->
             <listPerson xml:id="listPersBibl">
+                <head>Appendice 'Bibliografia'</head>
                 <person xml:id="PEG">
-                    <name role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Pier Enea</forename><surname>Guarnerio</surname>
-                    </name>
+                    <persName role="linguist" ref="https://www.treccani.it/enciclopedia/pier-enea-guarnerio_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Pier Enea</forename> <surname>Guarnerio</surname>
+                    </persName>
                     <birth><name type="place">Milano</name>, <date when="1854-07-1">1° luglio 1854</date></birth>
                     <death><name type="place">Milano</name>, <date when="1919-12-1">1° dicembre 1919</date></death>
                     <occupation>Linguista, curatore di raccolte di novelle popolari sarde e autore di liriche e sonetti.</occupation>
                 </person>
                 <person xml:id="OG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/olindo-guerrini/" resp="DA" cert="high">
-                        <forename>Olindo</forename><surname>Guerrini</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/olindo-guerrini/" resp="DA" cert="high">
+                        <forename>Olindo</forename> <surname>Guerrini</surname>
+                    </persName>
                     <birth><name type="place">Forlì</name>, <date>1845</date></birth>
                     <death><name type="place">Bologna</name>, <date>1916</date></death>
                     <occupation>Poeta, direttore della Biblioteca universitaria di Bologna, autore di opere in versi appartenenti alla corrente del Verismo.</occupation>
                     <note>Lorenzo Stecchetti era lo pseudonimo usato da Olindo Guerrini per pubblicare le sue opere.</note>
                 </person>
                 <person xml:id="GC">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giosue-carducci_(Dizionario-Biografico)/" resp="DA" cert="high">
-                        <forename>Giosuè</forename><surname>Carducci</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giosue-carducci_(Dizionario-Biografico)/" resp="DA" cert="high">
+                        <forename>Giosuè</forename> <surname>Carducci</surname>
+                    </persName>
                     <birth><name type="place">Valdicastello</name>, <date when="1835-07-27">27 luglio 1835</date></birth>
                     <death><name type="place">Bologna</name>, <date when="1907-02-16">16 febbraio 1907</date></death>
                     <occupation>Poeta, scrittore e critico letterario, deputato e senatore del Regno d'Italia e primo vincitore italiano del Premio Nobel per la letteratura nel <date>1906</date>.</occupation>
                 </person>
                 <person xml:id="EP">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/enrico-panzacchi_%28Dizionario-Biografico%29/" resp="DA" cert="high">
-                        <forename>Enrico</forename><surname>Panzacchi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/enrico-panzacchi_%28Dizionario-Biografico%29/" resp="DA" cert="high">
+                        <forename>Enrico</forename> <surname>Panzacchi</surname>
+                    </persName>
                     <birth><name type="place">Ozzano dell'Emilia</name>, <date when="1840-12-16">16 dicembre 1840</date></birth>
                     <death><name type="place">Bologna</name>, <date when="1904-10-5">5 ottobre 1904</date></death>
                     <occupation>Poeta, critico d'arte, politico e critico musicale italiano.</occupation>
                 </person>
                 <person xml:id="DLB">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/domenico-luigi-batacchi/" resp="DA" cert="high">
-                        <forename>Domenico Luigi</forename><surname>Batacchi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/domenico-luigi-batacchi/" resp="DA" cert="high">
+                        <forename>Domenico Luigi</forename> <surname>Batacchi</surname>
+                    </persName>
                     <birth><name type="place">Pisa</name>, <date>1748</date></birth>
                     <death><name type="place">Orbetello</name>, <date>1802</date></death>
                     <occupation>Poeta e scrittore italiano.</occupation>
                 </person>
                     <person xml:id="GG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giuseppe-giusti/" resp="DA" cert="high">
-                        <forename>Giuseppe</forename><surname>Giusti</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giuseppe-giusti/" resp="DA" cert="high">
+                        <forename>Giuseppe</forename> <surname>Giusti</surname>
+                    </persName>
                     <birth><name type="place">Monsummano</name>, <date>1809</date></birth>
                     <death><name type="place">Firenze</name>, <date>1805</date></death>
                     <occupation>Poeta e deputato italiano.</occupation>
                 </person>
                 <person xml:id="AM">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/alessandro-manzoni/" resp="DA" cert="high">
-                        <forename>Alessandro</forename><surname>Manzoni</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/alessandro-manzoni/" resp="DA" cert="high">
+                        <forename>Alessandro</forename> <surname>Manzoni</surname>
+                    </persName>
                     <birth><name type="place">Monsummano</name>, <date when="1785-03-07">7 marzo 1785</date></birth>
                     <death><name type="place">Firenze</name>, <date when="1873-05-22">22 maggio 1873</date></death>
                     <occupation>Scrittore, poeta e drammaturgo italiano.</occupation>
                 </person>
                 <person xml:id="SMM">
-                    <name role="saint" ref="https://it.wikipedia.org/wiki/Maria_Maddalena" resp="MP" cert="high">
-                        <forename>Maria</forename><surname>Maddalena</surname>
-                    </name>
+                    <persName role="saint" ref="https://it.wikipedia.org/wiki/Maria_Maddalena" resp="MP" cert="high">
+                        <forename>Maria</forename> <surname>Maddalena</surname>
+                    </persName>
                     <occupation>Secondo il Nuovo Testamento è stata un'importante seguace di Gesù.</occupation>
                     </person>
                 <person xml:id="GV">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
-                        <forename>Giorgio</forename><surname>Vasari</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
+                        <forename>Giorgio</forename> <surname>Vasari</surname>
+                    </persName>
                     <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
                     <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
                 </person>
                 <person xml:id="GaetMil">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Gaetano</forename><surname>Milanesi</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Gaetano</forename> <surname>Milanesi</surname>
+                    </persName>
                     <birth><name type="place">Puglia</name><date>9 settembre 1813</date></birth>
                     <death><name type="place">Firenze</name>, <date>11 marzo 1895</date></death>
                     <occupation>Storico dell'arte e paleografo italiano.</occupation>
                 </person>
                 <person xml:id="NP">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/nicola-pisano/" resp="MP" cert="high">
-                        <forename>Niccola</forename><surname>Pisano</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/nicola-pisano/" resp="MP" cert="high">
+                        <forename>Niccola</forename> <surname>Pisano</surname>
+                    </persName>
                     <occupation>Scultore e architetto.</occupation>
                 </person>
                 <person xml:id="Gi">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/giotto-di-bondone_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Giotto</forename><surname>di Bondone</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/giotto-di-bondone_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Giotto</forename> <surname>di Bondone</surname>
+                    </persName>
                     <birth><name type="place">Colle di Vespignano Vicchio</name><date>1267</date></birth>
                     <death><name type="place">Firenze</name>, <date>8 gennaio 1337</date></death>
                     <occupation>Pittore e architetto.</occupation>
                 </person>
                 <person xml:id="DaAlig">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
-                        <forename>Dante</forename><surname>Alighieri</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
+                        <forename>Dante</forename> <surname>Alighieri</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name><date>tra il 14 maggio e il 13 giugno 1265</date></birth>
                     <death><name type="place">Ravenna</name>, <date>14 settembre 1321</date></death>
                     <occupation>Poeta, scrittore e politico italiano.</occupation>
                 </person>
                 <person xml:id="Gh">
-                    <name role="artist" ref="https://www.treccani.it/enciclopedia/lorenzo-ghiberti/" resp="MP" cert="high">
-                        <forename>Lorenzo</forename><surname>Ghiberti</surname>
-                    </name>
+                    <persName role="artist" ref="https://www.treccani.it/enciclopedia/lorenzo-ghiberti/" resp="MP" cert="high">
+                        <forename>Lorenzo</forename> <surname>Ghiberti</surname>
+                    </persName>
                     <birth><name type="place">Pelago</name><date>1378</date></birth>
                     <death><name type="place">Firenze</name>, <date>1 dicembre 1455</date></death>
                     <occupation>Scultore, orafo, architetto e scrittore d'arte italiano.</occupation>
                 </person>
                 <person xml:id="Cia">
-                    <name role="unknown" ref="unknown" resp="MP" cert="low">
-                        <forename></forename><surname>Ciampi</surname>
-                    </name>
-                    <birth><name type="place"> </name><date> </date></birth>
-                    <death><name type="place"> </name>, <date> </date></death>
-                    <occupation> </occupation>
+                    <persName role="unknown" ref="unknown" resp="MP" cert="low">
+                        <forename></forename> <surname>Ciampi</surname>
+                    </persName>
+                    <note>Informazioni non reperite</note>
                 </person>
                 <person xml:id="Cro">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
-                        <forename>Joseph Archer</forename><surname>Crowe</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
+                        <forename>Joseph Archer</forename> <surname>Crowe</surname>
+                    </persName>
                     <birth><name type="place">Londra</name><date>25 ottobre 1824</date></birth>
                     <death><name type="place">Gamburg an der Tauber</name>, <date>6 settembre 1896</date></death>
                     <occupation>Diplomatico e critico d'arte britannico.</occupation>
                 </person>
                 <person xml:id="Cav">
-                    <name role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Giovanni Battista</forename><surname>Cavalcaselle</surname>
-                    </name>
+                    <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Giovanni Battista</forename> <surname>Cavalcaselle</surname>
+                    </persName>
                     <birth><name type="place">Legnago</name><date>22 gennaio 1819</date></birth>
                     <death><name type="place">Roma</name>, <date>31 ottobre 1897</date></death>
                     <occupation>Scrittore, storico dell'arte e critico d'arte italiano.</occupation>
                 </person>
                 <person xml:id="AP">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/antonio-pucci_(Dizionario-Biografico)/" resp="MP" cert="high">
-                        <forename>Antonio</forename><surname>Pucci</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/antonio-pucci_(Dizionario-Biografico)/" resp="MP" cert="high">
+                        <forename>Antonio</forename> <surname>Pucci</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name><date>1310</date></birth>
                     <death><name type="place">Firenze</name>, <date>1388</date></death>
                     <occupation>Poeta italiano.</occupation>
@@ -925,115 +930,116 @@
             </listPerson>
             <!-- Lista delle persone citate nell'articolo "Notize" -->
             <listPerson xml:id="listPersNotizie">
+                <head>Appendice 'Notizie'</head>
                 <person xml:id="GLeop">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
-                    <forename>Giacomo</forename><surname>Leopardi</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
+                    <forename>Giacomo</forename> <surname>Leopardi</surname>
+                    </persName>
                     <birth><name type="place">Recanati</name>, <date>29 giugno 1798</date></birth>
                     <death><name type="place">Napoli</name>, <date>14 giugno 1837</date></death>
                     <occupation>Poeta e filosofo.</occupation>
                 </person>
                 <person xml:id="CLeop">
-                    <name role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
-                    <forename>Carlo Orazio</forename><surname>Leopardi</surname>
-                    </name>
+                    <persName role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
+                    <forename>Carlo Orazio</forename> <surname>Leopardi</surname>
+                    </persName>
                     <birth><name type="place">Recanati</name>, <date>12 luglio 1799</date></birth>
                     <death><name type="place">Recanati</name>, <date>11 febbraio 1878</date></death>
                     <occupation>Nobiluomo italiano.</occupation>
                 </person>
                 <person xml:id="PV">
-                    <name role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
-                    <forename>Prospero</forename><surname>Viani</surname>
-                    </name>
+                    <persName role="literary" ref="https://www.treccani.it/enciclopedia/prospero-viani/" resp="MP" cert="high">
+                    <forename>Prospero</forename> <surname>Viani</surname>
+                    </persName>
                     <birth><name type="place">Reggio nell'Emilia</name>, <date>1812</date></birth>
                     <death><name type="place">Firenze</name>, <date>1892</date></death>
                     <occupation>Filologo, biografo e bibliotecario italiano</occupation>
                 </person>
                 <person xml:id="GZ">
-                    <name role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
-                    <forename>Giuseppe</forename><surname>Zanardelli</surname>
-                    </name>
+                    <persName role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
+                    <forename>Giuseppe</forename> <surname>Zanardelli</surname>
+                    </persName>
                     <birth><name type="place">Brescia</name>, <date>26 ottobre 1826</date></birth>
                     <death><name type="place">Toscolano Moderno</name>, <date>26 dicembre 1903</date></death>
                     <occupation>Patriota e politico italiano.</occupation>
                 </person>
                 <person xml:id="LuFer">
-                    <name role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
-                    <forename>Luigi</forename><surname>Ferretti</surname>
-                    </name>
+                    <persName role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
+                    <forename>Luigi</forename> <surname>Ferretti</surname>
+                    </persName>
                     <birth><name type="place">Roma</name>, <date>21 febbraio 1836</date></birth>
                     <death><name type="place">Roma</name>, <date>7 luglio 1881</date></death>
                     <occupation>Poeta italiano.</occupation>
                 </person>
                 <person xml:id="LM">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Luigi</forename><surname>Morandi</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Luigi</forename> <surname>Morandi</surname>
+                    </persName>
                     <birth><name type="place">Todi</name>, <date>18 dicembre 1844</date></birth>
                     <death><name type="place">Roma</name>, <date>6 gennaio 1922</date></death>
                     <occupation>Educatore, scrittore, grammatico, e poeta italiano.</occupation>
                 </person>
                 <person xml:id="FC">
-                    <name role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
-                    <forename>Francesco</forename><surname>Carletti</surname>
-                    </name>
+                    <persName role="writer" ref="https://www.treccani.it/enciclopedia/francesco-carletti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                    <forename>Francesco</forename> <surname>Carletti</surname>
+                    </persName>
                     <birth><name type="place">Firenze</name>, <date>1573</date></birth>
                     <death><name type="place">Firenze</name>, <date>12 gennaio 1636</date></death>
                     <occupation>Scrittore, viaggiatore e mercante italiano.</occupation>
                 </person>
                 <person xml:id="VG">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
-                    <forename>Veronica</forename><surname>Gambara</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
+                    <forename>Veronica</forename> <surname>Gambara</surname>
+                    </persName>
                     <birth><name type="place">Pralboino</name>, <date>30 novembre 1485</date></birth>
                     <death><name type="place">Correggio</name>, <date>13 giugno 1550</date></death>
                     <occupation>Poetessa italiana.</occupation>
                 </person>
                 <person xml:id="GM">
-                    <name role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
-                    <forename>Giovanni</forename><surname>Marchetti</surname>
-                    </name>
+                    <persName role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
+                    <forename>Giovanni</forename> <surname>Marchetti</surname>
+                    </persName>
                     <birth><name type="place">Senigallia</name>, <date>26 agosto 1790</date></birth>
                     <death><name type="place">Bologna</name>, <date>28 marzo 1852</date></death>
                     <occupation>Poeta, politico e dantista italiano.</occupation>
                 </person>
                 <person xml:id="JS">
-                    <name role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
-                        <forename>Jules</forename><surname>Soury</surname>
-                    </name>
+                    <persName role="writer" ref="https://fr.wikipedia.org/wiki/Jules_Soury" resp="DA" cert="high">
+                        <forename>Jules</forename> <surname>Soury</surname>
+                    </persName>
                     <birth><name type="place">Parigi</name>, <date when="1842-05-28">28 maggio 1842</date></birth>
                     <death><name type="place">Paris</name>,<date when="1915-08-11">11 agosto 1915</date></death>
                     <occupation>Scrittore, filosofo, tratuttore e storico.</occupation>
                     <note>Giulio è la versione italianizzata del suo nome.</note>
                 </person>
                 <person xml:id="ER">
-                    <name role="philosopher" ref="https://it.wikipedia.org/wiki/Ernest_Renan" resp="DA" cert="high">
-                        <forename>Ernest</forename><surname>Renan</surname>
-                    </name>
+                    <persName role="philosopher" ref="https://it.wikipedia.org/wiki/Ernest_Renan" resp="DA" cert="high">
+                        <forename>Ernest</forename> <surname>Renan</surname>
+                    </persName>
                     <birth><name type="place">Tréguier</name>, <date when="1823-02-28">28 febbraio 1823</date></birth>
                     <death><name type="place">Paris</name>,<date when="1892-10-02">2 ottobre 1892</date></death>
                     <occupation>Filosofo, filologo, storico delle religioni e scrittore francese.</occupation>
                 </person>
                 <person xml:id="GabMon">
-                    <name role="historian" ref="https://www.treccani.it/enciclopedia/gabriel-monod/" resp="DA" cert="high">
-                        <forename>Gabriel</forename><surname>Monod</surname>
-                    </name>
+                    <persName role="historian" ref="https://www.treccani.it/enciclopedia/gabriel-monod/" resp="DA" cert="high">
+                        <forename>Gabriel</forename> <surname>Monod</surname>
+                    </persName>
                     <birth><name type="place">Le Hauvre</name>, <date>1844</date></birth>
                     <death><name type="place">Versailles</name>,<date>1912</date></death>
                     <occupation>Storico francese.</occupation>
                 </person>
                 <person xml:id="EIV">
-                    <name role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
+                    <persName role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
                         Enrico IV di Borbone detto Enrico il Grande
-                    </name>
+                    </persName>
                     <birth><name type="place">Pau</name>, <date when="1553-12-13">13 dicembre 1553</date></birth>
                     <death><name type="place">Parigi</name>,<date when="1610-05-14">14 maggio 1610</date></death>
                     <occupation>Primo re di Francia della Casa di Borbone.</occupation>
                 </person>
                 <person xml:id="MS">
-                    <name role="king" ref="https://it.wikipedia.org/wiki/Maria_Stuarda" resp="DA" cert="high">
+                    <persName role="king" ref="https://it.wikipedia.org/wiki/Maria_Stuarda" resp="DA" cert="high">
                         <forename>Mary</forename> <surname>Stuart</surname>
-                    </name>
+                    </persName>
                     <birth><name type="place">Linlithgow</name>, <date when="1542-12-88">8 dicembre 1542</date></birth>
                     <death><name type="place">Fotheringhay</name>,<date when="1587-02-08">8 febbraio 1587</date></death>
                     <occupation>Regina di Scozia dal 1542 al 1567, regina consorte di Francia dal 1559 al 1560.</occupation>
@@ -1042,10 +1048,11 @@
             </listPerson>
                 <!-- Lista delle opere citate nell'articolo "Bibliografia" -->
             <listBibl xml:id="listBiblBibl">
+                <head>Articolo Bibliografia</head>
                 <biblStruct type="book" xml:id="aux">
                     <monogr>
-                        <author ref="#PEG">P.E. Guarnerio</author>
-                        <title type="main">Auxilium</title>
+                        <author ref="#PEG">Guarnerio P.E.</author>
+                        <title type="main">Auxilium. </title>
                         <title type="sub">Sonetti con coda in prosa</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1059,13 +1066,15 @@
                         <author ref="#OM">Omero</author>
                         <title>Iliade</title>
                         <imprint>
+                            <publisher>Sconosciuto</publisher>
+                            <pubPlace>Luogo sconosciuto</pubPlace>
                             <date>750 a.C</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <biblStruct type="book" xml:id="OdiB">
                     <monogr>
-                        <author ref="#GC">Giosuè Carducci</author>
+                        <author ref="#GC">Carducci Giosuè</author>
                         <title type="main">Odi barbare</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1077,7 +1086,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="RM">
                     <monogr>
-                        <author ref="#GC">Giosuè Carducci</author>
+                        <author ref="#GC">Carducci Giosuè</author>
                         <title type="main">Rime nuove</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1089,8 +1098,8 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="Lyr">
                     <monogr>
-                        <author ref="#EP">Enrico Panzacchi</author>
-                        <title type="main">Lyrica</title>
+                        <author ref="#EP">Panzacchi Enrico</author>
+                        <title type="main">Lyrica. </title>
                         <title type="sub">Romanze e canzoni</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1101,8 +1110,8 @@
                 </biblStruct>
                     <biblStruct type="book" xml:id="Pos">
                     <monogr>
-                        <author ref="#OG">Olindo Guerrini</author>
-                        <title type="main">Postuma</title>
+                        <author ref="#OG">Guerrini Olindo</author>
+                        <title type="main">Postuma. </title>
                         <title type="sub">Canzoniere di Lorenzo Stecchetti</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1113,7 +1122,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="NPol">
                     <monogr>
-                        <author ref="#OG">Olindo Guerrini</author>
+                        <author ref="#OG">Guerrini Olindo</author>
                         <title type="main">Nova polemica</title>
                         <imprint>
                             <publisher>Zanichelli</publisher>
@@ -1124,9 +1133,10 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="PGG">
                     <monogr>
-                        <author ref="#GG">Giuseppe Giusti</author>
+                        <author ref="#GG">Giusti Giuseppe</author>
                         <title type="main">Poesie</title>
                         <imprint>
+                            <publisher>Editore sconosciuto</publisher>
                             <pubPlace>Firenze</pubPlace>
                             <date>1866</date>
                         </imprint>
@@ -1138,13 +1148,15 @@
                         <author>Sconosciuto</author>
                         <title>Bibbia</title>
                         <imprint>
-                            <date>Sconosciuta</date>
+                            <publisher>Editore sconosciuto</publisher>
+                            <pubPlace>Luogo sconosciuto</pubPlace>
+                            <date>Data di pubblicazione sconosciuta</date>
                         </imprint>
                     </monogr>
                 </biblStruct>
                 <biblStruct type="book" xml:id="leOpere">
                     <monogr>
-                        <author ref="#GV">Giorgio Vasari</author>
+                        <author ref="#GV">Vasari Giorgio</author>
                         <title type="main">Le opere</title>
                         <title type="sub"> con nuove annotazioni e commenti di <persName ref="#GM">Gaetano Milanesi</persName></title>
                         <imprint>
@@ -1153,7 +1165,7 @@
                         <date>1878</date>
                         <respStmt>
                             <resp>Curato da</resp>
-                            <persName ref="#GM">Gaetano Milanesi</persName>
+                            <persName ref="#GM">Milanesi Gaetano</persName>
                         </respStmt>
                         <note>"Le opere" comprende le Vite, i Ragionamenti, l'Epistolario, citate nella bibliografia di Vasari.</note>
                         </imprint>
@@ -1161,11 +1173,12 @@
                     </biblStruct>
                     <biblStruct type="book" xml:id="centiloquio">
                     <monogr>
-                        <author ref="#AP">Antonio Pucci</author>
+                        <author ref="#AP">Pucci Antonio</author>
                         <title type="main">Centiloquio</title>
                         <imprint>
-                        <pubPlace>Firenze</pubPlace>
-                        <date>1373</date>
+                            <publisher>Editore sconosciuto</publisher>
+                            <pubPlace>Firenze</pubPlace>
+                            <date>1373</date>
                         </imprint>
                     </monogr>
                     <note>Il sonetto a cui si fa riferimento è compreso nel Centiloquio.</note>
@@ -1173,33 +1186,36 @@
             </listBibl>
             <!-- Lista delle opere citate nell'articolo "Notizie"-->
             <listBibl xml:id="listBiblNotizie">
+                <head>Articolo Notizie</head>
                 <biblStruct type="magazine" xml:id="athenoeum">
                     <monogr>
                     <title type="main">Athenaeum</title>
                     <imprint>
+                        <publisher>Schlegel</publisher>
                         <pubPlace>Berlino</pubPlace>
                         <date>1798</date>
                         <note>Rivista programmatica del Romanticismo tedesco.</note>
                     </imprint>
                     </monogr>
                 </biblStruct>
-                <biblStruct type="book" xml:id="appendice">
+                <biblStruct type="book" xml:id="appLeop">
                     <monogr>
-                    <author ref="#GLeop">Giacomo Leopardi</author>
-                    <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
-                    <imprint>
-                        <publisher>Barbèra</publisher>
-                        <pubPlace>Firenze</pubPlace>
-                        <date>1878</date>
-                        <respStmt>
-                            <resp>Curatore dell'opera</resp>
-                            <name ref="#PV">Prospero Viani</name></respStmt>
-                    </imprint>
+                        <author ref="#GLeop">Leopardi Giacomo</author>
+                        <title type="main">Appendice all'Epistolario ed agli scritti giovanili</title>
+                        <imprint>
+                            <publisher>Barbèra</publisher>
+                            <pubPlace>Firenze</pubPlace>
+                            <date>1878</date>
+                            <respStmt>
+                                <resp>Curatore dell'opera</resp>
+                                <name ref="#PV">Prospero Viani</name>
+                            </respStmt>
+                        </imprint>
                     </monogr>
                 </biblStruct>
                 <biblStruct type="book" xml:id="avvocatura">
                     <monogr>
-                    <author ref="#GZ">Giuseppe Zanardelli</author>
+                    <author ref="#GZ">Zanardelli Giuseppe</author>
                     <title type="main">L'Avvocatura</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1210,7 +1226,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="sonettiDialetto">
                     <monogr>
-                    <author ref="#LF">Luigi Ferretti</author>
+                    <author ref="#LuFer">Ferretti Luigi</author>
                     <title type="main">Sonetti in dialetto romanesco</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1224,7 +1240,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="iViaggi">
                     <monogr>
-                    <author ref="#FC">Francesco Carletti</author>
+                    <author ref="#FC">Carletti Francesco</author>
                     <title type="main">I viaggi</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1234,7 +1250,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="rimeVG">
                     <monogr>
-                    <author ref="#VG">Veronica Gàmbara</author>
+                    <author ref="#VG">Gàmbara Veronica</author>
                     <title type="main">Rime</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1244,7 +1260,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="poesieGM">
                     <monogr>
-                    <author ref="#GM">Giovanni Marchetti</author>
+                    <author ref="#GM">Marchetti Giovanni</author>
                     <title type="main">Poesie</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
@@ -1254,7 +1270,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="JetE">
                     <monogr>
-                        <author ref="#JS">Jules Soury</author>
+                        <author ref="#JS">Soury Jules</author>
                         <title type="main">Jésus et les Évangiles</title>
                         <imprint>
                             <publisher>Charpentier</publisher>
@@ -1267,6 +1283,7 @@
                     <monogr>
                         <title type="main">Le Temps</title>
                         <imprint>
+                            <publisher>Editore sconosciuto</publisher>
                             <pubPlace>Parigi</pubPlace>
                             <date from="1861" to="1942">Pubblicato dal 1861 al 1942</date>
                             <respStmt>
@@ -1278,13 +1295,11 @@
                 </biblStruct>
                 <biblStruct type="journal" xml:id="MLA">
                     <monogr>
-                        <respStmt>
-                            <resp>Redattori principali</resp>
-                            <persName>Joseph Lehmann</persName>
-                            <persName>Wilhelm Theodor Ferdinand Einhorn</persName>
-                            <persName>Fritz Mauthner</persName>
-                        </respStmt>
                         <title type="main">Magazin für die Literatur des Auslandes</title>
+                        <respStmt>
+                            <resp>Fondato da</resp>
+                            <persName>Joseph Lehmann</persName>
+                        </respStmt>
                         <imprint>
                             <publisher>	A. W. Hayn</publisher>
                             <pubPlace>Berlino</pubPlace>
@@ -1294,11 +1309,11 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="RPFE">
                     <monogr>
+                        <title type="main">Relations politiques de la France et de l'Espagne avec l'Écosse au XVIe Siècle</title>
                         <respStmt>
                             <resp>Curato da</resp>
                             <persName>Alexandre Teulet</persName>
                         </respStmt>
-                        <title type="main">Relations politiques de la France et de l'Espagne avec l'Écosse au XVIe Siècle</title>
                         <imprint>
                             <publisher>Veuve Jules Renouard, Éditeur</publisher>
                             <pubPlace>Paris</pubPlace>
