@@ -424,4 +424,9 @@
             <span class="tema"><xsl:value-of select="."/></span>
         </xsl:template>
 
+        <!-- Regole per le glosse -->
+        <xsl:template match="tei:gloss">
+            <span class="gloss">[<xsl:value-of select="."/> N.d.C]</span>
+        </xsl:template>
+
         </xsl:stylesheet>

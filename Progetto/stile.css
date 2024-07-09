@@ -120,6 +120,10 @@ img:active {
     text-align: left;
     display: none;
 }
+.gloss {
+    opacity: .9;
+    color: grey;
+}
 .titoliAppendici {
     text-align: center;
 }
