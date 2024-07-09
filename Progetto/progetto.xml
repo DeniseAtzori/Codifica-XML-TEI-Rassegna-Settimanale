@@ -49,7 +49,7 @@
                             <repository>Università degli Studi Suor Orsola Benincasa</repository>
                             <idno></idno>
                             <note>
-                                <p>Fascicoli originali dai quali sono state realizzate le Edizioni digitali per il progetto "Rassegna settimanale"</p>
+                                <p>Ubicazione dei fascicoli originali dai quali sono state realizzate le Edizioni digitali per il progetto "Rassegna settimanale"</p>
                                 <p>Idno sconosciuto.</p>
                             </note>
                         </altIdentifier>
@@ -91,6 +91,7 @@
                     <p>Si è scelto di creare una tassonomia (qui di seguito) con i principali temi del Verismo riconosciuti nei testi codificati. All'interno del testo, sono state marcate parole e frasi esemplificative di questi temi, ricondotte alle categorie corrispondenti attraverso l'uso del tag ref.</p>
                     <p>Si è scelto di marcare le forme poetiche (sonetti, code in prosa etc) con l'uso del tag rs affiancato da type="poetic form". Allo stsso modo, si è scelto di marcare le scuole e i movimenti letterari con il tag rs affiancato da type="literary movement".</p>
                     <p>Nell'articolo "L'istruzione delle donne" si è scelto di marcare con il tag distinct le forme d'uso desuete che si differenziavano dallo stile consueto degli articoli, anche in considerazione del fatto che l'articolo è un contributo esterno alla rivista stessa.</p>
+                    <p>Le abbreviazioni sono state sciolte e marcate con il tag choice e le due alternative, abbr ed expan.</p>
                 </interpretation>
             </editorialDecl>
             <!-- Definizione delle tassonomie degli articoli codificati -->
@@ -239,13 +240,6 @@
                         <q type="written">
                             « sono per l’<ref type="tema" target="#istrDon">istruzione della <lb />donna</ref>, larga, completa, profonda, per quanto lo consentono <lb />a ciascuna le sue facoltà intellettive e le circostanze spe<lb />ciali in cui può esser posta * » 
                         </q>
-                        <note type="footnote" >
-                            <lb />  * Vedi 
-                                <bibl>
-                                    <title ref="#RasSet">Rassegna</title>, 
-                                    n. 16, pag. 298.
-                                </bibl>
-                        </note>
                         Aggiungo ora che il proble<lb />ma sta soltanto, per me, nei mezzi più <distinct type="archaic">acconci</distinct> ad ottenere <lb />quello scopo. Ma siccome per studiare i mezzi di giungere <lb />ad una mèta, bisogna che questa sia nettamente definita,<lb /> così vorrei vedere <distinct type="archaic">avanti tutto</distinct> se ci fosse possibile deter<lb />minare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte <lb />che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma ge<lb />nerica</ref>, e quale quella che ne supera il potere.
                     </p>
                     <p>
@@ -262,6 +256,13 @@
                     </p>
                     <p>
                         <lb />Ho conosciuto <distinct type="archaic">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb />vane donna</rs> la cui esperienza di scuole era limitatissima, <lb />la cui <distinct type="archaic">coltura</distinct> non era straordinaria, la cui vita di campa<lb />gna e di famiglia non pareva preparazione <distinct type="archaic">sufficente</distinct> al<lb />l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb />cazione e l’ istruzione richiedono che, se la morte non <lb />l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb />dubbiamente lasciato tracce visibili e durature tra noi. <lb />Il metodo era semplicissimo. Essa si era associati pochi,<lb /> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb />gio d’una dose prefissa della sua scienza, ma soltanto il mag-
+                        <lb /><note type="footnote" >
+                            * Vedi 
+                              <bibl>
+                                  <title ref="#RasSet">Rassegna</title>, 
+                                  n. 16, pag. 298.
+                              </bibl>
+                      </note>
                         <pb n="340"/>
                         <cb n="2" facs="#istrDonne2" xml:id="cbDonne2"/>
                         <lb />giore possibile svolgimento nelle alunne delle facoltà da quella <lb />scienza chiamate in azione ; e il legame tra queste facoltà e le <lb />altre, creava un lavoro omogeneo di ciascuna per tutte e di <lb />tutte per ciascuna. Così ne risultava che il maestro di aritme<lb />tica diventava professore di logica, quando per la risolu<lb />zione d’ un problema, senza fermarsi subito sulle cifre, fa<lb />ceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro <lb />ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar <lb />da sè i rapporti tra questi due termini: e a vedere come <lb />quei rapporti rendevano piano e semplice il passaggio dal<lb />l’uno all’ altro. Così le lezioni di storia, non fatte <distinct type="archaic">colla pre<lb />tensione d’empir la testa</distinct> di nomi e di fatti, ma col sem<lb />plice scopo di disegnare i contorni generali d’ ogni forma <lb />di civiltà, divenivano il telaio su cui dovevano ordinarsi <lb />più tardi non solo le letture storiche, ma anche quelle dei <lb />capolavori <distinct type="archaic">letterarii</distinct> e delle opere scientifiche, resi gli uni<lb /> e le altre più intelligibili dalla conoscenza dell’ ambiente in <lb />cui si formarono. Così i <distinct type="archaic">principii</distinct> generali delle scienze fisi<lb />che e naturali venivano ogni dì a raccogliere e classificare<lb /> le mille osservazioni cui conducevano fatti e circostanze<lb /> della vita giornaliera. Nè finirei così presto, se volessi ci<lb />tarvi tutti gli esempi che mi si affollano alla mente. Mi è <lb />accaduto più e più volte pel passato di chiedere a me<lb /> stessa qual fosse la ragione per la quale le fanciulle di quel<lb />l’istituto, uscite di là con una <distinct type="archaic">coltura</distinct> che, messa in do<lb />mande e risposte si sarebbe ridotta a poca cosa, pur riu<lb />scissero nella vita a parer più colte di altre cui pure era <distinct type="archaic"><lb />impartito più largo corredo di cognizioni</distinct>. Oggi non me lo <lb />domando più, perchè parmi avere inteso che esse erano <lb />state formate ad intendere (nella misura delle loro forze <lb />naturali) tutto l’intelligibile; e che per esse il leggere e<lb /> l’ udir cose nuove era piacere e profitto, perchè ciò che leg<lb />gevano e udivano prontamente e naturalmente trovava <lb />posto nel loro intelletto aperto e preparato. Ebbene, que<lb />sto che fu fatto una volta per spontanea particolare atti<lb />tudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct type="archaic"><lb />intraveduto</distinct> e desiderato, <distinct type="archaic">parmi</distinct> potrebbe diventare il <lb />nucleo di un sistema cui porterebbero la luce del loro sa<lb />pere e della loro intelligenza uomini e donne che si occu<lb />parono di questo importantissimo tra i problemi, e che cer<lb />tamente potranno dargli una soluzione pratica per la quale <lb />io non mi sentirei davvero abbastanza competente.
@@ -272,9 +273,9 @@
                     <closer>
                         <!-- chiusura della lettera -->
                         <signed>
-                            <choice>
+                            <choice resp="#DA">
                                 <abbr type="contraction">Dev.ma</abbr>
-                                <expan> (Devotissima)</expan> 
+                                <expan>Devotissima</expan> 
                             </choice>
                             <persName rend="text-transform: uppercase;" ref="#CG">
                                 <lb /><forename>COSTANZA</forename> <surname>GIGLIOLI</surname>.
@@ -294,7 +295,7 @@
                     <cb n="1" facs="#istrDonnacb1" xml:id="cbDonna1"/>
                     <lb /><head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
                     <p>
-                        <lb />L’ <persName ref="#onCopp"><roleName><choice><abbr>on.</abbr><expan> (onorevole)</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di<lb />segno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si <lb />fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uo<lb />mini ed alle donne la stessa istruzione secondaria</ref>. Quindi <lb />proponeva un doppio ordine di licei e ginnasi, di scuole <lb />ed istituti tecnici. Questo disegno di legge discusso ed <lb />approvato da una <orgName>Commissione</orgName>, non fu neppure presentato <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto <lb />sono usciti opuscoli, libri, articoli di giornali sull’ istru<lb />zione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi <lb />non lo vuole; chi vuole la donna istruita ed ha paura della <lb />donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma <lb />forse questa discussione si potrebbe sospendere di fronte <lb />ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio<lb />rarle</ref>.
+                        <lb />L’ <persName ref="#onCopp"><roleName><choice resp="#MP"><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di<lb />segno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si <lb />fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uo<lb />mini ed alle donne la stessa istruzione secondaria</ref>. Quindi <lb />proponeva un doppio ordine di licei e ginnasi, di scuole <lb />ed istituti tecnici. Questo disegno di legge discusso ed <lb />approvato da una <orgName>Commissione</orgName>, non fu neppure presentato <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto <lb />sono usciti opuscoli, libri, articoli di giornali sull’ istru<lb />zione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi <lb />non lo vuole; chi vuole la donna istruita ed ha paura della <lb />donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma <lb />forse questa discussione si potrebbe sospendere di fronte <lb />ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio<lb />rarle</ref>.
                     </p>
                     <p>
                         <lb />In generale può dirsi che, mentre noi cerchiamo di dare <lb />all’ uomo una istruzione che ne sviluppi e fortifichi l’intel<lb />ligenza, ne accresca la cultura, alla donna vogliam dare <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne <lb />viene, come è naturale, una grande superficialità e legge<lb />rezza in tutto. Ma noi allora, con una logica molto singo<lb />lare, ci serviamo di questi che sono i resultati naturali del <lb />nostro metodo, per giustificarlo. Se da una istruzione su<lb />perficiale e leggera risulta una intelligenza leggera e su<lb />perficiale, invece di mutar metodo, diciamo: 
@@ -403,7 +404,7 @@
                                 L'Athenœum
                             </title>
                         </bibl> 
-                        promette la prossima pubblicazione del libro già an<lb />nunziato del <persName ref="#Faw">Fawcett</persName> sul libero scambio e la protezione. Questo libro <lb />tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre <lb />si occupa di molti soggetti che hanno un interesso pratico pel tempo <lb />presente, per esempio della reciprocità, dei trattati di commercio, della <lb />depressione del commercio e dell’ effetto prodotto sul commercio inglese <lb />da varie forme di protezione mantenute in altri paesi.
+                        promette la prossima pubblicazione del libro già an<lb />nunziato del <rs type="person">Fawcett</rs> sul libero scambio e la protezione. Questo libro <lb />tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre <lb />si occupa di molti soggetti che hanno un interesso pratico pel tempo <lb />presente, per esempio della reciprocità, dei trattati di commercio, della <lb />depressione del commercio e dell’ effetto prodotto sul commercio inglese <lb />da varie forme di protezione mantenute in altri paesi.
                     </p>
                     <p> 
                         <lb />— Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
@@ -505,26 +506,34 @@
                         <said>
                             « <name type="animal">Bianchina</name>, <name type="animal">Bian<lb />china</name> mia »
                         </said>
-                        e rimase attenta ad ascoltare.... Un merlo spau<lb />rito, fuggì chioccolando da un cespuglio prossimo alla rupe 
+                        e rimase attenta ad ascoltare.... Un merlo spau<lb />rito, fuggì chioccolando da un cespuglio prossimo alla 
+                        <rs type="natural">rupe</rs> 
                         <lb />in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, <lb />ma la capretta non rispose. 
                         <q type="spoken">
                             « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <lb /><name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
                         </q> e ponendosi
                     <pb n="2" />
                     <cb n="2" facs="#lucia2cb1" xml:id="cbLucia2"/>
-                    <lb />afflitta a sedere, con la fronte appoggiata ad una mano, <lb />tende l’occhio addolorato alle pendici del colle e trista<lb />mente s’ abbandona ai suoi pensieri.
+                    <lb />afflitta a sedere, con la fronte appoggiata ad una mano, <lb />tende l’occhio addolorato alle pendici del 
+                    <rs type="natural">colle</rs> e trista<lb />mente s’ abbandona ai suoi pensieri.
                     </p>
                     <p>
-                        <lb />Il sole bacia le sue spalle nude e la brezza della sera la <lb />investe fasciandole i panni alla persona elegante e le as<lb />salta briosa la chioma come se volesse rubarle quel fiore <lb />dei campi che agitato rosseggia fra le sue lucide trecce.
+                        <lb />Il sole bacia le sue spalle nude e la brezza della sera la <lb />investe fasciandole i panni alla persona elegante e le as<lb />salta briosa la chioma come se volesse rubarle quel fiore <lb />dei 
+                        <rs type="natural">campi</rs> che agitato rosseggia fra le sue lucide trecce.
                     </p>
                     <p>
                         <lb />Come sei bella in mezzo alla primavera, o fresca <persName type="fictional">Lucia</persName> ! <lb />e sei sola su la tèrra, povera <persName type="fictional">Lucia</persName> !
                     </p>
                     <p>
-                        <lb />Il <rs type="person">padre</rs> suo morì di febbre in <placeName><region>Maremma</region></placeName> ; la <rs type="person">madre</rs> è <lb />lontana, ha la sua casetta su quelle montagne azzurre <lb />laggiù in fondo in fondo, ed è vecchia ed inferma.... se a <lb />quest’ ora non è già a riposarsi nel cimitero di fianco alla <lb />chiesa. E il <rs type="person">fratello</rs>? Chi sa? Andò <roleName type="militar">soldato</roleName>; lo mandarono <lb />di là dal mare; non ha scritto più nulla da <date dur="P2Y">due anni</date>.... dove <lb />sarà?
+                        <lb />Il <rs type="person">padre</rs> suo morì di febbre in <placeName><region>Maremma</region></placeName> ; la <rs type="person">madre</rs> è <lb />lontana, ha la sua casetta su quelle 
+                        <rs type="natural">montagne</rs> azzurre <lb />laggiù in fondo in fondo, ed è vecchia ed inferma.... se a <lb />quest’ ora non è già a riposarsi nel cimitero di fianco alla <lb />chiesa. E il <rs type="person">fratello</rs>? Chi sa? Andò <roleName type="militar">soldato</roleName>; lo mandarono <lb />di là dal 
+                        <rs type="natural">mare</rs>; non ha scritto più nulla da <date dur="P2Y">due anni</date>.... dove <lb />sarà?
                     </p>
                     <p>
-                        <lb />Cacciata dal bisogno, dopo aver abbracciato i suoi cari, <lb />scese dalle montagne natie ed ora, garzona d’ un contadino <lb />delle valli, fila, guarda quei monti lontani e guida le capre <lb />alla pastura.
+                        <lb />Cacciata dal bisogno, dopo aver abbracciato i suoi cari, <lb />scese dalle 
+                        <rs type="natural">montagne</rs> natie ed ora, garzona d’ un contadino <lb />delle 
+                            <rs type="natural">valli</rs>, fila, guarda quei 
+                                <rs type="natural">monti</rs> lontani e guida le capre <lb />alla pastura.
                     </p>
                     <p>
                         <lb />La <rs type="person">madre</rs> ed il <rs type="person">fratello</rs> erano così da lei chiamati, ma <lb />non erano tali. L’avevano allevata e tenuta cara finché <lb />l’ <orgName>Ospizio dei Trovatelli</orgName> passò loro quindici lire al mese ; <lb />dopo, con un tozzo di pane ed un paro di scarpe nuove, <lb />le insegnarono la strada e serrandole dietro la porta : 
@@ -538,7 +547,8 @@
                             <lb />« Se ritorni senza la capra, pover’ a te ! »
                         </q> 
                         le ha detto <lb />dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
-                        <persName type="fictional"><lb />Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smar<lb />rita per sempre; lo sa, e con la fronte appoggiata sopra <lb />una mano, tende l’ occhio addolorato alle pendici del colle 
+                        <persName type="fictional"><lb />Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smar<lb />rita per sempre; lo sa, e con la fronte appoggiata sopra <lb />una mano, tende l’ occhio addolorato alle pendici del 
+                        <rs type="natural">colle</rs> 
                         <lb />e pensa e singhiozza.
                     </p>
                     <p>
@@ -565,7 +575,7 @@
                         <lb />Raccolse il fiore e se lo accomodò più forte tra i ca<lb />pelli. A <persName type="fictional">Lucia</persName> era caro quel fiore come tutti gli altri che <lb />ogni mattina coglieva per adornarsene il capo e per offrirli <lb />la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo lettic<lb />ciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Ver<lb />gine</persName> l’omaggio di quel povero fiore.
                     </p>
                     <p>
-                        <persName type="fictional"><lb />Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuf<lb />fato sotto l’orizzonte lontano, sentì il suo sgomento farsi <lb />maggiore e disperata chiamò per 1’ ultima volta : 
+                        <persName type="fictional"><lb />Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuf<lb />fato sotto l’orizzonte lontano, sentì il suo sgomento farsi <lb />maggiore e disperata chiamò per l’ ultima volta : 
                         <said>
                             « <name type="animal">Bian<lb />china</name>, <name type="animal">Bianchina</name> mia, teeeh ! »
                         </said>
@@ -573,14 +583,16 @@
                     <p>
                         <lb />Un leggiero belato si udì ad un trar di mano da lei ; 
                     <cb n="3" facs="#lucia2cb2" xml:id="cbLucia3"/> 
-                    <lb />un lampo di gioia le balenò nei limpidi occhi celesti e, tra <lb />le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi <lb />scalzi e gridando allegramente :
+                    <lb />un lampo di gioia le balenò nei limpidi occhi celesti e, tra <lb />le spine, tra i 
+                    sassi, attraverso ai rovi, ferendosi i piedi <lb />scalzi e gridando allegramente :
                         <said>
                             « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> <lb />bella, <name type="animal">Bianchina</name> mia »
                         </said> 
                         corse, corse affannata verso il ce<lb />spuglio dal quale era partito il belato e ficcandosi sma<lb />niosa tra i suoi rami fronzuti, sparì fra quelli tutta lieta e <lb />sorridente.
                     </p>
                     <p>
-                        <persName type="fictional"><lb />Lucia</persName> dall’ alto della sua rupe, non aveva scorto due <lb />occhi umani che da un’ ora lacrimavano di stanchezza, av<lb />ventando faville assetate agli occhi suoi, alle sue spalle, al <lb />suo colmo seno, e credè messo dalla sua capretta il belato <lb />che il ruvido <persName type="fictional">Togno</persName> scaltramente aveva imitato, ed era <lb />corsa.... ed era corsa, povera <persName type="fictional">Lucia</persName>, lieta e sicura come <lb />l’ usignolo innocente corre gorgheggiando nella bocca del rospo che digiuno lo guarda.
+                        <persName type="fictional"><lb />Lucia</persName> dall’ alto della sua 
+                        <rs type="natural">rupe</rs>, non aveva scorto due <lb />occhi umani che da un’ ora lacrimavano di stanchezza, av<lb />ventando faville assetate agli occhi suoi, alle sue spalle, al <lb />suo colmo seno, e credè messo dalla sua capretta il belato <lb />che il ruvido <persName type="fictional">Togno</persName> scaltramente aveva imitato, ed era <lb />corsa.... ed era corsa, povera <persName type="fictional">Lucia</persName>, lieta e sicura come <lb />l’ usignolo innocente corre gorgheggiando nella bocca del rospo che digiuno lo guarda.
                     </p>
                     <p>
                         <lb />Il vento è cessato ; di quel ciuffo di frassini nessuna fo<lb />glia si muove e il sole già tramontato, si tira dietro gli <lb />ultimi lembi del suo manto di luce. 
@@ -809,23 +821,23 @@
                             Resta <lb />perciò che <persName ref="#NP"><forename>Niccola</forename></persName> sia <rs type="provenienza">toscano</rs>, e <rs type="provenienza">pisano</rs>, come la tradizione <lb />e l’aggiunto costante al suo nome, concordemente suonarono <lb />sinora, che come dicono altri documenti sincroni : e cadono <lb />le troppo sottili congetture sulla origine meridionale della <lb />persona o dell’ arte di <persName ref="#NP"><forename>Niccola</forename></persName>, accettate anche dai signori <persName ref="#Cro"><surname><lb />Crowe</surname></persName> e <persName ref="#Cav"><surname>Cavalcasene</surname></persName>.
                         </p>
                         <p>
-                            <lb />Dove invece diremmo che a questi diligenti storici del<lb />l’arte resti la palma si è nella controversia, sulle pitture <lb />di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ri<lb />tratto ivi esistente di <persName ref="DA"><forename>Dante</forename></persName>. Di questa controversia tratta <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
+                            <lb />Dove invece diremmo che a questi diligenti storici del<lb />l’arte resti la palma si è nella controversia, sulle pitture <lb />di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ri<lb />tratto ivi esistente di <persName ref="#DA"><forename>Dante</forename></persName>. Di questa controversia tratta <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
                             <bibl>
                                 <title ref="#leOpere" rend="italic">Commentario</title>
                             </bibl> 
-                            sopra ricordato, in ap<lb />pendice alla biografia giottesca : ma e’ non finisce di per<lb />suaderci. Lasciò scritto il <persName ref="Gh">Ghiberti</persName> che <persName ref="Gi">Giotto</persName> dipinse la 
+                            sopra ricordato, in ap<lb />pendice alla biografia giottesca : ma e’ non finisce di per<lb />suaderci. Lasciò scritto il <persName ref="#Gh">Ghiberti</persName> che <persName ref="#Gi">Giotto</persName> dipinse la 
                             <quote type="written">
                                 « <placeName type="monument"><lb />cappella di 
                                 <persName ref="#SMM">
-                                    <choice>
+                                    <choice resp="#MP">
                                         <abbr>S.</abbr>
                                         <expan>Santa</expan>
                                     </choice> 
                                     Maria Maddelena</persName>
                                 </placeName> ; »
                             </quote> 
-                            e la <placeName type="monument">cappella del <roleName>Po<lb />testà</roleName></placeName> infatti contiene per grandissima parte le storie di <lb />quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, <lb />e ne porta gli esempi, una tavola d’altare coi suoi taber<lb />nacoletti, civori, compassi ec. Sapevamcelo, potrebbesi ri<lb />spondere : e la vostra proposta sarebbe ingegnosa ed ac<lb />cettabile, quando non avessimo una vera cappella colle <lb />storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo <lb />una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe <lb />stato per lo meno molto mal cauto nell’ adoperar quella <lb />voce, per una tavola che stava davvero dentro una cap<lb />pella. Tutti gli altri argomenti addotti dai difensori della <lb />tradizionale opinione sulla autenticità di quelle pitture <lb />e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> <lb />e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e <lb />confutati sottilmente, non però in modo tale, a noi sembra, <lb />da riportarne vittoria. E ci ha fatto poi non poca mera<lb />viglia il veder passato sotto assoluto silenzio 
-                            quel <ref target="#centiloquio">sonetto <lb />del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente <lb />è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sangui<lb />gno, con un libro sotto il braccio, e di seguito ai santi <lb />del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> <lb />dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Mi<lb />lanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument"><lb />cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor <lb />risoluta. Ad ogni modo piace il vederla trattata con tanta <lb />dignità nel respingere le altrui opinioni, con tanto acume
+                            e la <placeName type="monument">cappella del <roleName>Po<lb />testà</roleName></placeName> infatti contiene per grandissima parte le storie di <lb />quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, <lb />e ne porta gli esempi, una tavola d’altare coi suoi taber<lb />nacoletti, civori, compassi ec. Sapevamcelo, potrebbesi ri<lb />spondere : e la vostra proposta sarebbe ingegnosa ed ac<lb />cettabile, quando non avessimo una vera cappella colle <lb />storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo <lb />una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe <lb />stato per lo meno molto mal cauto nell’ adoperar quella <lb />voce, per una tavola che stava davvero dentro una cap<lb />pella. Tutti gli altri argomenti addotti dai difensori della <lb />tradizionale opinione sulla autenticità di quelle pitture <lb />e di quel ritratto, e che trovansi riassunti dai signori <persName ref="#Cro">Crowe</persName> <lb />e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e <lb />confutati sottilmente, non però in modo tale, a noi sembra, <lb />da riportarne vittoria. E ci ha fatto poi non poca mera<lb />viglia il veder passato sotto assoluto silenzio 
+                            quel <title ref="#centiloquio">sonetto <lb />del <persName ref="#AP">Pucci</persName></title>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente <lb />è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sangui<lb />gno, con un libro sotto il braccio, e di seguito ai santi <lb />del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> <lb />dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Mi<lb />lanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument"><lb />cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor <lb />risoluta. Ad ogni modo piace il vederla trattata con tanta <lb />dignità nel respingere le altrui opinioni, con tanto acume
                             <cb n="4" facs="#biblioV3" xml:id="cbBiblio4"/>
                             <lb />nell’ esporre la propria come ce ne dà qui esempio il va<lb />lente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale <lb />auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>

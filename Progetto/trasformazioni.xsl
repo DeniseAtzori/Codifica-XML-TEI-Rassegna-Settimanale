@@ -65,8 +65,11 @@
                         <p class="ficPerson">Nomi di persone finzionali</p>
                         <p class="titleLeg">Titoli di opere e riviste - al clic rimanndano alla Bibliografia</p>
                         <p class="placeName">Nomi di luoghi</p>
+                        <p class="natural">Luoghi naturali</p>
                         <p class="orgName">Nomi di organizzazioni</p>
                         <p class="tema">Temi fondamentali del Verismo (istruzione, questione femminile, realismo-idealismo etc)</p>
+                        <p class="emph">Testo enfatizzato dall'autore</p>
+                        <p class="expan">Espansione delle abbreviazioni ad opera delle resp. della codifica</p>
                     </div>
                 </main>
                 <footer>
@@ -275,6 +278,8 @@
             <p>Fondatori: <xsl:value-of select="concat(tei:bibl//tei:persName[@xml:id='LF']/tei:forename,' ',tei:bibl/tei:editor/tei:persName[@xml:id='LF']/tei:surname,' e ',tei:bibl/tei:editor/tei:persName[@xml:id='SS']/tei:forename,' ',tei:bibl/tei:editor/tei:persName[@xml:id='LF']/tei:surname)"/></p>
             <!-- Seleziono la nota -->
             <p><xsl:value-of select="tei:bibl/tei:note"/></p>
+            <!-- Indicazioni sull'edizione originale -->
+            <p>I fascicoli originali dai quali sono state estratte le edizioni digitali del progetto <a href="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</a> sono conservati presso l'<xsl:value-of select="tei:bibl/tei:msIdentifier/tei:altIdentifier/tei:repository"/> di <xsl:value-of select="tei:bibl/tei:msIdentifier/tei:altIdentifier/tei:settlement"/></p>
             <!-- <xsl:for-each select="tei:sourceDesc/descendant::*">
                 <p><xsl:apply-templates/></p>
             </xsl:for-each> -->
@@ -335,7 +340,7 @@
 
         <!-- Regole per i persName -->
         <xsl:template match="tei:persName">
-                        <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
+        <!-- Assegno a ogni persName la funzione apriAppendice con l'id dell'entrate dell'appendice corrispondente -->
             <span class="person">
                 <xsl:attribute name="onclick">
                     apriAppendice(<xsl:value-of select="substring-after(@ref,'#')"/>)
@@ -377,7 +382,7 @@
             <span class="orgName"><xsl:value-of select="."/></span>
         </xsl:template>
 
-        <!-- Regole per i persName -->
+        <!-- Regole per i placeName -->
         <xsl:template match="tei:placeName">
             <span class="placeName"><xsl:value-of select="."/></span>
         </xsl:template>
@@ -416,6 +421,19 @@
         <xsl:template match="tei:emph">
             <span class="emph">
                 <xsl:value-of select="."/></span>
+        </xsl:template>
+
+
+        <!-- Regole per gli emph -->
+        <xsl:template match="tei:rs[@type='natural']">
+            <span class="natural">
+                <xsl:value-of select="."/></span>
+        </xsl:template>
+
+        <!-- Regole per gli expan -->
+        <xsl:template match="tei:expan">
+            <span class="expan">
+                (<xsl:value-of select="."/>) </span>
         </xsl:template>
                 
         

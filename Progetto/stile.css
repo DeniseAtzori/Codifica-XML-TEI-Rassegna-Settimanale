@@ -124,6 +124,13 @@ img:active {
     opacity: .9;
     color: grey;
 }
+.expan {
+    opacity: .9;
+    color: grey;
+}
+.natural {
+    color:#3F5F73;
+}
 .titoliAppendici {
     text-align: center;
 }
