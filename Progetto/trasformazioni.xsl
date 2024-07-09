@@ -298,6 +298,7 @@
         <!-- Regole per I CB -->
         <xsl:template match="tei:cb">
             <div style="clear:both;"></div>
+            <hr/>
                 <!-- Per ogni cb estrae l'immagine corrisondente e la mette nel suo div -->
                 <xsl:variable name="col" select="substring-after(@facs, '#')" />
                 <xsl:element name="img">
@@ -405,7 +406,19 @@
                 <xsl:value-of select="."/></span>
         </xsl:template>
 
+        <!-- Regole per le i dateline -->
+        <xsl:template match="tei:dateline">
+            <span class="dateline">
+                <xsl:value-of select="."/></span>
+        </xsl:template>
 
+        <!-- Regole per gli emph -->
+        <xsl:template match="tei:emph">
+            <span class="emph">
+                <xsl:value-of select="."/></span>
+        </xsl:template>
+                
+        
         <!-- Regole per le i ref tema -->
         <xsl:template match="tei:ref">
             <span class="tema"><xsl:value-of select="."/></span>

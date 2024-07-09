@@ -41,11 +41,58 @@
                         </persName>
                     </editor>
                     <date>1878</date>
-                    <note>Codifica degli articoli eseguita a partire dal Facsimile originale estratto dal progetto <title ref="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</title>, realizzato nell’ambito delle iniziative previste per il Centenario della morte di <persName ref="#LF">Leopoldo Franchetti</persName> da <orgName>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</orgName>, <orgName>Università degli Studi Suor Orsola Benincasa</orgName> e <orgName>Comitato Nazionale per il Centenario della Morte di Leopoldo Franchetti</orgName>.</note>
+                    <note>Codifica degli articoli eseguita a partire dal Facsimile estratto dal progetto <title ref="https://rassegnasettimanale.animi.it/">Rassegna Settimanale</title>, realizzato nell’ambito delle iniziative previste per il Centenario della morte di <persName ref="#LF">Leopoldo Franchetti</persName> da <orgName>Associazione Nazionale per gli Interessi del Mezzogiorno d’Italia</orgName>, <orgName>Università degli Studi Suor Orsola Benincasa</orgName> e <orgName>Comitato Nazionale per il Centenario della Morte di Leopoldo Franchetti</orgName>.</note>
+                    <msIdentifier>
+                        <!-- Informazioni sugli originali fisici -->
+                        <altIdentifier>
+                            <settlement>Napoli</settlement>
+                            <repository>Università degli Studi Suor Orsola Benincasa</repository>
+                            <idno></idno>
+                            <note>
+                                <p>Fascicoli originali dai quali sono state realizzate le Edizioni digitali per il progetto "Rassegna settimanale"</p>
+                                <p>Idno sconosciuto.</p>
+                            </note>
+                        </altIdentifier>
+                    </msIdentifier>
                 </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
+            <!-- Informazioni sul progetto di codifica -->
+            <projectDesc>
+                <p>Codifica realizzata come progetto del corso "Codifica di testi" tenuto dal prof. Angelo Mario Del Grosso nell'anno accademico 2023-2024.</p>
+            </projectDesc>
+            <!-- Informazioni sulle pratiche e i principi applicati nella codifica -->
+            <editorialDecl>
+                <!-- Informazioni sulla sillabazione -->
+                <hyphenation>
+                    <p>Si è scelto di rimuovere i trattini di marcatura degli "a capo" in fine riga, ma di mantenerli in fine colonna.</p>
+                </hyphenation>
+                <!-- Informazioni sulla normalizzazione -->
+                <normalization>
+                    <p>Si è scelto di mantenere gli spazi originali tra parola e punteggiatura e di non normalizzarli.</p>
+                    <p>Si è scelto di mantenere la resa grafica del maiuscolo anche nel testo (e non solo con l'uso del rend) e di esplicitarne la semantica con l'uso del tag corrispondente.</p>
+                </normalization>
+                <!-- Informazioni sulla punteggiatura -->
+                <punctuation>
+                    <p>Tutta la punteggiatura nella fonte originale è stata mantenuta e rappresentata usando il carattere corrispondente.</p>
+                </punctuation>
+                <!-- Informazioni sulle citazioni -->
+                <quotation>
+                    <p>Tutti i marcatori delle citazioni sono stati mantenuti e inglobati nel contenuto dell'elemento stesso.</p>
+                    <p>Si è scelto di usare sempre quote per marcare citazioni che l'autore del testo riconduceva ad agenti esterni allo stesso. Nell'articolo "L'istruzione delle donne", è stato usato però sempre il tag q in quanto le citazioni sono dell'autrice stessa.</p>
+                </quotation>
+                <!-- Informazioni sulla standardizzazione di numeri e date -->
+                <p>Si è scelto di usare lo standard anno-mese-giorno per le date.</p>
+                <!-- Informazioni sull'interpretazione -->
+                <interpretation>
+                    <p>Le date sono state marcate e mantenute nella forma originale. Nei casi in cui non rispettavano lo standard precedentemente dichiarato, vi è stato associato un tag when che esplicitasse la forma standard, ad eccezione delle date che riportavano solo l'anno.</p>
+                    <p>Si è scelto di adoperare il tag q per marcare i dialoghi, e di utilizzare said per distinguere le parti pronunciate a voce alta (ad esempio urla e grida, si veda racconto "Lucia"). </p>
+                    <p>Si è scelto di creare una tassonomia (qui di seguito) con i principali temi del Verismo riconosciuti nei testi codificati. All'interno del testo, sono state marcate parole e frasi esemplificative di questi temi, ricondotte alle categorie corrispondenti attraverso l'uso del tag ref.</p>
+                    <p>Si è scelto di marcare le forme poetiche (sonetti, code in prosa etc) con l'uso del tag rs affiancato da type="poetic form". Allo stsso modo, si è scelto di marcare le scuole e i movimenti letterari con il tag rs affiancato da type="literary movement".</p>
+                    <p>Nell'articolo "L'istruzione delle donne" si è scelto di marcare con il tag distinct le forme d'uso desuete che si differenziavano dallo stile consueto degli articoli, anche in considerazione del fatto che l'articolo è un contributo esterno alla rivista stessa.</p>
+                </interpretation>
+            </editorialDecl>
             <!-- Definizione delle tassonomie degli articoli codificati -->
             <classDecl>
                 <taxonomy xml:id="temi">
@@ -62,61 +109,100 @@
             </classDecl>
         </encodingDesc>
     </teiHeader>
-    <!-- Facsimile immagini -->
     <facsimile>
+        <!-- Facsimile immagini per colonne-->
+        <surface xml:id="headIstrDonne">
+            <!-- Articolo L'istruzione delle donne, titolo -->
+            <graphic url='istrDonne.jpg' width='1170.5px' height='1670.5px' />
+            <zone ulx="600" uly="333" lrx="1111" lry="366" />
+        </surface>
         <surface xml:id="istrDonne1">
+            <!-- Articolo L'istruzione delle donne, cb1 -->
             <graphic url='img/istrDonne.jpg' width='1169.666666px' height='1669.666666px' />
             <zone ulx="600" uly="324" lrx="1112" lry="1556" />
         </surface>
         <surface xml:id="istrDonne2">
+            <!-- Articolo L'istruzione delle donne, cb2 -->
             <graphic url='img/istrDonne2.jpg' width='1161.5px' height='1662.5px' />
             <zone ulx="81" uly="111" lrx="590" lry="1561" />
         </surface>
+        <surface xml:id="headIstrDonna">
+            <!-- Articolo L'istruzione della donna, titolo -->
+            <graphic url='istrDonna.jpg' width='1155.5px' height='1683.5px' />
+            <zone ulx="102" uly="342" lrx="596" lry="374" />
+            </surface>
         <surface xml:id="istrDonnacb1">
+            <!-- Articolo L'istruzione della donna, cb1 -->
             <graphic url='img/istrDonna.jpg' width='1155.5px' height='1683.5px' />
             <zone ulx="85" uly="345" lrx="601" lry="1542" />
         </surface>
         <surface xml:id="istrDonnacb2">
+            <!-- Articolo L'istruzione della donna, cb2 -->
             <graphic url='img/istrDonna.jpg' width='1155.5px' height='1683.5px' />
             <zone ulx="606" uly="82" lrx="1126" lry="1545" />
         </surface>
         <surface xml:id="istrDonna2cb1">
+            <!-- Articolo L'istruzione della donna, cb3 -->
             <graphic url='img/istrDonna2.jpg' width='1148.5px' height='1673.5px' />
             <zone ulx="45" uly="102" lrx="557" lry="1566" />
         </surface>
         <surface xml:id="istrDonna2cb2">
+            <!-- Articolo L'istruzione della donna, cb4 -->
             <graphic url='img/istrDonna2.jpg' width='1148.5px' height='1673.5px' />
             <zone ulx="559" uly="102" lrx="1070" lry="342" />
         </surface>
+        <surface xml:id="headNotizie">
+            <!-- Articolo Notizie, titolo -->
+            <graphic url='notizie.jpg' width='1143.5px' height='1683.5px' />
+            <zone ulx="603" uly="735" lrx="1107" lry="762" />
+            </surface>
         <surface xml:id="notizie">
+            <!-- Articolo Notizie, cb1 -->
             <graphic url='img/notizie.jpg' width='1144px' height='1683px' />
             <zone ulx="597" uly="736" lrx="1103" lry="1561" />
         </surface>
+        <surface xml:id="headLucia">
+            <!-- Articolo Lucia, titolo -->
+            <graphic url='lucia.jpg' width='1128.5px' height='1677.5px' />
+            <zone ulx="572" uly="1408" lrx="1077" lry="1440" />
+            </surface>
         <surface xml:id="lucia">
+            <!-- Articolo Lucia, cb1 -->
             <graphic url='img/lucia.jpg' width='1128.5px' height='1677.5px' />
             <zone ulx="564" uly="1409" lrx="1078" lry="1578" />
         </surface>
         <surface xml:id="lucia2cb1">
+            <!-- Articolo Lucia, cb2 -->
             <graphic url='img/lucia2.jpg' width='1128.5px' height='1668.5px' />
             <zone ulx="56" uly="90" lrx="564" lry="1561" />
         </surface>
         <surface xml:id="lucia2cb2">
+            <!-- Articolo Lucia, cb3 -->
             <graphic url='img/lucia2.jpg' width='1128.5px' height='1668.5px' />
             <zone ulx="575" uly="89" lrx="1086" lry="839" />
         </surface>
+        <surface xml:id="headBiblio">
+            <!-- Articolo Bibliografia, titolo -->
+            <graphic url='biblio.jpg' width='1134.5px' height='1674.5px' />
+            <zone ulx="61" uly="346" lrx="557" lry="413" />
+            </surface>
         <surface xml:id="biblioG1">
+            <!-- Articolo Bibliografia, cb1 -->
             <graphic url='img/biblio.jpg' width='1134.5px' height='1674.5px' />
             <zone ulx="38" uly="348" lrx="560" lry="1563" />
         </surface>
         <surface xml:id="biblioGV">
+            <!-- Articolo Bibliografia, cb2 -->
             <graphic url='img/biblio.jpg' width='1134.5px' height='1674.5px' />
             <zone ulx="561" uly="107" lrx="1075" lry="1568" />
         </surface>
         <surface xml:id="biblioV2">
+            <!-- Articolo Bibliografia, cb3 -->
             <graphic url='img/biblio2.jpg' width='1137.5px' height='1677.5px' />
             <zone ulx="82" uly="116" lrx="591" lry="1574" />
         </surface>
         <surface xml:id="biblioV3">
+            <!-- Articolo Bibliografia, cb4 -->
             <graphic url='img/biblio2.jpg' width='1137.5px' height='1677.5px' />
             <zone ulx="599" uly="115" lrx="1117" lry="213" />
         </surface>
@@ -133,7 +219,7 @@
             <div n="1" type="article" xml:id="ArtGiglioli">
                 <div type="intestazione" xml:id="intArtGiglioli">
                     <p><lb />Vol. 1°, N°18.
-                    <date>5 Maggio '78</date></p>
+                    <date when="1878-05-05">5 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
                     <pb n="1" />
@@ -144,12 +230,12 @@
                     <!-- apertura della lettera -->
                         <salute>Ai direttori</salute>
                         <dateline>
-                            <name type="place">Firenze</name>,
-                            <date>2 maggio 1878</date>.
+                            <name type="place" rend="italic">Firenze</name>,
+                            <date rend="italic" when="1878-05-02">2 maggio 1878</date>.
                         </dateline>
                     </opener>
                     <p>
-                        <lb /><date when="1878-04-17">Il 17 scorso</date> io <distinct time="1800">vi scriveva</distinct> : 
+                        <lb /><date when="1878-04-17">Il 17 scorso</date> io <distinct type="archaic">vi scriveva</distinct> : 
                         <q type="written">
                             « sono per l’<ref type="tema" target="#istrDon">istruzione della <lb />donna</ref>, larga, completa, profonda, per quanto lo consentono <lb />a ciascuna le sue facoltà intellettive e le circostanze spe<lb />ciali in cui può esser posta * » 
                         </q>
@@ -160,10 +246,10 @@
                                     n. 16, pag. 298.
                                 </bibl>
                         </note>
-                        Aggiungo ora che il proble<lb />ma sta soltanto, per me, nei mezzi più <distinct time="1800">acconci</distinct> ad ottenere <lb />quello scopo. Ma siccome per studiare i mezzi di giungere <lb />ad una mèta, bisogna che questa sia nettamente definita,<lb /> così vorrei vedere <distinct time="1800">avanti tutto</distinct> se ci fosse possibile deter<lb />minare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte <lb />che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma ge<lb />nerica</ref>, e quale quella che ne supera il potere.
+                        Aggiungo ora che il proble<lb />ma sta soltanto, per me, nei mezzi più <distinct type="archaic">acconci</distinct> ad ottenere <lb />quello scopo. Ma siccome per studiare i mezzi di giungere <lb />ad una mèta, bisogna che questa sia nettamente definita,<lb /> così vorrei vedere <distinct type="archaic">avanti tutto</distinct> se ci fosse possibile deter<lb />minare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte <lb />che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma ge<lb />nerica</ref>, e quale quella che ne supera il potere.
                     </p>
                     <p>
-                        <lb />Vi dirò subito che per me la <ref type="tema" target="#istr">missione dell’ insegnamento</ref> <lb />non può essere quella di <ref type="tema" target="#istr">trasmettere in blocco il sapere</ref>: <lb />la ristrettezza del tempo dentro il quale l’<ref type="tema" target="#istr">insegnamento <lb />regolare</ref> va concentrato, la non maturità della mente di chi<lb /> impara, la mancanza dei punti di paragone che l’ esperienza <lb />sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic"><lb />proprie</emph> le cognizioni materialmente comunicateci da altri — <lb />condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale <lb />compito <distinct time="1800">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct time="1800">pre<lb />cipua cagione</distinct> della <distinct>insufficente</distinct> riuscita delle nostre scuole, <lb />che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: <lb />
+                        <lb />Vi dirò subito che per me la <ref type="tema" target="#istr">missione dell’ insegnamento</ref> <lb />non può essere quella di <ref type="tema" target="#istr">trasmettere in blocco il sapere</ref>: <lb />la ristrettezza del tempo dentro il quale l’<ref type="tema" target="#istr">insegnamento <lb />regolare</ref> va concentrato, la non maturità della mente di chi<lb /> impara, la mancanza dei punti di paragone che l’ esperienza <lb />sola può dare, e che sono indispensabili a ridurre in idee <emph rend="italic"><lb />proprie</emph> le cognizioni materialmente comunicateci da altri — <lb />condizione <foreign xml:lang="la" rend="italic">sine qua non</foreign> del vero sapere — rendono tale <lb />compito <distinct type="archaic">affatto impossibile</distinct>. Ed è questa, a mio credere, la <distinct type="archaic">pre<lb />cipua cagione</distinct> della <distinct type="archaic">insufficente</distinct> riuscita delle nostre scuole, <lb />che pur furono organizzate quasi sempre con molto studio e spesso condotte con grande amore. Il quesito posto era: <lb />
                         <ref type="tema" target="#istr">
                             <q type="written">
                                 « quali fossero per ciascuno le cognizioni utili »
@@ -175,10 +261,15 @@
                         <lb />Oggi, mi pare che l’esperienza dovrebbe averci inse<lb />gnato che il quesito stesso era in sè mal posto; che non<lb /> si tratta di scegliere le cognizioni utili, giacché tutte sono <lb />tali; ma si tratta di far la mente capace a riceverne il<lb /> più possibile, sviluppando al più alto grado tutte le facoltà <lb />di cui è dotata. E per questo <ref type="tema" target="#istr">la cosa più importante non<lb /> è la <emph rend="italic">materia</emph>, ma il <emph rend="italic">metodo</emph> dell’insegnamento.</ref>
                     </p>
                     <p>
+<<<<<<< HEAD
                         <lb />Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb />vane donna</rs> la cui esperienza di scuole era limitatissima, <lb />la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campa<lb />gna e di famiglia non pareva preparazione <distinct>sufficente</distinct> al<lb />l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb />cazione e l’ istruzione richiedono che, se la morte non <lb />l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb />dubbiamente lasciato tracce visibili e durature tra noi. <lb />Il metodo era semplicissimo. Essa si era associati pochi,<lb /> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb />gio d’una dose prefissa della sua scienza, ma soltanto il mag-
                         <pb n="2"/>
+=======
+                        <lb />Ho conosciuto <distinct type="archaic">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb />vane donna</rs> la cui esperienza di scuole era limitatissima, <lb />la cui <distinct type="archaic">coltura</distinct> non era straordinaria, la cui vita di campa<lb />gna e di famiglia non pareva preparazione <distinct type="archaic">sufficente</distinct> al<lb />l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb />cazione e l’ istruzione richiedono che, se la morte non <lb />l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb />dubbiamente lasciato tracce visibili e durature tra noi. <lb />Il metodo era semplicissimo. Essa si era associati pochi,<lb /> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb />gio d’una dose prefissa della sua scienza, ma soltanto il mag-
+                        <pb n="340"/>
+>>>>>>> Codifica24/main
                         <cb n="2" facs="#istrDonne2" xml:id="cbDonne2"/>
-                        <lb />giore possibile svolgimento nelle alunne delle facoltà da quella <lb />scienza chiamate in azione ; e il legame tra queste facoltà e le <lb />altre, creava un lavoro omogeneo di ciascuna per tutte e di <lb />tutte per ciascuna. Così ne risultava che il maestro di aritme<lb />tica diventava professore di logica, quando per la risolu<lb />zione d’ un problema, senza fermarsi subito sulle cifre, fa<lb />ceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro <lb />ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar <lb />da sè i rapporti tra questi due termini: e a vedere come <lb />quei rapporti rendevano piano e semplice il passaggio dal<lb />l’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pre<lb />tensione d’empir la testa</distinct> di nomi e di fatti, ma col sem<lb />plice scopo di disegnare i contorni generali d’ ogni forma <lb />di civiltà, divenivano il telaio su cui dovevano ordinarsi <lb />più tardi non solo le letture storiche, ma anche quelle dei <lb />capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni<lb /> e le altre più intelligibili dalla conoscenza dell’ ambiente in <lb />cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisi<lb />che e naturali venivano ogni dì a raccogliere e classificare<lb /> le mille osservazioni cui conducevano fatti e circostanze<lb /> della vita giornaliera. Nè finirei così presto, se volessi ci<lb />tarvi tutti gli esempi che mi si affollano alla mente. Mi è <lb />accaduto più e più volte pel passato di chiedere a me<lb /> stessa qual fosse la ragione per la quale le fanciulle di quel<lb />l’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in do<lb />mande e risposte si sarebbe ridotta a poca cosa, pur riu<lb />scissero nella vita a parer più colte di altre cui pure era <distinct time="1800"><lb />impartito più largo corredo di cognizioni</distinct>. Oggi non me lo <lb />domando più, perchè parmi avere inteso che esse erano <lb />state formate ad intendere (nella misura delle loro forze <lb />naturali) tutto l’intelligibile; e che per esse il leggere e<lb /> l’ udir cose nuove era piacere e profitto, perchè ciò che leg<lb />gevano e udivano prontamente e naturalmente trovava <lb />posto nel loro intelletto aperto e preparato. Ebbene, que<lb />sto che fu fatto una volta per spontanea particolare atti<lb />tudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800"><lb />intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il <lb />nucleo di un sistema cui porterebbero la luce del loro sa<lb />pere e della loro intelligenza uomini e donne che si occu<lb />parono di questo importantissimo tra i problemi, e che cer<lb />tamente potranno dargli una soluzione pratica per la quale <lb />io non mi sentirei davvero abbastanza competente.
+                        <lb />giore possibile svolgimento nelle alunne delle facoltà da quella <lb />scienza chiamate in azione ; e il legame tra queste facoltà e le <lb />altre, creava un lavoro omogeneo di ciascuna per tutte e di <lb />tutte per ciascuna. Così ne risultava che il maestro di aritme<lb />tica diventava professore di logica, quando per la risolu<lb />zione d’ un problema, senza fermarsi subito sulle cifre, fa<lb />ceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro <lb />ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar <lb />da sè i rapporti tra questi due termini: e a vedere come <lb />quei rapporti rendevano piano e semplice il passaggio dal<lb />l’uno all’ altro. Così le lezioni di storia, non fatte <distinct type="archaic">colla pre<lb />tensione d’empir la testa</distinct> di nomi e di fatti, ma col sem<lb />plice scopo di disegnare i contorni generali d’ ogni forma <lb />di civiltà, divenivano il telaio su cui dovevano ordinarsi <lb />più tardi non solo le letture storiche, ma anche quelle dei <lb />capolavori <distinct type="archaic">letterarii</distinct> e delle opere scientifiche, resi gli uni<lb /> e le altre più intelligibili dalla conoscenza dell’ ambiente in <lb />cui si formarono. Così i <distinct type="archaic">principii</distinct> generali delle scienze fisi<lb />che e naturali venivano ogni dì a raccogliere e classificare<lb /> le mille osservazioni cui conducevano fatti e circostanze<lb /> della vita giornaliera. Nè finirei così presto, se volessi ci<lb />tarvi tutti gli esempi che mi si affollano alla mente. Mi è <lb />accaduto più e più volte pel passato di chiedere a me<lb /> stessa qual fosse la ragione per la quale le fanciulle di quel<lb />l’istituto, uscite di là con una <distinct type="archaic">coltura</distinct> che, messa in do<lb />mande e risposte si sarebbe ridotta a poca cosa, pur riu<lb />scissero nella vita a parer più colte di altre cui pure era <distinct type="archaic"><lb />impartito più largo corredo di cognizioni</distinct>. Oggi non me lo <lb />domando più, perchè parmi avere inteso che esse erano <lb />state formate ad intendere (nella misura delle loro forze <lb />naturali) tutto l’intelligibile; e che per esse il leggere e<lb /> l’ udir cose nuove era piacere e profitto, perchè ciò che leg<lb />gevano e udivano prontamente e naturalmente trovava <lb />posto nel loro intelletto aperto e preparato. Ebbene, que<lb />sto che fu fatto una volta per spontanea particolare atti<lb />tudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct type="archaic"><lb />intraveduto</distinct> e desiderato, <distinct type="archaic">parmi</distinct> potrebbe diventare il <lb />nucleo di un sistema cui porterebbero la luce del loro sa<lb />pere e della loro intelligenza uomini e donne che si occu<lb />parono di questo importantissimo tra i problemi, e che cer<lb />tamente potranno dargli una soluzione pratica per la quale <lb />io non mi sentirei davvero abbastanza competente.
                     </p>
                     <p>
                         <lb />Fatta la discussione generale, decisa la questione di <lb />massima, trovate le vie per cui si deve procedere, non credo <lb />che sarà impossibile in una città intelligente come questa, <lb />di venire al risultato positivo del <ref type="tema" target="#istrDon">creare una buona scuola <lb />o modificare le esistenti sul tipo giudicato migliore</ref>. E sono <lb />certissima che, sebbene apparentemente la scuola così co<lb />stituita non voglia pretendere di fissare <emph rend="italic">a priori</emph> una car<lb />riera da percorrere, le fanciulle di normale capacità che ne <lb />usciranno a 18 o 20 anni saranno ugualmente pronte al<lb />l’ esame d’entrata d’<orgName>Università</orgName> o a scegliere altra profes<lb />sione che le renda indipendenti, come potranno portare <lb />nella famiglia, se famiglia formeranno, il frutto prezioso <lb />d’ una mente aperta e sviluppata alle cose più alte e mi<lb />gliori. E mentre cureranno il benessere e la salute dei loro <lb />cari, troveranno la distrazione e il riposo che altre cercano <lb />in futili passatempi, in quei <ref type="tema" target="#istr">libri che le renderanno istitu<lb />trici dei figli</ref> ed anche in certi casi loro materiale sostegno. <lb />Ed ora davvero poso la penna, col timore d’aver detto <lb />troppo o troppo poco. Ma qualunque sia il valore delle mie <lb />idee, mi sono sentita in debito <lb />di dirle, come credo debito di tutti il cercare di far luce con la discussione calma, se<lb />rena e tollerante, in una questione che tocca noi tutti così <lb />da vicino.
@@ -540,7 +631,7 @@
                                 </author>
                                 <title ref="#aux">
                                     <foreign xml:lang="la" rend="italic">Auxilium</foreign>. 
-                                    Sonetti con Coda in prosa
+                                    <rs type="poetic form">Sonetti con Coda in prosa</rs>
                                 </title>
                             </bibl> 
                             a <persName ref="#OG"><lb />Lorenzo Stecchetti</persName>. 
@@ -554,12 +645,21 @@
                         <p>
                             <lb />Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><forename>Lo<lb />renzo</forename> <surname>Stecchetti</surname></persName> nella gran lotta, dice lui, delle due scuole, <lb />lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> <lb />di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli <lb />ma <ref type="tema" target="#verbum" rend="italic">realisti</ref>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda <lb />in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non <lb />altro per mostrar fiducia nelle proprie forze e nel trionfo <lb />della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
                             Il <lb />signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> ci dirà forse che questa è un’osserva<lb />zione da <ref type="tema" target="#verbum">idealisti</ref> e, quel che è peggio, da <ref type="tema" target="#verbum">idealisti <rs ref="#AM">manzo<lb />niani</rs></ref>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <date>Venerdì Santo</date>. 
+<<<<<<< HEAD
                             <lb />Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <distinct time="1800"><lb />gli abbia a dire</distinct>, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
                             <q>
                                 <foreign xml:lang="la" rend="italic">Non tali auxi<lb />lio.... tempus eget.</foreign>
                             </q> 
                             Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, <lb />grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> <lb />di buona fede merita le più oneste e liete accoglienze. C’è <lb />in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di <lb />fede, una risolutezza (occorrendo) di martirio, che odorano <lb />di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic"><lb />ideale</ref> è spettacolo nuovo e degnissimo di considerazione. <lb />Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>si<lb />gnor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
                             <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che <lb />consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole <lb />realista e idealista</ref>. Se discendiamo in noi stessi, non ci <lb />sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800"><lb />coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi <lb />belli e dei brutti, ammiriamo le 
+=======
+                            <lb />Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <lb />gli abbia a dire, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
+                            <q>
+                                <foreign xml:lang="la" rend="italic">Non tali auxi<lb />lio.... tempus eget.</foreign>
+                            </q> 
+                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, <lb />grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> <lb />di buona fede merita le più oneste e liete accoglienze. C’è <lb />in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di <lb />fede, una risolutezza (occorrendo) di martirio, che odorano <lb />di <rs type="person" ref="#bib">apostolo</rs> un miglio di lontano, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic"><lb />ideale</ref> è spettacolo nuovo e degnissimo di considerazione. <lb />Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>si<lb />gnor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
+                            ci abbia chiariti meglio di prima in che <lb />consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole <lb />realista e idealista</ref>. Se discendiamo in noi stessi, non ci <lb />sentiamo alcun bisogno urgente di schierarci coll’ una o <lb />coll’ altra. Se guardiamo fuori di noi, troviamo dei versi <lb />belli e dei brutti, ammiriamo le 
+>>>>>>> Codifica24/main
                             <bibl>
                                 <title ref="#OdiB" rend="italic">
                                     Odi Barbare
@@ -574,7 +674,11 @@
                             del <persName ref="#EP"><surname>Panzacchi</surname></persName>, ammiriamo un po’ meno i <rs type="poetic form"><lb />sonetti</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>, ma non per questo ci accorgiamo di <lb />aver fatto un passo di più per addentrarci nell’ arcano <lb />della questione e crearci una persuasione qualunque pro o <lb />contro il <ref type="tema" target="#verbum">reale</ref> o l’<ref type="tema" target="#verbum">ideale</ref>.
                         </p>
                         <p>
+<<<<<<< HEAD
                             <lb />Sul serio, non bastavano forse le alchimie della politica <lb />a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar <lb />fuori</distinct> anche questa stramba contesa per non lasciar nep<lb />pure un angolo senza imbrogli e senza confusioni? che <lb />cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? <lb />A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> <distinct time="1800">hanno in pronto</distinct> carceri, catene e <lb />roghi per lui e pei catecumeni della sua scuola. E ci <lb />ricorda quella guardia nazionale, che condannata a tre ore <lb />di sala di disciplina si disperava di non aver il tempo per <lb />morir di fame nello squallore della tetra prigione. Imma<lb />ginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non ri<lb />nunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> <lb />preme soprattutto di poter cantare donne meno vestite che <lb />sia possibile, e cliniche di amori traditi e di voluttà spa<lb />smodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
+=======
+                            <lb />Sul serio, non bastavano forse le alchimie della politica <lb />a produrre divisioni irragionevoli ? E occorreva di scavar <lb />fuori anche questa stramba contesa per non lasciar nep<lb />pure un angolo senza imbrogli e senza confusioni? che <lb />cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? <lb />A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> hanno in pronto carceri, catene e <lb />roghi per lui e pei catecumeni della sua scuola. E ci <lb />ricorda quella guardia nazionale, che condannata a tre ore <lb />di sala di disciplina si disperava di non aver il tempo per <lb />morir di fame nello squallore della tetra prigione. Imma<lb />ginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non ri<lb />nunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> <lb />preme soprattutto di poter cantare donne meno vestite che <lb />sia possibile, e cliniche di amori traditi e di voluttà spa<lb />smodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
+>>>>>>> Codifica24/main
                         <cb n="2" facs="#biblioGV" xml:id="cbBiblio2"/>
                         </p>
                         <p>
@@ -700,7 +804,11 @@
                             <lb />Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare <lb />i resultati a cui crede esser giunta una piccola schiera di 
                         <pb n="2" />
                         <cb n="3" facs="#biblioV2" xml:id="cbBiblio3"/>
+<<<<<<< HEAD
                         <lb />critici e storici dell'arte, che 
+=======
+                            <lb />critici e storici dell'arte, che 
+>>>>>>> Codifica24/main
                             <quote>
                                 « con enfatiche parole vanno <lb />predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Ita<lb />lia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indi<lb />gena, nazionale, originale, e scevra in tutto dell’ elemento <lb />bizantino. »
                             </quote> 
