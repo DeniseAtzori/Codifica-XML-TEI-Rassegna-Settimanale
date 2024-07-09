@@ -298,6 +298,7 @@
         <!-- Regole per I CB -->
         <xsl:template match="tei:cb">
             <div style="clear:both;"></div>
+            <hr/>
                 <!-- Per ogni cb estrae l'immagine corrisondente e la mette nel suo div -->
                 <xsl:variable name="col" select="substring-after(@facs, '#')" />
                 <xsl:element name="img">
