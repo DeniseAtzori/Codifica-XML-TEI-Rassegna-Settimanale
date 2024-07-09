@@ -176,7 +176,7 @@
                     </p>
                     <p>
                         <lb />Ho conosciuto <distinct time="1800">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb />vane donna</rs> la cui esperienza di scuole era limitatissima, <lb />la cui <distinct time="1800">coltura</distinct> non era straordinaria, la cui vita di campa<lb />gna e di famiglia non pareva preparazione <distinct>sufficente</distinct> al<lb />l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb />cazione e l’ istruzione richiedono che, se la morte non <lb />l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb />dubbiamente lasciato tracce visibili e durature tra noi. <lb />Il metodo era semplicissimo. Essa si era associati pochi,<lb /> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb />gio d’una dose prefissa della sua scienza, ma soltanto il mag-
-                        <pb n="340"/>
+                        <pb n="2"/>
                         <cb n="2" facs="#istrDonne2" xml:id="cbDonne2"/>
                         <lb />giore possibile svolgimento nelle alunne delle facoltà da quella <lb />scienza chiamate in azione ; e il legame tra queste facoltà e le <lb />altre, creava un lavoro omogeneo di ciascuna per tutte e di <lb />tutte per ciascuna. Così ne risultava che il maestro di aritme<lb />tica diventava professore di logica, quando per la risolu<lb />zione d’ un problema, senza fermarsi subito sulle cifre, fa<lb />ceva classificare da una parte ciò che <emph rend="italic">era</emph> noto e dall’ altro <lb />ciò che si doveva <emph rend="italic">far</emph> noto, e chiamava ciascuna a trovar <lb />da sè i rapporti tra questi due termini: e a vedere come <lb />quei rapporti rendevano piano e semplice il passaggio dal<lb />l’uno all’ altro. Così le lezioni di storia, non fatte <distinct time="1800">colla pre<lb />tensione d’empir la testa</distinct> di nomi e di fatti, ma col sem<lb />plice scopo di disegnare i contorni generali d’ ogni forma <lb />di civiltà, divenivano il telaio su cui dovevano ordinarsi <lb />più tardi non solo le letture storiche, ma anche quelle dei <lb />capolavori <distinct time="1800">letterarii</distinct> e delle opere scientifiche, resi gli uni<lb /> e le altre più intelligibili dalla conoscenza dell’ ambiente in <lb />cui si formarono. Così i <distinct time="1800">principii</distinct> generali delle scienze fisi<lb />che e naturali venivano ogni dì a raccogliere e classificare<lb /> le mille osservazioni cui conducevano fatti e circostanze<lb /> della vita giornaliera. Nè finirei così presto, se volessi ci<lb />tarvi tutti gli esempi che mi si affollano alla mente. Mi è <lb />accaduto più e più volte pel passato di chiedere a me<lb /> stessa qual fosse la ragione per la quale le fanciulle di quel<lb />l’istituto, uscite di là con una <distinct time="1800">coltura</distinct> che, messa in do<lb />mande e risposte si sarebbe ridotta a poca cosa, pur riu<lb />scissero nella vita a parer più colte di altre cui pure era <distinct time="1800"><lb />impartito più largo corredo di cognizioni</distinct>. Oggi non me lo <lb />domando più, perchè parmi avere inteso che esse erano <lb />state formate ad intendere (nella misura delle loro forze <lb />naturali) tutto l’intelligibile; e che per esse il leggere e<lb /> l’ udir cose nuove era piacere e profitto, perchè ciò che leg<lb />gevano e udivano prontamente e naturalmente trovava <lb />posto nel loro intelletto aperto e preparato. Ebbene, que<lb />sto che fu fatto una volta per spontanea particolare atti<lb />tudine di <rs type="person">una donna</rs> e che certamente altri hanno come <rs type="person">Lei</rs> <distinct time="1800"><lb />intraveduto</distinct> e desiderato, <distinct time="1800">parmi</distinct> potrebbe diventare il <lb />nucleo di un sistema cui porterebbero la luce del loro sa<lb />pere e della loro intelligenza uomini e donne che si occu<lb />parono di questo importantissimo tra i problemi, e che cer<lb />tamente potranno dargli una soluzione pratica per la quale <lb />io non mi sentirei davvero abbastanza competente.
                     </p>
@@ -531,7 +531,7 @@
                     <head type="title"><lb />BIBLIOGRAFIA.</head>
                     <head type="subtitle"><lb />LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
-                        <pb n="441" />
+                        <pb n="1" />
                         <cb n="1" facs="#biblioG1" xml:id="cbBiblio1"/>
                         <head>
                             <bibl>
@@ -543,48 +543,48 @@
                                     Sonetti con Coda in prosa
                                 </title>
                             </bibl> 
-                            a <persName ref="#OG">Lorenzo Stecchetti</persName>. 
+                            a <persName ref="#OG"><lb />Lorenzo Stecchetti</persName>. 
                             — <placeName>Bologna</placeName>, 
                             <orgName type="publisher" ref="#ZN">Zanichelli</orgName>, 
                             <date>1878</date>.
                         </head>
                         <p>
-                            'È un libretto di poche pagine e non ce ne occuperemmo, se non si trattasse che, vestito delle solite eleganze tipografiche <rs type="publisher" ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchinetta di guerra della <rs type="literary movement">scuola <ref type="tema" target="#verbum" rend="italic">realista</ref></rs>.
+                            <lb />È un libretto di poche pagine e non ce ne occuperemmo, <lb />se non si trattasse che, vestito delle solite eleganze tipo<lb />grafiche <rs type="publisher" ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchi<lb />netta di guerra della <rs type="literary movement">scuola <ref type="tema" target="#verbum" rend="italic">realista</ref></rs>.
                         </p>
                         <p>
-                            Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><forename>Lorenzo</forename> <surname>Stecchetti</surname></persName> nella gran lotta, dice lui, delle due scuole, lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli ma <ref type="tema" target="#verbum" rend="italic">realisti</ref>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non altro per mostrar fiducia nelle proprie forze e nel trionfo della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
-                            Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> ci dirà forse che questa è un’osservazione da <ref type="tema" target="#verbum">idealisti</ref> e, quel che è peggio, da <ref type="tema" target="#verbum">idealisti <rs ref="#AM">manzoniani</rs></ref>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <date>Venerdì Santo</date>. 
-                            Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <distinct time="1800">gli abbia a dire</distinct>, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
+                            <lb />Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><forename>Lo<lb />renzo</forename> <surname>Stecchetti</surname></persName> nella gran lotta, dice lui, delle due scuole, <lb />lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> <lb />di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli <lb />ma <ref type="tema" target="#verbum" rend="italic">realisti</ref>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda <lb />in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non <lb />altro per mostrar fiducia nelle proprie forze e nel trionfo <lb />della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
+                            Il <lb />signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> ci dirà forse che questa è un’osserva<lb />zione da <ref type="tema" target="#verbum">idealisti</ref> e, quel che è peggio, da <ref type="tema" target="#verbum">idealisti <rs ref="#AM">manzo<lb />niani</rs></ref>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <date>Venerdì Santo</date>. 
+                            <lb />Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <distinct time="1800"><lb />gli abbia a dire</distinct>, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
                             <q>
-                                <foreign xml:lang="la" rend="italic">Non tali auxilio.... tempus eget.</foreign>
+                                <foreign xml:lang="la" rend="italic">Non tali auxi<lb />lio.... tempus eget.</foreign>
                             </q> 
-                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> di buona fede merita le più oneste e liete accoglienze. C’è in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di fede, una risolutezza (occorrendo) di martirio, che odorano di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic">ideale</ref> è spettacolo nuovo e degnissimo di considerazione. Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
-                            <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole realista e idealista</ref>. Se discendiamo in noi stessi, non ci sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800">coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi belli e dei brutti, ammiriamo le 
+                            Preferiamo di molto la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs>, <lb />grido di guerra della nuova scuola, e che da <rs type="person">un <ref type="tema" target="#verbum">realista</ref></rs> <lb />di buona fede merita le più oneste e liete accoglienze. C’è <lb />in quella <rs type="poetic form" ref="#aux" rend="italic">Coda</rs> una sincerità di convinzione, un ardore di <lb />fede, una risolutezza (occorrendo) di martirio, che odorano <lb />di <rs type="person" ref="#bib">apostolo</rs> <distinct time="1800">un miglio di lontano</distinct>, ed un  <rs type="person" ref="#bib">apostolo</rs> senza <ref type="tema" target="#verbum" rend="italic"><lb />ideale</ref> è spettacolo nuovo e degnissimo di considerazione. <lb />Non vogliamo dire con questo che la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <roleName>si<lb />gnor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> 
+                            <distinct time="1800">ci abbia chiariti</distinct> meglio di prima in che <lb />consista veramente questo gran divario delle due <ref type="tema" target="#verbum">scuole <lb />realista e idealista</ref>. Se discendiamo in noi stessi, non ci <lb />sentiamo alcun bisogno urgente di schierarci <distinct time="1800">coll’</distinct>una o <distinct time="1800"><lb />coll’</distinct> altra. Se guardiamo fuori di noi, troviamo dei versi <lb />belli e dei brutti, ammiriamo le 
                             <bibl>
                                 <title ref="#OdiB" rend="italic">
                                     Odi Barbare
                                 </title>
                             </bibl> 
-                            del <persName ref="#GC"><surname>Carducci</surname></persName>, <sic>le</sic> 
+                            del <persName ref="#GC"><surname>Carducci</surname></persName>, <sic><lb />le</sic> 
                             <bibl>
                                 <title ref="#Lyr" rend="italic">
                                     Lyrica
                                 </title>
                             </bibl> 
-                            del <persName ref="#EP"><surname>Panzacchi</surname></persName>, ammiriamo un po’ meno i <rs type="poetic form">sonetti</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>, ma non per questo ci accorgiamo di aver fatto un passo di più per addentrarci nell’ arcano della questione e crearci una persuasione qualunque pro o contro il <ref type="tema" target="#verbum">reale</ref> o l’<ref type="tema" target="#verbum">ideale</ref>.
+                            del <persName ref="#EP"><surname>Panzacchi</surname></persName>, ammiriamo un po’ meno i <rs type="poetic form"><lb />sonetti</rs> del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>, ma non per questo ci accorgiamo di <lb />aver fatto un passo di più per addentrarci nell’ arcano <lb />della questione e crearci una persuasione qualunque pro o <lb />contro il <ref type="tema" target="#verbum">reale</ref> o l’<ref type="tema" target="#verbum">ideale</ref>.
                         </p>
                         <p>
-                            Sul serio, non bastavano forse le alchimie della politica a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar fuori</distinct> anche questa stramba contesa per non lasciar neppure un angolo senza imbrogli e senza confusioni? che cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> <distinct time="1800">hanno in pronto</distinct> carceri, catene e roghi per lui e pei catecumeni della sua scuola. E ci ricorda quella guardia nazionale, che condannata a tre ore di sala di disciplina si disperava di non aver il tempo per morir di fame nello squallore della tetra prigione. Immaginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non rinunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> preme soprattutto di poter cantare donne meno vestite che sia possibile, e cliniche di amori traditi e di voluttà spasmodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
+                            <lb />Sul serio, non bastavano forse le alchimie della politica <lb />a produrre divisioni irragionevoli ? E <distinct time="1800">occorreva di scavar <lb />fuori</distinct> anche questa stramba contesa per non lasciar nep<lb />pure un angolo senza imbrogli e senza confusioni? che <lb />cosa chiede il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName>? libertà? e chi gliela nega? <lb />A sentirlo, gli <ref type="tema" target="#verbum">idealisti</ref> <distinct time="1800">hanno in pronto</distinct> carceri, catene e <lb />roghi per lui e pei catecumeni della sua scuola. E ci <lb />ricorda quella guardia nazionale, che condannata a tre ore <lb />di sala di disciplina si disperava di non aver il tempo per <lb />morir di fame nello squallore della tetra prigione. Imma<lb />ginarsi di essere perseguitati è una <ref type="tema" target="#verbum" rend="italic">idealità</ref>, a cui non ri<lb />nunciano neppure i <rs type="person">poeti <ref type="tema" target="#verbum" rend="italic">realisti</ref></rs>. Al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> <lb />preme soprattutto di poter cantare donne meno vestite che <lb />sia possibile, e cliniche di amori traditi e di voluttà spa<lb />smodiche. Faccia pure. Ma consiste qui tutto il <ref type="tema" target="#verbum" rend="italic">realismo</ref> ?
                         <cb n="2" facs="#biblioGV" xml:id="cbBiblio2"/>
                         </p>
                         <p>
-                            Allora è vecchio come la 
+                            <lb />Allora è vecchio come la 
                             <bibl>
                                 <title ref="#bib">
                                     Bibbia
                                 </title>
                             </bibl>,
-                                ed in tal caso, <ref type="tema" target="#verbum">realismo</ref> per <ref type="tema" target="#verbum">realismo</ref>, preferiamo le peccatrici sane e gioconde dei nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB"><surname>Batacchi</surname></persName>. Se non che il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> è a questo proposito in un grande errore. Lo <persName ref="#OG"><surname>Stecchetti</surname></persName>, suo maestro ed autore, non trovò già tanta grazia nel pubblico italiano solo per quella certa licenziosità, che domina ne’ suoi versi, bensì perchè sa scrivere versi gentili ed elegantissimi, perchè ha ricchezza di fantasia, di colori e intonazioni ed armonie felicissime, perchè insomma è poeta molto leggiadro, a cui si perdonano le licenze in grazia delle bellezze. Che del resto, se lo stesso <persName ref="#OG"><surname>Stecchetti</surname></persName> volesse rigirarsi eternamente nel circolo erotico delle 
+                                ed in tal caso, <ref type="tema" target="#verbum">realismo</ref> <lb />per <ref type="tema" target="#verbum">realismo</ref>, preferiamo le peccatrici sane e gioconde dei <lb />nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB"><surname>Batac<lb />chi</surname></persName>. Se non che il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> è a questo proposito <lb />in un grande errore. Lo <persName ref="#OG"><surname>Stecchetti</surname></persName>, suo maestro ed autore, <lb />non trovò già tanta grazia nel pubblico italiano solo per <lb />quella certa licenziosità, che domina ne’ suoi versi, bensì <lb />perchè sa scrivere versi gentili ed elegantissimi, perchè ha <lb />ricchezza di fantasia, di colori e intonazioni ed armonie <lb />felicissime, perchè insomma è poeta molto leggiadro, a cui <lb />si perdonano le licenze in grazia delle bellezze. Che del <lb />resto, se lo stesso <persName ref="#OG"><surname>Stecchetti</surname></persName> volesse rigirarsi eternamente <lb />nel circolo erotico delle 
                                 <bibl>
                                 <title ref="#Pos" rend="italic">
                                     Postume
@@ -596,14 +596,14 @@
                                     Polemica
                                 </title>
                             </bibl>, 
-                            non crediamo che troverebbe sempre eguale fortuna.
+                            non cre<lb />diamo che troverebbe sempre eguale fortuna.
                         </p>
                         <p>
-                            Un altro errore, secondo noi, del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> e di parecchi altri suoi correligionari, è quello d’ andar citando il <persName ref="#GC"><surname>Carducci</surname></persName> come il loro <rs type="person">caposcuola</rs>. Niuno più di noi ammira ed ama questa vera gloria delle lettere italiane. Ma perciò appunto non vorremmo vederlo 
+                            <lb />Un altro errore, secondo noi, del <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> e di <lb />parecchi altri suoi correligionari, è quello d’ andar citando <lb />il <persName ref="#GC"><surname>Carducci</surname></persName> come il loro <rs type="person">caposcuola</rs>. Niuno più di noi am<lb />mira ed ama questa vera gloria delle lettere italiane. Ma <lb />perciò appunto non vorremmo vederlo 
                             <quote source="#PGG" rend="italic">
-                                tirato sulla chiosa dei bianchi e dei neri
+                                tirato sulla chiosa <lb />dei bianchi e dei neri
                             </quote> 
-                            a piacer loro. Il <persName ref="#GC"><surname>Carducci</surname></persName> è quello che è, <ref type="tema" target="#verbum">idealista</ref> e <ref type="tema" target="#verbum">realista</ref> come e quando gli accomoda, e sfidiamo chiunque a far entrare nel povero àmbito di categorie pedantesche il poeta dell’ 
+                            a piacer loro. Il <persName ref="#GC"><surname>Carducci</surname></persName> è quello <lb />che è, <ref type="tema" target="#verbum">idealista</ref> e <ref type="tema" target="#verbum">realista</ref> come e quando gli accomoda, e <lb />sfidiamo chiunque a far entrare nel povero àmbito di ca<lb />tegorie pedantesche il poeta dell’ 
                             <bibl>
                                 <title ref="#RN" rend="italic">
                                     Idillio Maremmano
@@ -612,37 +612,37 @@
                             e delle 
                             <bibl>
                                 <title ref="#OB" rend="italic">
-                                    Fonti del Clitumno
+                                    <lb />Fonti del Clitumno
                                 </title>
                             </bibl>, 
-                            il poeta, che quand’ anche assale nell’ 
+                            il poeta, che quand’ anche assale nel<lb />l’ 
                             <bibl>
                                 <title ref="#RN" rend="italic">
                                     Intermezzo
                                 </title>
                             </bibl> 
-                            non sappiamo bene quale dinastia storica di idealisti o di sentimentali, vi pianta in mezzo strofe idealissime e sentimentalissime con uno di que’ trapassi bruschi ed improvvisi, di cui soltanto i grandi ingegni posseggono il segreto.
+                            non sappiamo bene quale dinastia storica di <lb />idealisti o di sentimentali, vi pianta in mezzo strofe idealissime e sentimentalissime con uno di que’ trapassi bruschi <lb />ed improvvisi, di cui soltanto i grandi ingegni posseggono <lb />il segreto.
                         </p>
                         <p>
-                            In conclusione, codesto tramestìo del <ref type="tema" target="#verbum" rend="italic">reale</ref> e dell’ <ref type="tema" target="#verbum" rend="italic">ideale</ref> a noi sembra una di quelle 
+                            <lb />In conclusione, codesto tramestìo del <ref type="tema" target="#verbum" rend="italic">reale</ref> e dell’ <ref type="tema" target="#verbum" rend="italic">ideale</ref> <lb />a noi sembra una di quelle 
                             <term ref="#log">
                                 logomachie
                             </term>
                             <gloss xml:id="log">
                                 Disputa protratta con una sofistica verbosità.
                             </gloss>, 
-                            che non approdano a nulla, e se ci fosse lecito dare un consiglio al <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> (il quale anche fra le sue fisime di <ref type="tema" target="#verbum">realista</ref> ci sembra porgere qualche buona speranza del suo ingegno) gli diremmo di serbar le sue collere per qualche <ref type="tema" target="#verbum">realità</ref> meno <ref type="tema" target="#verbum">ideale</ref> del suo <ref type="tema" target="#verbum">realismo</ref>, e di profferirsi <roleName type="militar">soldato</roleName> a qualche altra causa, che ne valga meglio la pena.
+                            che non approdano <lb />a nulla, e se ci fosse lecito dare un consiglio al <roleName>signor</roleName> <persName ref="#PEG"><surname><lb />Guarnerio</surname></persName> (il quale anche fra le sue fisime di <ref type="tema" target="#verbum">realista</ref> ci <lb />sembra porgere qualche buona speranza del suo ingegno) <lb />gli diremmo di serbar le sue collere per qualche <ref type="tema" target="#verbum">realità</ref> <lb />meno <ref type="tema" target="#verbum">ideale</ref> del suo <ref type="tema" target="#verbum">realismo</ref>, e di profferirsi <roleName type="militar">soldato</roleName> a <lb />qualche altra causa, che ne valga meglio la pena.
                         </p>
                     </div>
                     <div n="7" type="bibliography" xml:id="bibVasari">
                         <head>
-                            <persName rend="uppercase" ref="#GV">GIORGIO VASARI</persName>, 
+                            <persName rend="uppercase" ref="#GV"><lb />GIORGIO VASARI</persName>, 
                             <bibl>
                                 <title type="main" ref="#leOpere" rend="italic">
                                     Le opere
                                 </title>
                                 <title type="sub">
-                                    con nuove annotazioni e commenti di <persName ref="#GM">Gaetano Milanesi</persName>. Vol. 1°.
+                                    con nuove annotazioni e commenti <lb />di <persName ref="#GM">Gaetano Milanesi</persName>. Vol. 1°.
                                 </title>
                             </bibl>,  
                             — <placeName>
@@ -656,7 +656,7 @@
                             <date>1878</date>.
                         </head>
                         <p>
-                            Diamo il benvenuto a questa nuova edizione del <persName ref="#GV"><surname>Vasari</surname></persName>, che segue dopo ventidue anni dal suo pieno compimento la stampa procuratane dal <orgName type="publisher">Le Monnier</orgName> per cura di una società di amatori delle belle arti. Ma dal <date>1845</date>, quando cotesta edizione fu cominciata, al dì d’ oggi, non pochi sono i lavori comprensivi o spicciolati che son venuti ad ampliare o a rettificare le memorie del <rs type="person" ref="#GV">biografo <rs type="provenienza">aretino</rs></rs> : e niuno era più atto del <persName ref="#GM"><surname>Milanesi</surname></persName> a raccogliere e aggiungere al <persName ref="#GV"><surname>Vasari</surname></persName> il frutto di tante novelle ricerche. Oltreché poi, la stampa del <orgName type="publisher">Le Monnier</orgName> in quattordici volumi, alcuni dei quali assai smilzi, riusciva assai incomoda a consultarsi ; e questa invece, che si annunzia dover comprendere in soli otto, non soltanto le
+                            <lb />Diamo il benvenuto a questa nuova edizione del <persName ref="#GV"><surname>Vasari</surname></persName>, <lb />che segue dopo ventidue anni dal suo pieno compimento la <lb />stampa procuratane dal <orgName type="publisher">Le Monnier</orgName> per cura di una società <lb />di amatori delle belle arti. Ma dal <date>1845</date>, quando cotesta <lb />edizione fu cominciata, al dì d’ oggi, non pochi sono i la<lb />vori comprensivi o spicciolati che son venuti ad ampliare <lb />o a rettificare le memorie del <rs type="person" ref="#GV">biografo <rs type="provenienza">aretino</rs></rs> : e niuno <lb />era più atto del <persName ref="#GM"><surname>Milanesi</surname></persName> a raccogliere e aggiungere al <persName ref="#GV"><surname>Va<lb />sari</surname></persName> il frutto di tante novelle ricerche. Oltreché poi, la <lb />stampa del <orgName type="publisher">Le Monnier</orgName> in quattordici volumi, alcuni dei <lb />quali assai smilzi, riusciva assai incomoda a consultarsi ; e <lb />questa invece, che si annunzia dover comprendere in soli <lb />otto, non soltanto le
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
                                     Vite
@@ -670,16 +670,16 @@
                             </bibl> e l’
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
-                                    Epistolario
+                                    Epi<lb />stolario
                                 </title>
                             </bibl>,
-                            giungerà anche per questo aspetto assai opportuna ed utile.
+                            giungerà anche per questo aspetto assai opportuna <lb />ed utile.
                         </p>
                         <p>
-                            Non è del nostro proposito discorrere di tutte le aggiunte e modificazioni che le note apposte dal <persName ref="#GM"><surname>Milanesi</surname></persName> arrecano al testo <rs type="person" ref="#GV">vasariano</rs>. Vogliamo soltanto avvertire come queste sieno in numero amplissimo, e come alcuni nuovi 
+                            <lb />Non è del nostro proposito discorrere di tutte le ag<lb />giunte e modificazioni che le note apposte dal <persName ref="#GM"><surname>Milanesi</surname></persName> ar<lb />recano al testo <rs type="person" ref="#GV">vasariano</rs>. Vogliamo soltanto avvertire come <lb />queste sieno in numero amplissimo, e come alcuni nuovi 
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
-                                    Commentari
+                                    <lb />Commentari
                                 </title>
                             </bibl> 
                             in seguito alle 
@@ -688,28 +688,28 @@
                                     Vite
                                 </title>
                             </bibl>, 
-                            svolgano largamente parecchi punti controversi e degni di discussione. Fra questi, due specialmente ci sono parsi di tale importanza, da meritare che di essi si faccia da noi speciale menzione: e sono il
+                            svolgano largamente parec<lb />chi punti controversi e degni di discussione. Fra questi, <lb />due specialmente ci sono parsi di tale importanza, da me<lb />ritare che di essi si faccia da noi speciale menzione: e <lb />sono il
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
                                     Commentario
                                 </title>
                             </bibl> 
-                            alla Vita di <persName ref="#NP">Niccola Pisano</persName>, e quello alla Vita di <persName ref="#Gi">Giotto</persName>.
+                            alla Vita di <persName ref="#NP">Niccola Pisano</persName>, e quello alla <lb />Vita di <persName ref="#Gi">Giotto</persName>.
                         </p>
                         <p>
-                            Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare i resultati a cui crede esser giunta una piccola schiera di 
+                            <lb />Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare <lb />i resultati a cui crede esser giunta una piccola schiera di 
                         <pb n="2" />
                         <cb n="3" facs="#biblioV2" xml:id="cbBiblio3"/>
-                            critici e storici dell'arte, che 
+                        <lb />critici e storici dell'arte, che 
                             <quote>
-                                « con enfatiche parole vanno predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Italia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indigena, nazionale, originale, e scevra in tutto dell’ elemento bizantino. »
+                                « con enfatiche parole vanno <lb />predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Ita<lb />lia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indi<lb />gena, nazionale, originale, e scevra in tutto dell’ elemento <lb />bizantino. »
                             </quote> 
-                            Tutto ciò non ci sembra bene provato : e tanto meno poi, che ad essa debba ricongiungersi la scuola toscana del <date from="1201" to="1300">secolo decimoterzo</date>, e specialmente <persName ref="#NP"><forename>Niccola</forename> <surname>Pisano</surname></persName>. Del quale il <persName ref="#GM"><surname>Milanesi</surname></persName> fu primo a pubblicare una memoria sincrona dell’<orgName>Archivio senese</orgName>, nella quale ei viene chiamato <foreign xml:lang="la"><persName ref="#NP" rend="italic"><forename>Nichólam</forename> <surname>Petri</surname></persName> de <placeName><region type="region">Apulia</region></placeName></foreign>. Se non si trattasse di un paleografo così esperto ed oculato come il <persName ref="#GM"><surname>Milanesi</surname></persName>, noi potremmo anche dubitare che invece di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign>vi si dovesse leggere <foreign xml:lang="la" rend="italic">
+                            Tutto ciò non ci sembra bene provato : e tanto <lb />meno poi, che ad essa debba ricongiungersi la scuola to<lb />scana del <date from="1201" to="1300">secolo decimoterzo</date>, e specialmente <persName ref="#NP"><forename>Niccola</forename> <surname>Pisano</surname></persName>. <lb />Del quale il <persName ref="#GM"><surname>Milanesi</surname></persName> fu primo a pubblicare una memoria <lb />sincrona dell’<orgName>Archivio senese</orgName>, nella quale ei viene chiamato <foreign xml:lang="la"><persName ref="#NP" rend="italic"><forename><lb />Nichólam</forename> <surname>Petri</surname></persName> de <placeName><region type="region">Apulia</region></placeName></foreign>. Se non si trattasse di un paleo<lb />grafo così esperto ed oculato come il <persName ref="#GM"><surname>Milanesi</surname></persName>, noi potremmo <lb />anche dubitare che invece di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign>vi si dovesse leg<lb />gere <foreign xml:lang="la" rend="italic">
                                 Faulia
-                            </foreign> ; e chi ha pratica nei caratteri gotici del tempo, non troverebbe ardita questa congettura : oltreché il caso del <persName ref="#Cia"><surname>Ciampi</surname></persName> che avendo letto male un documento su <persName ref="#NP"><forename>Niccola</forename></persName> lo fece <rs type="provenienza">senese</rs> e nipote di un <roleName>ser</roleName> <persName>Biasio</persName>, ci potrebbe scusare se richiedessimo un più attento esame del documento. Ma sia pure, come crediamo che sia, <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> ; chè in tal caso <persName ref="#NP"><forename>Niccola</forename></persName> resta tuttavia quel ch’era. Imperciocché il <persName ref="#GM"><surname>Milanesi</surname></persName> fa notare come due luoghi sienvi in<placeName><region type="region">Apulia</region></placeName> che portano la denominazione di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> o <foreign xml:lang="la" rend="italic"><placeName><region>Pulia</region></placeName></foreign>: uno nell’<rs type="provenienza">Aretino</rs>, l’altro nel <rs type="provenienza">Lucchese</rs> : e da quest' ultimo probabilmente venne il restauratore dell’arte scultoria: al padre del quale soltanto forse spetta l’aggiunto <foreign xml:lang="la" rend="italic">de <placeName><region type="region">Apulia</region></placeName></foreign>. Che se, come osserva il <persName ref="#GM"><surname>Milanesi</surname></persName> giustissimamente, ei fosse stato un <rs type="provenienza">pugliese</rs>, l’atto direbbe, secondo la forinola consueta notarile : 
+                            </foreign> ; e chi ha pratica nei caratteri gotici del tempo, <lb />non troverebbe ardita questa congettura : oltreché il caso <lb />del <persName ref="#Cia"><surname>Ciampi</surname></persName> che avendo letto male un documento su <persName ref="#NP"><forename>Niccola</forename></persName> <lb />lo fece <rs type="provenienza">senese</rs> e nipote di un <roleName>ser</roleName> <persName>Biasio</persName>, ci potrebbe scusare <lb />se richiedessimo un più attento esame del documento. Ma <lb />sia pure, come crediamo che sia, <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> ; chè in tal caso <persName ref="#NP"><forename><lb />Niccola</forename></persName> resta tuttavia quel ch’era. Imperciocché il <persName ref="#GM"><surname>Milanesi</surname></persName> <lb />fa notare come due luoghi sienvi in<placeName><region type="region">Apulia</region></placeName> che portano <lb />la denominazione di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> o <foreign xml:lang="la" rend="italic"><placeName><region>Pulia</region></placeName></foreign>: uno nell’<rs type="provenienza">Aretino</rs>, l’altro <lb />nel <rs type="provenienza">Lucchese</rs> : e da quest' ultimo probabilmente venne il re<lb />stauratore dell’arte scultoria: al padre del quale soltanto <lb />forse spetta l’aggiunto <foreign xml:lang="la" rend="italic">de <placeName><region type="region">Apulia</region></placeName></foreign>. Che se, come osserva <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> giustissimamente, ei fosse stato un <rs type="provenienza">pugliese</rs>, <lb />l’atto direbbe, secondo la forinola consueta notarile : 
                             <quote type="written">
                                 <foreign xml:lang="la" rend="italic">
-                                departibus Apuliae
+                                de <lb />partibus Apuliae
                                 </foreign>,
                             </quote> 
                             e non semplicemente 
@@ -720,16 +720,16 @@
                                         </placeName>
                                 </foreign>
                             </quote>. 
-                            Resta perciò che <persName ref="#NP"><forename>Niccola</forename></persName> sia <rs type="provenienza">toscano</rs>, e <rs type="provenienza">pisano</rs>, come la tradizione e l’aggiunto costante al suo nome, concordemente suonarono sinora, che come dicono altri documenti sincroni : e cadono le troppo sottili congetture sulla origine meridionale della persona o dell’ arte di <persName ref="#NP"><forename>Niccola</forename></persName>, accettate anche dai signori <persName ref="#Cro"><surname>Crowe</surname></persName> e <persName ref="#Cav"><surname>Cavalcasene</surname></persName>.
+                            Resta <lb />perciò che <persName ref="#NP"><forename>Niccola</forename></persName> sia <rs type="provenienza">toscano</rs>, e <rs type="provenienza">pisano</rs>, come la tradizione <lb />e l’aggiunto costante al suo nome, concordemente suonarono <lb />sinora, che come dicono altri documenti sincroni : e cadono <lb />le troppo sottili congetture sulla origine meridionale della <lb />persona o dell’ arte di <persName ref="#NP"><forename>Niccola</forename></persName>, accettate anche dai signori <persName ref="#Cro"><surname><lb />Crowe</surname></persName> e <persName ref="#Cav"><surname>Cavalcasene</surname></persName>.
                         </p>
                         <p>
-                            Dove invece diremmo che a questi diligenti storici dell’arte resti la palma si è nella controversia, sulle pitture di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ritratto ivi esistente di <persName ref="DA"><forename>Dante</forename></persName>. Di questa controversia tratta il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
+                            <lb />Dove invece diremmo che a questi diligenti storici del<lb />l’arte resti la palma si è nella controversia, sulle pitture <lb />di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ri<lb />tratto ivi esistente di <persName ref="DA"><forename>Dante</forename></persName>. Di questa controversia tratta <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
                             <bibl>
                                 <title ref="#leOpere" rend="italic">Commentario</title>
                             </bibl> 
-                            sopra ricordato, in appendice alla biografia giottesca : ma e’ non finisce di persuaderci. Lasciò scritto il <persName ref="Gh">Ghiberti</persName> che <persName ref="Gi">Giotto</persName> dipinse la 
+                            sopra ricordato, in ap<lb />pendice alla biografia giottesca : ma e’ non finisce di per<lb />suaderci. Lasciò scritto il <persName ref="Gh">Ghiberti</persName> che <persName ref="Gi">Giotto</persName> dipinse la 
                             <quote type="written">
-                                « <placeName type="monument">cappella di 
+                                « <placeName type="monument"><lb />cappella di 
                                 <persName ref="#SMM">
                                     <choice>
                                         <abbr>S.</abbr>
@@ -738,10 +738,10 @@
                                     Maria Maddelena</persName>
                                 </placeName> ; »
                             </quote> 
-                            e la <placeName type="monument">cappella del <roleName>Potestà</roleName></placeName> infatti contiene per grandissima parte le storie di quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, e ne porta gli esempi, una tavola d’altare coi suoi tabernacoletti, civori, compassi ec. Sapevamcelo, potrebbesi rispondere : e la vostra proposta sarebbe ingegnosa ed accettabile, quando non avessimo una vera cappella colle storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe stato per lo meno molto mal cauto nell’ adoperar quella voce, per una tavola che stava davvero dentro una cappella. Tutti gli altri argomenti addotti dai difensori della tradizionale opinione sulla autenticità di quelle pitture e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e confutati sottilmente, non però in modo tale, a noi sembra, da riportarne vittoria. E ci ha fatto poi non poca meraviglia il veder passato sotto assoluto silenzio 
-                            quel <ref target="#centiloquio">sonetto del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sanguigno, con un libro sotto il braccio, e di seguito ai santi del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Milanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument">cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor risoluta. Ad ogni modo piace il vederla trattata con tanta dignità nel respingere le altrui opinioni, con tanto acume
+                            e la <placeName type="monument">cappella del <roleName>Po<lb />testà</roleName></placeName> infatti contiene per grandissima parte le storie di <lb />quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, <lb />e ne porta gli esempi, una tavola d’altare coi suoi taber<lb />nacoletti, civori, compassi ec. Sapevamcelo, potrebbesi ri<lb />spondere : e la vostra proposta sarebbe ingegnosa ed ac<lb />cettabile, quando non avessimo una vera cappella colle <lb />storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo <lb />una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe <lb />stato per lo meno molto mal cauto nell’ adoperar quella <lb />voce, per una tavola che stava davvero dentro una cap<lb />pella. Tutti gli altri argomenti addotti dai difensori della <lb />tradizionale opinione sulla autenticità di quelle pitture <lb />e di quel ritratto, e che trovansi riassunti dai signori <persName ref="Cro">Crowe</persName> <lb />e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e <lb />confutati sottilmente, non però in modo tale, a noi sembra, <lb />da riportarne vittoria. E ci ha fatto poi non poca mera<lb />viglia il veder passato sotto assoluto silenzio 
+                            quel <ref target="#centiloquio">sonetto <lb />del <persName ref="#AP">Pucci</persName></ref>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente <lb />è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sangui<lb />gno, con un libro sotto il braccio, e di seguito ai santi <lb />del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> <lb />dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Mi<lb />lanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument"><lb />cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor <lb />risoluta. Ad ogni modo piace il vederla trattata con tanta <lb />dignità nel respingere le altrui opinioni, con tanto acume
                             <cb n="4" facs="#biblioV3" xml:id="cbBiblio4"/>
-                            nell’ esporre la propria come ce ne dà qui esempio il valente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale auguriamo quel favore dei lettori studiosi, che veramente si merita.
+                            <lb />nell’ esporre la propria come ce ne dà qui esempio il va<lb />lente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale <lb />auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>
                     </div>
                 </div>          
