@@ -132,7 +132,7 @@
         <!-- Contenuto testuale del primo articolo -->
             <div n="1" type="article" xml:id="ArtGiglioli">
                 <div type="intestazione" xml:id="intArtGiglioli">
-                    <p>Vol. 1°, N°18.
+                    <p><lb />Vol. 1°, N°18.
                     <date>5 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
@@ -200,7 +200,7 @@
         <!-- Secondo articolo - L'istruzione della donna -->
             <div n="2" type="article" xml:id="ArtDonna">
                 <div type="intestazione" xml:id="intArtDonna">
-                    <p>Vol. 1°, N°21.
+                    <p><lb />Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textDonna">
@@ -261,7 +261,7 @@
             <div n="3" type="article" xml:id="ArtNotizie">
                 <div type="intestazione" xml:id="intNotizie">
                         <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                    <p>Vol. 1°, N°21.
+                    <p><lb />Vol. 1°, N°21.
                     <date>26 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textNotizie">
@@ -407,114 +407,114 @@
         <!-- Quarto articolo - Lucia -->
             <div n="5" type="article" xml:id="ArtLucia">
                 <div type="intestazione" xml:id="intLucia">
-                    <p>Vol. 1°, N°23.
+                    <p><lb />Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
                     <cb n="1" facs="#lucia" xml:id="cbLucia1"/>
-                    <head rend="uppercase">LUCIA.</head>
+                    <lb /><head rend="uppercase">LUCIA.</head>
                     <p>
-                        Con la sua voce d’argento chiamò : 
+                        <lb />Con la sua voce d’argento chiamò : 
                         <said>
-                            « <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia »
+                            « <name type="animal">Bianchina</name>, <name type="animal">Bian<lb />china</name> mia »
                         </said>
-                        e rimase attenta ad ascoltare.... Un merlo spaurito, fuggì chioccolando da un cespuglio prossimo alla rupe 
-                        in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, ma la capretta non rispose. 
+                        e rimase attenta ad ascoltare.... Un merlo spau<lb />rito, fuggì chioccolando da un cespuglio prossimo alla rupe 
+                        <lb />in vetta alla quale stava <persName type="fictional">Lucia</persName> chiamando la sua capretta, <lb />ma la capretta non rispose. 
                         <q type="spoken">
-                            « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
+                            « O <persName ref="#bib">Dio</persName> ! chi mi rende la mia <lb /><name type="animal">Bianchina</name>? chi mi rende la <name type="animal">Bianchina</name> mia? »
                         </q> e ponendosi
                     <pb n="2" />
                     <cb n="2" facs="#lucia2cb1" xml:id="cbLucia2"/>
-                        afflitta a sedere, con la fronte appoggiata ad una mano, tende l’occhio addolorato alle pendici del colle e tristamente s’ abbandona ai suoi pensieri.
+                    <lb />afflitta a sedere, con la fronte appoggiata ad una mano, <lb />tende l’occhio addolorato alle pendici del colle e trista<lb />mente s’ abbandona ai suoi pensieri.
                     </p>
                     <p>
-                        Il sole bacia le sue spalle nude e la brezza della sera la investe fasciandole i panni alla persona elegante e le assalta briosa la chioma come se volesse rubarle quel fiore dei campi che agitato rosseggia fra le sue lucide trecce.
+                        <lb />Il sole bacia le sue spalle nude e la brezza della sera la <lb />investe fasciandole i panni alla persona elegante e le as<lb />salta briosa la chioma come se volesse rubarle quel fiore <lb />dei campi che agitato rosseggia fra le sue lucide trecce.
                     </p>
                     <p>
-                        Come sei bella in mezzo alla primavera, o fresca <persName type="fictional">Lucia</persName> ! e sei sola su la tèrra, povera <persName type="fictional">Lucia</persName> !
+                        <lb />Come sei bella in mezzo alla primavera, o fresca <persName type="fictional">Lucia</persName> ! <lb />e sei sola su la tèrra, povera <persName type="fictional">Lucia</persName> !
                     </p>
                     <p>
-                        Il <rs type="person">padre</rs> suo morì di febbre in <placeName><region>Maremma</region></placeName> ; la <rs type="person">madre</rs> è lontana, ha la sua casetta su quelle montagne azzurre laggiù in fondo in fondo, ed è vecchia ed inferma.... se a quest’ ora non è già a riposarsi nel cimitero di fianco alla chiesa. E il <rs type="person">fratello</rs>? Chi sa? Andò <roleName type="militar">soldato</roleName>; lo mandarono di là dal mare; non ha scritto più nulla da <date dur="P2Y">due anni</date>.... dove sarà?
+                        <lb />Il <rs type="person">padre</rs> suo morì di febbre in <placeName><region>Maremma</region></placeName> ; la <rs type="person">madre</rs> è <lb />lontana, ha la sua casetta su quelle montagne azzurre <lb />laggiù in fondo in fondo, ed è vecchia ed inferma.... se a <lb />quest’ ora non è già a riposarsi nel cimitero di fianco alla <lb />chiesa. E il <rs type="person">fratello</rs>? Chi sa? Andò <roleName type="militar">soldato</roleName>; lo mandarono <lb />di là dal mare; non ha scritto più nulla da <date dur="P2Y">due anni</date>.... dove <lb />sarà?
                     </p>
                     <p>
-                        Cacciata dal bisogno, dopo aver abbracciato i suoi cari, scese dalle montagne natie ed ora, garzona d’ un contadino delle valli, fila, guarda quei monti lontani e guida le capre alla pastura.
+                        <lb />Cacciata dal bisogno, dopo aver abbracciato i suoi cari, <lb />scese dalle montagne natie ed ora, garzona d’ un contadino <lb />delle valli, fila, guarda quei monti lontani e guida le capre <lb />alla pastura.
                     </p>
                     <p>
-                        La <rs type="person">madre</rs> ed il <rs type="person">fratello</rs> erano così da lei chiamati, ma non erano tali. L’avevano allevata e tenuta cara finché l’ <orgName>Ospizio dei Trovatelli</orgName> passò loro quindici lire al mese ; dopo, con un tozzo di pane ed un paro di scarpe nuove, le insegnarono la strada e serrandole dietro la porta : 
+                        <lb />La <rs type="person">madre</rs> ed il <rs type="person">fratello</rs> erano così da lei chiamati, ma <lb />non erano tali. L’avevano allevata e tenuta cara finché <lb />l’ <orgName>Ospizio dei Trovatelli</orgName> passò loro quindici lire al mese ; <lb />dopo, con un tozzo di pane ed un paro di scarpe nuove, <lb />le insegnarono la strada e serrandole dietro la porta : 
                         <q type="spoken">
-                            « <persName ref="#bib">Dio</persName> t’accompagni, bambina mia!»
+                            « <persName ref="#bib">Dio</persName> <lb />t’accompagni, bambina mia!»
                         </q> 
-                        e <persName type="fictional">Lucia</persName> scese al piano ed ora fila, guida le capre alla pastura e guarda quei monti lontani.
+                        e <persName type="fictional">Lucia</persName> scese al piano ed <lb />ora fila, guida le capre alla pastura e guarda quei monti <lb />lontani.
                     </p>
                     <p>
                         <q type="spoken">
-                            « Se ritorni senza la capra, pover’ a te ! »
+                            <lb />« Se ritorni senza la capra, pover’ a te ! »
                         </q> 
-                        le ha detto dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
-                        <persName type="fictional">Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smarrita per sempre; lo sa, e con la fronte appoggiata sopra una mano, tende l’ occhio addolorato alle pendici del colle 
-                        e pensa e singhiozza.
+                        le ha detto <lb />dianzi <persName type="fictional">Rosalba</persName> cacciandola a spintoni fuori della stalla. E 
+                        <persName type="fictional"><lb />Lucia</persName> lo sa che cosa l’aspetta se la capretta fosse smar<lb />rita per sempre; lo sa, e con la fronte appoggiata sopra <lb />una mano, tende l’ occhio addolorato alle pendici del colle 
+                        <lb />e pensa e singhiozza.
                     </p>
                     <p>
                         <q type="thought">
-                            « Se non ritrovo la mia capretta, stasera non mi daranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... mi fece tanto male al petto ! 0 <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »
+                            <lb />« Se non ritrovo la mia capretta, stasera non mi da<lb />ranno da cena e <persName type="fictional">Rosalba</persName> mi picchierà come l’altra volta.... <lb />mi fece tanto male al petto ! 0 <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »
                         </q>
                     </p>
                     <p>
-                        Un ramarro, verde come le foglie del fico salvatico sul quale si era arrampicato per cercare gli ultimi raggi del sole cadente, vibrando la lingua veloce, la fissava, non visto, coi suoi occhi d’ebano, e <persName type="fictional">Lucia</persName> singhiozzando pensava:
+                        <lb />Un ramarro, verde come le foglie del fico salvatico sul <lb />quale si era arrampicato per cercare gli ultimi raggi del <lb />sole cadente, vibrando la lingua veloce, la fissava, non vi<lb />sto, coi suoi occhi d’ebano, e <persName type="fictional">Lucia</persName> singhiozzando pensava:
                     </p>
                     <p>
                         <q type="thought">
-                            « Mi manderanno via.... domani ! forse stasera ! e non ci ho colpa. Le ho munte stamani alle <time when="06:00:00">sei</time>, le ho contate e c’ erano tutte.... Dodici lire ! e dove le trovo per dire a <persName type="fictional">Rosalba</persName> :
+                            <lb />« Mi manderanno via.... domani ! forse stasera ! e non ci <lb />ho colpa. Le ho munte stamani alle <time when="06:00:00">sei</time>, le ho contate e <lb />c’ erano tutte.... Dodici lire ! e dove le trovo per dire a <persName type="fictional">Ro<lb />salba</persName> :
                             <q> 
-                                — tenete ; la capra è smarrita e queste sono le dodici lire che costava? —
+                                — tenete ; la capra è smarrita e queste sono le do<lb />dici lire che costava? —
                             </q> 
-                            Ma non le ho ! Non mi daranno da cena ; <persName type="fictional">Rosalba</persName> mi picchierà e mi chiameranno.... o <persName ref="#bib">Dio</persName>, <persName ref="#bib">Dio</persName> ! »
+                            Ma non le ho ! Non mi daranno <lb />da cena ; <persName type="fictional">Rosalba</persName> mi picchierà e mi chiameranno.... o <persName ref="#bib"><lb />Dio</persName>, <persName ref="#bib">Dio</persName> ! »
                         </q>
                     </p>
                     <p>
-                        Una folata di vento più forte le portò via il fiore dai capelli; si alzò lesta per riprenderlo e il core le fece un balzo d’allegrezza al rapido fruscio che sentì tra le foglie a pochi passi da lei e credè ritrovata la sua capretta. Il ramarro spaventato dal movimento di <persName type="fictional">Lucia</persName>, s’era lasciato cadere dal ramo del fico salvatico e strisciando come una saetta, era corso a refugiarsi nel cavo d’ una ceppa di castagno.   
+                        <lb />Una folata di vento più forte le portò via il fiore dai <lb />capelli; si alzò lesta per riprenderlo e il core le fece un <lb />balzo d’allegrezza al rapido fruscio che sentì tra le foglie <lb />a pochi passi da lei e credè ritrovata la sua capretta. Il <lb />ramarro spaventato dal movimento di <persName type="fictional">Lucia</persName>, s’era lasciato <lb />cadere dal ramo del fico salvatico e strisciando come una <lb />saetta, era corso a refugiarsi nel cavo d’ una ceppa di ca<lb />stagno.   
                     </p>
                     <p>
-                        Raccolse il fiore e se lo accomodò più forte tra i capelli. A <persName type="fictional">Lucia</persName> era caro quel fiore come tutti gli altri che ogni mattina coglieva per adornarsene il capo e per offrirli la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo letticciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Vergine</persName> l’omaggio di quel povero fiore.
+                        <lb />Raccolse il fiore e se lo accomodò più forte tra i ca<lb />pelli. A <persName type="fictional">Lucia</persName> era caro quel fiore come tutti gli altri che <lb />ogni mattina coglieva per adornarsene il capo e per offrirli <lb />la sera alla <persName ref="#bib">Madonna</persName> che pendeva a capo del suo lettic<lb />ciuolo. Anche quella sera non sarebbe mancato alla <persName ref="#bib">Ver<lb />gine</persName> l’omaggio di quel povero fiore.
                     </p>
                     <p>
-                        <persName type="fictional">Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuffato sotto l’orizzonte lontano, sentì il suo sgomento farsi maggiore e disperata chiamò per 1’ ultima volta : 
+                        <persName type="fictional"><lb />Lucia</persName> guardò il sole, e vedendo il suo disco mezzo tuf<lb />fato sotto l’orizzonte lontano, sentì il suo sgomento farsi <lb />maggiore e disperata chiamò per 1’ ultima volta : 
                         <said>
-                            « <name type="animal">Bianchina</name>, <name type="animal">Bianchina</name> mia, teeeh ! »
+                            « <name type="animal">Bian<lb />china</name>, <name type="animal">Bianchina</name> mia, teeeh ! »
                         </said>
                     </p>
                     <p>
-                        Un leggiero belato si udì ad un trar di mano da lei ; 
+                        <lb />Un leggiero belato si udì ad un trar di mano da lei ; 
                     <cb n="3" facs="#lucia2cb2" xml:id="cbLucia3"/> 
-                        un lampo di gioia le balenò nei limpidi occhi celesti e, tra le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi scalzi e gridando allegramente :
+                    <lb />un lampo di gioia le balenò nei limpidi occhi celesti e, tra <lb />le spine, tra i sassi, attraverso ai rovi, ferendosi i piedi <lb />scalzi e gridando allegramente :
                         <said>
-                            « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> bella, <name type="animal">Bianchina</name> mia »
+                            « <name type="animal"><name type="animal">Bianchina</name></name>, <name type="animal">Bianchina</name> <lb />bella, <name type="animal">Bianchina</name> mia »
                         </said> 
-                        corse, corse affannata verso il cespuglio dal quale era partito il belato e ficcandosi smaniosa tra i suoi rami fronzuti, sparì fra quelli tutta lieta e sorridente.
+                        corse, corse affannata verso il ce<lb />spuglio dal quale era partito il belato e ficcandosi sma<lb />niosa tra i suoi rami fronzuti, sparì fra quelli tutta lieta e <lb />sorridente.
                     </p>
                     <p>
-                        <persName type="fictional">Lucia</persName> dall’ alto della sua rupe, non aveva scorto due occhi umani che da un’ ora lacrimavano di stanchezza, avventando faville assetate agli occhi suoi, alle sue spalle, al suo colmo seno, e credè messo dalla sua capretta il belato che il ruvido <persName type="fictional">Togno</persName> scaltramente aveva imitato, ed era corsa.... ed era corsa, povera <persName type="fictional">Lucia</persName>, lieta e sicura come 1’ usignolo innocente corre gorgheggiando nella bocca del rospo che digiuno lo guarda.
+                        <persName type="fictional"><lb />Lucia</persName> dall’ alto della sua rupe, non aveva scorto due <lb />occhi umani che da un’ ora lacrimavano di stanchezza, av<lb />ventando faville assetate agli occhi suoi, alle sue spalle, al <lb />suo colmo seno, e credè messo dalla sua capretta il belato <lb />che il ruvido <persName type="fictional">Togno</persName> scaltramente aveva imitato, ed era <lb />corsa.... ed era corsa, povera <persName type="fictional">Lucia</persName>, lieta e sicura come <lb />l’ usignolo innocente corre gorgheggiando nella bocca del rospo che digiuno lo guarda.
                     </p>
                     <p>
-                        Il vento è cessato ; di quel ciuffo di frassini nessuna foglia si muove e il sole già tramontato, si tira dietro gli ultimi lembi del suo manto di luce. 
+                        <lb />Il vento è cessato ; di quel ciuffo di frassini nessuna fo<lb />glia si muove e il sole già tramontato, si tira dietro gli <lb />ultimi lembi del suo manto di luce. 
                     </p>
                     <p>
-                        Appena scesa la notte, la capra tornò belando alla casa in cerca delle sue compagne. Tutti le mossero lieti incontro; <persName type="fictional">Lucia</persName> sola non si mosse nè si rallegrò. Aveva il viso acceso, un livido in una gota e i capelli e le vesti in disordine.... 
+                        <lb />Appena scesa la notte, la capra tornò belando alla casa <lb />in cerca delle sue compagne. Tutti le mossero lieti incontro; <persName type="fictional"><lb />Lucia</persName> sola non si mosse nè si rallegrò. Aveva il viso ac<lb />ceso, un livido in una gota e i capelli e le vesti in disor<lb />dine.... 
                         <q>
                             « Se ti senti male, va’ a letto »
                         </q> 
-                        le disse <persName type="fictional">Rosalba</persName> fattasi cortese dopo il ritorno della capra. E <persName type="fictional">Lucia</persName> s’avviò stanca alla sua cameretta.... Cercò il fiore per offrirlo alla <persName ref="#bib">Regina degli Angioli</persName>, ma l’aveva perduto ! Sentì una stretta al core, dette in uno scoppio di pianto e cadde sul suo letticciuolo dove aspettò il giorno spasimando.
+                        le disse <persName type="fictional">Rosalba</persName> fat<lb />tasi cortese dopo il ritorno della capra. E <persName type="fictional">Lucia</persName> s’avviò <lb />stanca alla sua cameretta.... Cercò il fiore per offrirlo alla <persName ref="#bib"><lb />Regina degli Angioli</persName>, ma l’aveva perduto ! Sentì una stretta <lb />al core, dette in uno scoppio di pianto e cadde sul suo let<lb />ticciuolo dove aspettò il giorno spasimando.
                     </p>
                     <p>
-                        <persName type="fictional">Togno</persName> quella sera non aveva sonno. Aguzzò tutti i pali per gli olivi della chiudenda ; rifece la traversa all’ erpice vecchio e fino al tocco dopo la mezzanotte rimase a frescheggiare su l’aia, cantando a gola spiegata.
+                        <persName type="fictional"><lb />Togno</persName> quella sera non aveva sonno. Aguzzò tutti i pali <lb />per gli olivi della chiudenda ; rifece la traversa all’ erpice <lb />vecchio e fino al tocco dopo la mezzanotte rimase a fre<lb />scheggiare su l’aia, cantando a gola spiegata.
                     </p>
                     <p>
-                        Era uno stellato di paradiso.
+                        <lb />Era uno stellato di paradiso.
                     </p>
                     <signed rend="uppercase">
                         <persName ref="#RF">
-                        <forename>RENATO</forename> 
+                            <lb /><forename>RENATO</forename> 
                         <surname>FUCINI</surname>
                         </persName>.
                     </signed>
@@ -524,12 +524,12 @@
             <div type="bibarticle" n="s1" rend="uppercase" xml:id="secBiblio">
                 <div type="intestazione">
                 <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                    <p>Vol. 1°, N°23.
+                    <p><lb />Vol. 1°, N°23.
                     <date>9 Giugno '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textBiblio">
-                    <head type="title">BIBLIOGRAFIA.</head>
-                    <head type="subtitle">LETTERATURA E STORIA.</head>
+                    <head type="title"><lb />BIBLIOGRAFIA.</head>
+                    <head type="subtitle"><lb />LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
                         <pb n="441" />
                         <cb n="1" facs="#biblioG1" xml:id="cbBiblio1"/>
