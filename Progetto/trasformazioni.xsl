@@ -405,7 +405,19 @@
                 <xsl:value-of select="."/></span>
         </xsl:template>
 
+        <!-- Regole per le i dateline -->
+        <xsl:template match="tei:dateline">
+            <span class="dateline">
+                <xsl:value-of select="."/></span>
+        </xsl:template>
 
+        <!-- Regole per gli emph -->
+        <xsl:template match="tei:emph">
+            <span class="emph">
+                <xsl:value-of select="."/></span>
+        </xsl:template>
+                
+        
         <!-- Regole per le i ref tema -->
         <xsl:template match="tei:ref">
             <span class="tema"><xsl:value-of select="."/></span>

@@ -109,61 +109,100 @@
             </classDecl>
         </encodingDesc>
     </teiHeader>
-    <!-- Facsimile immagini -->
     <facsimile>
+        <!-- Facsimile immagini per colonne-->
+        <surface xml:id="headIstrDonne">
+            <!-- Articolo L'istruzione delle donne, titolo -->
+            <graphic url='istrDonne.jpg' width='1170.5px' height='1670.5px' />
+            <zone ulx="600" uly="333" lrx="1111" lry="366" />
+        </surface>
         <surface xml:id="istrDonne1">
+            <!-- Articolo L'istruzione delle donne, cb1 -->
             <graphic url='img/istrDonne.jpg' width='1169.666666px' height='1669.666666px' />
             <zone ulx="600" uly="324" lrx="1112" lry="1556" />
         </surface>
         <surface xml:id="istrDonne2">
+            <!-- Articolo L'istruzione delle donne, cb2 -->
             <graphic url='img/istrDonne2.jpg' width='1161.5px' height='1662.5px' />
             <zone ulx="81" uly="111" lrx="590" lry="1561" />
         </surface>
+        <surface xml:id="headIstrDonna">
+            <!-- Articolo L'istruzione della donna, titolo -->
+            <graphic url='istrDonna.jpg' width='1155.5px' height='1683.5px' />
+            <zone ulx="102" uly="342" lrx="596" lry="374" />
+            </surface>
         <surface xml:id="istrDonnacb1">
+            <!-- Articolo L'istruzione della donna, cb1 -->
             <graphic url='img/istrDonna.jpg' width='1155.5px' height='1683.5px' />
             <zone ulx="85" uly="345" lrx="601" lry="1542" />
         </surface>
         <surface xml:id="istrDonnacb2">
+            <!-- Articolo L'istruzione della donna, cb2 -->
             <graphic url='img/istrDonna.jpg' width='1155.5px' height='1683.5px' />
             <zone ulx="606" uly="82" lrx="1126" lry="1545" />
         </surface>
         <surface xml:id="istrDonna2cb1">
+            <!-- Articolo L'istruzione della donna, cb3 -->
             <graphic url='img/istrDonna2.jpg' width='1148.5px' height='1673.5px' />
             <zone ulx="45" uly="102" lrx="557" lry="1566" />
         </surface>
         <surface xml:id="istrDonna2cb2">
+            <!-- Articolo L'istruzione della donna, cb4 -->
             <graphic url='img/istrDonna2.jpg' width='1148.5px' height='1673.5px' />
             <zone ulx="559" uly="102" lrx="1070" lry="342" />
         </surface>
+        <surface xml:id="headNotizie">
+            <!-- Articolo Notizie, titolo -->
+            <graphic url='notizie.jpg' width='1143.5px' height='1683.5px' />
+            <zone ulx="603" uly="735" lrx="1107" lry="762" />
+            </surface>
         <surface xml:id="notizie">
+            <!-- Articolo Notizie, cb1 -->
             <graphic url='img/notizie.jpg' width='1144px' height='1683px' />
             <zone ulx="597" uly="736" lrx="1103" lry="1561" />
         </surface>
+        <surface xml:id="headLucia">
+            <!-- Articolo Lucia, titolo -->
+            <graphic url='lucia.jpg' width='1128.5px' height='1677.5px' />
+            <zone ulx="572" uly="1408" lrx="1077" lry="1440" />
+            </surface>
         <surface xml:id="lucia">
+            <!-- Articolo Lucia, cb1 -->
             <graphic url='img/lucia.jpg' width='1128.5px' height='1677.5px' />
             <zone ulx="564" uly="1409" lrx="1078" lry="1578" />
         </surface>
         <surface xml:id="lucia2cb1">
+            <!-- Articolo Lucia, cb2 -->
             <graphic url='img/lucia2.jpg' width='1128.5px' height='1668.5px' />
             <zone ulx="56" uly="90" lrx="564" lry="1561" />
         </surface>
         <surface xml:id="lucia2cb2">
+            <!-- Articolo Lucia, cb3 -->
             <graphic url='img/lucia2.jpg' width='1128.5px' height='1668.5px' />
             <zone ulx="575" uly="89" lrx="1086" lry="839" />
         </surface>
+        <surface xml:id="headBiblio">
+            <!-- Articolo Bibliografia, titolo -->
+            <graphic url='biblio.jpg' width='1134.5px' height='1674.5px' />
+            <zone ulx="61" uly="346" lrx="557" lry="413" />
+            </surface>
         <surface xml:id="biblioG1">
+            <!-- Articolo Bibliografia, cb1 -->
             <graphic url='img/biblio.jpg' width='1134.5px' height='1674.5px' />
             <zone ulx="38" uly="348" lrx="560" lry="1563" />
         </surface>
         <surface xml:id="biblioGV">
+            <!-- Articolo Bibliografia, cb2 -->
             <graphic url='img/biblio.jpg' width='1134.5px' height='1674.5px' />
             <zone ulx="561" uly="107" lrx="1075" lry="1568" />
         </surface>
         <surface xml:id="biblioV2">
+            <!-- Articolo Bibliografia, cb3 -->
             <graphic url='img/biblio2.jpg' width='1137.5px' height='1677.5px' />
             <zone ulx="82" uly="116" lrx="591" lry="1574" />
         </surface>
         <surface xml:id="biblioV3">
+            <!-- Articolo Bibliografia, cb4 -->
             <graphic url='img/biblio2.jpg' width='1137.5px' height='1677.5px' />
             <zone ulx="599" uly="115" lrx="1117" lry="213" />
         </surface>
@@ -180,7 +219,7 @@
             <div n="1" type="article" xml:id="ArtGiglioli">
                 <div type="intestazione" xml:id="intArtGiglioli">
                     <p><lb />Vol. 1°, N°18.
-                    <date>5 Maggio '78</date></p>
+                    <date when="1878-05-05">5 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
                     <pb n="1" />
@@ -191,8 +230,8 @@
                     <!-- apertura della lettera -->
                         <salute>Ai direttori</salute>
                         <dateline>
-                            <name type="place">Firenze</name>,
-                            <date>2 maggio 1878</date>.
+                            <name type="place" rend="italic">Firenze</name>,
+                            <date rend="italic" when="1878-05-02">2 maggio 1878</date>.
                         </dateline>
                     </opener>
                     <p>
