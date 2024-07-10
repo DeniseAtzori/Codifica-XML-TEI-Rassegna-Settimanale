@@ -1,1 +1,14 @@
 Cartella che contiene esercitazioni e progetti legati al corso di Codifica di testi (2023/2024)
+
+Il progetto è stato sviluppato da Denise Atzori e Martina Perodi.
+
+La cartella progetto contiene:
+
+- progetto.xml: file di codifica dei cinque articoli scelti (due articoli, un racconto, una bibliografia e una notizia), [validato con il comando: java -cp "xerces-2_12_2/*" dom.Counter -v progetto.xml]
+- trasformazioni.xsl: file con le istruzioni xsl
+- out.html: risultato delle trasformazioni sul file [Creato con il comando: java -jar SaxonHE12-4J/saxon-he-12.4.jar -s:progetto.xml -xsl:trasformazioni.xsl -o:out.html]
+- script.js: definizione funzioni JS
+- stile.css: definizione dello stile
+- tei_all.dtd: grammatica scelta
+- cartella img: contiene le Edizioni digitali degli articoli codificati
+
