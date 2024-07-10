@@ -21,7 +21,7 @@
             <publicationStmt>
                 <!-- Codifica dei dati di diffusione e distribuzione dell'edizione -->
                 <authority>Università di Pisa</authority>
-                <date>15/07/2024</date>
+                <date when="2024-07-15">15/07/2024</date>
                 <availability status="free">
                     <p>Licenza Open Source non commerciale.</p>
                 </availability>
@@ -226,7 +226,7 @@
                     <pb n="1" />
                     <cb n="1" facs="#istrDonne1" xml:id="cbDonne1"/>
                     <!-- titolo dell'articolo -->
-                    <lb /><head rend="uppercase">L’ ISTRUZIONE DELLE DONNE.</head>
+                    <lb /><head rend="uppercase" facs="#headIstrDonne">L’ ISTRUZIONE DELLE DONNE.</head>
                     <lb /><opener>
                     <!-- apertura della lettera -->
                         <salute>Ai direttori</salute>
@@ -288,14 +288,14 @@
             <div n="2" type="article" xml:id="ArtDonna">
                 <div type="intestazione" xml:id="intArtDonna">
                     <p><lb />Vol. 1°, N°21.
-                    <date>26 Maggio '78</date></p>
+                    <date when="1878-05-26">26 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
                     <cb n="1" facs="#istrDonnacb1" xml:id="cbDonna1"/>
-                    <lb /><head rend="uppercase">L’ ISTRUZIONE DELLA DONNA.</head>
+                    <lb /><head rend="uppercase" facs="#headIstrDonna">L’ ISTRUZIONE DELLA DONNA.</head>
                     <p>
-                        <lb />L’ <persName ref="#onCopp"><roleName><choice resp="#MP"><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> Coppino</persName>, poco prima di abbandonare il <orgName>Ministero <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di<lb />segno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si <lb />fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uo<lb />mini ed alle donne la stessa istruzione secondaria</ref>. Quindi <lb />proponeva un doppio ordine di licei e ginnasi, di scuole <lb />ed istituti tecnici. Questo disegno di legge discusso ed <lb />approvato da una <orgName>Commissione</orgName>, non fu neppure presentato <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto <lb />sono usciti opuscoli, libri, articoli di giornali sull’ istru<lb />zione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi <lb />non lo vuole; chi vuole la donna istruita ed ha paura della <lb />donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma <lb />forse questa discussione si potrebbe sospendere di fronte <lb />ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio<lb />rarle</ref>.
+                        <lb />L’ <roleName><choice resp="#MP"><abbr>on.</abbr><expan>onorevole</expan></choice></roleName> <persName ref="#onCopp">Coppino</persName>, poco prima di abbandonare il <orgName>Ministero <lb />della Pubblica Istruzione</orgName>, aveva formulato un nuovo di<lb />segno di legge per le scuole secondarie del <placeName><district type="reign">Regno</district></placeName>, che si <lb />fondava principalmente su questo concetto: <ref type="tema" target="#istr">dare agli uo<lb />mini ed alle donne la stessa istruzione secondaria</ref>. Quindi <lb />proponeva un doppio ordine di licei e ginnasi, di scuole <lb />ed istituti tecnici. Questo disegno di legge discusso ed <lb />approvato da una <orgName>Commissione</orgName>, non fu neppure presentato <lb />al <orgName>Parlamento</orgName>, ed ora è con moltissimi altri sepolto. Intanto <lb />sono usciti opuscoli, libri, articoli di giornali sull’ istru<lb />zione della donna. <ref type="tema" target="#istrDonne">Chi vuole il greco ed il latino, e chi <lb />non lo vuole; chi vuole la donna istruita ed ha paura della <lb />donna letterata, e chi vuol solo la madre di famiglia</ref>. Ma <lb />forse questa discussione si potrebbe sospendere di fronte <lb />ad una osservazione molto più semplice: qualunque cosa si voglia, <ref type="tema" target="#istrDonne">le nostre scuole femminili sono insufficenti a <lb />darla, ed in ogni caso è necessario moltiplicar1e e miglio<lb />rarle</ref>.
                     </p>
                     <p>
                         <lb />In generale può dirsi che, mentre noi cerchiamo di dare <lb />all’ uomo una istruzione che ne sviluppi e fortifichi l’intel<lb />ligenza, ne accresca la cultura, alla donna vogliam dare <lb />solo una istruzione che le serva di <emph rend="italic">ornamento</emph>. Da ciò ne <lb />viene, come è naturale, una grande superficialità e legge<lb />rezza in tutto. Ma noi allora, con una logica molto singo<lb />lare, ci serviamo di questi che sono i resultati naturali del <lb />nostro metodo, per giustificarlo. Se da una istruzione su<lb />perficiale e leggera risulta una intelligenza leggera e su<lb />perficiale, invece di mutar metodo, diciamo: 
@@ -349,12 +349,12 @@
                 <div type="intestazione" xml:id="intNotizie">
                         <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
                     <p><lb />Vol. 1°, N°21.
-                    <date>26 Maggio '78</date></p>
+                    <date when="1878-05-26">26 Maggio '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
                     <cb n="1" facs="#notizie" xml:id="cbNotizie"/>
-                    <lb /><head rend="uppercase">NOTIZIE.</head>
+                    <lb /><head rend="uppercase" facs="#headNotizie">NOTIZIE.</head>
                     <p>
                         <lb />— Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Fi<lb />renze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
                         <bibl>
@@ -396,7 +396,7 @@
                                 Poesie
                             </title>
                         </bibl> 
-                        del <persName ref="#GM"><roleName>conte</roleName> <forename>Giovanni</forename> <lb /><surname>Marchetti</surname></persName>. 
+                        del <persName ref="#GMar"><roleName>conte</roleName> <forename>Giovanni</forename> <lb /><surname>Marchetti</surname></persName>. 
                     </p>
                     <p>
                         <lb />— <bibl>
@@ -439,7 +439,7 @@
                         .)
                     </note>
                     <p>
-                        <lb />— <persName ref="#GM">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che con<lb />tiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
+                        <lb />— <persName ref="#GaetMil">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che con<lb />tiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
                         <bibl>
                             <title ref="#RPFE">
                                 <foreign xml:lang="fr">
@@ -495,12 +495,12 @@
             <div n="5" type="article" xml:id="ArtLucia">
                 <div type="intestazione" xml:id="intLucia">
                     <p><lb />Vol. 1°, N°23.
-                    <date>9 Giugno '78</date></p>
+                    <date when="1878-06-09">9 Giugno '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
                     <cb n="1" facs="#lucia" xml:id="cbLucia1"/>
-                    <lb /><head rend="uppercase">LUCIA.</head>
+                    <lb /><head rend="uppercase" facs="#headLucia">LUCIA.</head>
                     <p>
                         <lb />Con la sua voce d’argento chiamò : 
                         <said>
@@ -623,11 +623,11 @@
                 <div type="intestazione">
                 <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
                     <p><lb />Vol. 1°, N°23.
-                    <date>9 Giugno '78</date></p>
+                    <date when="1878-06-09">9 Giugno '78</date></p>
                 </div>
                 <div type="textarticle" xml:id="textBiblio">
-                    <head type="title"><lb />BIBLIOGRAFIA.</head>
-                    <head type="subtitle"><lb />LETTERATURA E STORIA.</head>
+                    <head type="title" facs="#headBiblio"><lb />BIBLIOGRAFIA.</head>
+                    <head type="subtitle" facs="#headBiblio"><lb />LETTERATURA E STORIA.</head>
                     <div n="6" type="bibliography" xml:id="bibGuarnerio">
                         <pb n="1" />
                         <cb n="1" facs="#biblioG1" xml:id="cbBiblio1"/>
@@ -740,7 +740,7 @@
                                     Le opere
                                 </title>
                                 <title type="sub">
-                                    con nuove annotazioni e commenti <lb />di <persName ref="#GM">Gaetano Milanesi</persName>. Vol. 1°.
+                                    con nuove annotazioni e commenti <lb />di <persName ref="#GaetMil">Gaetano Milanesi</persName>. Vol. 1°.
                                 </title>
                             </bibl>,  
                             — <placeName>
@@ -754,7 +754,7 @@
                             <date>1878</date>.
                         </head>
                         <p>
-                            <lb />Diamo il benvenuto a questa nuova edizione del <persName ref="#GV"><surname>Vasari</surname></persName>, <lb />che segue dopo ventidue anni dal suo pieno compimento la <lb />stampa procuratane dal <orgName type="publisher">Le Monnier</orgName> per cura di una società <lb />di amatori delle belle arti. Ma dal <date>1845</date>, quando cotesta <lb />edizione fu cominciata, al dì d’ oggi, non pochi sono i la<lb />vori comprensivi o spicciolati che son venuti ad ampliare <lb />o a rettificare le memorie del <rs type="person" ref="#GV">biografo <rs type="provenienza">aretino</rs></rs> : e niuno <lb />era più atto del <persName ref="#GM"><surname>Milanesi</surname></persName> a raccogliere e aggiungere al <persName ref="#GV"><surname>Va<lb />sari</surname></persName> il frutto di tante novelle ricerche. Oltreché poi, la <lb />stampa del <orgName type="publisher">Le Monnier</orgName> in quattordici volumi, alcuni dei <lb />quali assai smilzi, riusciva assai incomoda a consultarsi ; e <lb />questa invece, che si annunzia dover comprendere in soli <lb />otto, non soltanto le
+                            <lb />Diamo il benvenuto a questa nuova edizione del <persName ref="#GV"><surname>Vasari</surname></persName>, <lb />che segue dopo ventidue anni dal suo pieno compimento la <lb />stampa procuratane dal <orgName type="publisher">Le Monnier</orgName> per cura di una società <lb />di amatori delle belle arti. Ma dal <date>1845</date>, quando cotesta <lb />edizione fu cominciata, al dì d’ oggi, non pochi sono i la<lb />vori comprensivi o spicciolati che son venuti ad ampliare <lb />o a rettificare le memorie del <rs type="person" ref="#GV">biografo <rs type="provenienza">aretino</rs></rs> : e niuno <lb />era più atto del <persName ref="#GaetMil"><surname>Milanesi</surname></persName> a raccogliere e aggiungere al <persName ref="#GV"><surname>Va<lb />sari</surname></persName> il frutto di tante novelle ricerche. Oltreché poi, la <lb />stampa del <orgName type="publisher">Le Monnier</orgName> in quattordici volumi, alcuni dei <lb />quali assai smilzi, riusciva assai incomoda a consultarsi ; e <lb />questa invece, che si annunzia dover comprendere in soli <lb />otto, non soltanto le
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
                                     Vite
@@ -774,7 +774,7 @@
                             giungerà anche per questo aspetto assai opportuna <lb />ed utile.
                         </p>
                         <p>
-                            <lb />Non è del nostro proposito discorrere di tutte le ag<lb />giunte e modificazioni che le note apposte dal <persName ref="#GM"><surname>Milanesi</surname></persName> ar<lb />recano al testo <rs type="person" ref="#GV">vasariano</rs>. Vogliamo soltanto avvertire come <lb />queste sieno in numero amplissimo, e come alcuni nuovi 
+                            <lb />Non è del nostro proposito discorrere di tutte le ag<lb />giunte e modificazioni che le note apposte dal <persName ref="#GaetMil"><surname>Milanesi</surname></persName> ar<lb />recano al testo <rs type="person" ref="#GV">vasariano</rs>. Vogliamo soltanto avvertire come <lb />queste sieno in numero amplissimo, e come alcuni nuovi 
                             <bibl>
                                 <title ref="#leOpere" rend="italic">
                                     <lb />Commentari
@@ -795,16 +795,16 @@
                             alla Vita di <persName ref="#NP">Niccola Pisano</persName>, e quello alla <lb />Vita di <persName ref="#Gi">Giotto</persName>.
                         </p>
                         <p>
-                            <lb />Andiamo interamente d’ accordo col <persName ref="#GM"><surname>Milanesi</surname></persName> nel negare <lb />i resultati a cui crede esser giunta una piccola schiera di 
+                            <lb />Andiamo interamente d’ accordo col <persName ref="#GaetMil"><surname>Milanesi</surname></persName> nel negare <lb />i resultati a cui crede esser giunta una piccola schiera di 
                         <pb n="2" />
                         <cb n="3" facs="#biblioV2" xml:id="cbBiblio3"/>
                             <lb />critici e storici dell'arte, che 
                             <quote>
                                 « con enfatiche parole vanno <lb />predicando e scrivendo esser stata nel <placeName><region type="region">mezzogiorno d’Ita<lb />lia</region></placeName> fin dall’ <date from="1001" to="1100">undecimo secolo</date> una scuola, che chiamano indi<lb />gena, nazionale, originale, e scevra in tutto dell’ elemento <lb />bizantino. »
                             </quote> 
-                            Tutto ciò non ci sembra bene provato : e tanto <lb />meno poi, che ad essa debba ricongiungersi la scuola to<lb />scana del <date from="1201" to="1300">secolo decimoterzo</date>, e specialmente <persName ref="#NP"><forename>Niccola</forename> <surname>Pisano</surname></persName>. <lb />Del quale il <persName ref="#GM"><surname>Milanesi</surname></persName> fu primo a pubblicare una memoria <lb />sincrona dell’<orgName>Archivio senese</orgName>, nella quale ei viene chiamato <foreign xml:lang="la"><persName ref="#NP" rend="italic"><forename><lb />Nichólam</forename> <surname>Petri</surname></persName> de <placeName><region type="region">Apulia</region></placeName></foreign>. Se non si trattasse di un paleo<lb />grafo così esperto ed oculato come il <persName ref="#GM"><surname>Milanesi</surname></persName>, noi potremmo <lb />anche dubitare che invece di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign>vi si dovesse leg<lb />gere <foreign xml:lang="la" rend="italic">
+                            Tutto ciò non ci sembra bene provato : e tanto <lb />meno poi, che ad essa debba ricongiungersi la scuola to<lb />scana del <date from="1201" to="1300">secolo decimoterzo</date>, e specialmente <persName ref="#NP"><forename>Niccola</forename> <surname>Pisano</surname></persName>. <lb />Del quale il <persName ref="#GaetMil"><surname>Milanesi</surname></persName> fu primo a pubblicare una memoria <lb />sincrona dell’<orgName>Archivio senese</orgName>, nella quale ei viene chiamato <foreign xml:lang="la"><persName ref="#NP" rend="italic"><forename><lb />Nichólam</forename> <surname>Petri</surname></persName> de <placeName><region type="region">Apulia</region></placeName></foreign>. Se non si trattasse di un paleo<lb />grafo così esperto ed oculato come il <persName ref="#GaetMil"><surname>Milanesi</surname></persName>, noi potremmo <lb />anche dubitare che invece di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign>vi si dovesse leg<lb />gere <foreign xml:lang="la" rend="italic">
                                 Faulia
-                            </foreign> ; e chi ha pratica nei caratteri gotici del tempo, <lb />non troverebbe ardita questa congettura : oltreché il caso <lb />del <persName ref="#Cia"><surname>Ciampi</surname></persName> che avendo letto male un documento su <persName ref="#NP"><forename>Niccola</forename></persName> <lb />lo fece <rs type="provenienza">senese</rs> e nipote di un <roleName>ser</roleName> <persName>Biasio</persName>, ci potrebbe scusare <lb />se richiedessimo un più attento esame del documento. Ma <lb />sia pure, come crediamo che sia, <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> ; chè in tal caso <persName ref="#NP"><forename><lb />Niccola</forename></persName> resta tuttavia quel ch’era. Imperciocché il <persName ref="#GM"><surname>Milanesi</surname></persName> <lb />fa notare come due luoghi sienvi in<placeName><region type="region">Apulia</region></placeName> che portano <lb />la denominazione di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> o <foreign xml:lang="la" rend="italic"><placeName><region>Pulia</region></placeName></foreign>: uno nell’<rs type="provenienza">Aretino</rs>, l’altro <lb />nel <rs type="provenienza">Lucchese</rs> : e da quest' ultimo probabilmente venne il re<lb />stauratore dell’arte scultoria: al padre del quale soltanto <lb />forse spetta l’aggiunto <foreign xml:lang="la" rend="italic">de <placeName><region type="region">Apulia</region></placeName></foreign>. Che se, come osserva <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> giustissimamente, ei fosse stato un <rs type="provenienza">pugliese</rs>, <lb />l’atto direbbe, secondo la forinola consueta notarile : 
+                            </foreign> ; e chi ha pratica nei caratteri gotici del tempo, <lb />non troverebbe ardita questa congettura : oltreché il caso <lb />del <persName ref="#Cia"><surname>Ciampi</surname></persName> che avendo letto male un documento su <persName ref="#NP"><forename>Niccola</forename></persName> <lb />lo fece <rs type="provenienza">senese</rs> e nipote di un <roleName>ser</roleName> <persName>Biasio</persName>, ci potrebbe scusare <lb />se richiedessimo un più attento esame del documento. Ma <lb />sia pure, come crediamo che sia, <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> ; chè in tal caso <persName ref="#NP"><forename><lb />Niccola</forename></persName> resta tuttavia quel ch’era. Imperciocché il <persName ref="#GaetMil"><surname>Milanesi</surname></persName> <lb />fa notare come due luoghi sienvi in<placeName><region type="region">Apulia</region></placeName> che portano <lb />la denominazione di <foreign xml:lang="la" rend="italic"><placeName><region type="region">Apulia</region></placeName></foreign> o <foreign xml:lang="la" rend="italic"><placeName><region>Pulia</region></placeName></foreign>: uno nell’<rs type="provenienza">Aretino</rs>, l’altro <lb />nel <rs type="provenienza">Lucchese</rs> : e da quest' ultimo probabilmente venne il re<lb />stauratore dell’arte scultoria: al padre del quale soltanto <lb />forse spetta l’aggiunto <foreign xml:lang="la" rend="italic">de <placeName><region type="region">Apulia</region></placeName></foreign>. Che se, come osserva <lb />il <persName ref="#GaetMil"><surname>Milanesi</surname></persName> giustissimamente, ei fosse stato un <rs type="provenienza">pugliese</rs>, <lb />l’atto direbbe, secondo la forinola consueta notarile : 
                             <quote type="written">
                                 <foreign xml:lang="la" rend="italic">
                                 de <lb />partibus Apuliae
@@ -821,23 +821,22 @@
                             Resta <lb />perciò che <persName ref="#NP"><forename>Niccola</forename></persName> sia <rs type="provenienza">toscano</rs>, e <rs type="provenienza">pisano</rs>, come la tradizione <lb />e l’aggiunto costante al suo nome, concordemente suonarono <lb />sinora, che come dicono altri documenti sincroni : e cadono <lb />le troppo sottili congetture sulla origine meridionale della <lb />persona o dell’ arte di <persName ref="#NP"><forename>Niccola</forename></persName>, accettate anche dai signori <persName ref="#Cro"><surname><lb />Crowe</surname></persName> e <persName ref="#Cav"><surname>Cavalcasene</surname></persName>.
                         </p>
                         <p>
-                            <lb />Dove invece diremmo che a questi diligenti storici del<lb />l’arte resti la palma si è nella controversia, sulle pitture <lb />di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ri<lb />tratto ivi esistente di <persName ref="#DA"><forename>Dante</forename></persName>. Di questa controversia tratta <lb />il <persName ref="#GM"><surname>Milanesi</surname></persName> nel secondo 
+                            <lb />Dove invece diremmo che a questi diligenti storici del<lb />l’arte resti la palma si è nella controversia, sulle pitture <lb />di <persName ref="#Gi">Giotto</persName> nella <placeName type="monument">cappella del <roleName>Potestà</roleName> di <placeName><settlement type="city">Firenze</settlement></placeName></placeName>, e sul ri<lb />tratto ivi esistente di <persName ref="#DA"><forename>Dante</forename></persName>. Di questa controversia tratta <lb />il <persName ref="#GaetMil"><surname>Milanesi</surname></persName> nel secondo 
                             <bibl>
                                 <title ref="#leOpere" rend="italic">Commentario</title>
                             </bibl> 
                             sopra ricordato, in ap<lb />pendice alla biografia giottesca : ma e’ non finisce di per<lb />suaderci. Lasciò scritto il <persName ref="#Gh">Ghiberti</persName> che <persName ref="#Gi">Giotto</persName> dipinse la 
                             <quote type="written">
                                 « <placeName type="monument"><lb />cappella di 
-                                <persName ref="#SMM">
                                     <choice resp="#MP">
                                         <abbr>S.</abbr>
                                         <expan>Santa</expan>
                                     </choice> 
-                                    Maria Maddelena</persName>
+                                    <persName ref="#SMM">Maria Maddelena</persName>
                                 </placeName> ; »
                             </quote> 
-                            e la <placeName type="monument">cappella del <roleName>Po<lb />testà</roleName></placeName> infatti contiene per grandissima parte le storie di <lb />quella santa. Ma, dice il <persName ref="#GM"><surname>Milanesi</surname></persName>, cappella vuol anche dire, <lb />e ne porta gli esempi, una tavola d’altare coi suoi taber<lb />nacoletti, civori, compassi ec. Sapevamcelo, potrebbesi ri<lb />spondere : e la vostra proposta sarebbe ingegnosa ed ac<lb />cettabile, quando non avessimo una vera cappella colle <lb />storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GM"><surname>Milanesi</surname></persName>, avremmo <lb />una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe <lb />stato per lo meno molto mal cauto nell’ adoperar quella <lb />voce, per una tavola che stava davvero dentro una cap<lb />pella. Tutti gli altri argomenti addotti dai difensori della <lb />tradizionale opinione sulla autenticità di quelle pitture <lb />e di quel ritratto, e che trovansi riassunti dai signori <persName ref="#Cro">Crowe</persName> <lb />e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GM">Milanesi</persName>, e <lb />confutati sottilmente, non però in modo tale, a noi sembra, <lb />da riportarne vittoria. E ci ha fatto poi non poca mera<lb />viglia il veder passato sotto assoluto silenzio 
-                            quel <title ref="#centiloquio">sonetto <lb />del <persName ref="#AP">Pucci</persName></title>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente <lb />è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sangui<lb />gno, con un libro sotto il braccio, e di seguito ai santi <lb />del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> <lb />dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GM">Mi<lb />lanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument"><lb />cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor <lb />risoluta. Ad ogni modo piace il vederla trattata con tanta <lb />dignità nel respingere le altrui opinioni, con tanto acume
+                            e la <placeName type="monument">cappella del <roleName>Po<lb />testà</roleName></placeName> infatti contiene per grandissima parte le storie di <lb />quella santa. Ma, dice il <persName ref="#GaetMil"><surname>Milanesi</surname></persName>, cappella vuol anche dire, <lb />e ne porta gli esempi, una tavola d’altare coi suoi taber<lb />nacoletti, civori, compassi ec. Sapevamcelo, potrebbesi ri<lb />spondere : e la vostra proposta sarebbe ingegnosa ed ac<lb />cettabile, quando non avessimo una vera cappella colle <lb />storie della <persName ref="#SMM">Maddalena</persName>. Ora, secondo il <persName ref="#GaetMil"><surname>Milanesi</surname></persName>, avremmo <lb />una cappella entro una cappella; e il <persName ref="#Gh">Ghiberti</persName> sarebbe <lb />stato per lo meno molto mal cauto nell’ adoperar quella <lb />voce, per una tavola che stava davvero dentro una cap<lb />pella. Tutti gli altri argomenti addotti dai difensori della <lb />tradizionale opinione sulla autenticità di quelle pitture <lb />e di quel ritratto, e che trovansi riassunti dai signori <persName ref="#Cro">Crowe</persName> <lb />e <persName ref="#Cav">Cavalcaselle</persName> sono passati in disamina dal <persName ref="#GaetMil">Milanesi</persName>, e <lb />confutati sottilmente, non però in modo tale, a noi sembra, <lb />da riportarne vittoria. E ci ha fatto poi non poca mera<lb />viglia il veder passato sotto assoluto silenzio 
+                            quel <title ref="#centiloquio">sonetto <lb />del <persName ref="#AP">Pucci</persName></title>, poeta del <date from="1301" to="1400">secolo decimoquarto</date>, dove chiaramente <lb />è detto che <persName ref="#Gi">Giotto</persName> dipinse <persName ref="#DA">Dante</persName> in vèste di color sangui<lb />gno, con un libro sotto il braccio, e di seguito ai santi <lb />del paradiso. Bisognerebbe dire per lo meno che il <persName ref="#DA">Dante</persName> <lb />dipinto da <persName ref="#Gi">Giotto</persName>, in tavola e non in muro secondo il <persName ref="#GaetMil">Mi<lb />lanesi</persName>, rassomigliava straordinariamente al <persName ref="#DA">Dante</persName> della <placeName type="monument"><lb />cappella del  <roleName>Potestà</roleName></placeName>. La questione, adunque, non è ancor <lb />risoluta. Ad ogni modo piace il vederla trattata con tanta <lb />dignità nel respingere le altrui opinioni, con tanto acume
                             <cb n="4" facs="#biblioV3" xml:id="cbBiblio4"/>
                             <lb />nell’ esporre la propria come ce ne dà qui esempio il va<lb />lente editore della nuova edizione <rs type="person" ref="#GV">vasariana</rs>, alla quale <lb />auguriamo quel favore dei lettori studiosi, che veramente si merita.
                         </p>
@@ -866,8 +865,8 @@
                     <persName role="saint" ref="https://www.treccani.it/enciclopedia/michele-coppino_(Dizionario-Biografico)/" resp="MP" cert="high">
                     <forename>Michele</forename> <surname>Coppino</surname>
                     </persName>
-                    <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
-                    <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
+                    <birth><name type="place">Arezzo</name>, <date when="1511-07-30">30 luglio 1511</date></birth>
+                    <death><name type="place">Firenze</name>, <date when="1574-06-27">27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
                 </person>
             </listPerson>
@@ -953,16 +952,16 @@
                     <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giorgio-vasari/" resp="MP" cert="high">
                         <forename>Giorgio</forename> <surname>Vasari</surname>
                     </persName>
-                    <birth><name type="place">Arezzo</name>, <date>30 luglio 1511</date></birth>
-                    <death><name type="place">Firenze</name>, <date>27 giugno 1574</date></death>
+                    <birth><name type="place">Arezzo</name>, <date when="1511-07-30">30 luglio 1511</date></birth>
+                    <death><name type="place">Firenze</name>, <date when="1574-06-27">27 giugno 1574</date></death>
                     <occupation>Pittore, architetto e scrittore, storico dell'arte.</occupation>
                 </person>
                 <person xml:id="GaetMil">
                     <persName role="art historian" ref="https://www.treccani.it/enciclopedia/gaetano-milanesi_(Dizionario-Biografico)/" resp="MP" cert="high">
                         <forename>Gaetano</forename> <surname>Milanesi</surname>
                     </persName>
-                    <birth><name type="place">Puglia</name><date>9 settembre 1813</date></birth>
-                    <death><name type="place">Firenze</name>, <date>11 marzo 1895</date></death>
+                    <birth><name type="place">Puglia</name><date when="1813-09-09">9 settembre 1813</date></birth>
+                    <death><name type="place">Firenze</name>, <date when="1895-03-11">11 marzo 1895</date></death>
                     <occupation>Storico dell'arte e paleografo italiano.</occupation>
                 </person>
                 <person xml:id="NP">
@@ -976,15 +975,15 @@
                         <forename>Giotto</forename> <surname>di Bondone</surname>
                     </persName>
                     <birth><name type="place">Colle di Vespignano Vicchio</name><date>1267</date></birth>
-                    <death><name type="place">Firenze</name>, <date>8 gennaio 1337</date></death>
+                    <death><name type="place">Firenze</name>, <date when="1337-01-08">8 gennaio 1337</date></death>
                     <occupation>Pittore e architetto.</occupation>
                 </person>
                 <person xml:id="DaAlig">
                     <persName role="poet" ref="https://www.treccani.it/enciclopedia/dante-alighieri/" resp="MP" cert="high">
                         <forename>Dante</forename> <surname>Alighieri</surname>
                     </persName>
-                    <birth><name type="place">Firenze</name><date>tra il 14 maggio e il 13 giugno 1265</date></birth>
-                    <death><name type="place">Ravenna</name>, <date>14 settembre 1321</date></death>
+                    <birth><name type="place">Firenze</name><date from="1265-05-14" to="1265-05-14">tra il 14 maggio e il 13 giugno 1265</date></birth>
+                    <death><name type="place">Ravenna</name>, <date when="1321-09-14">14 settembre 1321</date></death>
                     <occupation>Poeta, scrittore e politico italiano.</occupation>
                 </person>
                 <person xml:id="Gh">
@@ -992,7 +991,7 @@
                         <forename>Lorenzo</forename> <surname>Ghiberti</surname>
                     </persName>
                     <birth><name type="place">Pelago</name><date>1378</date></birth>
-                    <death><name type="place">Firenze</name>, <date>1 dicembre 1455</date></death>
+                    <death><name type="place">Firenze</name>, <date when="1455-12-01">1 dicembre 1455</date></death>
                     <occupation>Scultore, orafo, architetto e scrittore d'arte italiano.</occupation>
                 </person>
                 <person xml:id="Cia">
@@ -1005,16 +1004,16 @@
                     <persName role="art historian" ref="https://www.treccani.it/enciclopedia/sir-joseph-archer-crowe/" resp="MP" cert="high">
                         <forename>Joseph Archer</forename> <surname>Crowe</surname>
                     </persName>
-                    <birth><name type="place">Londra</name><date>25 ottobre 1824</date></birth>
-                    <death><name type="place">Gamburg an der Tauber</name>, <date>6 settembre 1896</date></death>
+                    <birth><name type="place">Londra</name><date when="1824-10-25">25 ottobre 1824</date></birth>
+                    <death><name type="place">Gamburg an der Tauber</name>, <date when="1896-09-06">6 settembre 1896</date></death>
                     <occupation>Diplomatico e critico d'arte britannico.</occupation>
                 </person>
                 <person xml:id="Cav">
                     <persName role="art historian" ref="https://www.treccani.it/enciclopedia/giovanni-battista-cavalcaselle_(Dizionario-Biografico)/" resp="MP" cert="high">
                         <forename>Giovanni Battista</forename> <surname>Cavalcaselle</surname>
                     </persName>
-                    <birth><name type="place">Legnago</name><date>22 gennaio 1819</date></birth>
-                    <death><name type="place">Roma</name>, <date>31 ottobre 1897</date></death>
+                    <birth><name type="place">Legnago</name><date when="1819-01-22">22 gennaio 1819</date></birth>
+                    <death><name type="place">Roma</name>, <date when="1897-10-31">31 ottobre 1897</date></death>
                     <occupation>Scrittore, storico dell'arte e critico d'arte italiano.</occupation>
                 </person>
                 <person xml:id="AP">
@@ -1033,16 +1032,16 @@
                     <persName role="poet" ref="https://www.treccani.it/enciclopedia/giacomo-leopardi/" resp="MP" cert="high">
                     <forename>Giacomo</forename> <surname>Leopardi</surname>
                     </persName>
-                    <birth><name type="place">Recanati</name>, <date>29 giugno 1798</date></birth>
-                    <death><name type="place">Napoli</name>, <date>14 giugno 1837</date></death>
+                    <birth><name type="place">Recanati</name>, <date when="1798-06-29">29 giugno 1798</date></birth>
+                    <death><name type="place">Napoli</name>, <date when="1837-06-14">14 giugno 1837</date></death>
                     <occupation>Poeta e filosofo.</occupation>
                 </person>
                 <person xml:id="CLeop">
                     <persName role="nobleman" ref="https://it.wikipedia.org/wiki/Carlo_Leopardi" resp="MP" cert="high">
                     <forename>Carlo Orazio</forename> <surname>Leopardi</surname>
                     </persName>
-                    <birth><name type="place">Recanati</name>, <date>12 luglio 1799</date></birth>
-                    <death><name type="place">Recanati</name>, <date>11 febbraio 1878</date></death>
+                    <birth><name type="place">Recanati</name>, <date when="1799-07-12">12 luglio 1799</date></birth>
+                    <death><name type="place">Recanati</name>, <date when="1878-02-11">11 febbraio 1878</date></death>
                     <occupation>Nobiluomo italiano.</occupation>
                 </person>
                 <person xml:id="PV">
@@ -1057,24 +1056,24 @@
                     <persName role="politician" ref="https://www.treccani.it/enciclopedia/giuseppe-zanardelli/" resp="MP" cert="high">
                     <forename>Giuseppe</forename> <surname>Zanardelli</surname>
                     </persName>
-                    <birth><name type="place">Brescia</name>, <date>26 ottobre 1826</date></birth>
-                    <death><name type="place">Toscolano Moderno</name>, <date>26 dicembre 1903</date></death>
+                    <birth><name type="place">Brescia</name>, <date when="1826-10-26">26 ottobre 1826</date></birth>
+                    <death><name type="place">Toscolano Moderno</name>, <date when="1903-12-26">26 dicembre 1903</date></death>
                     <occupation>Patriota e politico italiano.</occupation>
                 </person>
                 <person xml:id="LuFer">
                     <persName role="poet" ref="https://it.wikipedia.org/wiki/Luigi_Ferretti" resp="MP" cert="high">
                     <forename>Luigi</forename> <surname>Ferretti</surname>
                     </persName>
-                    <birth><name type="place">Roma</name>, <date>21 febbraio 1836</date></birth>
-                    <death><name type="place">Roma</name>, <date>7 luglio 1881</date></death>
+                    <birth><name type="place">Roma</name>, <date when="1836-02-21">21 febbraio 1836</date></birth>
+                    <death><name type="place">Roma</name>, <date when="1881-07-07">7 luglio 1881</date></death>
                     <occupation>Poeta italiano.</occupation>
                 </person>
                 <person xml:id="LM">
                     <persName role="writer" ref="https://www.treccani.it/enciclopedia/luigi-morandi_(Dizionario-Biografico)/" resp="MP" cert="high">
                     <forename>Luigi</forename> <surname>Morandi</surname>
                     </persName>
-                    <birth><name type="place">Todi</name>, <date>18 dicembre 1844</date></birth>
-                    <death><name type="place">Roma</name>, <date>6 gennaio 1922</date></death>
+                    <birth><name type="place">Todi</name>, <date when="1844-12-18">18 dicembre 1844</date></birth>
+                    <death><name type="place">Roma</name>, <date when="1922-01-06">6 gennaio 1922</date></death>
                     <occupation>Educatore, scrittore, grammatico, e poeta italiano.</occupation>
                 </person>
                 <person xml:id="FC">
@@ -1082,23 +1081,23 @@
                     <forename>Francesco</forename> <surname>Carletti</surname>
                     </persName>
                     <birth><name type="place">Firenze</name>, <date>1573</date></birth>
-                    <death><name type="place">Firenze</name>, <date>12 gennaio 1636</date></death>
+                    <death><name type="place">Firenze</name>, <date when="1636-01-12">12 gennaio 1636</date></death>
                     <occupation>Scrittore, viaggiatore e mercante italiano.</occupation>
                 </person>
                 <person xml:id="VG">
                     <persName role="poet" ref="https://www.treccani.it/enciclopedia/veronica-gambara_(Dizionario-Biografico)/" resp="MP" cert="high">
                     <forename>Veronica</forename> <surname>Gambara</surname>
                     </persName>
-                    <birth><name type="place">Pralboino</name>, <date>30 novembre 1485</date></birth>
-                    <death><name type="place">Correggio</name>, <date>13 giugno 1550</date></death>
+                    <birth><name type="place">Pralboino</name>, <date when="1485-11-30">30 novembre 1485</date></birth>
+                    <death><name type="place">Correggio</name>, <date when="1550-06-13">13 giugno 1550</date></death>
                     <occupation>Poetessa italiana.</occupation>
                 </person>
-                <person xml:id="GM">
+                <person xml:id="GMar">
                     <persName role="poet" ref="https://www.treccani.it/enciclopedia/giovanni-marchetti_(Enciclopedia-Italiana)/" resp="MP" cert="high">
                     <forename>Giovanni</forename> <surname>Marchetti</surname>
                     </persName>
-                    <birth><name type="place">Senigallia</name>, <date>26 agosto 1790</date></birth>
-                    <death><name type="place">Bologna</name>, <date>28 marzo 1852</date></death>
+                    <birth><name type="place">Senigallia</name>, <date when="">26 agosto 1790</date></birth>
+                    <death><name type="place">Bologna</name>, <date when="1852-03-28">28 marzo 1852</date></death>
                     <occupation>Poeta, politico e dantista italiano.</occupation>
                 </person>
                 <person xml:id="JS">
@@ -1256,14 +1255,14 @@
                     <monogr>
                         <author ref="#GV">Vasari Giorgio</author>
                         <title type="main">Le opere</title>
-                        <title type="sub"> con nuove annotazioni e commenti di <persName ref="#GM">Gaetano Milanesi</persName></title>
+                        <title type="sub"> con nuove annotazioni e commenti di <persName ref="#GaetMil">Gaetano Milanesi</persName></title>
                         <imprint>
                         <publisher>Sansoni</publisher>
                         <pubPlace>Firenze</pubPlace>
                         <date>1878</date>
                         <respStmt>
                             <resp>Curato da</resp>
-                            <persName ref="#GM">Milanesi Gaetano</persName>
+                            <persName ref="#GaetMil">Milanesi Gaetano</persName>
                         </respStmt>
                         <note>"Le opere" comprende le Vite, i Ragionamenti, l'Epistolario, citate nella bibliografia di Vasari.</note>
                         </imprint>
@@ -1358,7 +1357,7 @@
                 </biblStruct>
                 <biblStruct type="book" xml:id="poesieGM">
                     <monogr>
-                    <author ref="#GM">Marchetti Giovanni</author>
+                    <author ref="#GMar">Marchetti Giovanni</author>
                     <title type="main">Poesie</title>
                     <imprint>
                         <publisher>Barbèra</publisher>
