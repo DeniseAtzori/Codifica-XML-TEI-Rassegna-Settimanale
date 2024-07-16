@@ -111,6 +111,9 @@
         </encodingDesc>
         <!-- Log delle revisioni (a partire dalla consegna del progetto in data 15/07/24) -->
         <revisionDesc>
+            <change n="2" when="2024-07-16" who="#DA" status="public">
+                Sistemazione della nota, ancorata con target al metamark corrispondente. Aggiunta dei tag genName e addName dove necessari.
+            </change>
             <change n="1" when="2024-07-16" who="#DA" status="public">
                 Prima revisione dopo la consegna del progetto. Sistemazione tag lb negli articoli con l'attributo n e l'attributo break per marcare l'hypenation nel modo corretto.
             </change>
@@ -244,7 +247,7 @@
                     <p>
                         <lb n="4"/><date when="1878-04-17">Il 17 scorso</date> io <distinct type="archaic">vi scriveva</distinct> : 
                         <q type="written">
-                            « sono per l’<ref type="tema" target="#istrDon">istruzione della <lb n="5"/>donna</ref>, larga, completa, profonda, per quanto lo consentono <lb n="6"/>a ciascuna le sue facoltà intellettive e le circostanze spe<lb n="7" break="no"/>ciali in cui può esser posta * » 
+                            « sono per l’<ref type="tema" target="#istrDon">istruzione della <lb n="5"/>donna</ref>, larga, completa, profonda, per quanto lo consentono <lb n="6"/>a ciascuna le sue facoltà intellettive e le circostanze spe<lb n="7" break="no"/>ciali in cui può esser posta <metamark xml:id="noteStar" function="anchorNote">*</metamark> » 
                         </q>
                         Aggiungo ora che il proble<lb n="8" break="no"/>ma sta soltanto, per me, nei mezzi più <distinct type="archaic">acconci</distinct> ad ottenere <lb n="9"/>quello scopo. Ma siccome per studiare i mezzi di giungere <lb n="10"/>ad una mèta, bisogna che questa sia nettamente definita,<lb n="11"/> così vorrei vedere <distinct type="archaic">avanti tutto</distinct> se ci fosse possibile deter<lb n="12" break="no"/>minare insieme quale sia, nell’<ref type="tema" target="#istr">opera della istruzione</ref>, la parte <lb n="13"/>che dipende direttamente dall’ <ref type="tema" target="#istr">insegnamento in forma ge<lb n="14" break="no"/>nerica</ref>, e quale quella che ne supera il potere.
                     </p>
@@ -262,7 +265,7 @@
                     </p>
                     <p>
                         <lb n="45"/>Ho conosciuto <distinct type="archaic">anni sono</distinct> un collegio, diretto da <rs type="person">una gio<lb n="46" break="no"/>vane donna</rs> la cui esperienza di scuole era limitatissima, <lb n="47"/>la cui <distinct type="archaic">coltura</distinct> non era straordinaria, la cui vita di campa<lb n="48" break="no"/>gna e di famiglia non pareva preparazione <distinct type="archaic">sufficente</distinct> al<lb n="49" break="no"/>l’ alto ufficio. Ma c’ era in <rs type="person">Lei</rs> tale intuito di ciò che l’edu<lb n="50" break="no"/>cazione e l’ istruzione richiedono che, se la morte non <lb n="51"/>l’ avesse colta nel mezzo del suo lavoro, questo avrebbe in<lb n="52" break="no"/>dubbiamente lasciato tracce visibili e durature tra noi. <lb n="53"/>Il metodo era semplicissimo. Essa si era associati pochi,<lb n="54"/> ma ottimi professori; non aveva chiesto a ciascuno lo sfog<lb n="55" break="no"/>gio d’una dose prefissa della sua scienza, ma soltanto il mag-
-                        <lb n="56"/><note type="footnote" >
+                        <lb n="56"/><note place="footnote" target="#noteStar">
                             * Vedi 
                               <bibl>
                                   <title ref="#RasSet">Rassegna</title>, 
@@ -638,7 +641,7 @@
                                     <rs type="poetic form">Sonetti con Coda in prosa</rs>
                                 </title>
                             </bibl> 
-                            a <persName ref="#OG"><lb n="4"/>Lorenzo Stecchetti</persName>. 
+                            a <persName ref="#OG"><lb n="4"/><addName type="nick"><forename>Lorenzo</forename> <surname>Stecchetti</surname></addName></persName>. 
                             — <placeName>Bologna</placeName>, 
                             <orgName type="publisher" ref="#ZN">Zanichelli</orgName>, 
                             <date>1878</date>.
@@ -647,9 +650,9 @@
                             <lb n="5"/>È un libretto di poche pagine e non ce ne occuperemmo, <lb n="6"/>se non si trattasse che, vestito delle solite eleganze tipo<lb n="7" break="no"/>grafiche <rs type="publisher" ref="#ZN">zanichelliane</rs>, vuol essere anch’ esso una macchi<lb n="8" break="no"/>netta di guerra della <rs type="literary movement">scuola <ref type="tema" target="#verbum" rend="italic">realista</ref></rs>.
                         </p>
                         <p>
-                            <lb n="9"/>Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><forename>Lo<lb n="10" break="no"/>renzo</forename> <surname>Stecchetti</surname></persName> nella gran lotta, dice lui, delle due scuole, <lb n="11"/>lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> <lb n="12"/>di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli <lb n="13"/>ma <ref type="tema" target="#verbum" rend="italic">realisti</ref>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda <lb n="14"/>in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non <lb n="15"/>altro per mostrar fiducia nelle proprie forze e nel trionfo <lb n="16"/>della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
+                            <lb n="9"/>Il signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> s’è proposto di dar mano a <persName ref="#OG"><addName type="nick"><forename>Lo<lb n="10" break="no"/>renzo</forename> <surname>Stecchetti</surname></addName></persName> nella gran lotta, dice lui, delle due scuole, <lb n="11"/>lotta, per la quale s’è determinato il <date rend="italic" when="1878-04-19">Venerdì Santo del 1878</date> <lb n="12"/>di tirar fuori dal cassetto i suoi <rs type="poetic form">sonetti</rs> (non molto belli <lb n="13"/>ma <ref type="tema" target="#verbum" rend="italic">realisti</ref>, se si vuole) e di farli seguitare da una <rs type="poetic form" rend="italic">Coda <lb n="14"/>in prosa</rs>, alla quale s’ addiceva meglio, crediamo, se non <lb n="15"/>altro per mostrar fiducia nelle proprie forze e nel trionfo <lb n="16"/>della gran causa, la data della <date rend="italic">Domenica di Risurrezione</date>. 
                             Il <lb n="17"/>signor <persName ref="#PEG"><surname>Guarnerio</surname></persName> ci dirà forse che questa è un’osserva<lb n="18" break="no"/>zione da <ref type="tema" target="#verbum">idealisti</ref> e, quel che è peggio, da <ref type="tema" target="#verbum">idealisti <rs ref="#AM">manzo<lb n="19" break="no"/>niani</rs></ref>. Passi dunque la <rs type="poetic form" ref="#aux" rend="italic">Coda in prosa</rs> del <date>Venerdì Santo</date>. 
-                            <lb n="20"/>Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><surname>Stecchetti</surname></persName> <lb n="21"/>gli abbia a dire, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
+                            <lb n="20"/>Quanto all’ aiuto dei <rs type="poetic form" ref="#aux" rend="italic">Sonetti</rs>, temiamo forte che lo <persName ref="#OG"><addName type="nick"><surname>Stecchetti</surname></addName></persName> <lb n="21"/>gli abbia a dire, come <persName type="fictional" ref="#ili">Ecuba</persName> al re <persName type="fictional" ref="#ili">Priamo</persName> : 
                             <q>
                                 <foreign xml:lang="la" rend="italic">Non tali auxi<lb n="22"/>lio.... tempus eget.</foreign>
                             </q> 
@@ -679,7 +682,7 @@
                                     Bibbia
                                 </title>
                             </bibl>,
-                                ed in tal caso, <ref type="tema" target="#verbum">realismo</ref> <lb n="57"/>per <ref type="tema" target="#verbum">realismo</ref>, preferiamo le peccatrici sane e gioconde dei <lb n="58"/>nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB"><surname>Batac<lb n="59" break="no"/>chi</surname></persName>. Se non che il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> è a questo proposito <lb n="60"/>in un grande errore. Lo <persName ref="#OG"><surname>Stecchetti</surname></persName>, suo maestro ed autore, <lb n="61"/>non trovò già tanta grazia nel pubblico italiano solo per <lb n="62"/>quella certa licenziosità, che domina ne’ suoi versi, bensì <lb n="63"/>perchè sa scrivere versi gentili ed elegantissimi, perchè ha <lb n="64"/>ricchezza di fantasia, di colori e intonazioni ed armonie <lb n="65"/>felicissime, perchè insomma è poeta molto leggiadro, a cui <lb n="66"/>si perdonano le licenze in grazia delle bellezze. Che del <lb n="67"/>resto, se lo stesso <persName ref="#OG"><surname>Stecchetti</surname></persName> volesse rigirarsi eternamente <lb n="68"/>nel circolo erotico delle 
+                                ed in tal caso, <ref type="tema" target="#verbum">realismo</ref> <lb n="57"/>per <ref type="tema" target="#verbum">realismo</ref>, preferiamo le peccatrici sane e gioconde dei <lb n="58"/>nostri <rs type="person" rend="italic">Novellieri</rs> o le matte risate in compagnia del <persName ref="#DLB"><surname>Batac<lb n="59" break="no"/>chi</surname></persName>. Se non che il <roleName>signor</roleName> <persName ref="#PEG"><surname>Guarnerio</surname></persName> è a questo proposito <lb n="60"/>in un grande errore. Lo <persName ref="#OG"><addName type="nick"><surname>Stecchetti</surname></addName></persName>, suo maestro ed autore, <lb n="61"/>non trovò già tanta grazia nel pubblico italiano solo per <lb n="62"/>quella certa licenziosità, che domina ne’ suoi versi, bensì <lb n="63"/>perchè sa scrivere versi gentili ed elegantissimi, perchè ha <lb n="64"/>ricchezza di fantasia, di colori e intonazioni ed armonie <lb n="65"/>felicissime, perchè insomma è poeta molto leggiadro, a cui <lb n="66"/>si perdonano le licenze in grazia delle bellezze. Che del <lb n="67"/>resto, se lo stesso <persName ref="#OG"><addName type="nick"><surname>Stecchetti</surname></addName></persName> volesse rigirarsi eternamente <lb n="68"/>nel circolo erotico delle 
                                 <bibl>
                                 <title ref="#Pos" rend="italic">
                                     Postume
@@ -842,6 +845,8 @@
             </div>
         </body>
         <back>
+            <!-- Grado di certezza delle interpretazioni (in scrittura)-->
+            <certainty locus="name"></certainty>
             <!-- Lista delle persone citate nell'articolo "L'istruzione delle donne" -->
             <listPerson xml:id="listPersDonne">
                 <head>Appendice 'L'istruzione delle donne'</head>
@@ -893,6 +898,7 @@
                 <person xml:id="OG">
                     <persName role="poet" ref="https://www.treccani.it/enciclopedia/olindo-guerrini/" resp="DA" cert="high">
                         <forename>Olindo</forename> <surname>Guerrini</surname>
+                        <addName type="nick"><forename>Lorenzo</forename> <surname>Stecchetti</surname></addName>
                     </persName>
                     <birth><name type="place">Forlì</name>, <date>1845</date></birth>
                     <death><name type="place">Bologna</name>, <date>1916</date></death>
@@ -1124,7 +1130,7 @@
                 </person>
                 <person xml:id="EIV">
                     <persName role="king" ref="https://it.wikipedia.org/wiki/Enrico_IV_di_Francia" resp="DA" cert="high">
-                        Enrico IV di Borbone detto Enrico il Grande
+                        <forename>Enrico</forename> <genName>IV</genName> di Borbone detto <forename>Enrico</forename> <addName type="epithet">il Grande</addName>
                     </persName>
                     <birth><name type="place">Pau</name>, <date when="1553-12-13">13 dicembre 1553</date></birth>
                     <death><name type="place">Parigi</name>,<date when="1610-05-14">14 maggio 1610</date></death>
