@@ -90,7 +90,7 @@
                     <p>Si è scelto di adoperare il tag q per marcare i dialoghi, e di utilizzare said per distinguere le parti pronunciate a voce alta (ad esempio urla e grida, si veda racconto "Lucia"). </p>
                     <p>Si è scelto di creare una tassonomia (qui di seguito) con i principali temi del Verismo riconosciuti nei testi codificati. All'interno del testo, sono state marcate parole e frasi esemplificative di questi temi, ricondotte alle categorie corrispondenti attraverso l'uso del tag ref.</p>
                     <p>Si è scelto di marcare le forme poetiche (sonetti, code in prosa etc) con l'uso del tag rs affiancato da type="poetic form". Allo stsso modo, si è scelto di marcare le scuole e i movimenti letterari con il tag rs affiancato da type="literary movement".</p>
-                    <p>Nell'articolo "L'istruzione delle donne" si è scelto di marcare con il tag distinct le forme d'uso desuete che si differenziavano dallo stile consueto degli articoli, anche in considerazione del fatto che l'articolo è un contributo esterno alla rivista stessa.</p>
+                    <p>Nell'articolo "L'istruzione delle donne" si è scelto di marcare con il tag distinct le forme d'uso desuete che si differenziavano dallo stile consueto degli articoli, anche in considerazione del fatto che l'articolo è un contributo esterno alla rivista stessa. Il type è stato definito "archaic" in virtù dell'età e dell'estrazione sociale dell'autrice, ma con una certainty esplicitato nell'elemento back è stata mantenuta anche la possibilità che si tratti di una variazione diastratica.</p>
                     <p>Le abbreviazioni sono state sciolte e marcate con il tag choice e le due alternative, abbr ed expan.</p>
                 </interpretation>
             </editorialDecl>
@@ -111,6 +111,13 @@
         </encodingDesc>
         <!-- Log delle revisioni (a partire dalla consegna del progetto in data 15/07/24) -->
         <revisionDesc>
+            <change n="4" when="2024-07-17" who="#DA" status="public">
+                Codifica delle intestazioni degli articoli con i tag fw e seg.
+                Inserimento della lista nell'articolo Notizie.
+            </change>
+            <change n="3" when="2024-07-17" who="#DA" status="public">
+                Aggiunta del tag certainty nel back per escplicitare l'incertezza dell'interpretazione distinct type="archaic" nell'articolo 1.
+            </change>            
             <change n="2" when="2024-07-16" who="#DA" status="public">
                 Sistemazione della nota, ancorata con target al metamark corrispondente. Aggiunta dei tag genName e addName dove necessari.
             </change>
@@ -228,10 +235,19 @@
         <!-- Contenuto testuale del primo articolo -->
             <div n="1" type="article" xml:id="ArtGiglioli">
                 <div type="intestazione" xml:id="intArtGiglioli">
-                    <p><lb n="1" />Vol. 1°, N°18.
-                    <date when="1878-05-05">5 Maggio '78</date></p>
+                    <fw type="head" place="top">
+                        <seg part="I" rend="[">
+                            <bibl>
+                                <biblScope unit="volume">Vol. 1°</biblScope>,
+                                <biblScope unit="issue">N°18</biblScope>.
+                            </bibl>
+                        </seg>
+                        <seg part="F" rend="]"><date when="1878-05-05">5 Maggio '78</date></seg>
+                    </fw>
+                    <lb n="1" />
                 </div>
                 <div type="textarticle" xml:id="textGiglioli">
+                    
                     <pb n="1" />
                     <cb n="1" facs="#istrDonne1" xml:id="cbDonne1"/>
                     <!-- titolo dell'articolo -->
@@ -296,8 +312,16 @@
         <!-- Secondo articolo - L'istruzione della donna -->
             <div n="2" type="article" xml:id="ArtDonna">
                 <div type="intestazione" xml:id="intArtDonna">
-                    <p><lb n="1"/>Vol. 1°, N°21.
-                    <date when="1878-05-26">26 Maggio '78</date></p>
+                    <fw type="head" place="top">
+                        <seg part="I" rend="[">
+                            <bibl>
+                                <biblScope unit="volume">Vol. 1°</biblScope>,
+                                <biblScope unit="issue">N°21</biblScope>.
+                            </bibl>
+                        </seg>
+                        <seg part="F" rend="]"><date when="1878-05-26">26 Maggio '78</date></seg>
+                    </fw>
+                    <lb n="1" />
                 </div>
                 <div type="textarticle" xml:id="textDonna">
                     <pb n="1" />
@@ -349,129 +373,148 @@
         <!-- Terzo articolo - Notizie-->
             <div n="3" type="article" xml:id="ArtNotizie">
                 <div type="intestazione" xml:id="intNotizie">
-                        <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                    <p><lb n="1" />Vol. 1°, N°21.
-                    <date when="1878-05-26">26 Maggio '78</date></p>
+                    <fw type="head" place="top">
+                        <seg part="I" rend="[">
+                            <bibl>
+                                <biblScope unit="volume">Vol. 1°</biblScope>,
+                                <biblScope unit="issue">N°21</biblScope>.
+                            </bibl>
+                        </seg>
+                        <seg part="F" rend="]"><date when="1878-05-26">26 Maggio '78</date></seg>
+                    </fw>
+                    <lb n="1" />
                 </div>
                 <div type="textarticle" xml:id="textNotizie">
                     <pb n="1"/>
                     <cb n="1" facs="#notizie" xml:id="cbNotizie"/>
                     <lb n="2"/><head rend="uppercase" facs="#headNotizie">NOTIZIE.</head>
-                    <p>
-                        <lb n="3"/>— Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Fi<lb n="4" break="no"/>renze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
-                        <bibl>
-                            <title ref="#appLeop" rend="italic">
-                                Appendice <lb n="5"/>all'Epistolario ed agli scritti giovanili di 
-                                <persName ref="#GLeop">Giacomo Leopardi</persName>
-                            </title>
-                        </bibl>. 
-                        L’<persName ref="#PV"><abbr>A.</abbr> Pro<lb n="6" break="no"/>spero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i <lb n="7"/>membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per <lb n="8"/>questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.
-                    </p>
-                    <p>
-                        <lb n="9"/>— Fra poco usciranno presso lo stesso editore : 
-                        <bibl>
-                            <title ref="#avvocatura" rend="italic">
-                                L' Avvocatura
-                            </title>
-                        </bibl>, 
-                        Due <lb n="10"/>discorsi di <persName ref="#GZ"><forename>Giuseppe</forename> <surname>Zanardelli</surname></persName>. 
-                        — <bibl>
-                            <title ref="#sonettiDialetto" rend="italic">
-                                Sonetti in dialetto romanesco
-                            </title>
-                        </bibl> 
-                        di <persName ref="#LuFer"><forename>Luigi</forename> <lb n="11"/><surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
-                        — <bibl>
-                            <title ref="#iViaggi" rend="italic">
-                                I viaggi
-                            </title>
-                        </bibl> 
-                        di <persName ref="#FC"><forename>Francesco</forename> <lb n="12"/><surname>Carletti</surname></persName>, le 
-                        <bibl>
-                            <title ref="#rimeVG" rend="italic">
-                                Rime
-                            </title>
-                        </bibl> 
-                        di <persName ref="#VG"><forename>Veronica</forename> <surname>Gàmbara</surname></persName>, le 
-                        <bibl>
-                            <title ref="#poesieGM" rend="italic">
-                                Poesie
-                            </title>
-                        </bibl> 
-                        del <persName ref="#GMar"><roleName>conte</roleName> <forename>Giovanni</forename> <lb n="13"/><surname>Marchetti</surname></persName>. 
-                    </p>
-                    <p>
-                        <lb n="14"/>— <bibl>
-                            <title ref="#athenoeum" rend="italic">
-                                L'Athenœum
-                            </title>
-                        </bibl> 
-                        promette la prossima pubblicazione del libro già an<lb n="15" break="no"/>nunziato del <rs type="person">Fawcett</rs> sul libero scambio e la protezione. Questo libro <lb n="16"/>tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre <lb n="17"/>si occupa di molti soggetti che hanno un interesso pratico pel tempo <lb n="18"/>presente, per esempio della reciprocità, dei trattati di commercio, della <lb n="19"/>depressione del commercio e dell’ effetto prodotto sul commercio inglese <lb n="20"/>da varie forme di protezione mantenute in altri paesi.
-                    </p>
-                    <p> 
-                        <lb n="21"/>— Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
-                        <bibl>«
-                            <title ref="#JetE">
-                                <foreign xml:lang="fr"> 
-                                    Jésus et les Evangiles 
-                                </foreign>
-                            </title>»
-                        </bibl>  
-                        ha levato a <placeName><settlement type="city">Pa<lb n="22" break="no"/>rigi</settlement></placeName> gran rumore. Come è noto <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore <lb n="23"/>del
-                        <bibl>
-                            <title level="j" ref="#LeT">Temps</title>
-                        </bibl>; 
-                        una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non <lb n="24"/>considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma <lb n="25"/>come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato <lb n="26"/>furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua <lb n="27"/>nazione,» e si era lasciato inebriare dalla parte che rappresentava e <lb n="28"/>dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il <lb n="29"/>cranio gli si sarebbe presto ridotto in 
-                        <q>
-                            « detrito »
-                        </q>
-                        <note>(sic).</note> Il libro del <persName ref="#JS"><surname>Soury</surname></persName> <lb n="30"/>è dunque 
-                            <q>
-                                «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
-                            </q> 
-                        ma ad onta di ciò, anzi, appunto a <lb n="31"/>causa di ciò verrà letto.
-                    </p>
-                    <note>
-                        <lb n="32"/>(Dal 
-                        <bibl>
-                            <title ref="#MLA" level="j">
-                                <foreign xml:lang="de">Magazin für die Literatur des Auslandes</foreign>
-                            </title>
-                        </bibl>
-                        .)
-                    </note>
-                    <p>
-                        <lb n="33"/>— <persName ref="#GaetMil">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che con<lb n="34" break="no"/>tiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
-                        <bibl>
-                            <title ref="#RPFE">
-                                <foreign xml:lang="fr">
-                                    <lb n="35"/>Relations politiques de la 
-                                    <placeName>
-                                        <country type="nation">
-                                            France
-                                        </country>
-                                    </placeName> 
-                                    et de l'
-                                    <placeName>
-                                        <country type="nation"
-                                            >Espagne
-                                        </country>
-                                    </placeName> 
-                                    avec l'
-                                    <placeName>
-                                        <country type="nation">
-                                            Ecosse
-                                        </country>
-                                    </placeName> 
-                                    au 
-                                    <date from="1501" to="1600">
-                                        XVI siècle
-                                    </date>
-                                </foreign>
-                            </title>
-                        </bibl>. 
-                        <lb n="36"/>Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">En<lb n="37" break="no"/>rico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement></placeName>.
-                    </p>
+                    <list xml:id="listaNotizie">
+                        <item xml:id="notizia1" rend="-">
+                            <p>
+                                <lb n="3"/>Nel corso dell’ estate prossima si pubblicherà dal <orgName type="publisher">Barbèra</orgName> a <placeName><settlement type="city">Fi<lb n="4" break="no"/>renze</settlement></placeName> un supplemento all’ edizione <orgName type="publisher">Le Monnier</orgName> intitolato: 
+                                <bibl>
+                                    <title ref="#appLeop" rend="italic">
+                                        Appendice <lb n="5"/>all'Epistolario ed agli scritti giovanili di 
+                                        <persName ref="#GLeop">Giacomo Leopardi</persName>
+                                    </title>
+                                </bibl>. 
+                                L’<persName ref="#PV"><abbr>A.</abbr> Pro<lb n="6" break="no"/>spero Viani</persName> prepara anche la pubblicazione della corrispondenza tra i <lb n="7"/>membri dell’ ultima generazione della famiglia <name><surname type="family">Leopardi</surname></name> affidatagli per <lb n="8"/>questo scopo dalla <roleName type="nobility">contessa</roleName> <name><surname type="family">Leopardi</surname></name> vedova del <roleName type="nobility">conte</roleName> <persName ref="#CLeop">Carlo</persName>.
+                            </p>
+                        </item>
+                        <item xml:id="notizia2" rend="-">
+                            <p>
+                                <lb n="9"/> Fra poco usciranno presso lo stesso editore : 
+                                <bibl>
+                                    <title ref="#avvocatura" rend="italic">
+                                        L' Avvocatura
+                                    </title>
+                                </bibl>, 
+                                Due <lb n="10"/>discorsi di <persName ref="#GZ"><forename>Giuseppe</forename> <surname>Zanardelli</surname></persName>. 
+                                — <bibl>
+                                    <title ref="#sonettiDialetto" rend="italic">
+                                        Sonetti in dialetto romanesco
+                                    </title>
+                                </bibl> 
+                                di <persName ref="#LuFer"><forename>Luigi</forename> <lb n="11"/><surname>Ferretti</surname></persName>, scelti e pubblicati da <persName ref="#LM">Luigi Morandi</persName>. 
+                                — <bibl>
+                                    <title ref="#iViaggi" rend="italic">
+                                        I viaggi
+                                    </title>
+                                </bibl> 
+                                di <persName ref="#FC"><forename>Francesco</forename> <lb n="12"/><surname>Carletti</surname></persName>, le 
+                                <bibl>
+                                    <title ref="#rimeVG" rend="italic">
+                                        Rime
+                                    </title>
+                                </bibl> 
+                                di <persName ref="#VG"><forename>Veronica</forename> <surname>Gàmbara</surname></persName>, le 
+                                <bibl>
+                                    <title ref="#poesieGM" rend="italic">
+                                        Poesie
+                                    </title>
+                                </bibl> 
+                                del <persName ref="#GMar"><roleName>conte</roleName> <forename>Giovanni</forename> <lb n="13"/><surname>Marchetti</surname></persName>. 
+                            </p>
+                        </item>
+                        <item xml:id="notizia3" rend="-">
+                            <p>
+                                <lb n="14"/><bibl>
+                                    <title ref="#athenoeum" rend="italic">
+                                        L'Athenœum
+                                    </title>
+                                </bibl> 
+                                promette la prossima pubblicazione del libro già an<lb n="15" break="no"/>nunziato del <rs type="person">Fawcett</rs> sul libero scambio e la protezione. Questo libro <lb n="16"/>tratta degli argomenti ordinariamente addotti dai protezionisti, e inoltre <lb n="17"/>si occupa di molti soggetti che hanno un interesso pratico pel tempo <lb n="18"/>presente, per esempio della reciprocità, dei trattati di commercio, della <lb n="19"/>depressione del commercio e dell’ effetto prodotto sul commercio inglese <lb n="20"/>da varie forme di protezione mantenute in altri paesi.
+                            </p>
+                        </item>
+                        <item xml:id="notizia4" rend="-">
+                            <p> 
+                                <lb n="21"/>Il libro di <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> 
+                                <bibl>«
+                                    <title ref="#JetE">
+                                        <foreign xml:lang="fr"> 
+                                            Jésus et les Evangiles 
+                                        </foreign>
+                                    </title>»
+                                </bibl>  
+                                ha levato a <placeName><settlement type="city">Pa<lb n="22" break="no"/>rigi</settlement></placeName> gran rumore. Come è noto <persName ref="#JS"><forename>Giulio</forename> <surname>Soury</surname></persName> è un attivo collaboratore <lb n="23"/>del
+                                <bibl>
+                                    <title level="j" ref="#LeT">Temps</title>
+                                </bibl>; 
+                                una volta era anche segretario del <roleName>signor</roleName> <persName ref="#ER" resp="DA" cert="medium">Renan</persName>. Egli non <lb n="24"/>considera <persName ref="#bib">Gesù</persName> come un <persName ref="#bib">Dio</persName>, e neppure come un <rs type="person">uomo</rs> ragionevole, ma <lb n="25"/>come un demente e un maniaco; <persName ref="#bib">Gesù</persName> in rotta coi suoi, si era scagliato <lb n="26"/>furibondo e delirante coutro i « <roleName type="religion">preti</roleName> ed i <roleName type="religion">teologhi</roleName> ortodossi della sua <lb n="27"/>nazione,» e si era lasciato inebriare dalla parte che rappresentava e <lb n="28"/>dalla grandezza del Messiato; se gli ebrei non lo avessero crocifisso, il <lb n="29"/>cranio gli si sarebbe presto ridotto in 
+                                <q>
+                                    « detrito »
+                                </q>
+                                <note>(sic).</note> Il libro del <persName ref="#JS"><surname>Soury</surname></persName> <lb n="30"/>è dunque 
+                                    <q>
+                                        «<foreign xml:lang="fr"> un livre étrange</foreign> ; »
+                                    </q> 
+                                ma ad onta di ciò, anzi, appunto a <lb n="31"/>causa di ciò verrà letto.
+                            </p>
+                            <note>
+                                <lb n="32"/>(Dal 
+                                <bibl>
+                                    <title ref="#MLA" level="j">
+                                        <foreign xml:lang="de">Magazin für die Literatur des Auslandes</foreign>
+                                    </title>
+                                </bibl>
+                                .)
+                            </note>
+                        </item>
+                        <item xml:id="notizia5" rend="-">
+                            <p>
+                                <lb n="33"/><persName ref="#GaetMil">G. Monod</persName> ha trovato a <placeName><settlement type="city">Berna</settlement></placeName>  1’ originale della lettera che con<lb n="34" break="no"/>tiene la relazione dell’esecuzione di <persName type="historical" ref="#MS"><forename>Maria</forename> <surname>Stuarda</surname></persName> pubblicata già nelle 
+                                <bibl>
+                                    <title ref="#RPFE">
+                                        <foreign xml:lang="fr">
+                                            <lb n="35"/>Relations politiques de la 
+                                            <placeName>
+                                                <country type="nation">
+                                                    France
+                                                </country>
+                                            </placeName> 
+                                            et de l'
+                                            <placeName>
+                                                <country type="nation"
+                                                    >Espagne
+                                                </country>
+                                            </placeName> 
+                                            avec l'
+                                            <placeName>
+                                                <country type="nation">
+                                                    Ecosse
+                                                </country>
+                                            </placeName> 
+                                            au 
+                                            <date from="1501" to="1600">
+                                                XVI siècle
+                                            </date>
+                                        </foreign>
+                                    </title>
+                                </bibl>. 
+                                <lb n="36"/>Questa lettera è indirizzata a <roleName>Monsieur</roleName> <persName>D’Averley</persName> ambasciatore di <persName type="historical" ref="#EIV">En<lb n="37" break="no"/>rico IV</persName> di <placeName><settlement type="city">Navarra</settlement></placeName> a <placeName><settlement type="city">Strasburgo</settlement></placeName>.
+                            </p>
+                        </item>
+                    </list>
                 </div>
                 <!-- Crediti alla fine della sezione Notizia -->
                 <div n="4" type="credits" xml:id="ArtCreditiNotizie">
@@ -496,8 +539,16 @@
         <!-- Quarto articolo - Lucia -->
             <div n="5" type="article" xml:id="ArtLucia">
                 <div type="intestazione" xml:id="intLucia">
-                    <p><lb n="1"/>Vol. 1°, N°23.
-                    <date when="1878-06-09">9 Giugno '78</date></p>
+                    <fw type="head" place="top">
+                        <seg part="I" rend="[">
+                            <bibl>
+                                <biblScope unit="volume">Vol. 1°</biblScope>,
+                                <biblScope unit="issue">N°23</biblScope>.
+                            </bibl>
+                        </seg>
+                        <seg part="F" rend="]"><date when="1878-06-09">9 Giugno '78</date></seg>
+                    </fw>
+                    <lb n="1" />
                 </div>
                 <div type="textarticle" xml:id="textLucia">
                     <pb n="1" />
@@ -621,9 +672,15 @@
         <!-- Quinto articolo - Bibliografia-->
             <div type="bibarticle" n="s1" rend="uppercase" xml:id="secBiblio">
                 <div type="intestazione">
-                <!-- Possiamo indicare così il fascicolo? Sono informazioni presenti all'inizio di ogni pagina -->
-                    <p><lb n="1"/>Vol. 1°, N°23.
-                    <date when="1878-06-09">9 Giugno '78</date></p>
+                    <fw type="head" place="top">
+                        <seg part="I" rend="[">
+                            <bibl>
+                                <biblScope unit="volume">Vol. 1°</biblScope>,
+                                <biblScope unit="issue">N°23</biblScope>.
+                            </bibl>
+                        </seg>
+                        <seg part="F" rend="]"><date when="1878-06-09">9 Giugno '78</date></seg>
+                    </fw>
                 </div>
                 <div type="textarticle" xml:id="textBiblio">
                     <head type="title" facs="#headBiblio"><lb n="2"/>BIBLIOGRAFIA.</head>
@@ -845,8 +902,10 @@
             </div>
         </body>
         <back>
-            <!-- Grado di certezza delle interpretazioni (in scrittura)-->
-            <certainty locus="name"></certainty>
+            <!-- Grado di certezza delle interpretazioni dei distinct nell'articolo L'istruzione delle donne-->
+            <certainty locus="value" match="//div[@id='textGiglioli']//distinct/@type" degree="0.6" assertedValue="diastratic">
+                <desc>La presenza di espressioni che differiscono dall'uso "normale" della rivista potrebbe anche dipendere da una variazione diastratica del parlato dell'autrice (es: regionalismi)</desc>
+            </certainty>
             <!-- Lista delle persone citate nell'articolo "L'istruzione delle donne" -->
             <listPerson xml:id="listPersDonne">
                 <head>Appendice 'L'istruzione delle donne'</head>
